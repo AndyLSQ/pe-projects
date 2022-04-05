@@ -1,0 +1,288 @@
+/*@font-face{
+	font-family: "ubuntu";
+	font-style: normal;
+	font-weight: 400;
+	src: local("ubuntu"), url(http://peprojects.dev/alpha-4/andy/fonts/Ubuntu/Ubuntu-Regular.tff) format('tff');
+}
+*/
+
+html{
+	font-family: "ubuntu", sans-serif;
+	font-size:  clamp(6pt, 1.5vw, 20pt);
+	margin: 0px;
+}
+
+body{
+	margin: 0px;
+}
+*{
+	box-sizing: border-box;
+
+	/*border: 1px dashed red;*/
+}
+
+.inner-column{
+	max-width: 1000px;
+	padding:  5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	background-color: #ffe169;
+	position: sticky;
+	padding-bottom: 10px;
+	top: 0;
+	z-index: 1;
+}
+
+
+.logo{
+	display: inline-block;
+	vertical-align: middle;
+	width: clamp(50px, 7%, 100px);
+	/*height: clamp(200px, 20% 500px);*/
+}
+
+h1{
+	font-size: clamp(20pt, 4vw,40pt);
+	display: inline-block;
+	/*justify-content: center;*/
+}
+
+a{
+	font-size:clamp(15pt, 1.5vw, 20pt);
+	text-decoration: none;
+	color: black;
+}
+
+.header-phone{
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+	color: red;
+}
+
+.welcome{
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	font-size: clamp(25pt, 2.2vw, 30pt);
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+.nt{
+	font-size: clamp(30pt, 3vw, 35pt);
+}
+
+.np{
+	font-size: clamp(35pt, 4vw,40pt);
+}
+
+strong, em{
+	color: #ffe169;
+}
+
+h2{
+	font-size: clamp(30pt, 4vw, 40pt);
+	/*font-weight: 600;*/
+}
+
+.how-it-works{
+	background-image: url("https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3174&q=80");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+.how-it-works .inner-column{
+	/*align-content: center;*/
+	text-align: center;
+}
+
+.hiw-card{
+	display: inline-block;
+	vertical-align: middle;
+	/*border: 2px solid blue;*/
+	background-color: #ffe169;
+	opacity: .85;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 30%;
+	height: 20%;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	color: black;
+	border-radius: 20px;
+	font-size: 15pt;
+}
+
+@media(max-width: 1000px){
+.hiw-card{
+	display: inline-block;
+	/*vertical-align: middle;*/
+	/*border: 2px solid blue;*/
+	width: 60%;
+	background-color: #ffe169;
+	opacity: .85;
+	/*border: white solid 2px;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*margin-left: 10px;*/
+	/*margin-right: 10px;*/
+	padding: 5px;
+	color: black;
+	border-radius: 20px;
+	font-size: 15pt;
+}
+}
+
+h3{
+	font-size: 20pt;
+}
+
+
+
+
+.hiw-card p{
+	/*color: red;*/
+	/*display: block;*/
+}
+
+.hiw-card img{
+	max-width: 10vw;
+}
+
+
+.contact{
+	background-color: #ffe169;
+	text-align: center;
+	padding: 3vh;
+}
+
+.phone-number{
+	font-size: clamp(25pt, 3vw, 40pt);
+}
+
+.fpg{
+	font-size: clamp(15pt, 2.5vw, 25pt);
+	/*color: white;*/
+	/*margin-top: 2px;*/
+	/*text-transform: capitalize;*/
+}
+
+.contact a{
+	display: inline-block;
+	background-color: black;
+	color: white;
+	padding-top: 1.2vw;
+	padding-bottom: 1.2vw;
+	padding-left: 6vw;
+	padding-right: 6vw;
+	border-radius: 2vw;
+	font-size: clamp(25pt, 2.5vw, 35pt);
+}
+
+
+.FAQ{
+	background-color: black;
+	color: white;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+details{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	margin-left: 3vh;
+	font-style: italic;
+	color: #ffe169;
+	font-size: clamp(20pt, 2vw, 35pt);
+}
+
+summary{
+	
+	font-style: normal;
+	color: white;
+	margin-left: -2vh;
+}
+
+.about{
+	background-color: #ffe169;
+	padding-top: 3vh;
+	padding-bottom: 10vh;
+	font-size: clamp(20pt, 2vw, 35pt)
+}
+
+.about img{
+	display: block;
+	min-width: 10vw;
+	max-width: 60vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+blockquote{
+	display: block;
+	font-style: italic;
+	/*margin-bottom: .5vh;*/
+	/*line-height: .25;*/
+}
+
+
+img.cert{
+	display: inline-block;
+	max-width: 15vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.certs{
+	margin-top: 3vh;
+	text-align: center;
+}
+
+img.bbb{
+	border-radius: 1vw;
+}
+
+footer{
+	background-color: black;
+	text-align: center;
+}
+
+.social{
+	display: inline-block;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	padding-top: 1.5vh;
+	padding-bottom: 1.5vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	border-radius: 1vw;
+	color: white;
+}
+
+footer a{
+	color: white;
+	font-size: clamp(15pt, 1.5vw, 20pt);
+}
+
+.facebook{
+	background-color: #2d89ff;
+}
+
+.yelp{
+	background-color: #ff1b19;
+}
+
+.google{
+	background-color: #33a854;
+}
+

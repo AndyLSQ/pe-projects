@@ -1,0 +1,84 @@
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			/*background-color: black;*/
+			text-align: center;
+			font-size: 100%;
+			/*color: ghostwhite;*/
+			font-family: avenir, sans-serif;
+			background-image: linear-gradient(to bottom right, paleturquoise,white) ;
+		}
+
+		h1{
+			font-size: 2.5em;
+		}
+
+		img{
+			display: block;
+			margin-top: 30px;
+			margin-bottom: 50px;
+			margin-left: auto;
+			margin-right: auto;
+			max-resolution: 50px;
+			max-width: 50%;
+		}
+
+		nav{
+			margin-bottom: 30px;
+		}
+
+		p{
+			display: inline-block;
+			max-width: 70ch;
+		}
+
+		.button-1 a{
+			color: white;
+			margin: 10px;
+			padding: 10px 50px;
+			font-size: 1.2em;
+			background-color: #00b1ff;
+			border-radius: 20px;
+			text-decoration: none;
+			transition: background 0.6s ease-out;
+			display: inline-block;
+		}
+
+		.button-1 a:hover{
+			background-color: #008eff;
+			transition: background 0.3s ease-in;
+		}
+
+		.button-1 a:active{
+			background-color: #0061b8;
+		}
+
+		.student-list{
+			max-width: 50vw;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+
+		.student-list a{
+			display: inline-block;
+			color: #008eff;
+			border: solid 2px #008eff;
+			padding: 10px 20px;
+			margin: 5px 10px;
+			font-size: 1.2em;
+			border-radius: 20px;
+			text-decoration: none;
+			transition: background 0.6s ease-out;
+			
+		}
+
+		.student-list a:hover{
+			background-color: #008eff;
+			color: white;
+			transition: background 0.3s ease-in;
+		}
+
+
+

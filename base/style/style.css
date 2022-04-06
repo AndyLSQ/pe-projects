@@ -1,26 +1,3 @@
-@import "meyer-reset.css"
+@import "meyer-reset.css";
+@import "setup.css";
 
-*{
-	box-sizing: border-box;
-}
-
-body *{
-	border: red dashed 1px;
-}
-
-html{
-	background-color: lightblue;
-	font-family: "ubuntu", sans-serif;
-	margin: 0px;
-}
-
-.inner-column{
-	padding: 5px;
-	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-p{
-	line-height: 1.6;
-}

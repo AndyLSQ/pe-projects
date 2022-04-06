@@ -1,0 +1,85 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body *{
+	border: red dashed 1px;
+	/*color: red;*/
+}
+
+html{
+	background-image: linear-gradient(45deg, white, #f2f4f5);
+	font-family: "ubuntu", sans-serif;
+	margin: 0px;
+}
+
+.inner-column{
+	padding: 5px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	font-size: 2rem;
+	margin: .67rem 0;
+}
+
+h2{
+	font-size: 1.5rem;
+	margin: .75rem 0;
+}
+
+h3{
+	font-size: 1.17rem;
+	margin: .83rem 0;
+}
+
+h4, p,
+blockquote, ul,
+fieldset, form,
+ol, dl, dir,
+menu {
+	font-size: 1rem;
+	margin: 1.12rem 0;
+}
+
+p{
+	line-height: 1.6;
+}
+
+h5{ font-size: .83rem;
+	margin: 1.5rem 0;
+}
+
+h6{
+	font-size: .75rem;
+	margin: 1.67rem 0;
+	}
+
+/*Global links reset & setup*/
+/*set links to blocks so they can wrap things*/
+a{
+	display: block;
+	/*text-decoration: none;*/
+	color: inherit;
+}
+
+/*Restore default styling to links within paragraphs*/
+p a{
+	display: inline-block;
+	text-decoration: underline;
+	color: blue;
+}
+
+/*picture is the parent container of the img*/
+picture{
+	display: block;
+}
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}

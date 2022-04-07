@@ -1,10 +1,49 @@
 @import "meyer-reset.css";
 @import "setup.css";
 
+
+/*html{
+	font-family: helvetica;
+}*/
+
+header{
+	/*color: white;*/
+	/*background-color: #e3ffe8;*/
+	/*background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);*/
+	position: sticky;
+	z-index: 1;
+	/*font-family: georgia;*/
+	/*color: red;*/
+}
+
+/*header p{
+	font-family: georgia, serif;
+}*/
+
 body *{
 	border: none;
+}
+
+h3{
+	margin-top: 2rem;
 }
 
 .five, .eom{
 	background: #d9e7ff 100%;
 }
+
+.eom p, .week p{
+	text-align: left;
+}
+
+header p{
+	font-style: italic;
+	font-size: .9rem;
+}
+
+/*.goal{
+	border: 1px solid #ADCAFF;
+	margin: 10px;
+	border-radius: 20px;
+	padding: 10px 100px;
+}*/

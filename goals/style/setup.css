@@ -1,6 +1,8 @@
 
 *{
 	box-sizing: border-box;
+	text-align: center;
+	align-content: center;
 }
 
 body *{
@@ -24,16 +26,19 @@ html{
 h1{
 	font-size: 2rem;
 	margin: .67rem 0;
+	font-weight: 700;
 }
 
 h2{
 	font-size: 1.5rem;
 	margin: .75rem 0;
+	font-weight: 600;
 }
 
 h3{
 	font-size: 1.17rem;
 	margin: .83rem 0;
+	font-weight: 500;
 }
 
 h4, p,
@@ -43,6 +48,9 @@ ol, dl, dir,
 menu {
 	font-size: 1rem;
 	margin: 1.12rem 0;
+	max-width: 75ch;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 p{

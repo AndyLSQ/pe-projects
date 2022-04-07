@@ -1,0 +1,10 @@
+@import "meyer-reset.css";
+@import "setup.css";
+
+body *{
+	border: none;
+}
+
+.five, .eom{
+	background: #d9e7ff 100%;
+}

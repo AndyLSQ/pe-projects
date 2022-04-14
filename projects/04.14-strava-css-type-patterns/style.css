@@ -39,6 +39,7 @@ h2{
 
 main-content{
 	/*border: 10px solid purple;*/
+	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
 	justify-content:center;

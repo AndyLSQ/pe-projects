@@ -1,0 +1,28 @@
+.whisper-voice{
+	font-size: .7rem;
+	/*color: red;*/
+}
+
+.quiet-voice{
+	font-size: .9rem;
+}
+
+.standard-voice{
+	font-size: 1rem;
+	/*color: blue;*/
+}
+
+.strong-voice{
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+.big-voice{
+	font-size: 2.25rem;
+	font-weight: 900;
+}
+
+.links{
+	color: hsla(198, 82%, 40%, 1.00);
+	text-decoration: none;
+}

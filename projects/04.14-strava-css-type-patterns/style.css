@@ -1,0 +1,124 @@
+@import 'meyer-reset.css';
+@import 'type-patterns.css';
+
+html{
+	font-family: sans-serif;
+}
+*{
+	box-sizing:border-box;
+}
+
+header{
+	text-transform: uppercase;
+	color: #fc4b02;
+	/*border:5px solid yellow;*/
+}
+
+hr.solid{
+	border-top: 1px solid hsla(209, 3%, 86%, .50);
+}
+
+footer{
+	margin-top:50px;
+	text-transform: uppercase;
+	color: white;
+	/*border:5px solid orange;*/
+	background-color: #232527;
+}
+
+tagline{
+	text-align: center;
+
+}
+
+h2{
+	/*border:5px solid lime;*/
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+main-content{
+	/*border: 10px solid purple;*/
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	gap: 8vw;
+}
+
+img{
+	width: 100%;
+}
+
+product-img{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*border: 5px solid red;*/
+	max-width:350px;
+}
+
+signup-options{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	gap: 15px;
+	text-align: center;
+	/*border: 5px solid turquoise;*/
+}
+
+signup-options a{
+	color: #333;
+}
+
+fb, goo, apl, email{
+	display: inline-block;
+	border: 2px solid #333;
+	padding: 10px 20px;
+	width:300px;
+}
+
+fine-print{
+	width: 300px;
+	font-size: .7rem;
+	/*border: 5px solid pink;*/
+}
+
+fine-print p{
+	margin-top: 15px;
+}
+
+@media (max-width: 800px){
+	h2{
+/* 	color: blue; */
+	}
+	
+	main-content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+	}
+	
+	signup-options{
+		width: 350px;
+	}
+}
+
+@media (max-width: 350px){
+	h2{
+/* 	color: red; */
+	}
+	fb, goo, apl, email{
+	display: inline-block;
+	width:90vw;
+	}
+	fine-print{
+	width: 90vw;
+	}
+}
+
+font-size-test{
+	margin: 500px;
+	color: #444;
+
+}

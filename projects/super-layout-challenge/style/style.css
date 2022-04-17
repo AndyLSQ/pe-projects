@@ -3,7 +3,7 @@
 
 
 html * {
-	border: 2px dashed red;
+	/*border: 2px dashed red;*/
 	font-family: sans-serif;
 }
 
@@ -191,7 +191,7 @@ header .inner-column{
 }
 
 card{
-	border: 2px dashed blue;
+	/*border: 2px dashed blue;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -230,7 +230,7 @@ about-text{
 
 @media screen and (max-width: 1250px){
 	.site-header{
-		color: red;
+		/*color: red;*/
 	}
 
 	.page-content .inner-column{
@@ -243,7 +243,7 @@ about-text{
 	}
 
 	.about .inner-column{
-		border: 2px dashed purple;
+		/*border: 2px dashed purple;*/
 		flex-direction: column;
 		/*align-items: stretch;*/
 		gap: 15px;
@@ -289,9 +289,9 @@ about-text{
 /*FLEX DESIGN - SMALL VIEWPORT*/
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 750px){
 	.site-header{
-		color: blue;
+		/*color: blue;*/
 	}
 
 	.page-content .inner-column{

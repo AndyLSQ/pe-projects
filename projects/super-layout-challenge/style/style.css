@@ -1,0 +1,328 @@
+@import "meyer-reset.css";
+@import "setup.css";
+
+
+html * {
+	border: 2px dashed red;
+	font-family: sans-serif;
+}
+
+
+html{
+	background-color: hsla(227, 97%, 75%, 1.00) ;
+	box-sizing: border-box;
+}
+
+
+
+/*COLOR*/
+header, .about{
+	background-color: hsla(0, 0%, 100%, .50);
+}
+
+header{
+	color: hsla(0, 0%, 0%, .70);
+}
+
+.page-content{
+	color: hsla(0, 0%, 0%, .50);
+}
+
+footer{
+	background-color: hsla(0, 0%, 0%, .50);
+}
+
+.about{
+	color: hsla(0, 0%, 0%, .40);
+}
+
+.about a{
+	background-color: black;
+	border-radius: 20px;
+	padding: 5px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.about{
+	position: relative;
+	overflow: hidden;
+}
+
+footer{
+	color: hsla(0, 0%, 100%, .70);
+}
+
+
+.page-content{
+	position: relative;
+	overflow: hidden;
+}
+
+.cog-pic-1{
+	position: absolute;
+	max-width: 200px;
+	bottom: -50px;
+	left: -100px;
+	overflow: hidden;
+	opacity: 40%;
+}
+
+.cloud-pic{
+	opacity:  30%;
+	position: absolute;
+	max-width: 300px;
+	bottom: -200px;
+	right: 200px;
+	overflow: hidden;
+}
+
+.cog-pic-2{
+	opacity:  30%;
+	position: absolute;
+	max-width: 300px;
+	bottom: -50px;
+	right: -150px;
+	overflow: hidden;
+}
+
+/*TYPOGRAPHY*/
+big-voice{
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+strong-voice{
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+p{
+	font-family: sans-serif;
+	font-size: 1rem;
+	line-height: 1.4;
+}
+
+p+p{
+	margin-top:  14px;
+}
+
+h1 + p{
+	margin-top: 20px;
+}
+
+h2 + p{
+	margin-top: 20px;
+}
+
+
+
+
+
+/*STRUCTURE*/
+
+body{
+	/*border: 10px solid pink;*/
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.inner-column{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 14px;
+	/*border: 3px solid blue;*/
+}
+
+picture{
+	display: inline-block;
+}
+
+.header-pic{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+img{
+	width: 100%;
+}
+
+h1{
+	display: inline-block;
+}
+
+.content-pic{
+	max-width: 500px;
+}
+
+.card-pic{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+
+
+/*FLEX DESIGN - LARGE VIEWPORT*/
+header .inner-column{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+}
+
+.page-content .inner-column{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+.about .inner-column{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+card{
+	border: 2px dashed blue;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	gap: 10px;
+	max-width: 300px;
+	/*min-height: 500px;*/
+}
+
+card-copy{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+}
+
+about-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.site-footer .inner-column{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+
+
+/*FLEX DESIGN - MEDIUM VIEWPORT*/
+
+
+@media screen and (max-width: 1250px){
+	.site-header{
+		color: red;
+	}
+
+	.page-content .inner-column{
+	align-items: center;
+	gap: 10px;
+	}
+
+	.page-content strong-voice{
+		font-size: 25px;
+	}
+
+	.about .inner-column{
+		border: 2px dashed purple;
+		flex-direction: column;
+		/*align-items: stretch;*/
+		gap: 15px;
+	}
+
+	card{
+		flex-direction: row;
+		justify-content: flex-start;
+		max-width: none;
+		text-align: left;
+	}
+
+	card-copy{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	about-text{
+		width: 450px;
+	}
+
+	.card-pic{
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+	.about a{
+		background-color: transparent;
+		text-decoration: underline;
+		color: hsla(0, 0%, 0%, 1.0);
+		padding: 0;
+		border: none;
+	}
+
+	.cog-pic-1, .cloud-pic{
+		display: none;
+	}
+
+	}
+
+/*FLEX DESIGN - SMALL VIEWPORT*/
+
+
+@media screen and (max-width: 800px){
+	.site-header{
+		color: blue;
+	}
+
+	.page-content .inner-column{
+		flex-direction: column;
+	}
+
+	card{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		max-width: none;
+		text-align: left;
+	}
+
+	.site-footer .inner-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 20px;
+	}
+
+	.card-pic{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+	.cog-pic-2{
+		display: none;
+	}
+
+
+}

@@ -167,7 +167,22 @@ strong-voice{
 	overflow: hidden;
 }
 
+body{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
 
+main{
+	flex-grow: 1;
+}
+
+/*footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}*/
 
 /*FLEX DESIGN - LARGE VIEWPORT*/
 header .inner-column{

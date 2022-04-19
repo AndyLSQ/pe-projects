@@ -1,0 +1,25 @@
+*{
+	box-sizing: border-box;
+}
+
+a{
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+p a{
+	display: inline;
+	color: blue;
+	text-decoration: underline;
+}
+
+picture{
+	display: block;
+}
+
+img, svg{
+	display: block;
+	width: 100%;
+	height: auto;
+}

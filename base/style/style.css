@@ -61,7 +61,8 @@ shifter::after{
 	}
 
 	.inner-column{
-		padding: .1rem;
+		width: 85%;
+		padding: .2rem;
 	}
 
 	.cards{

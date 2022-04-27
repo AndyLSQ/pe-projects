@@ -1,113 +1,66 @@
 @import "meyer-reset.css";
 @import "setup.css";
 
-
+/*COLORS*/
 html{
-	background-color: wheat ;
-}
-
-
-/*STRUCTURE*/
-
-body{
-	/*border: 10px solid pink;*/
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-
-.inner-column{
-	max-width: 700px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 30px 14px;
-	/*border: 3px solid blue;*/
-}
-
-/*TYPOGRAPHY*/
-h1{
-	font-family: sans-serif;
-	font-size: 40px;
-}
-
-h2{
-	font-family: sans-serif;
-	font-size: 30px;
-}
-
-p{
-	font-family: sans-serif;
-	font-size: 1rem;
-	line-height: 1.4;
-}
-
-p+p{
-	margin-top:  14px;
-}
-
-h1 + p{
-	margin-top: 20px;
-}
-
-h2 + p{
-	margin-top: 20px;
-}
-
-/*SITE SECTIONS*/
-
-.page-content{
-background-image: url('https://wallpaperaccess.com/full/487823.jpg');
-background-size: cover;
-background-position: center;
-flex-grow: 1; /*true*/
-}
-
-.site-header .inner-column{
-	padding: 14px;
-	
+	background-color: hsla(101, 50%, 65%, 1.00);
 }
 
 .site-header{
-	background-color: lightblue;
-	position: sticky;
-	top: 0;
-	/*z-index: 1;*/
-	box-shadow: 0 2px 5px 5px rgba(0,0,0,.4);
-}
-
-.page-header{
-	/*background-color: lightblue;*/
-	background-color: rgba(255,255,255,.4);
-}
-
-
-.about{
-	background-color: lightblue;
-	/*background-color: lightgreen;*/
-}
-
-.contact{
+	background-color: #555;
 	color: white;
-	/*background-color: palevioletred;*/
 }
 
 .site-footer{
 	background-color: #333;
 	color: white;
-	/*position: fixed;
-	bottom: 0;
-	left: 0;*/
-	/*width: 100%;*/
-
 }
 
-@media screen and (min-width: 700px){
-	.page-header, .contact{
-		background-color: transparent;
+.page-header, .sec2{
+	background-color: hsla(0, 0%, 100%, .50);
+}
+/*SITE SECTIONS*/
+
+.page-content{
+	/*background-color: lightgreen;*/
+	background-size: cover; /*used if background image*/
+	background-position: center; /*used if background image*/
+}
+
+
+
+.sec1{
+	/*background-color: lightblue;*/
+}
+
+
+/*flexbox*/
+.cards{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.card{
+	background-color: hsla(0, 0%, 100%, .80);
+	border: 1px #333 solid;
+	width: 100%; /*setting 100% here makes each card fill as much space as it can*/
+	padding: 5px;
+}
+
+/*BREAK POINTS*/
+
+shifter::after{
+	content: 'Regular';
+}
+
+@media screen and (max-width: 700px){
+	.page-header{
+		color: darkcyan;
 	}
 
-	.page-header{
-	/*	color: lightgreen;
-		text-shadow: 2px 2px black;
-*/	}
+	shifter::after{
+		content: 'Small';
+		color: darkcyan;
+	}
 }

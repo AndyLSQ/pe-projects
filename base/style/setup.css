@@ -1,23 +1,148 @@
+/*DEV*/
+
+html *{
+	border: 2px dashed red;
+}
+
+
+
+/*STRUCTURE*/
+
 *{
 	box-sizing: border-box;
 }
 
+/*flex with min-height 100vh to ensure page (incl footer)
+always fills the window at minimum*/
+body{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+/*grow <main class="page-content"> to keep footer at bottom*/
+.page-content{
+	flex-grow: 1; 
+}
+
+/*centered inner column*/
+.inner-column{
+	width: 80%;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem;
+}
+
+/*sticky header with shadow*/
+.site-header{
+	position: sticky;
+	top: 0;
+	box-shadow: 0 2px 5px 5px rgba(0,0,0,.4);
+}
+
+
+
+/*TYPOGRAPHY*/
+
+html{
+	font-family: sans-serif;
+}
+
+hS{
+	font-size: 1.5rem;
+	padding: 0;
+	margin: 0;
+}
+
+/*less padding on sticky header*/
+.site-header .inner-column{
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+}
+
+h1{
+	font-size: 2rem;
+	margin-top: 0.67rem;
+	margin-bottom: 0.67rem;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 1.5rem;
+	margin-top: 0.83rem;
+	margin-bottom: 0.83rem;
+	font-weight: bold;
+}
+
+h3 {
+  font-size: 1.17rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  font-weight: bold;
+}
+
+p{
+	font-size: 1rem;
+	line-height: 1.4;
+}
+
+p+p{
+	margin-top:  1rem;
+}
+
+p + picture{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+h1 + p{
+	/*margin-top: 20px;*/
+}
+
+h2 + p{
+	/*margin-top: 20px;*/
+}
+
+
+
+/*LINKS*/
+
+/*global link reset*/
 a{
-	display: block;
+	display: block; /*set links as blocks so they can wrap around things*/
 	text-decoration: none;
 	color: inherit;
 }
 
+/*paragraph links*/
 p a{
 	display: inline;
 	color: blue;
 	text-decoration: underline;
 }
 
+
+
+/*IMAGES*/
+
+/*use "picture" parent element*/
+/*limit size and center by default*/
 picture{
 	display: block;
+	max-width: 50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+/*images and svgs fill parent container*/
 img, svg{
 	display: block;
 	width: 100%;

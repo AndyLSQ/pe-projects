@@ -3,7 +3,7 @@
 
 	<footer class='site-footer'>
 		<div class="inner-column">
-			PHP footer
+			<h3>Site Footer</h3>
 		</div>
 	</footer>
 

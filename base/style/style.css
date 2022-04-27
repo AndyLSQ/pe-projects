@@ -19,6 +19,9 @@ html{
 .page-header, .sec2{
 	background-color: hsla(0, 0%, 100%, .50);
 }
+
+
+
 /*SITE SECTIONS*/
 
 .page-content{
@@ -26,8 +29,6 @@ html{
 	background-size: cover; /*used if background image*/
 	background-position: center; /*used if background image*/
 }
-
-
 
 .sec1{
 	/*background-color: lightblue;*/
@@ -57,6 +58,18 @@ shifter::after{
 @media screen and (max-width: 700px){
 	.page-header{
 		color: darkcyan;
+	}
+
+	.inner-column{
+		padding: .1rem;
+	}
+
+	.cards{
+		flex-direction: column;
+	}
+
+	picture{
+		max-width: 90%;
 	}
 
 	shifter::after{

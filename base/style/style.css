@@ -39,14 +39,16 @@ html{
 .cards{
 	display: flex;
 	flex-direction: row;
-	gap: 10px;
+	gap: 15px;
+	margin-top: 1.5rem;
 }
 
 .card{
 	background-color: hsla(0, 0%, 100%, .80);
 	border: 1px #333 solid;
 	width: 100%; /*setting 100% here makes each card fill as much space as it can*/
-	padding: 5px;
+	padding: .75rem;
+	padding-bottom: 2rem;
 }
 
 /*BREAK POINTS*/

@@ -1,7 +1,7 @@
 /*DEV*/
 
 html *{
-	border: 2px dashed red;
+	/*border: 2px dashed red;*/
 }
 
 
@@ -58,6 +58,11 @@ hS{
 .site-header .inner-column{
 	padding-top: .75rem;
 	padding-bottom: .75rem;
+}
+
+.page-header, section{
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
 }
 
 h1{
@@ -136,7 +141,7 @@ p a{
 /*limit size and center by default*/
 picture{
 	display: block;
-	max-width: 75%;
+	max-width: 70%;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;

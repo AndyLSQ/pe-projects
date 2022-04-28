@@ -1,0 +1,286 @@
+@import "meyer-reset.css";
+@import "setup.css";
+@import "lg-style.css";
+
+/*COLORS*/
+html{
+	background-color: hsla(338, 99%, 50%, 1.00);
+}
+
+.site-header{
+	background-color: hsla(208, 7%, 94%, 1.00);
+}
+
+.site-footer{
+	background-color: #333;
+	color: white;
+}
+
+.page-header, .sec2{
+	background-image: linear-gradient(45deg, hsla(0, 0%, 100%, .55)60%, hsla(0, 0%, 100%, .65) 65%, hsla(0, 0%, 100%, .70) 70% /*hsla(0, 0%, 100%, .75)*/);
+}
+
+
+
+/*SITE SECTIONS*/
+
+/*circle images*/
+.body{
+	position: relative;
+	overflow: hidden;
+}
+
+picture.circle1{
+	max-width: 800px;
+	position: absolute;
+	right: -500px;
+	top: 0px;
+	opacity: .2;
+	z-index: 1;
+}
+
+.page-header{
+	position: relative;
+	overflow: hidden;
+}
+
+picture.circle2{
+	max-width: 500px;
+	position: absolute;
+	left: -75px;
+	bottom: -250px;
+	opacity: .2;
+}
+
+
+/*page-header*/
+.page-header .inner-column-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 10px;
+	position: relative;
+}
+
+.page-header-pic{
+	max-width: 60%;
+	z-index: 2;
+}
+
+.page-header-content a{
+	display: inline-block;
+	background-color: hsla(338, 99%, 50%, 1.00);
+	color: white;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	border-radius: 20px;
+}
+
+
+
+/*content section 1*/
+.cards{
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	margin-top: 1.5rem;
+	
+}
+
+.card{
+	width: 100%; /*setting 100% here makes each card fill as much space as it can*/
+	padding: .75rem;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	z-index: 2;
+}
+
+.card-pics{
+	width: 100%;
+}
+
+.card-copy{
+	background-color: hsla(0, 0%, 100%, .80);
+	border: 1px #333 solid;
+	width: 100%; /*setting 100% here makes each card fill as much space as it can*/
+	padding: .75rem;
+	padding-bottom: 2rem;
+}
+
+/*.site-footer{
+	padding: 0px;
+}*/
+
+.site-footer .inner-column{
+	padding: 5px;
+}
+
+shifter2::after{
+		content: 'Extra Large';
+		color: darkcyan;
+	}
+
+/*BREAK POINTS*/
+
+/*BREAK POINT- LARGE*/
+@media screen and (max-width: 1300px){
+
+	picture.circle1{
+	max-width: 600px;
+	position: absolute;
+	right: 0px;
+	top: 200px;
+	opacity: .2;
+	z-index: 1;
+	}
+
+/*page-header*/
+	.page-header .inner-column-content{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.page-header .inner-column{
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	shifter::after{
+		content: 'Bonus thing';
+		border: 2px solid black;
+		padding: 10px 60% 10px 10px;
+	}
+
+	picture.circle2{
+	max-width: 400px;
+	position: absolute;
+	left: 200px;
+	top: -250px;
+	opacity: .2;
+	}
+
+/*content section 1*/
+	.card{
+		background-color: hsla(338, 99%, 87%, 1.00);
+		flex-direction: column;
+	}
+
+	.card-copy{
+		background-color: transparent;
+		border: none;
+		padding: 0;
+	}
+
+	shifter2::after{
+		content: 'Large';
+		color: darkcyan;
+	}
+}
+
+/*BREAK POINT- MEDIUM*/
+@media screen and (max-width: 800px){
+
+	.inner-column{
+		width: 100%;
+	}
+
+	picture.circle1{
+		display: none;
+		}
+
+	/*page-header*/
+		.page-header .inner-column-content{
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+		}
+
+		.page-header-pic{
+			max-width: 100%;
+			z-index: 2;
+	}
+
+
+		shifter{
+			display: none;
+		}
+
+		picture.circle2{
+		max-width: 300px;
+		position: absolute;
+		left: -50px;
+		top: -200px;
+		opacity: .2;
+		}
+
+	/*content section 1*/
+
+		.cards{
+			flex-direction: column;
+		}
+
+		.card{
+			background-color: hsla(338, 99%, 87%, 1.00);
+			flex-direction: row;
+		}
+
+		shifter2::after{
+			content: 'Medium';
+			color: darkcyan;
+		}
+}
+
+
+/*BREAK POINT- SMALL*/
+@media screen and (max-width: 550px){
+
+/*content section 1*/
+	.sec1{
+		/*color: blue;*/
+	}
+
+
+	.card{
+		flex-direction: column;
+	}
+
+	shifter2::after{
+		content: 'Small';
+		color: darkcyan;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

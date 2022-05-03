@@ -1,0 +1,175 @@
+@import "meyer-reset.css";
+@import "setup.css";
+
+/*COLORS*/
+html{
+	background-color: hsla(43, 92%, 94%, 1.00);
+	color: hsla(225, 62%, 25%, 1.00);
+}
+
+.site-header{
+	background-color: #555;
+	color: white;
+}
+
+/*.site-footer{
+	background-color: hsla(225, 62%, 25%, 1.00);
+	color: white;
+}
+*/
+.projects, .contact, .site-footer{
+	background-color: hsla(21, 67%, 85%, 1.00);
+}
+
+.card{
+	background-color: red;
+}
+
+icon svg{
+	fill: hsla(225, 62%, 25%, 1.00);
+}
+
+/*SITE SECTIONS*/
+
+.page-header .inner-column{
+	min-height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	gap: 10px;
+}
+
+.page-header a{
+	background-color: hsla(225, 62%, 25%, 1.00);
+	color: hsla(43, 92%, 94%, 1.00);
+	margin-top: 15px;
+	padding: 10px;
+	max-width: 200px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.page-content{
+	/*background-color: lightgreen;*/
+	background-size: cover; /*used if background image*/
+	background-position: center; /*used if background image*/
+}
+
+bio{
+	margin: 3rem 0rem;
+}
+
+.about picture{
+	width: 30%;
+	height: auto;
+}
+
+.about bio-text{
+	max-width: 60%;
+}
+
+.card a{
+	background-color: hsla(225, 62%, 25%, 1.00);
+	color: hsla(43, 92%, 94%, 1.00);
+	margin-top: 15px;
+	padding: 8px;
+	max-width: 60%;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.site-footer{
+	padding: 15px;
+	text-align: center;
+}
+
+.site-footer .inner-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+/*FLEXBOX*/
+.about bio{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.about bio-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.cards{
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin: 3rem 0rem;
+}
+
+.card{
+	background-color: hsla(43, 92%, 94%, 1.00);
+	box-shadow: 2px 2px hsla(225, 62%, 25%, 1.00);
+	width: 100%; /*setting 100% here makes each card fill as much space as it can*/
+	padding: .75rem;
+	padding-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+contact-content{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+
+}
+
+social{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+/*BREAK POINTS*/
+
+shifter::after{
+	content: 'Regular';
+}
+
+@media screen and (max-width: 700px){
+	.page-header{
+		/*color: darkcyan;*/
+	}
+
+	.inner-column{
+		width: 85%;
+		padding: .2rem;
+	}
+
+	.cards{
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	picture{
+		max-width: 90%;
+	}
+
+	shifter::after{
+		content: 'Small';
+		/*color: darkcyan;*/
+	}
+}

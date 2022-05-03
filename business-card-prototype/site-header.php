@@ -6,13 +6,11 @@
 
 <body>
 
-	
-
-	<header class='site-header'>
+<!-- 	<header class='site-header'>
 		<div class="inner-column">
-			<hS>Logo</hS>
+			<hS>Site Header</hS>
 		</div>
-	</header>
+	</header> -->
 
 	<main class='page-content'>
 		<!-- stuff -->

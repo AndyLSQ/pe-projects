@@ -8,8 +8,12 @@
 
 <header class='page-header'>
 	
-	<picture class="circle2">
+	<picture class="circle1">
 		<img src="https://peprojects.dev/images/circle.png" alt="circle">
+	</picture>
+
+	<picture class="circle2">
+		<img src="https://peprojects.dev/images/circle.png" alt="circle" width="100"> <!-- this is a presentation attribute and it wont override the css- use this as a default so the image doesnt blow up if the css errors out -->
 	</picture>
 
 	<div class="inner-column">

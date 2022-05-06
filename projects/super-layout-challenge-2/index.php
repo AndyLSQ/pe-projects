@@ -59,6 +59,8 @@
 	</div>
 </section>
 
+<?php include('jen-simmons.php'); ?>
+
 <!-- /main class="page-content" -->
 
 <?php include('site-footer.php'); ?>

@@ -5,6 +5,15 @@
 /*COLORS*/
 html{
 	background-color: hsla(338, 99%, 50%, 1.00);
+	/*overflow: hidden;*/
+}
+
+body{
+	overflow-x: hidden;
+}
+
+page-header{
+	/*overflow: hidden;*/
 }
 
 .site-header{
@@ -72,8 +81,9 @@ picture.circle2{
 
 .page-header-content a{
 	display: inline-block;
-	background-color: hsla(338, 99%, 50%, 1.00);
-	color: white;
+	background-color: yellow;
+	border: 4px solid  hsla(338, 99%, 50%, 1.00);
+	/*color: white;*/
 	text-transform: uppercase;
 	padding: 10px 25px;
 	border-radius: 20px;
@@ -257,8 +267,12 @@ shifter2::after{
 
 }
 
-
-
+jen{
+	display: block;
+	color: blue;
+	background-color: yellow;
+	overflow: hidden;
+}
 
 
 

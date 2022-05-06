@@ -5,10 +5,10 @@
 <!-- main class="page-content" -->
 <header class='page-header'>
 	<div class="inner-column">
-		<h1>Hi, <br>I'm Andy.</h1>
+		<h1>Hi, <br>I’m Andy.</h1>
 
 		<!-- use &nbsp; to pair items for line breaks -->
-		<p>A web developer with an appreciation for clean, responsive design.</p>
+		<h3>A web developer with an appreciation for clean, responsive design.</h3>
 
 		<a href="#contact">Contact Me</a>
 

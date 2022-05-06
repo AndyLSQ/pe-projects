@@ -1,18 +1,11 @@
 		<!-- STUFF -->
 	</main>
 
-
-
 	<footer class='site-footer'>
 		<div class="inner-column">
-			<p>Site Footer</p>
+			<h3>Site Footer</h3>
 		</div>
-		<shifter2></shifter2>
 	</footer>
-
-
-
-
 
 </body>
 

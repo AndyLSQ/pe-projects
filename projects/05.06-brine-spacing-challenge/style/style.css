@@ -1,0 +1,142 @@
+@import "meyer-reset.css";
+@import "setup.css";
+
+/*space block definitions*/
+html{
+	--space-c: 30px;
+	--space-d: 40px;
+	--space-e: 70px;
+}
+
+/*COLORS*/
+html{
+	background-color: white;
+}
+
+.site-header{
+	background-color: hsla(0, 0%, 10%, 1.00);
+	color: white;
+	padding-left: var(--space-d);
+}
+
+.sec1{
+	background-color: hsla(41, 35%, 56%, 1.00);
+	color: white;
+}
+
+.sec1 a{
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 10px var(--space-c);
+}
+
+.sec2 a{
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 2px solid black;
+	border-radius: 2px;
+	padding: 20px var(--space-c);
+}
+
+.site-footer{
+	background-color: #333;
+	color: white;
+}
+
+.page-header, .sec2{
+	background-color: hsla(0, 0%, 100%, .50);
+}
+
+
+
+/*SITE SECTIONS*/
+
+.page-content{
+	/*background-color: lightgreen;*/
+	background-size: cover; /*used if background image*/
+	background-position: center; /*used if background image*/
+}
+
+.sec1{
+	/*background-color: lightblue;*/
+}
+
+
+
+
+/*flexbox*/
+.site-header{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: var(--space-d);
+	font-weight: bold;
+}
+
+.site-header nav{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: var(--space-d);
+	text-transform: uppercase;
+	padding: var(--space-c) 0;
+}
+
+.sec1 .inner-column{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: var(--space-e);
+}
+
+.cards{
+	display: flex;
+	flex-direction: row;
+	gap: var(--space-c);
+	margin-top: 1.5rem;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	width: 100%; /*setting 100% here makes each card fill as much space as it can*/
+	/*padding: .75rem;*/
+}
+
+/*BREAK POINTS*/
+
+shifter::after{
+	content: 'Regular';
+}
+
+@media screen and (max-width: 700px){
+	.page-header{
+		color: darkcyan;
+	}
+
+	.inner-column{
+		width: 85%;
+		padding: .2rem;
+	}
+
+	.cards{
+		flex-direction: column;
+	}
+
+/*	picture{
+		max-width: 90%;
+	}*/
+
+	shifter::after{
+		content: 'Small';
+		color: darkcyan;
+	}
+}

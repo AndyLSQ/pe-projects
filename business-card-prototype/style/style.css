@@ -3,8 +3,10 @@
 
 /*COLORS*/
 html{
-	background-color: hsla(43, 92%, 94%, 1.00);
-	color: hsla(225, 62%, 25%, 1.00);
+	--canvas: hsla(43, 92%, 94%, 1.00);
+	background-color: var(--canvas);
+	--ink: hsla(225, 62%, 25%, 1.00);
+	color: var(--ink);
 }
 
 .site-header{
@@ -12,11 +14,7 @@ html{
 	color: white;
 }
 
-/*.site-footer{
-	background-color: hsla(225, 62%, 25%, 1.00);
-	color: white;
-}
-*/
+
 .projects, .contact, .site-footer{
 	background-color: hsla(21, 67%, 85%, 1.00);
 }
@@ -26,7 +24,11 @@ html{
 }
 
 icon svg{
-	fill: hsla(225, 62%, 25%, 1.00);
+	fill: var(--ink);
+}
+
+icon svg:hover{
+	fill: var(--canvas);
 }
 
 /*SITE SECTIONS*/
@@ -41,13 +43,23 @@ icon svg{
 }
 
 .page-header a{
-	background-color: hsla(225, 62%, 25%, 1.00);
+	background-color: var(--ink);
+	font-size: 1.25rem;
 	color: hsla(43, 92%, 94%, 1.00);
+	border: 3px solid var(--ink);
 	margin-top: 15px;
 	padding: 10px;
 	max-width: 200px;
 	border-radius: 20px;
 	text-align: center;
+	transition-duration:.5s;
+}
+
+.page-header a:hover{
+	background-color: var(--canvas);
+	color: var(--ink);
+	border: 3px solid var(--ink);
+	transition-duration:.5s;
 }
 
 .page-content{
@@ -70,13 +82,23 @@ bio{
 }
 
 .card a{
-	background-color: hsla(225, 62%, 25%, 1.00);
-	color: hsla(43, 92%, 94%, 1.00);
+	background-color: var(--canvas);
+	color: var(--ink);
+	border: 3px solid var(--ink);
 	margin-top: 15px;
-	padding: 8px;
-	max-width: 60%;
+	padding: 10px;
+	/*max-width: 60%;*/
 	border-radius: 20px;
 	text-align: center;
+	margin-top: auto;
+	max-width: 175px;
+	transition-duration:.5s;
+}
+
+.card a:hover{
+	background-color: var(--ink);
+	color: var(--canvas);
+	transition-duration:.5s;
 }
 
 .site-footer{
@@ -97,6 +119,7 @@ bio{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	gap: 15px;
 
 }
 
@@ -116,7 +139,7 @@ bio{
 
 .card{
 	background-color: hsla(43, 92%, 94%, 1.00);
-	box-shadow: 2px 2px hsla(225, 62%, 25%, 1.00);
+	box-shadow: 2px 2px var(--ink);
 	width: 100%; /*setting 100% here makes each card fill as much space as it can*/
 	padding: .75rem;
 	padding-bottom: 2rem;
@@ -125,6 +148,7 @@ bio{
 	gap: 30px;
 }
 
+
 contact-content{
 	margin-top: 30px;
 	display: flex;
@@ -132,6 +156,7 @@ contact-content{
 	justify-content: center;
 	align-items: center;
 	gap: 30px;
+	text-align: center;
 
 }
 
@@ -149,13 +174,10 @@ shifter::after{
 	content: 'Regular';
 }
 
-@media screen and (max-width: 700px){
-	.page-header{
-		/*color: darkcyan;*/
-	}
+@media screen and (max-width: 800px){
 
 	.inner-column{
-		width: 85%;
+		width: 95%;
 		padding: .2rem;
 	}
 
@@ -173,3 +195,40 @@ shifter::after{
 		/*color: darkcyan;*/
 	}
 }
+
+
+
+/*dark*/
+@media (prefers-color-scheme:  dark){
+	html{
+		--ink: red;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

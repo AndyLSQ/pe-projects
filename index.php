@@ -8,7 +8,7 @@
 		<h1>Hi, <br>I’m Andy.</h1>
 
 		<!-- use &nbsp; to pair items for line breaks -->
-		<h4>I design websites, with a focus on clean, responsive design.</h4>
+		<h4>I make websites. With a focus on clean, responsive design.</h4>
 
 		<a href="#about">Learn more</a>
 

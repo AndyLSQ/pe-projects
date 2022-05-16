@@ -7,7 +7,7 @@
 	<meta name="description" content="Web developer & designer.">
 
 	<!-- Note: Standard metadata image size ~(1200 x 630) -->
-	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/images/headshot-meta.jpg">
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/images/headshot-meta-1.png">
 
 	<!-- LINK fonts as needed -->
 	<!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Source+Sans+Pro&display=swap" rel="stylesheet"> -->

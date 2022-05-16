@@ -2,12 +2,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Andy's Portfolio</title>
+	<title>Meet Andy</title>
 	
-	<meta name="description" content="[[insert description]]">
+	<meta name="description" content="Web developer & designer.">
 
 	<!-- Note: Standard metadata image size ~(1200 x 630) -->
-	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/base/images/default-meta.png">
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/images/headshot-meta.jpg">
 
 	<!-- LINK fonts as needed -->
 	<!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Source+Sans+Pro&display=swap" rel="stylesheet"> -->

@@ -8,7 +8,7 @@
 		<h1>Hi, <br>I’m Andy.</h1>
 
 		<!-- use &nbsp; to pair items for line breaks -->
-		<h4>I design websites with a focus on clean, responsive design.</h4>
+		<h4>I design websites, with a focus on clean, responsive design.</h4>
 
 		<a href="#about">Learn more</a>
 
@@ -40,7 +40,7 @@
 				<h3>Why am I here?</h3>
 				<p> I’m here to pursue a new career path that aligns with my lifelong interest in design and technology.</p>
 
-				<p> Take an in-depth look at my <a href="https://peprojects.dev/alpha-4/andy/goals/" target="goals">goals</a>.</p>
+				<p> Take an in-depth look at <a href="https://peprojects.dev/alpha-4/andy/goals/" target="goals">my goals</a>.</p>
 				
 
 			</bio-text>
@@ -56,19 +56,19 @@
 			<div class="card">
 				<h3>Come To You</h3>
 				<p>Case Study: A mobile mechanic needs to build brand awareness and quickly explain their business to prospective customers.</p>
-				<a href="https://peprojects.dev/alpha-4/andy/projects/small-business/">See project</a>
+				<a href="https://peprojects.dev/alpha-4/andy/projects/small-business/" target="cty">See project</a>
 			</div>
 
 			<div class="card">
 				<h3>Responsive Layout</h3>
 				<p>Challenge: Create a page layout that adapts arrangement of its content based on viewport width.</p>
-				<a href="https://peprojects.dev/alpha-4/andy/projects/super-layout-challenge/">See project</a>
+				<a href="https://peprojects.dev/alpha-4/andy/projects/super-layout-challenge/" target="super-layout">See project</a>
 			</div>
 
 			<div class="card">
 				<h3>Brine Lacrosse</h3>
 				<p>Challenge: Recreate the layout of a commercial website, with particular focus on the spacing of elements.</p>
-				<a href="https://peprojects.dev/alpha-4/andy/projects/05.06-brine-spacing-challenge/">See project</a>
+				<a href="https://peprojects.dev/alpha-4/andy/projects/05.06-brine-spacing-challenge/" target="brine">See project</a>
 			</div>
 		</div>
 	</div>

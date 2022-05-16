@@ -6,6 +6,7 @@ html{
 	--canvas: hsla(43, 92%, 94%, 1.00);
 	background-color: var(--canvas);
 	--ink: hsla(225, 62%, 25%, 1.00);
+	--canvas-alt: hsla(21, 67%, 85%, 1.00);
 	color: var(--ink);
 }
 
@@ -15,13 +16,10 @@ html{
 }
 
 
-.projects, .contact, .site-footer{
-	background-color: hsla(21, 67%, 85%, 1.00);
+.about, .contact, .site-footer{
+	background-color: var(--canvas-alt);
 }
 
-.card{
-	background-color: red;
-}
 
 icon svg{
 	fill: var(--ink);
@@ -34,7 +32,7 @@ icon svg:hover{
 /*SITE SECTIONS*/
 
 .page-header .inner-column{
-	min-height: 75vh;
+	min-height: 95vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -43,21 +41,21 @@ icon svg:hover{
 }
 
 .page-header a{
-	background-color: var(--ink);
-	font-size: 1.25rem;
-	color: hsla(43, 92%, 94%, 1.00);
+	background-color: var(--canvas);
+	font-size: 1.5rem;
+	color: var(--ink);
 	border: 3px solid var(--ink);
 	margin-top: 15px;
 	padding: 10px;
 	max-width: 200px;
 	border-radius: 20px;
 	text-align: center;
-	transition-duration:.5s;
+	transition-duration:1s;
 }
 
 .page-header a:hover{
-	background-color: var(--canvas);
-	color: var(--ink);
+	background-color: var(--ink);
+	color: var(--canvas);
 	border: 3px solid var(--ink);
 	transition-duration:.5s;
 }
@@ -68,21 +66,26 @@ icon svg:hover{
 	background-position: center; /*used if background image*/
 }
 
-bio{
-	margin: 3rem 0rem;
+
+.about, .projects{
+	padding-bottom: 100px;
 }
 
 .about picture{
-	width: 30%;
+	max-width: 60%;
 	height: auto;
 }
 
 .about bio-text{
-	max-width: 60%;
+	/*max-width: 50%;*/
+}
+
+.card{
+	padding-left: 150px;
 }
 
 .card a{
-	background-color: var(--canvas);
+	background-color: var(--canvas-alt);
 	color: var(--ink);
 	border: 3px solid var(--ink);
 	margin-top: 15px;
@@ -92,12 +95,12 @@ bio{
 	text-align: center;
 	margin-top: auto;
 	max-width: 175px;
-	transition-duration:.5s;
+	transition-duration:1s;
 }
 
 .card a:hover{
 	background-color: var(--ink);
-	color: var(--canvas);
+	color: var(--canvas-alt);
 	transition-duration:.5s;
 }
 
@@ -117,9 +120,9 @@ bio{
 /*FLEXBOX*/
 .about bio{
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	align-items: center;
-	gap: 15px;
+	gap: 40px;
 
 }
 
@@ -138,10 +141,10 @@ bio{
 }
 
 .card{
-	background-color: hsla(43, 92%, 94%, 1.00);
+	background-color: var(--canvas-alt);
 	box-shadow: 2px 2px var(--ink);
 	width: 100%; /*setting 100% here makes each card fill as much space as it can*/
-	padding: .75rem;
+	padding: 1rem;
 	padding-bottom: 2rem;
 	display: flex;
 	flex-direction: column;
@@ -201,10 +204,15 @@ shifter::after{
 /*dark*/
 @media (prefers-color-scheme:  dark){
 	html{
-		--ink: red;
+		--ink: hsla(43, 92%, 94%, 1.00);
+		--link-ink: red;
+		--canvas: hsla(225, 62%, 25%, 1.00);
+		--canvas-alt:  hsla(22, 66%, 60%, 1.00);
 	}
 
-
+	p a:hover{
+		background-color: var(--ink);
+	}
 }
 
 

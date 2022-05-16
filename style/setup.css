@@ -47,6 +47,7 @@ body{
 
 html{
 	font-family: sans-serif;
+	scroll-behavior: smooth;
 }
 
 hS{
@@ -69,13 +70,14 @@ hS{
 h1{
 	font-family: 'DM Serif Display', serif;
 	letter-spacing: .1rem;
-	font-size: 3rem;
+	font-size: 4rem;
 	margin-top: 0.67rem;
 	margin-bottom: 0.67rem;
 	font-weight: bold;
 }
 
 h2{
+	font-family: 'DM Serif Display', serif;
 	font-size: 2rem;
 	margin-top: 0.83rem;
 	margin-bottom: 0.83rem;
@@ -83,22 +85,28 @@ h2{
 }
 
 h3 {
-  font-size: 1.25rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
   font-weight: bold;
 }
 
+.about h3{
+	margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
 h4 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 1.33rem;
   margin-bottom: 1.33rem;
-  font-weight: bold;
+  font-weight: regular;
 }
 
 p{
 	font-size: 1rem;
 	line-height: 1.4;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 p+p{
@@ -148,6 +156,7 @@ p a{
 	color: var(--link-ink);
   box-shadow: inset 0px -2px var(--link-ink);
   transition-duration: .5s;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 p a:hover{

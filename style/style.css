@@ -23,10 +23,12 @@ html{
 
 icon svg{
 	fill: var(--ink);
+	transition-duration: 1s;
 }
 
 icon svg:hover{
 	fill: var(--canvas);
+	transition-duration: .5s;
 }
 
 /*SITE SECTIONS*/

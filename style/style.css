@@ -1,8 +1,30 @@
 @import "meyer-reset.css";
 @import "setup.css";
 
+
+html *{
+	/*border: 2px dashed red;*/
+	font-family: 'DM Serif Text', serif;
+	box-sizing: border-box;
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*centered inner column*/
+.inner-column{
+	width: 90%;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0rem 1rem;
+}
+
 /*COLORS*/
 html{
+	font-family: sans-serif;
+	scroll-behavior: smooth;
 	--canvas: hsla(43, 92%, 94%, 1.00);
 	background-color: var(--canvas);
 	--ink: hsla(225, 62%, 25%, 1.00);
@@ -10,9 +32,35 @@ html{
 	color: var(--ink);
 }
 
-.site-header{
-	background-color: #555;
-	color: white;
+
+/*flex with min-height 100vh to ensure page (incl footer)
+always fills the window at minimum*/
+body{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+/*grow <main class="page-content"> to keep footer at bottom*/
+.page-content{
+	flex-grow: 1; 
+}
+
+.page-header, .projects{
+	position: relative;
+	box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 40%);
+}5
+
+.page-header{
+	z-index: 1;
+}
+
+.about{
+	z-index: -1;
+}
+
+.projects{
+	z-index: auto;
 }
 
 
@@ -20,16 +68,17 @@ html{
 	background-color: var(--canvas-alt);
 }
 
-
-icon svg{
-	fill: var(--ink);
-	transition-duration: 1s;
+.about, .projects{
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
-icon svg:hover{
-	fill: var(--canvas);
-	transition-duration: .5s;
+.contact{
+	padding-top: 100px;
 }
+
+
+
 
 /*SITE SECTIONS*/
 
@@ -68,11 +117,6 @@ icon svg:hover{
 	background-position: center; /*used if background image*/
 }
 
-
-.about, .projects{
-	padding-bottom: 100px;
-}
-
 .about picture{
 	max-width: 60%;
 	height: auto;
@@ -82,9 +126,16 @@ icon svg:hover{
 	/*max-width: 50%;*/
 }
 
+bio-answer{
+	border-left: 4px solid var(--ink);
+	padding-left: 2rem;
+}
+
+
 .card{
 	padding-left: 150px;
 }
+
 
 .card a{
 	background-color: var(--canvas-alt);
@@ -107,7 +158,8 @@ icon svg:hover{
 }
 
 .site-footer{
-	padding: 15px;
+	padding-top: 15px;
+	padding-bottom: 100px;
 	text-align: center;
 }
 
@@ -120,18 +172,20 @@ icon svg:hover{
 
 
 /*FLEXBOX*/
-.about bio{
+/*.about bio{
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: center;
 	gap: 40px;
 
-}
+}*/
 
 .about bio-text{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
+	align-items: flex-start;
+	max-width: 74ch;
 
 }
 
@@ -140,7 +194,7 @@ icon svg:hover{
 	flex-direction: row;
 	gap: 20px;
 	/*margin: 3rem 0rem;*/
-	margin-top: 5rem;
+	margin-top: 7rem;
 }
 
 .card{
@@ -152,7 +206,11 @@ icon svg:hover{
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
+	justify-content: flex-start;
+	/*align-items: center;*/
 }
+
+
 
 
 contact-content{
@@ -174,6 +232,16 @@ social{
 	gap: 1.5rem;
 }
 
+icon svg{
+	fill: var(--ink);
+	transition-duration: 1s;
+}
+
+icon svg:hover{
+	fill: var(--canvas);
+	transition-duration: .5s;
+}
+
 /*BREAK POINTS*/
 
 shifter::after{
@@ -189,9 +257,14 @@ shifter::after{
 
 	.cards{
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		gap: 40px;
 	}
 
+	.card{
+		max-width: 74ch;
+	}
 	picture{
 		max-width: 90%;
 	}

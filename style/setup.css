@@ -1,38 +1,9 @@
-/*DEV*/
-
-html *{
-	/*border: 2px dashed red;*/
-	font-family: 'DM Serif Text', serif;
-}
 
 
 
-/*STRUCTURE*/
 
-*{
-	box-sizing: border-box;
-}
 
-/*flex with min-height 100vh to ensure page (incl footer)
-always fills the window at minimum*/
-body{
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-/*grow <main class="page-content"> to keep footer at bottom*/
-.page-content{
-	flex-grow: 1; 
-}
 
-/*centered inner column*/
-.inner-column{
-	width: 90%;
-	max-width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 1rem;
-}
 
 /*sticky header with shadow*/
 .site-header{
@@ -45,10 +16,7 @@ body{
 
 /*TYPOGRAPHY*/
 
-html{
-	font-family: sans-serif;
-	scroll-behavior: smooth;
-}
+
 
 hS{
 	font-size: 1.5rem;
@@ -62,30 +30,33 @@ hS{
 	padding-bottom: .75rem;
 }
 
-.page-header, section{
+/*.page-header, section{
 	padding-top: 1rem;
 	padding-bottom: 1.5rem;
-}
+}*/
+
+
+
 
 h1{
 	font-family: 'DM Serif Display', serif;
 	letter-spacing: .1rem;
 	font-size: 4rem;
-	margin-top: 0.67rem;
-	margin-bottom: 0.67rem;
+	/*margin-top: 0.67rem;*/
+	/*margin-bottom: 0.67rem;*/
 	font-weight: bold;
 }
 
 h2{
 	font-family: 'DM Serif Display', serif;
 	font-size: 3rem;
-	margin-top: 0.83rem;
+	/*margin-top: 1.5rem;*/
 	margin-bottom: 1.5rem;
 	font-weight: bold;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 2rem;
   margin-bottom: 1.25rem;
   font-weight: bold;

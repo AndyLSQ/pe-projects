@@ -29,19 +29,27 @@
 
 			<bio-text>
 				<h3>Who am I?</h3>
-				<p>I’m a web development student based in Austin, Texas, and currently under the mentorship of <a href="https://perpetual.education/" target="pe">Perpetual Education</a>, a program covering the entire design and web development process from idea to completion.</p>
-				<p>Follow my learning journey on <a href="https://lisq.substack.com/" target="blog">Substack</a>.</p>
+
+				<bio-answer>
+					<p>I’m a web development student based in Austin, Texas, and currently under the mentorship of <a href="https://perpetual.education/" target="pe">Perpetual Education</a>, a program covering the entire design and web development process from idea to completion.</p>
+					<p>Follow my learning journey on <a href="https://lisq.substack.com/" target="blog">Substack</a>.</p>
+				</bio-answer>
+
 
 				<h3>Where have I been?</h3>
-				<p>I have 10 years of prior experience in Financial technology, serving large corporate clients in Finance Process Architecture and Software Implementation.</p>
-				<p> Check out my full <a href="#resume" target="resume">resume</a>.</p>
+				<bio-answer>
+					<p>I have 10 years of prior experience in Financial technology, serving large corporate clients in Finance Process Architecture and Software Implementation.</p>
+					<p> Check out my full <a href="#resume" target="resume">resume</a>.</p>
+				</bio-answer>
 
 
 				<h3>Why am I here?</h3>
-				<p> I’m here to pursue a new career path that aligns with my lifelong interest in design and technology.</p>
 
-				<p> Take an in-depth look at <a href="https://peprojects.dev/alpha-4/andy/goals/" target="goals">my goals</a>.</p>
-				
+				<bio-answer>
+					<p> I’m here to pursue a new career path that aligns with my lifelong interest in design and technology.</p>
+
+					<p> Take an in-depth look at <a href="https://peprojects.dev/alpha-4/andy/goals/" target="goals">my goals</a>.</p>
+				</bio-answer>
 
 			</bio-text>
 		</bio>
@@ -54,20 +62,20 @@
 		<h2>My projects</h2>
 		<div class="cards">
 			<div class="card">
-				<h3>Come To You</h3>
-				<p>Case Study: A mobile mechanic needs to build brand awareness and quickly explain their business to prospective customers.</p>
+				<h3>Come to You Case Study</h3>
+				<p>A mobile mechanic needs to build brand awareness and quickly explain their business to prospective customers.</p>
 				<a href="https://peprojects.dev/alpha-4/andy/projects/small-business/" target="cty">See project</a>
 			</div>
 
 			<div class="card">
-				<h3>Responsive Layout</h3>
-				<p>Challenge: Create a page layout that adapts arrangement of its content based on viewport width.</p>
+				<h3>Responsive Layout Challenge</h3>
+				<p>Create a page layout that adapts arrangement of its content based on viewport width.</p>
 				<a href="https://peprojects.dev/alpha-4/andy/projects/super-layout-challenge/" target="super-layout">See project</a>
 			</div>
 
 			<div class="card">
-				<h3>Brine Lacrosse</h3>
-				<p>Challenge: Recreate the layout of a commercial website, with particular focus on the spacing of elements.</p>
+				<h3>Brine Lacrosse Challenge</h3>
+				<p>Recreate the layout of a commercial website, with particular focus on the spacing of elements.</p>
 				<a href="https://peprojects.dev/alpha-4/andy/projects/05.06-brine-spacing-challenge/" target="brine">See project</a>
 			</div>
 		</div>
@@ -100,7 +108,7 @@
 					</icon>
 				</a>
 
-				<a href="https://www.linkedin.com/in/andreweliscu/">
+				<a href="https://www.linkedin.com/in/andreweliscu/" target="linkedin">
 					<icon>
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/></svg>
 					</icon>

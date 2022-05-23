@@ -15,7 +15,7 @@ p{
 /*centered inner column*/
 .inner-column{
 	width: 90%;
-	max-width: 960px;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0rem 1rem;
@@ -64,8 +64,13 @@ body{
 }
 
 
-.about, .contact, .site-footer{
+.about{
 	background-color: var(--canvas-alt);
+}
+
+.site-footer{
+	background-color: var(--ink);
+	color: var(--canvas);
 }
 
 .about, .projects{
@@ -83,7 +88,8 @@ body{
 /*SITE SECTIONS*/
 
 .page-header .inner-column{
-	min-height: 95vh;
+	height: clamp(600px, 80vh, 1500px);
+	/*min-height: 95vh;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -127,6 +133,7 @@ body{
 }
 
 bio-answer{
+	margin-left: 10px;
 	border-left: 4px solid var(--ink);
 	padding-left: 2rem;
 }
@@ -160,7 +167,7 @@ bio-answer{
 .site-footer{
 	padding-top: 15px;
 	padding-bottom: 100px;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .site-footer .inner-column{
@@ -217,29 +224,32 @@ contact-content{
 	margin-top: 3rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: flex-start;
 	gap: 30px;
-	text-align: center;
-
+	/*text-align: center;*/
 }
 
 social{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: flex-start;
 	gap: 1.5rem;
 }
 
 icon svg{
-	fill: var(--ink);
+	fill: var(--canvas);
 	transition-duration: 1s;
 }
 
 icon svg:hover{
-	fill: var(--canvas);
+	fill: var(--canvas-alt);
 	transition-duration: .5s;
+}
+
+.pe-ref{
+	margin-top: 5rem;
 }
 
 /*BREAK POINTS*/
@@ -254,6 +264,13 @@ shifter::after{
 		width: 95%;
 		padding: .2rem;
 	}
+
+	bio-answer{
+	margin-left: 0px;
+	border-left: none;
+	padding-left: 0rem;
+	}
+
 
 	.cards{
 		flex-direction: column;
@@ -286,9 +303,26 @@ shifter::after{
 		--canvas-alt:  hsla(22, 66%, 40%, 1.00);
 	}
 
+	.site-footer{
+		background-color: black;
+		color: var(--ink);
+	}
+
+	icon svg{
+	fill: var(--ink);
+	}
+
+icon svg:hover{
+	fill: var(--canvas-alt);
+	transition-duration: .5s;
+	}
+
 	p a:hover{
+		color: var(--canvas-alt);
 		background-color: var(--ink);
 	}
+
+	
 }
 
 

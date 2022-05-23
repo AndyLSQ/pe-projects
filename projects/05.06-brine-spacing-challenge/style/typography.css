@@ -1,0 +1,12 @@
+html{
+	font-family: sans-serif;	
+}
+
+.loud-voice {
+	font-size: 3rem;
+}
+
+.calm-voice{
+	font-size: 1rem;
+	line-height: 1.4;
+}

@@ -19,4 +19,8 @@
 
 	<!-- LINK primary stylesheet -->
 	<link rel="stylesheet" href="style/style.css">
+
+
+	<!-- LINK favicon -->
+	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>

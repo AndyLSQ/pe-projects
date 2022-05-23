@@ -122,10 +122,10 @@ a{
 /*paragraph links*/
 p a{
 	display: inline-block;
-	text-decoration: none;
+	text-decoration: underline;
 	--link-ink: hsla(225, 96%, 18%, 1.00);
 	color: var(--link-ink);
-  box-shadow: inset 0px -2px var(--link-ink);
+  /*box-shadow: inset 0px -2px var(--link-ink);*/
   transition-duration: .5s;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -136,6 +136,14 @@ p a:hover{
 	transition-duration: .5s;
 }
 
+.site-footer p a {
+	color: var(--canvas-alt);
+}
+
+.site-footer p a:hover{
+	background-color: var(--canvas-alt);
+	color:  var(--ink);
+}
 
 /*IMAGES*/
 

@@ -1,0 +1,69 @@
+@import "meyer-reset.css";
+@import "setup.css";
+
+/*COLORS*/
+html{
+	background-color: palegoldenrod;
+}
+
+.site-header{
+	background-color: #555;
+	color: white;
+}
+
+.site-footer{
+	background-color: #333;
+	color: white;
+}
+
+
+
+/*SITE SECTIONS*/
+
+
+
+/*flexbox*/
+.cards{
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	margin-top: 1.5rem;
+}
+
+.card{
+	background-color: hsla(0, 0%, 100%, .80);
+	border: 1px #333 solid;
+	width: 100%; /*setting 100% here makes each card fill as much space as it can*/
+	padding: .75rem;
+	padding-bottom: 2rem;
+}
+
+/*BREAK POINTS*/
+
+shifter::after{
+	content: 'Regular';
+}
+
+@media screen and (max-width: 700px){
+	.page-header{
+		color: darkcyan;
+	}
+
+	.inner-column{
+		width: 85%;
+		padding: .2rem;
+	}
+
+	.cards{
+		flex-direction: column;
+	}
+
+	picture{
+		max-width: 90%;
+	}
+
+	shifter::after{
+		content: 'Small';
+		color: darkcyan;
+	}
+}

@@ -1,0 +1,116 @@
+
+*{
+	box-sizing: border-box;
+	text-align: center;
+	align-content: center;
+}
+
+body *{
+	border: red dashed 1px;
+	letter-spacing: .04rem;
+}
+
+html{
+	background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+	font-family: "ubuntu", sans-serif;
+	margin: 0px;
+}
+
+.inner-column{
+	padding: 5px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	font-size: 2rem;
+	margin: 1.75rem 0;
+	font-weight: 700;
+}
+
+h2{
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 600;
+}
+
+h3{
+	font-size: 1.17rem;
+	margin: 1.25rem 0;
+	font-weight: 600;
+}
+
+p + h3{
+	margin-top: 2.5rem;
+}
+
+h4, p,
+blockquote, ul,
+fieldset, form,
+ol, dl, dir,
+menu, li{
+	font-size: 1rem;
+	margin: 1.12rem 0;
+	max-width: 75ch;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.6;
+}
+
+li{
+	font-size: 1rem;
+	margin: 1.12rem 0;
+	max-width: 75ch;
+	text-align: left;
+	margin-left: 0;
+}
+
+ol{
+	list-style: decimal;
+	list-style-position: outside;
+	text-align: left;
+}
+
+ul{
+	list-style: disc;
+}
+
+h5{ font-size: .83rem;
+	margin: 1.5rem 0;
+}
+
+h6{
+	font-size: .75rem;
+	margin: 1.67rem 0;
+	}
+
+/*Global links reset & setup*/
+/*set links to blocks so they can wrap things*/
+a{
+	display: block;
+	/*text-decoration: none;*/
+	color: inherit;
+}
+
+/*Restore default styling to links within paragraphs*/
+p a{
+	display: inline-block;
+	text-decoration: underline;
+	color: blue;
+}
+
+/*picture is the parent container of the img*/
+picture{
+	display: block;
+}
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+strong{
+	font-weight: bold;
+}

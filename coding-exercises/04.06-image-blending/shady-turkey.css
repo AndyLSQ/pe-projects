@@ -1,0 +1,11 @@
+picture{
+	display: block;
+	background-color: yellow;
+}
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+	mix-blend-mode: difference;
+}

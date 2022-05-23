@@ -1,0 +1,26 @@
+html{
+	box-sizing: border-box;
+}
+
+body{
+	background: darkslategrey;
+	color: thistle;
+	font-family: sans-serif;
+}
+
+h1, h2{
+	color: mintcream;
+}
+
+a{
+	color: seashell;
+	text-decoration: none;
+	border: 1px seashell solid;
+	padding: 5px;
+	line-height: 2.5;
+}
+
+a:hover{
+	color: darkslategrey;
+	background-color: seashell;
+}

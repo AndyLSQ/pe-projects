@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 288 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Artboard1" transform="matrix(0.992263,0,0,0.984393,-160.92,-111.633)">
+        <rect x="162.174" y="113.403" width="289.621" height="339.418" style="fill:none;"/>
+        <g id="house" transform="matrix(1.0078,0,0,1.01585,-1.08869,-6.76998)">
+            <g id="siding" transform="matrix(1.09477,0,0,0.818281,-15.5855,81.1122)">
+                <rect x="167.383" y="203.277" width="252.521" height="243.082" style="fill:rgb(161,0,24);"/>
+            </g>
+            <g id="roof">
+                <g id="roof-structure" transform="matrix(0.784754,0,0,0.90729,74.3605,64.9202)">
+                    <path d="M295.03,62.745L473.88,203.154L116.179,203.154L295.03,62.745Z" style="fill:rgb(122,122,122);"/>
+                </g>
+                <g id="roof-tiles">
+                    <path id="roof-tile-2" d="M222.078,233.479C266.27,233.479 208.786,233.479 266.27,233.479" style="fill:none;stroke:black;stroke-width:1px;"/>
+                    <path id="roof-tile-1" d="M251.1,219.119C298.027,219.119 247.136,219.119 298.027,219.119" style="fill:none;stroke:black;stroke-width:1px;"/>
+                </g>
+            </g>
+            <g id="window">
+                <g id="window-glass" transform="matrix(1,0,0,1,2,34)">
+                    <rect x="184.678" y="303.235" width="70.539" height="70.539" style="fill:rgb(168,201,255);"/>
+                </g>
+                <g id="window-bars">
+                    <g id="window-bar-vertical" transform="matrix(0.944251,0,0,0.944251,13.9602,20.7169)">
+                        <path d="M220.267,337.346C220.267,407.751 220.267,429.917 220.267,407.751" style="fill:none;stroke:white;stroke-width:4.24px;stroke-linecap:square;"/>
+                    </g>
+                    <g id="window-bar-horizontal" transform="matrix(0.937127,0,0,0.937127,13.4282,23.4137)">
+                        <path d="M186.98,372.512C257.538,372.512 260.845,372.512 258.007,372.512" style="fill:rgb(184,19,44);stroke:white;stroke-width:4.27px;stroke-linecap:square;"/>
+                    </g>
+                </g>
+            </g>
+            <g id="door" transform="matrix(1.05621,0,0,1.1417,3.69867,-61.8734)">
+                <rect x="255.474" y="344.424" width="61.265" height="100.598" style="fill:rgb(169,89,0);"/>
+                <g id="door-knob" transform="matrix(0.56454,0,0,0.522267,7.13985,304.468)">
+                    <ellipse cx="537.485" cy="177.769" rx="8.136" ry="7.878"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

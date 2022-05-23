@@ -1,0 +1,28 @@
+*{
+	padding: 5px;
+}
+
+html{
+	border: red solid 3px;
+}
+
+body{
+	border: blue solid 3px;
+	color: red;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.welcome{
+	border: turquoise solid 3px;
+}
+
+div.inner-column{
+	border: yellow solid 3px;
+	color: blue;
+	margin: auto;
+	max-width: 200px;
+	margin-left: auto;
+	margin-right: auto; 
+}

@@ -1,0 +1,36 @@
+html{
+	border: 3px solid red;
+}
+
+*{
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+body{
+	border: 3px solid skyblue;
+
+}
+
+
+header{
+	border: 3px solid blue;
+}
+
+section{
+	border: 3px solid limegreen;
+}
+
+footer{
+	border: 3px solid yellow;
+}
+
+h1, h2, p{
+	border: 3px grey solid;
+}
+
+div{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}

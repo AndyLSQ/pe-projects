@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	background-color: #e6ddde;
+	color: #664a4e;
+	font-family: georgia, serif;
+	margin: 1vw;
+	/*text-align: center;*/
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+h2{
+	font-family: futura, sans-serif;
+	transition: 0.8s ease-out;
+	transform-origin: center center;
+	display: inline-block;
+}
+
+h2:hover{
+	background-color: #f5f1f2;
+	transform: scale(1.1) rotateX(360deg);
+
+}
+
+a{
+	color: #664a4e;
+	text-decoration: none;
+   border-bottom: 1px solid #f5f1f2;
+   box-shadow: inset 0 -3px 0 #f5f1f2;
+   transition: background 0.4s ease-out;
+   display: inline-block;
+   padding: 5px;
+}
+
+a:active{
+	font-weight: bold;
+}
+
+a:visited{
+	color: #321b2f;
+}
+
+a:hover{
+	background: #f5f1f2;
+}
+
+ul,ol{
+	line-height: 1.5;
+}
+
+li{
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+.chat li{
+	list-style-type: "💬";
+}
+
+.news li{
+	list-style-type: "🗞";
+}
+
+.news a{
+	border: 1px solid red;
+	width: 150px;
+	transition: .8s ease-in-out;
+}
+
+.news a:hover{
+	width: 300px;
+}
+
+.weather li{
+	list-style-type: "☔";
+}
+
+.sports li{
+	list-style-type: disc;
+}
+
+.tech li{
+	list-style-type: circle;
+}
+
+.finance li{
+	list-style-type: square;
+	font-size: 1.3em;
+	/*line-height: 4;*/
+}
+
+.finance a{
+    /*background-color: blue;*/
+    transition: 1s;
+ }
+
+.finance a:hover{
+    background-color: red;
+    transition: .2s;
+    transition-delay: 1s;
+ }
+
+ .finance a:hover span{
+ 	color: yellow;
+ 	transition-delay: 1.5s;
+ }

@@ -1,4 +1,5 @@
 @import "meyer-reset.css";
+@import "typography.css";
 @import "setup.css";
 
 /*COLORS*/
@@ -19,7 +20,10 @@ html{
 
 
 /*SITE SECTIONS*/
-
+.masthead{
+	display: flex;
+	flex-direction: row;
+}
 
 
 /*flexbox*/

@@ -58,22 +58,39 @@
 
 	monster-card{
 		display: flex;
-		flex-direction: row;
-		justify-content: flex-start;
+		flex-direction: column;
+		justify-content: flex-end;
 		align-items: center;
 		gap: 20px;
 	}
 
+	monster-card.adopted{
+		color:  grey;
+	}
+
+
 	card-text{
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
 	}
 
 	.status{
-		border: 2px solid var(--canvas);
+		background-color: var(--canvas);
+		color: var(--ink);
 		padding: 10px;
 		width: 40%;
 		text-align: center;
+		margin-top: auto;
+	}
+
+
+	monster-card.adopted card-text p.status{
+		border: 2px solid gray;
+		background-color: var(--card);
+		color: gray;
+
 	}
 
 @media (min-width: 900px){

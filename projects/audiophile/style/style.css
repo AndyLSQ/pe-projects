@@ -1,0 +1,47 @@
+@import "meyer-reset.css";
+@import "a-site-header.css";
+
+
+/*DEV*/
+html *{
+	border: 1px dashed red;
+}
+
+/*COLOR Definitions*/
+html {
+	--canvas1: hsla(31, 15%, 66%, 1.00);
+	--ink1: white;
+	--canvas2: white;
+	--ink2: black;
+}
+
+
+/*STRUCTURE*/
+* {
+	box-sizing: border-box;
+}
+
+/*centered inner column*/
+inner-column {
+	display: flex;
+	width: 80%;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem;
+}
+
+/*flex with min-height 100vh to ensure page (incl footer)
+always fills the window at minimum*/
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+/*grow <main class="page-content"> to keep footer at bottom*/
+main {
+	flex-grow: 1; 
+}
+
+
+

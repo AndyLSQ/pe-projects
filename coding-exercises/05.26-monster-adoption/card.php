@@ -22,7 +22,7 @@
 
 <!-- front end data use -->
 <monster-card id="<?=$id?>" class="<?=$statusClass?>">
-	<picture class="">
+	<picture class="portrait">
 		<img src="<?=$portrait?>" width="200px">
 	</picture>
 	<card-text>

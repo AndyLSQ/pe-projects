@@ -1,20 +1,55 @@
 @import "meyer-reset.css";
 @import "a-site-header.css";
+@import "b-welcome.css";
+@import "c-sec-a.css";
+@import "card.css";
+@import "footer.css";
 
 
 /*DEV*/
-html *{
+html * {
 	border: 1px dashed red;
 }
 
 /*COLOR Definitions*/
 html {
-	--canvas1: hsla(31, 15%, 66%, 1.00);
+	--canvas1: hsla(32, 21%, 73%, 1.00);
 	--ink1: white;
 	--canvas2: white;
 	--ink2: black;
 }
 
+/*Typography*/
+html {
+	
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-color:  var(--ink1);
+}
+
+h4 {
+	font-size: 1.25rem;
+	font-family: sans-serif;
+	color: #666;
+}
+
+p {
+	font-family: sans-serif;
+	color: #666;
+}
 
 /*STRUCTURE*/
 * {
@@ -25,10 +60,10 @@ html {
 inner-column {
 	display: flex;
 	width: 80%;
-	max-width: 960px;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 1rem;
+	padding: 0.25rem 1rem;
 }
 
 /*flex with min-height 100vh to ensure page (incl footer)
@@ -43,5 +78,10 @@ main {
 	flex-grow: 1; 
 }
 
+picture {
+	display: block;
+}
 
-
+img {
+	max-width: 100%;
+}

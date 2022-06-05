@@ -1,6 +1,7 @@
 <section class="welcome">
-	<inner-column>
-		3-welcome.php	
 
-	</inner-column>
+<inner-column>
+	<div class="banner">Welcome.</div>
+</inner-column>
+
 </section>

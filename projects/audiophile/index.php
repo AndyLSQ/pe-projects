@@ -10,15 +10,17 @@
 
 	<main>
 		<?php include('3-welcome.php'); ?>
+		<?php include('product-data.php'); ?>
 		<?php include('4-sec-a.php'); ?>
 		<?php include('5-sec-b.php'); ?>
 		<?php include('6-sec-c.php'); ?>
 	</main>
-	
+
 	<?php include('footer.php')?>
 
 </body>
 
+<img src="" alt="">
 	
 
 </html>

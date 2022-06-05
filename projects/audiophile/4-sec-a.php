@@ -1,5 +1,12 @@
-<section class="sec-a">
+<section class="sec-a headphones">
 	<inner-column>
-		4-sec-a.php	
+		<h2>Headphones</h2>
+		<ol>
+			<?php
+				foreach ($headphones as $headphone) {
+					include "card.php";
+				}
+			?>
+		</ol>
 	</inner-column>
 </section>

@@ -1,0 +1,16 @@
+.welcome{
+	background-image: url("https://images.ctfassets.net/8cd2csgvqd3m/3Z6yoO08OjU5GgZzMsLUes/b407e75154fd4398290a61f44b0f975f/beolab_18_home_launch_2.png?q=90&fm=webp&w=1656&h=931&fit=fill");
+	
+	background-size: cover;
+	background-position: center;
+	color: var(--ink1);
+}
+
+.welcome inner-column{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	min-height: 300px;
+	font-size: 5vw;
+}

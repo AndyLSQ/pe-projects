@@ -1,0 +1,14 @@
+* * *  {
+  border: 2px solid green;
+  padding: 2px;
+}
+
+* * * * *  {
+  border: 2px solid orange;
+  padding: 2px;
+}
+
+* * * * * *  {
+  border: 2px solid red;
+  padding: 2px;
+}

@@ -1,6 +1,7 @@
 <footer>
 	<inner-column>
-	footer
+		<p>Brand	<br>
+		©2022</p>
 </inner-column>
 
 

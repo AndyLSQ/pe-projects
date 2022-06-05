@@ -1,0 +1,10 @@
+footer{
+	background-color: #666;
+	hight: 300px;
+}
+
+footer p{
+	display: block;
+	font-family: serif;
+	color: white;
+}

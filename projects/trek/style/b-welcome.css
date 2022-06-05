@@ -1,0 +1,17 @@
+.welcome{
+	background-image: url("https://trek.scene7.com/is/image/TrekBicycleProducts/TK22_FX_carbon_marquee-3?$responsive-pjpg$&cache=on,on&wid=1920");
+	
+	background-size: cover;
+	background-position: center;
+	color: var(--ink1);
+}
+
+.welcome inner-column{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	min-height: 300px;
+	font-size: 5vw;
+	padding-right: 25px;
+}

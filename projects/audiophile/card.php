@@ -33,8 +33,10 @@
 			<h4 class="tagline"><?=$tagline?></h4>
 			<p class="description"><?=$description?></p>
 		</card-text>
-		<p class="price"><?=$price?></p>
-		<p class="status"><?=$buttonText?></p>
+		<card-buy>
+			<p class="price"><?=$price?></p>
+			<p class="status"><?=$buttonText?></p>
+		</card-buy>
 	</card-info>
 </li>
 

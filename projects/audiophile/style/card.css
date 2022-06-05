@@ -1,3 +1,8 @@
+.sec-a inner-column, .sec-b inner-column{
+	/*padding-top: 2rem;*/
+	padding-bottom: 6rem;
+}
+
 ol {
 	display: flex;
 	flex-direction: row;
@@ -6,6 +11,9 @@ ol {
 
 li {
 	background-color: var(--canvas1);
+	display: flex;
+	gap: 15px;
+	padding: 5px;
 }
 
 .card{
@@ -17,8 +25,25 @@ li {
 	width: 100%;
 }
 
+card-info {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	gap:  20px;
+}
+
+card-text, card-buy{
+	display: flex;
+	flex-direction: column;
+}
+
 card-text{
 	flex-grow: 1;
+	gap: 15px;
+}
+
+card-buy{
+	margin-top: auto;
 }
 
 .headphones inner-column, .speakers inner-column {
@@ -27,6 +52,10 @@ card-text{
 
 
 @media (max-width: 700px) {
+	inner-column{
+		width: 100%;
+	}
+
 	ol {
 		flex-direction: column;
 	}
@@ -37,6 +66,7 @@ card-text{
 	}
 
 	.card picture {
+		max-width: 35%;
 	}
 
 	.card img {
@@ -46,10 +76,10 @@ card-text{
 	}
 
 	card-info {
-		justify-content: center;
-		justify-items: center;
-		align-items: center;
-		align-content: center;
+		/*justify-content: center;*/
+		/*justify-items: center;*/
+		/*align-items: center;*/
+		/*align-content: center;*/
 	}
 
 	card-text {

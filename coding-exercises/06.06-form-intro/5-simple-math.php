@@ -22,6 +22,7 @@ if ( isset($_POST["submitted"]) ) {
 			//sum
 			$sum = floatval($num1) + floatval($num2);
 			$sumOutput = "<li>Sum: " . $num1 . " + " . $num2 . " = " . $sum . "</li>";
+			//TODO MOVE THESE OUTPUT DISPLAYS TO THE HTML BELOW THE FORM
 			echo $sumOutput;
 
 			//difference

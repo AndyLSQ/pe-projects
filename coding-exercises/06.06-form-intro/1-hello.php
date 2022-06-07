@@ -1,5 +1,6 @@
 <?php 
 $yourName = "";
+$greeting = "";
 
 if ( isset($_POST['submitted']) ) {
 
@@ -17,7 +18,7 @@ if ( isset($_POST['submitted']) ) {
 
 	
 
-	echo $greeting;
+	// echo $greeting;
 }
 
 
@@ -36,4 +37,6 @@ if ( isset($_POST['submitted']) ) {
 	<button type='submit' name="submitted">
 		Submit
 	</button>
+
+	<p><?=$greeting?></p>
 </form>

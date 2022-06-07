@@ -16,7 +16,7 @@
 		echo "<li>" . $message . "</li>";
 	}
 
-	echo "<br>";
+	echo "<br>"
 
 // 8 numbers (echo only if under 20)
 	$favNumbers = [5, 7, 15, 18, 30, 55, 75, 99];

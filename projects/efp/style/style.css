@@ -1,0 +1,12 @@
+html {
+	background-color: hsla(43, 92%, 94%, 1.00);
+	color: hsla(225, 62%, 25%, 1.00);
+	font-family: sans-serif;
+}
+
+input {
+	margin-bottom: 1rem;
+	color: hsla(225, 62%, 25%, 1.00);
+	background-color: hsla(226, 61%, 25%, 0.15);
+}
+

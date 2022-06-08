@@ -1,6 +1,20 @@
 # Forms in PHP/HTML
 
 ## Lesson Tasks
+<details>
+	<summary>Lesson 122</summary>
+
+- [ ] 1. Explore documentation for additional PHP functions and take notes
+
+- [ ] 2. Create 2 more forms using these new functions
+
+- [ ] 3. Get together with another student and look over each of your exercises for the day
+
+</details>
+
+<details>
+	<summary>Lesson 121</summary>
+
 - [x] 1. Add perpetual-education, sheriffderek, and bdlowery as a contributors collaborators on your pe-projects so that we can leave notes for you.
 
 - [x] 2. Make sure you all have a lesson-notes.md (markdown file) in the root of your pe-projects folder.
@@ -15,14 +29,19 @@
 
 - [x] 7. Set things up so that the forms all pull from a single set of styles. Consider matching it to your personal site and using that - or having a forms page specific styling (there’s no reason to restyle the inputs on every page, right?)
 
-- [ ] 8. How about 4 forms (in total) (and with normalized styles) (and tested). Use exercises from the EFP book.
+- [x] 8. How about 4 forms (in total) (and with normalized styles) (and tested). Use exercises from the EFP book.
 
 - [x] 9. Get together with another student - and take turns walking through 2 of your forms.
 
 - [ ] 10. Try and add one thing to the https://github.com/perpetual-education/audiophile-data
+</details>
+
+
 
 
 ## Notes
+
+
 
 ### Basic elements to include when setting up a form:
 - PHP
@@ -31,6 +50,8 @@
 	- Compile return statement
 	- If statements to confirm submission and validate inputs
 	- statements to assign inputs to PHP variables
+
+
 - HTML
 	- `<form method="POST">`
 		-	`<div class="field">`
@@ -41,6 +62,7 @@
 	- `</form>`
 	- `<output></output>`
 
+
 ### Styling
 - Some different input types- These are attributes of the input element
 	- `number`
@@ -50,7 +72,7 @@
 	- `<button>Button text</button>`
 - Browsers have user agent styles that define visual appearance of the form. Think about what you would need to include in a form "reset".
 - Styling defaults for input boxes (found in chrome inspector user agent stylesheet)  
-		 `input {` 
+		- `input {` 
 		 	- `font-style: ;`  
 		 	- `display: inline-block;`  
 		 	- `margin: 0em;`   
@@ -86,4 +108,6 @@
 	    `}`
 	    </details>
 
-### 
+
+### Function Exploration
+

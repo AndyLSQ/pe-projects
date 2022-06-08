@@ -12,26 +12,51 @@ code, pre {
 	font-family: monospace;
 }
 
+form {
+	display: grid;
+	gap:  20px;
+}
+
 .field {
 	display: flex;
 	flex-direction: column;
+	border: red solid 1px;
+}
+
+label{
+	display: block;
+	margin: 1rem 0rem;
+}
+
+textarea, input {
+	font:  inherit;
+	padding: 1rem;
+	border: 1px solid grey;
 }
 
 input {
-	margin: 1rem 0rem;
+	display: block;
+	/*margin: 1rem 0rem;*/
 	max-width:  60ch;
 	color: hsla(225, 62%, 25%, 1.00);
 	background-color: hsla(226, 61%, 25%, 0.15);
 }
 
 textarea {
-	margin: 1rem 0rem;
+	display: block;
+	/*margin: 1rem 0rem;*/
 	max-width:  60ch;
 	color: hsla(225, 62%, 25%, 1.00);
 	background-color: hsla(226, 61%, 25%, 0.15);
 }
 
 button {
+	font: inherit;
+	border-radius: 0;
 	margin: 1rem 0rem;
+	max-width: 15ch;
 }
 
+output {
+	display: block;
+}

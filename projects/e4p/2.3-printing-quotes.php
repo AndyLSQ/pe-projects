@@ -38,7 +38,7 @@
 
 	<div class="field">
 		<label for="">What is the quote?</label>
-		<textarea name="quote" placeholder="Enter a quote here" rows=4 cols=30 value="<?=$quote?>" required></textarea>
+		<textarea name="quote" placeholder="Enter a quote here" rows=4 cols=30  required><?=$quote?></textarea> <!-- NOTE: for text area, quote value should be in between the delimiters, not within the first delimiter. -->
 	</div>
 
 	<div class="field">

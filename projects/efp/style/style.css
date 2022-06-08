@@ -4,6 +4,14 @@ html {
 	font-family: sans-serif;
 }
 
+code, pre {
+	display: block;
+	background-color: black;
+	color: lime;
+	padding: 4px;
+	font-family: monospace;
+}
+
 .field {
 	display: flex;
 	flex-direction: column;
@@ -26,3 +34,4 @@ textarea {
 button {
 	margin: 1rem 0rem;
 }
+

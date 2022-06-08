@@ -35,7 +35,7 @@
 	- `<form method="POST">`
 		-	`<div class="field">`
 			-	`<label>`
-			-	`<input type="text or number" name="num1" min="1" max="10">`
+			-	`<input type="text or number" name="num1" min="1" max="10" REQUIRED>`
 		- `</div>`
 		- 	`<button type="submit" name="submitted">Submit</button>`
 	- `</form>`

@@ -42,7 +42,16 @@ if ( isset($_POST["submitted"]) ) {
 	}
 }
 
+//Array checker at the top of the page to monitor inputs
+	function format($variable) {
+		echo "<pre>";
+			echo "<code>";
+				echo print_r( $variable );
+			echo "</code>";
+		echo "</pre>";
+	}
 
+	format( $_POST );
 
 ?>
 

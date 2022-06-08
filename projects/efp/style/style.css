@@ -11,12 +11,14 @@ html {
 
 input {
 	margin: 1rem 0rem;
+	max-width:  60ch;
 	color: hsla(225, 62%, 25%, 1.00);
 	background-color: hsla(226, 61%, 25%, 0.15);
 }
 
 textarea {
 	margin: 1rem 0rem;
+	max-width:  60ch;
 	color: hsla(225, 62%, 25%, 1.00);
 	background-color: hsla(226, 61%, 25%, 0.15);
 }

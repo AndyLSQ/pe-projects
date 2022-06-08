@@ -50,9 +50,15 @@
 	- `<button>Button text</button>`
 - Browsers have user agent styles that define visual appearance of the form. Think about what you would need to include in a form "reset".
 - Styling defaults for input boxes (found in chrome inspector user agent stylesheet)  
-		 `input {`  
+		 `input {` 
+		 	- `font-style: ;`  
+		 	- `display: inline-block;`  
+		 	- `margin: 0em;`   
+	    	- `padding: 1px 2px;`   
+	    	- `border-width: 2px;`  
+	    <details>
+	    	<summary>Expand to see more</summary>
 	    `writing-mode: horizontal-tb !important;`  
-	    *`font-style: ;`  
 	    `font-variant-ligatures: ;`  
 	    `font-variant-caps: ;`  
 	    `font-variant-numeric: ;`  
@@ -69,16 +75,15 @@
 	    `text-transform: none;`  
 	    `text-indent: 0px;`  
 	    `text-shadow: none;`  
-	    *`display: inline-block;`  
 	    `text-align: start;`  
 	    `appearance: auto;`  
 	    `-webkit-rtl-ordering: logical;`  
 	    `cursor: text;`  
 	    `background-color: field;`  
-	    *`margin: 0em;`  
-	    *`padding: 1px 2px;`  
-	    *`border-width: 2px;`  
 	    `border-style: inset;`  
 	    `border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));`  
-	    `border-image: initial;`  
-`}`
+	    `border-image: initial;`
+	    `}`
+	    </details>
+
+### 

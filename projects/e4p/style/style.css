@@ -20,7 +20,7 @@ form {
 .field {
 	display: flex;
 	flex-direction: column;
-	border: red solid 1px;
+	/*border: red solid 1px;*/
 }
 
 label{
@@ -36,7 +36,6 @@ textarea, input {
 
 input {
 	display: block;
-	/*margin: 1rem 0rem;*/
 	max-width:  60ch;
 	color: hsla(225, 62%, 25%, 1.00);
 	background-color: hsla(226, 61%, 25%, 0.15);
@@ -44,7 +43,6 @@ input {
 
 textarea {
 	display: block;
-	/*margin: 1rem 0rem;*/
 	max-width:  60ch;
 	color: hsla(225, 62%, 25%, 1.00);
 	background-color: hsla(226, 61%, 25%, 0.15);

@@ -45,7 +45,7 @@
 	function format($variable) {
 		echo "<pre>";
 			echo "<code>";
-				echo print_r( $variable );
+				print_r( $variable );
 			echo "</code>";
 		echo "</pre>";
 	}

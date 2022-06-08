@@ -31,7 +31,7 @@
 
 - [x] 1. Explore documentation for additional PHP functions and take notes
 
-- [ ] 2. Create 2 more forms using these new functions- 07 uses round(), 
+- [ ] 2. Create 2 more forms using these new functions- 07 uses round(), Maybe use floor for pizza?
 
 - [ ] 3. Get together with another student and look over each of your exercises for the day
 

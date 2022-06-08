@@ -4,9 +4,23 @@ html {
 	font-family: sans-serif;
 }
 
+.field {
+	display: flex;
+	flex-direction: column;
+}
+
 input {
-	margin-bottom: 1rem;
+	margin: 1rem 0rem;
 	color: hsla(225, 62%, 25%, 1.00);
 	background-color: hsla(226, 61%, 25%, 0.15);
 }
 
+textarea {
+	margin: 1rem 0rem;
+	color: hsla(225, 62%, 25%, 1.00);
+	background-color: hsla(226, 61%, 25%, 0.15);
+}
+
+button {
+	margin: 1rem 0rem;
+}

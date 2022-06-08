@@ -13,7 +13,7 @@
 
 - [ ] 6. Create an index page for the forms you have so far - that links to each form
 
-- [ ] 7. Set things up so that the forms all pull from a single set of styles. Consider matching it to your personal site and using that - or having a forms page specific styling (there’s no reason to restyle the inputs on every page, right?)
+- [x] 7. Set things up so that the forms all pull from a single set of styles. Consider matching it to your personal site and using that - or having a forms page specific styling (there’s no reason to restyle the inputs on every page, right?)
 
 - [ ] 8. How about 4 forms (in total) (and with normalized styles) (and tested). Use exercises from the EFP book.
 

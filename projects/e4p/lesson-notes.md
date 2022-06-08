@@ -15,7 +15,7 @@
 
 - [x] 5. You’ll be making a lot of forms for practice. So, how about we put them somewhere similar for everyone. /user/projects/efp 
 
-- [ ] 6. Create an index page for the forms you have so far - that links to each form
+- [x] 6. Create an index page for the forms you have so far - that links to each form
 
 - [x] 7. Set things up so that the forms all pull from a single set of styles. Consider matching it to your personal site and using that - or having a forms page specific styling (there’s no reason to restyle the inputs on every page, right?)
 
@@ -31,7 +31,7 @@
 
 - [x] 1. Explore documentation for additional PHP functions and take notes
 
-- [ ] 2. Create 2 more forms using these new functions
+- [ ] 2. Create 2 more forms using these new functions- 07 uses round(), 
 
 - [ ] 3. Get together with another student and look over each of your exercises for the day
 

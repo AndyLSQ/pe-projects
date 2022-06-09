@@ -30,7 +30,7 @@
 
 					$retirementYear = $currentYear + $yearsLeft;
 
-					$outputString1 = "<p>You have " . $yearsLeft . " years left until you can retire.</p>";
+					$outputString1 = "<h2>Output</h2><p>You have " . $yearsLeft . " years left until you can retire.</p>";
 					$outputString2 = "<p>It's " . $currentYear . " so you can retire in " . $retirementYear . ".</p>";
 
 					// echo $outputString1;
@@ -55,9 +55,10 @@
 
 ?>
 
+<h1>Exercise - Retirement Calculator</h1>
+<h2>Tell us your current age and when you want to retire. We'll tell you how much longer you're stuck at your job.</h2>
 
 <form method="POST">
-	<h1>Exercise - Retirement Calculator</h1>
 	<div class="field">
 		<label for="">What is your current age?</label>
 		<input type="number" name="currentAge" min=1 max=120>

@@ -15,7 +15,7 @@
 	if($submittedPOST) {
 		$quote = $_POST['quote'];
 		$author = $_POST['author'];
-		$outputString = $author . " says " . "\"" . $quote . "\".";
+		$outputString = "<h2>Output</h2> <p>" . $author . " says " . "\"" . $quote . "\".</p>";
 	}
 
 //Array checker at the top of the page to monitor inputs
@@ -33,6 +33,7 @@
 
 
 <h1>Printing Quotes</h1>
+<h2>Tell us a quote and who said it. We'll display it back to you.</h2>
 
 <form method="POST">
 

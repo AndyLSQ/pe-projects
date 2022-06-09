@@ -24,10 +24,10 @@ function renderOutput($numA, $numB) {
 		$product = $a * $b;
 		$quotient = $a / $b;
 
-		echo "<li>Sum: " . $a . " + " . $b . " = " . $sum . "</li>";
-		echo "<li>Difference: " . $a . " - " . $b . " = " . $difference . "</li>";
-		echo "<li>Product: " . $a . " x " . $b . " = " . $product . "</li>";
-		echo "<li>Quotient: " . $a . " / " . $b . " = " . $quotient . "</li>";
+		echo "<p><strong>Sum:</strong> " . $a . " + " . $b . " = " . $sum . "</p>";
+		echo "<p><strong>Difference:</strong> " . $a . " - " . $b . " = " . $difference . "</p>";
+		echo "<p><strong>Product:</strong> " . $a . " x " . $b . " = " . $product . "</p>";
+		echo "<p><strong>Quotient:</strong> " . $a . " / " . $b . " = " . $quotient . "</p>";
 	}
 }
 
@@ -55,9 +55,11 @@ if ( isset($_POST["submitted"]) ) {
 
 ?>
 
-<form method="POST">
-	<h1>Exercise- Simple Math</h1>
+<h1>Exercise- Simple Math</h1>
+<h2>Input a couple numbers. We'll do some quick maths and show our work.</h2>
 
+<form method="POST">
+	
 	<div class="field">
 		<label for="">What is the first number?</label>
 		<input type="number" name=num1 min=0 value='<?=$num1?>' style="-webkit-appearance: none;">

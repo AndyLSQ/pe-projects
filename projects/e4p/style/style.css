@@ -1,7 +1,10 @@
 html {
-	background-color: hsla(43, 92%, 94%, 1.00);
-	color: hsla(225, 62%, 25%, 1.00);
+	--canvas: hsla(43, 92%, 94%, 1.00);
+	--ink: hsla(225, 62%, 25%, 1.00);
+	background-color: var(--canvas);
+	color: var(--ink);
 	font-family: sans-serif;
+	margin: 0rem 1rem;
 }
 
 code, pre {
@@ -30,21 +33,21 @@ label{
 
 textarea, input {
 	font:  inherit;
-	padding: 1rem;
+	padding: .5rem;
 	border: 1px solid grey;
 }
 
 input {
 	display: block;
 	max-width:  60ch;
-	color: hsla(225, 62%, 25%, 1.00);
+	color: var(--ink);
 	background-color: hsla(226, 61%, 25%, 0.15);
 }
 
 textarea {
 	display: block;
 	max-width:  60ch;
-	color: hsla(225, 62%, 25%, 1.00);
+	color: var(--ink);
 	background-color: hsla(226, 61%, 25%, 0.15);
 }
 
@@ -61,4 +64,31 @@ output {
 
 ul {
 	list-style-type: none;
+	padding-left: 0;
+
 }
+
+li{
+	padding: 15px;
+}
+
+/*global link reset*/
+
+a{
+	display: inline;
+	border: 1px solid var(--ink);
+	padding: 8px;
+	text-decoration: none;
+	color: var(--ink);
+  /*box-shadow: inset 0px -2px var(--link-ink);*/
+  transition-duration: .5s;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:hover{
+	color: var(--canvas);
+	background-color: var(--ink);
+	transition-duration: .5s;
+	}
+
+

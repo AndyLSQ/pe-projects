@@ -45,10 +45,10 @@ if ( $submittedPOST ) {
 
 ?>
 
-
+<h1>Exercise- Hello World</h1>
+<h2>Tell us your name and we'll say hello to you.</h2>
 
 <form method="POST">
-	<h1>Exercise- Hello World</h1>
 
 	<div class="field">
 		<label for="">What is your name?</label>

@@ -25,7 +25,7 @@
 		$slicesPerPerson = floor($totalSlices / $people);
 		$leftoverSlices = $totalSlices % $people;
 
-		$outputString = "<p> There are $people people with $pizzas pizzas</p><p>Each person gets $slicesPerPerson slices of pizza.</p><p>There are $leftoverSlices leftover slices.</p>";
+		$outputString = "<h2>Output</h2><p>There are $people people with $pizzas pizzas</p><p>Each person gets $slicesPerPerson slices of pizza.</p><p>There are $leftoverSlices leftover slices.</p>";
 
 }
 	// echo "<p>$slicesPerPerson slices per person</p> ";
@@ -53,8 +53,10 @@
 
 ?>
 
+<h1>Exercise- Pizza Party</h1>
+<h2>Share the details of your pizza party and we'll calculate how many slices each guest should get.</h2>
+
 <form method="POST">
-	<h1>Exercise- Pizza Party</h1>
 
 	<div class="field">
 		<label for="">How many people are there?</label>

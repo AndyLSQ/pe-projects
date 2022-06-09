@@ -4,7 +4,7 @@
 
 <h1>Exercises For Programmers</h1>
 
-<h2>Exercise Index</h2>
+<h3>Click below to see form exercises from the book <em>Exercises for Programmers</em> by Brian&nbsp;Hogan</h3>
 <ul>
 	<!-- <li><a href="lesson-notes.md" target="notes">Lesson Notes</a></li> -->
 	<li><a href="01-hello.php">Hello World</a></li>

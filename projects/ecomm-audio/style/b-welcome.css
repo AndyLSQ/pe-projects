@@ -1,0 +1,17 @@
+.welcome{
+	background-image: url("https://images.ctfassets.net/8cd2csgvqd3m/3CWJSQIgCjweW5xDyQGO4M/fb720e5ebf4045fd09001671991d0901/Beolab_90_mosaic_landscape_1.png?q=90&fm=webp&w=1200&h=675&fit=fill");
+	
+	background-size: cover;
+	background-position: center;
+	color: var(--ink1);
+}
+
+.welcome inner-column{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	min-height: 300px;
+	font-size: 5vw;
+	padding-right: 25px;
+}

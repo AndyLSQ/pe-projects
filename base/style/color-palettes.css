@@ -1,0 +1,10 @@
+/*COLOR THEMES*/
+
+
+/*Majestic Blurple*/
+html {
+	--canvas1: white;
+	--canvas2: hsla(256, 80%, 96%, 1.00);
+	--ink1: hsla(243, 83%, 7%, 1.00);
+	--ink2: hsla(247, 65%, 52%, 1.00);
+}

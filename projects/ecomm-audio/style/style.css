@@ -1,0 +1,110 @@
+@import "meyer-reset.css";
+@import "dev.css";
+@import "a-site-header.css";
+@import "b-welcome.css";
+@import "c-sec-a.css";
+@import "card.css";
+@import "footer.css";
+
+/*COLOR Definitions*/
+html {
+	--canvas1: hsla(28, 43%, 96%, 1.00);
+	--canvas2: hsla(60, 100%, 100%, 1.00);
+	--canvas3: hsla(40, 27%, 43%, 1.00);
+	--ink1: hsla(229, 91%, 8%, 1.00); /*dark*/
+	--ink2: hsla(40, 27%, 43%, 1.00); /*light*/
+	--card: hsla(29, 39%, 87%, 1.00);
+	background-color: var(--canvas2);
+}
+
+
+
+/*Typography*/
+html {
+	font-family: "Roboto", sans-serif;
+	color: var(--ink1);
+}
+
+strong{
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 2rem 0rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-color:  var(--ink1);
+}
+
+h4 {
+	font-size: 1.25rem;
+}
+
+p {
+}
+
+/*STRUCTURE*/
+* {
+	box-sizing: border-box;
+}
+
+/*centered inner column*/
+inner-column {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .25rem 1rem;
+}
+
+
+/*flex with min-height 100vh to ensure page (incl footer)
+always fills the window at minimum*/
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+/*grow <main class="page-content"> to keep footer at bottom*/
+main {
+	flex-grow: 1; 
+}
+
+/*IMPORTANT TO SET BOTH THE PICTURE AND IMAGE AS BLOCK*/
+picture {
+	display: block; 
+	object-fit: cover;
+	object-position: center;
+	overflow: hidden;
+	
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	/*max-height: 100%;*/
+
+}
+
+
+@media (max-width: 800px) {
+	inner-column{
+		width: 100%;
+		padding: .25rem;
+	}
+
+	.card h4 {
+		font-size: 1rem;
+	}

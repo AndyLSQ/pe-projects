@@ -1,0 +1,9 @@
+footer{
+	background-color: hsla(40, 27%, 43%, 1.00);
+	padding: 1rem 0rem;
+}
+
+footer p{
+	display: block;
+	color: white;
+}

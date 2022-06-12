@@ -1,0 +1,18 @@
+header{
+	background-color: var(--canvas1);
+	color:  var(--ink1);
+	position: sticky;
+	top: 0;
+	box-shadow: 0 2px 5px 5px rgba(0,0,0,.4);
+	padding: 1rem 0rem;
+}
+
+
+
+header picture {
+	height: 50px;
+}
+
+header img{
+	max-height: 100%;
+}

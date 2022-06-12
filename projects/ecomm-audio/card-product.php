@@ -5,7 +5,19 @@
 	$name = $product["name"];
 	$tagline = $product["tagline"];
 	$description = $product["description"];
-	$Price = $product["Price"];
+	$price = $product["Price"];
+	$stock = number_format($product["stock"]);
+
+	echo "stock: $stock";
+
+	if ($stock="0") {
+		$buttonText = "Sold Out";
+	} elseif ($stock<"10") {
+		$buttonText = "Low Stock";
+	} else {
+		$buttonText = "Buy Now";
+	};
+	
 
 
 ?>

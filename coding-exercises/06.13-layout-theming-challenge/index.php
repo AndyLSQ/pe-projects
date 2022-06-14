@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Layout & Theming</title>
-	<meta name="description" content="The world's best bikes and cycling gear">
+	<title>Layout and Theming</title>
+	<meta name="description" content="Layout and theming challenge">
 
 	<!-- Note: Standard metadata image size ~(1200 x 630) -->
 	<meta property="og:image" content="https://web-dev.imgix.net/image/HodOHWjMnbNw56hvNASHWSgZyAf2/PRyD1Ad1GtT6IZLqWtu1.svg">

@@ -5,10 +5,10 @@
 	
 	<title>Audiophile Store</title>
 	
-	<meta name="description" content="The world's best bikes and cycling gear">
+	<meta name="description" content="Hi-Fi audio made easy">
 
 	<!-- Note: Standard metadata image size ~(1200 x 630) -->
-	<meta property="og:image" content="https://www.kindpng.com/picc/m/256-2562730_trek-bicycle-corp-logo-trek-bikes-logo-hd.png">
+	<meta property="og:image" content="https://images.hometheaterreview.com/htr-stateless/2020/10/5da2e811-audiophile-loves-music.jpg">
 
 	<!-- LINK fonts as needed -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">

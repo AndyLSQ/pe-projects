@@ -1,5 +1,5 @@
 @import "meyer-reset.css";
-@import "dev.css";
+/*@import "dev.css";*/
 @import "a-site-header.css";
 @import "b-welcome.css";
 @import "c-sec-a.css";
@@ -12,7 +12,7 @@ html {
 	--canvas2: hsla(60, 100%, 100%, 1.00);
 	--canvas3: hsla(40, 27%, 43%, 1.00);
 	--ink1: hsla(229, 91%, 8%, 1.00); /*dark*/
-	--ink2: hsla(40, 27%, 43%, 1.00); /*light*/
+	--ink2: hsla(40, 27%, 35%, 1.00); /*light*/
 	--card: hsla(29, 39%, 87%, 1.00);
 	background-color: var(--canvas2);
 }

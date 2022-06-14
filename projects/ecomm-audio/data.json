@@ -1,32 +1,33 @@
-{	"products": {
+{	
+	"products": {
 					"62": {
 						"image" : "https://www.marshallheadphones.com/dw/image/v2/BCQL_PRD/on/demandware.static/-/Sites-zs-master-catalog/default/dw3c9b80df/images/marshall/speakers/stockwell-ii/pitch-black-and-brass/large/Stockwell-II_Brass_POS-1.png",
 						"brand" : "Marshall",
 						"name" : "Stockwell II",
 						"color" : ["black", "brass"],
 						"category" : "speaker",
-						"tagline" : "travels light, sounds heavy",
-						"description" : "Weighing only 1.4 kg, Stockwell II packs a solid punch despite its pint-sized frame. Utilising True Stereophonic, this speaker provides a multi-directional experience that will immerse you in your music, indoors or out.",
+						"tagline" : "Travels light, sounds heavy",
+						"description" : "Weighing only 1.4 kg, Stockwell II packs a solid punch despite its pint-sized frame. With True Stereophonic, this speaker provides a multi-directional experience that will immerse you in your music, indoors or out.",
 						"price" : 199.99,
 						"features" : ["portable", "20+ hour battery life", "bluetooth 5.0", "IPX4 water resistant"],
 						"on-sale" : true,
 						"stock" : 15
-						},
+					},
 					"63": {
-						"image" : "https://images.samsung.com/is/image/samsung/p6pim/ca/sm-r190nzkaxac/gallery/ca-galaxy-buds-pro-r190-sm-r190nzkaxac-530313778?$730_584_PNG$",
+						"image" : "https://images.samsung.com/is/image/samsung/p6pim/ca_fr/galaxy-s21/gallery/ca-fr-galaxy-buds-pro-r190-sm-r190nzkaxac-363169117?$2160_1728_PNG$",
 						"brand" : "Samsung",
 						"name" : "Galaxy Buds Pro",
 						"color" : ["Phantom Black"],
 						"category" : "wireless earbuds",
 						"tagline" : "Tunes out noises, tunes in voices",
-						"description" : "Truly wireless earbuds, with pro-grade technology for immersive sound like never before from Galaxy. Use Intelligent ANC to seamlessly switch between noise canceling and adjustable ambient sound so you can let the outside in — or keep it out. It’s your world. Galaxy Buds Pro lets you hear more of what you want.",
+						"description" : "Now with pro-grade technology for immersive sound like never before from Galaxy. Intelligent ANC seamlessly switchs between noise canceling and adjustable ambient sound so you can let the outside in — or keep it out.",
 						"price" : 189.99,
 						"features" : ["true wireless", "bluetooth 5.0", "IPX7 dust and water resistant", "360 audio"],
 						"on-sale" : false,
 						"stock" : 150
 					},
 					"634": {
-						"image" : "https://www.sony.ca/image/5d02da5df552836db894cead8a68f5f3?fmt=pjpeg&wid=165&bgcolor=FFFFFF&bgc=FFFFFF",
+						"image" : "https://www.sony.com/image/5d02da5df552836db894cead8a68f5f3?fmt=png-alpha&wid=440",
 						"brand" : "Sony",
 						"name" : "WH-1000XM4",
 						"color" : ["silver"],
@@ -89,6 +90,7 @@
 						"features": ["record player", "8 track player", "built in speakers"],
 						"on-sale": false,
 						"stock": 1
+
 					},
 					"62c323c3": {
 						"image": "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw1c85efc7/JBL_BAR_5.1_Group_Shot_3_x2-1605x1605px.png?sw=680&sh=680",
@@ -109,7 +111,7 @@
 						"name": "SoundLink around-ear wireless headphones II",
 						"color": ["black"],
 						"category": "headphones",
-						"tagline": "wireless freedom",
+						"tagline": "Wireless freedom",
 						"description": "A better wireless experience starts with what you hear. With a combination of TriPort technology and Active EQ, SoundLink wireless headphones deliver crisp, powerful sound at any volume.",
 						"price": 229.00,
 						"features": ["low volume", "high volume", "App controlled", "15 hours playtime"],
@@ -136,7 +138,7 @@
 						"color": ["Black"],
 						"category": "Bluetooth Speaker",
 						"tagline": "The Ultimate Party Machine!",
-						"description": "The JBL PartyBox 1000 is a powerful party speaker with JBL sound quality and exciting full panel light show. Just plug in your Mic or Guitar and take the stage or stream your playlist via Bluetooth or from a USB stick. The LED lit DJ and Party Band bring concert to your party! Connect two PartyBox speakers wirelessly with the TWS feature or wired from one RCA output to another RCA input. Let's get the party started!",
+						"description": "The JBL PartyBox 1000 is a powerful party speaker with JBL sound quality and exciting full panel light show. Just plug in your Mic or Guitar and let's get the party started!",
 						"price": 1299.95,
 						"features": ["DJ Pad", "Karaoke function", "Lightshow", "Mic and Guitar inputs", "USB Playback", "TWS and RCA", "USB charging for external devices", "Concealed Wheels"],
 						"on-sale": false,
@@ -144,7 +146,7 @@
 
 					},
 					"63453": {	
-						"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0OaixNgXFwYO3ZONUBrh-t8nYppUxqHc0iA&usqp=CAU",
+						"image": "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw220feee8/JBL_Bar_2.0_All-On-One_Hero_1605x1605.png?sw=680&sh=680",
 						"brand": "JBL",
 						"name": "Bar 2.0 All-in-One",
 						"color": ["black"],
@@ -157,7 +159,7 @@
 						"stock": 9
 					},
 					"6366": {	
-						"image": "https://m.media-amazon.com/images/I/51caOANCJAS._AC_SX425_.jpg",
+						"image": "https://cdn.shopify.com/s/files/1/1659/9697/products/greenfront_800x.png?v=1608403622",
 						"brand": "KEF",
 						"name": "LSX Wireless Music System",
 						"color": ["olive"],
@@ -183,7 +185,7 @@
 						"stock": 2
 					},
 					"blah1": {	
-						"image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455163_sd.jpg;maxHeight=640;maxWidth=550",
+						"image": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fpdp-carousel-items%2F883eef12-6924-410a-8292-c592ba10c1d6.png",
 						"brand": "Roku",
 						"name": "Roku Streambar Pro",
 						"color": ["black"],
@@ -196,7 +198,7 @@
 						"stock": 20
 					},
 					"blah2": {	
-						"image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/homepod-mini-select-spacegray-202110_FV1?wid=1868&hei=880&fmt=jpeg&qlt=90&.v=1633086020000",
+						"image": "https://www.dimprice.com/au/image/cache/png/apple-homepod-mini/Black/apple-homepod-mini-01-1200x1200.png",
 						"brand": "Apple",
 						"name": "Homepod Mini",
 						"color": ["space grey", "white","blue","yellow","orange"],
@@ -215,14 +217,65 @@
 						"color": ["black"],
 						"category": "studio monitor",
 						"tagline": "An optimized high-frequency waveguide ensures a wide, deep, dynamic sweet spot and incredible imaging",
-						"description": "The KRK Rokit 5 was built from high-grade materials, and it shows. The extreme rigidity and impressive tensile strength-to-weight ratio of its Kevlar drivers ensure low-distortion sound reproduction across the entire frequency range",
+						"description": "The KRK Rokit 5 was built from high-grade materials. The extreme rigidity and impressive tensile strength-to-weight ratio of its Kevlar drivers ensure low-distortion sound reproduction across the entire frequency range",
 						"price": 169.99,
 						"features": ["Rigid Kevlar drivers ensure low-distortion sound reproduction", "Optimized high-frequency waveguide produces a wide, deep, dynamic sweet spot", "Low-resonance enclosure gives you spot-on low-end performance", "High-quality sound at reduced operating temperatures"],
 						"on-sale": true,
 						"stock": 5
+					},
+					"john1": {	
+						"image": "https://klipsch.imgix.net/product-images/Klipschorn-AK6-Carousel-1.png?auto=format&crop=focalpoint&domain=klipsch.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=1920&ixlib=php-3.3.1&q=82&w=1920",
+						"brand": "Klipsch",
+						"name": "Klipsch AK6",
+						"color": ["Walnut"],
+						"category": "speaker",
+						"tagline": "The iconic Klipschorn is the original, three-way, fully horn-loaded loudspeaker that laid the foundation for the Klipsch brand.",
+						"description": "The KRK Rokit 5 was built from high-grade materials. The extreme rigidity and impressive tensile strength-to-weight ratio of its Kevlar drivers ensure low-distortion sound reproduction across the entire frequency range",
+						"price": 16498.00,
+						"features": ["Three-way design with horn-loaded enclosures", "Premium input and wire management", "Designed and assembled in the USA"],
+						"on-sale": false,
+						"stock": 2
+					},
+					"john2": {	
+						"image": "https://www.bowerswilkins.com/-/media/images/bowerswilkins/p17/p17_img_charcoal_02.png",
+						"brand": "Bowers & Wilkins",
+						"name": "P17",
+						"color": ["charcoal"],
+						"category": "earphones",
+						"tagline": "What does it take to create category-defining True Wireless earbuds? High-resolution sound and crystal-clear voice calls, plus an industry-first wireless audio retransmission case.",
+						"description": "The KRK Rokit 5 was built from high-grade materials. The extreme rigidity and impressive tensile strength-to-weight ratio of its Kevlar drivers ensure low-distortion sound reproduction across the entire frequency range",
+						"price": 289.00,
+						"features": ["True 24-bit connection with aptX™ Adaptive", "Adaptive active noise-cancellation", "Wireless audio retransmission technology"],
+						"on-sale": true,
+						"stock": 201
+					},
+					"john3": {	
+						"image": "https://www.bowerswilkins.com/-/media/images/bowerswilkins/db1d/db1d_img_gloss_black_01.png",
+						"brand": "Bowers & Wilkins",
+						"name": "DB1D",
+						"color": ["Gloss Black"],
+						"category": "subwoofer",
+						"tagline": "Combining 2000 watts of digital amplification with twin balanced Aerofoil™ drivers for incredible low-end power and speed, DB1D is the best Bowers & Wilkins subwoofer.",
+						"description": "The KRK Rokit 5 was built from high-grade materials. The extreme rigidity and impressive tensile strength-to-weight ratio of its Kevlar drivers ensure low-distortion sound reproduction across the entire frequency range",
+						"price": 5899.00,
+						"features": ["Infrasonic depth", "Room calibration", "Extensive EQ options"],
+						"on-sale": false,
+						"stock": 17
 					}
-
-
 			}
 }		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

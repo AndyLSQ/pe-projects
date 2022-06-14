@@ -5,20 +5,22 @@
 	$name = $product["name"];
 	$tagline = $product["tagline"];
 	$description = $product["description"];
-	$price = $product["Price"];
+	$price = $product["price"];
 	$stock = number_format($product["stock"]);
+	$stockStatusClass = "in-stock"; //set default value
+	$buttonText = "Buy Now";
 
-	echo "stock: $stock";
+	// echo "stock: $stock";
 
-	if ($stock="0") {
+	if ($stock == 0) {
 		$buttonText = "Sold Out";
-	} elseif ($stock<"10") {
+	} elseif ($stock < 10) {
 		$buttonText = "Low Stock";
-	} else {
-		$buttonText = "Buy Now";
-	};
+	}; 
 	
-
+	if ($stock == 0) {
+		$stockStatusClass = "sold-out";
+	};
 
 ?>
 
@@ -35,7 +37,7 @@
 				<p class="description"><?=$description?></p>
 			</card-text>
 			<card-buy>
-				<p class="price"><?=$price?></p>
+				<p class="price">$<?=$price?></p>
 				<p class="status"><?=$buttonText?></p>
 			</card-buy>
 		</card-info>

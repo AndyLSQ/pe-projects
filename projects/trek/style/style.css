@@ -77,9 +77,9 @@ main {
 /*IMPORTANT TO SET BOTH THE PICTURE AND IMAGE AS BLOCK*/
 picture {
 	display: block; 
-	object-fit: cover;
-	object-position: center;
-	overflow: hidden;
+/*	object-fit: cover;
+	object-position: center;*/
+	/*overflow: hidden;*/
 	
 }
 

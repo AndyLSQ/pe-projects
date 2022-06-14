@@ -16,41 +16,34 @@ div {
 }
 
 articles {
-	display: flex;
-	flex-direction: column;
-	align-items: space-between;
-	gap:  15px;
-	padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
 }
 
 card {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	align-items: flex-start;
 	justify-content: space-between;
 	padding: 10px;
 }
+
+div.title {
+	width:  100%;
+}
+
+
 
 .articles a {
 	display: inline-block;
 	background-color: black;
 	color: white;
 	padding: 15px;
-	width: 15ch;
+	/*width: 50ch;*/
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 700px) {}
 
-	articles {
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	}
-
-	articles card {
-		width: 47%;
-	}
-}
-
-}

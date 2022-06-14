@@ -1,0 +1,44 @@
+header.site-header {
+	display: flex;
+	background-color: var(--headerCanvas);
+	
+}
+
+inner-column {
+	/*border: 5px solid black;*/
+}
+
+
+
+inner-column.masthead {
+	display: flex;
+	flex-direction: column;
+	border: 3px solid black;
+	padding: 10px;
+}
+
+
+inner-column.masthead nav {
+	border: 3px solid black;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+inner-column.masthead a {
+	border: 3px solid black;
+	padding: 10px;
+}
+
+
+@media (min-width: 700px) {
+
+	inner-column.masthead {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}

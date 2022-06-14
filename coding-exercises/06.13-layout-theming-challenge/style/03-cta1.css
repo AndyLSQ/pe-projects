@@ -1,0 +1,23 @@
+section.cta1 {
+	background-color: var(--cta1Canvas);
+}
+
+inner-column.cta1 {
+	display: flex;
+	flex-direction: column;
+	gap:  15px;
+	padding: 75px 10px;
+}
+
+div {
+	border: 3px solid black;
+	padding: 10px;
+}
+
+.cta1 a {
+	display: inline-block;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	width: 20ch;
+}

@@ -1,0 +1,95 @@
+@import "meyer-reset.css";
+@import "dev.css";
+@import "01-masthead.css";
+@import "02-welcome.css";
+@import "03-cta1.css";
+@import "04-articles.css";
+@import "05-cta2.css";
+@import "footer.css";
+
+
+/*Color definitions*/
+html {
+	--headerCanvas: hsla(143, 38%, 76%, 1.00);
+	--welcomeCanvas: hsla(194, 63%, 80%, 1.00);
+	--cta1Canvas: hsla(319, 48%, 74%, 1.00);
+	--articlesCanvas: hsla(31, 92%, 79%, 1.00);
+	--cta2Canvas: hsla(356, 100%, 78%, 1.00);
+	--footerCanvas:  hsla(31, 71%, 93%, 1.00);
+}
+
+* {
+	border: 3px solid black;
+}
+
+/*Typography*/
+html {
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 2rem 0rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-color:  var(--ink1);
+}
+
+h4 {
+	font-size: 1.25rem;
+}
+
+/*STRUCTURE*/
+* {
+	box-sizing: border-box;
+}
+
+/*centered inner column*/
+inner-column {
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border: 5px solid black;
+}
+
+
+/*IMPORTANT TO SET BOTH PICTURE (parent) AND IMAGE AS BLOCK*/
+picture {
+	display: block; 
+	object-fit: cover;
+	object-position: center;
+	overflow: hidden;
+	
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	/*max-height: 100%;*/
+
+}
+
+/*flex with min-height 100vh to ensure page (incl footer)
+always fills the window at minimum*/
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+/*grow <main class="page-content"> to keep footer at bottom*/
+main {
+	flex-grow: 1; 
+}

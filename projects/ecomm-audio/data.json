@@ -116,7 +116,7 @@
 						"price": 229.00,
 						"features": ["low volume", "high volume", "App controlled", "15 hours playtime"],
 						"on-sale": false,
-						"stock": "In stock"
+						"stock": 100
 					},
 					"6sdfb3": {
 						"image": "https://www.jabra.com/-/media/Images/Category-Pages/Brand-2/Compare-Table/Elite-7-active.png?la=en&hash=AF3C6D58651FE78F6A375ABAE281495E17099969",
@@ -129,7 +129,7 @@
 						"price": 149.99,
 						"features": ["Ultimate workout fit with Jabra ShakeGrip", "Active Noise Cancellation", "Adjustable HearThrough", "Up to 30 hours", "Dust & Water Proof (IP57)", "Microphone"],
 						"on-sale": true,
-						"stock": "In stock"
+						"stock": 100
 					},
 					"6fdng3": {
 						"image": "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwebce5126/JBL_PartyBox_1000_Hero_344_fire_x2.png?sw=680&sh=680",
@@ -142,7 +142,7 @@
 						"price": 1299.95,
 						"features": ["DJ Pad", "Karaoke function", "Lightshow", "Mic and Guitar inputs", "USB Playback", "TWS and RCA", "USB charging for external devices", "Concealed Wheels"],
 						"on-sale": false,
-						"stock": "In stock"
+						"stock": 100
 
 					},
 					"63453": {	
@@ -264,18 +264,3 @@
 					}
 			}
 }		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

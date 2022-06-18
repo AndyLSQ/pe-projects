@@ -1,0 +1,31 @@
+
+/* buttons and icons and smaller reusable bits here */
+
+.button {
+	display: block;
+
+	font-family: var(--baseFont);
+	font-weight: 700;
+	font-size: 1.25rem;
+	line-height: 1.4;
+
+	padding: .5em 4em;
+	background-color: var(--color2);
+	color: var(--button-ink2);
+	min-width: 120px;
+	text-align: center;
+
+	border-radius: var(--corners);
+	box-shadow: 10px 10px 20px 4px var(--shadow);
+}
+
+
+.button:hover {
+	background-color: var(--color);
+	color: var(--button-ink1);
+	text-decoration: none;
+}
+
+@import 'forms.css';
+
+

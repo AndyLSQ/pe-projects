@@ -1,0 +1,39 @@
+
+html {
+	--black: #111111;
+	--white: hsla(211, 100%, 95%, 1.00);
+	--off-white: hsla(210, 91%, 20%, 1.00) /*hsla(212, 100%, 96%, 1.00)*/;
+
+	--neutral-stuffs: gray;
+
+	--color: hsla(215, 100%, 50%, 1.00); /*royal blue*/
+	--color2: hsla(36, 100%, 50%, 1.00); /*yellow*/
+	--color3: hsla(210, 91%, 20%, 1.00); /*dark blue*/
+	--color4: hsla(204, 27%, 34%, 1.00); /*dark gray*/
+
+	--highlight: #aadee9;
+
+	--shadow: rgba(0,0,0,.1);
+
+	--corners: 25px; /* or whatevers */
+
+	--paper: var(--white);
+	--ink: hsla(210, 91%, 20%, 1.00);
+	--button-paper1: ;
+	--button-paper2: ;
+	--button-ink1: var(--white);
+	--button-ink2: var(--ink);
+
+	--footer-light: hsla(210, 88%, 10%, 1.00)/*hsla(210, 91%, 20%, 1.00)*/;
+	--footer-dark: hsla(210, 88%, 10%, 1.00);
+
+	--standard: 1140px;
+	--tight: 800px;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--paper: var(--color4);
+		--ink: white;
+	}
+}

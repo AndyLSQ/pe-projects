@@ -10,11 +10,11 @@
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#' class="link">Some page</a>
 			</li>
 
 			<li>
-				<a href='#'>Some other page</a>
+				<a href='#' class="link"> Some other page</a>
 			</li>
 		</ul>
 	</nav>
@@ -22,7 +22,8 @@
 	<nav class='user-menu'>
 		<ul>
 			<li>
-				<a class='button' href='#'>Sign in</a>
+				<a class='button base' href='#'>Sign in</a>
+				<a class='button alt' href='#'>Menu</a>
 			</li>
 		</ul>
 	</nav>

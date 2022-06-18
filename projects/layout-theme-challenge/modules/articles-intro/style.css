@@ -2,7 +2,7 @@
 articles-intro {
 	display: block;
 	/*border: 4px solid purple;*/
-	padding: 10vh 0;
+	padding: 20vh 0;
 }
 
 articles-intro header {
@@ -17,5 +17,5 @@ article-grid {
 article-grid ul {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-	grid-gap: 60px 20px;
+	grid-gap: 60px 25px;
 }

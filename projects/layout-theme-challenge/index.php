@@ -7,8 +7,8 @@
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
 		<title>Software Company</title>
-		<meta name='description' content='PSSST (CSS)'>
-		<meta property='og:image' content='The best software you&#39ll ever use.'>
+		<meta name='description' content='The best software you&#39ll ever use.'>
+		<meta property='og:image' content='https://static.javatpoint.com/blog/images/what-is-software.png'>
 
 		<link rel='stylesheet' href='styles/site.css'>
 		<link rel="preconnect" href="https://fonts.googleapis.com">

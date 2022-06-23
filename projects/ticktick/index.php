@@ -8,7 +8,7 @@
 
 		<title>TickTick | Simple Task Management</title>
 		<meta name='description' content='Join millions of people to capture ideas, organize to-dos, and make the most of your life with TickTick.'>
-		<meta property='og:image' content='https://d3qg9zffrnl4ph.cloudfront.net/sites/res/home/tick/feature/feature-more.png'>
+		<meta property='og:image' content='https://www.droidviews.com/wp-content/uploads/2018/08/ticktick.jpg'>
 
 		<!-- LINK favicon -->
 		<link rel="icon" type="image/svg+xml" href="images/ticktick-favicon.png">

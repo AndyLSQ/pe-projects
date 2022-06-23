@@ -2,7 +2,7 @@ site-header {
 	position: sticky;
 	top: 0px;
 	z-index: 10;
-	background-color: hsla(0, 0%, 100%, 0.7);
+	background-color: hsla(0, 0%, 100%, 0.95);
 	backdrop-filter: blur(5px);
 }
 
@@ -102,6 +102,10 @@ mast-head .link {
 
 @media (min-width:  700px) {
 
+	site-header {
+		background-color: hsla(0, 0%, 100%, 0.7);
+		backdrop-filter: blur(5px);
+	}
 
 	mast-head {
 		display: flex;

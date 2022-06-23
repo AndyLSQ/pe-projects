@@ -5,32 +5,31 @@
 	display: block;
 
 	font-family: var(--baseFont);
-	font-weight: 700;
-	font-size: 1.25rem;
+	font-weight: 500;
+	font-size: 1rem;
 	line-height: 1.4;
 
 	padding: .5em 4em;
-	background-color: var(--color2);
-	color: var(--button-ink2);
+	background-color: var(--color);
+	color: var(--white);
+	transition-duration: .25s;
 	min-width: 120px;
 	text-align: center;
 
-	border-radius: var(--corners);
+	border-radius: 5px;
 	box-shadow: 10px 10px 20px 4px var(--shadow);
 }
 
 
 .button:hover {
-	background-color: var(--color);
+	background-color: var(--color2);
 	color: var(--button-ink1);
 	text-decoration: none;
+	transition-duration: .25s;
 }
 
 
-mast-head .button {
-	font-size: 1rem;
-	/*color: red;*/
-}
+
 
 @import 'forms.css';
 

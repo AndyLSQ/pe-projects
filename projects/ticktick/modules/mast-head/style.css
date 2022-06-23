@@ -1,0 +1,133 @@
+site-header {
+	position: sticky;
+	top: 0px;
+	z-index: 10;
+	background-color: hsla(0, 0%, 100%, 0.7);
+	backdrop-filter: blur(5px);
+}
+
+[id] {
+	scroll-margin-top: 300px;
+}
+
+mast-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*border: 4px solid blue;*/
+}
+
+
+mast-head nav .home {
+	padding: 0;
+	margin-right: 10px;
+}
+
+mast-head nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+mast-head nav a {
+	padding: 1em 1em;
+	font-weight: light;
+}
+
+
+/*logo*/
+mast-head .logo {
+	display: flex;
+	flex-direction: row;
+	width:  125px;
+	/*border:  2px red solid;*/
+	padding:  0;
+}
+
+
+
+mast-head .logoImage {
+	width: 30%;
+	/*border:  2px blue solid;*/
+}
+
+mast-head .logoImage .circle {
+	/*fill: red;*/
+}
+
+mast-head .logoImage .check {
+	/*fill: purple;*/
+}
+
+mast-head .logoText {
+	/*fill: green;*/
+}
+
+mast-head nav.user-menu {
+	display: flex;
+
+}
+
+mast-head .button {
+	font-size: 1rem;
+	padding: .4em 2em;
+}
+
+#button-alt {
+	font-size: 2rem;
+	color: var(--color);
+	padding: 0;
+}
+
+#button-alt:hover {
+	color: var(--color2);
+}
+/*mast-head li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}*/
+
+mast-head .link {
+		display: none;
+	}
+
+.base {
+		display: none;
+	}
+
+
+
+
+@media (min-width:  700px) {
+
+
+	mast-head {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	mast-head .logo {
+	width: 150px;
+	}
+
+	mast-head nav .home {
+	padding: .75em 0;
+	margin-right: 20px;
+	}
+
+	mast-head .link {
+		display: inline-block;
+	}
+
+	.base {
+		display: inline-block;
+	}
+
+	.alt {
+		display: none;
+	}
+}

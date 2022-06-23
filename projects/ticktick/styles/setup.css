@@ -1,6 +1,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -15,7 +16,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: var(--color2);
+	color: var(--color);
 }
 
 p a {

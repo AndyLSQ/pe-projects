@@ -11,7 +11,7 @@ main {
 
 inner-column {
 	display: block;
-	width: 85%;
+	width: 90%;
 	max-width: var(--standard); /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
@@ -21,8 +21,18 @@ inner-column.tight {
 	max-width: var(--tight);
 }
 
-/*.site-header {
-	position: sticky;
-	top: 0;
-	z-index: 5;
-}*/
+
+@media (min-width 700px) {
+	inner-column {
+		width: 85%;
+	}
+
+	.site-header {
+		position: sticky;
+		top: 0;
+		z-index: 10;
+	}
+
+}
+
+

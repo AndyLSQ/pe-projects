@@ -1,0 +1,45 @@
+footer {
+	background-color: var(--footer-light);
+	color: white;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover {
+	color: var(--color2);
+}
+
+site-map {
+	display: block;
+	/*border: 4px solid green;*/
+
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+	grid-gap: 20px;
+
+	padding: 10vh 0 15vh;
+}
+
+site-map .logo {
+	display: flex;
+	flex-direction: row;
+	width:  150px;
+	margin-bottom: 20px;
+}
+
+site-map .logoImage {
+	width: 30%;
+	}
+
+site-map .logo * {
+	/*fill: var(--color2);*/
+}
+
+site-map h3.strong-voice {
+	margin-bottom: 20px;
+	color: var(--color2);
+}
+
+

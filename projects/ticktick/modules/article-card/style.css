@@ -10,25 +10,47 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 40px;
+	/*flex-grow: 1;*/
+	gap: 20px;
 }
 
 .article-card text-content {
 	display: flex;
 	flex-direction: column;
+	flex-grow: 1;
 	align-items: flex-start;
 	gap: 20px;
+	height: 5em;
 }
 
 .article-card a {
 	margin-top: 20px;
 	background-color: transparent;
-	color: var(--color2);
+	color: var(--color);
 }
 
 .article-card a:hover {
-	color: var(--color);
+	color: var(--color2);
 	text-decoration: none;
 }
 
+.article-card picture-contain {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	/*border: 10px solid blue;	*/
+} 
 
+.article-card picture {
+	display: flex;
+	height: 200px;
+	object-fit: scale-down;
+	object-position: center;
+
+	/*border: 5px solid red;*/
+}
+
+.article-card img {
+	width: 100;
+	object-fit: scale-down;
+}

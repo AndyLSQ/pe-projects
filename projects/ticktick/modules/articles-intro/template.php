@@ -3,9 +3,9 @@
 
 <articles-intro>
 	<header>
-		<h2 class='attention-voice'>Heading for this section here</h2>
+		<h2 class='attention-voice'>Work anywhere</h2>
 
-		<p>A short introduction explaining why these articles are here to help you understand if you want to read them.</p>
+		<p>TickTick is available on all major platforms, so you can get things done wherever you are.</p>
 	</header>
 
 	<article-grid>

@@ -39,7 +39,7 @@ mast-head nav a {
 mast-head .logo {
 	display: flex;
 	flex-direction: row;
-	width:  125px;
+	width:  150px;
 	/*border:  2px red solid;*/
 	padding:  0;
 }
@@ -74,7 +74,7 @@ mast-head .button {
 }
 
 #button-alt {
-	font-size: 2rem;
+	font-size: 3rem;
 	color: var(--color);
 	padding: 0;
 }

@@ -39,7 +39,7 @@
 				$diptych_class = "welcome";
 				$diptych_voice = "h1 class='loud-voice'";
 				$diptych_heading = "Stay organized, stay&nbsp;creative";
-				$diptych_body = "Join millions of people using TickTick to capture ideas, organize life, and do something creative everyday.";
+				$diptych_body = "Join millions of people using TickTick to capture ideas, organize life, and do something creative&nbsp;everyday.";
 				$diptych_image = "https://d3qg9zffrnl4ph.cloudfront.net/sites/res/home/common/header.png";
 
 				include('modules/graphic-diptych/template.php'); ?>
@@ -55,7 +55,7 @@
 				<?php 
 
 				$cta_heading = "“The best to-do list app”";
-				$cta_body = "“TickTick is the best to-do list app, thanks to its simple and structured project organization, seamless calendar integration, and ability to fit into many different workflows rather than forcing you to organize your work a certain way.”";
+				$cta_body = "“TickTick is the best to-do list app, thanks to its simple and structured project organization, seamless calendar integration, and ability to fit into many different workflows rather than forcing you to organize your work a certain&nbsp;way.”";
 				$cta_img_id = "wirecutter";
 				$cta_image = "https://sullivanfinancialplanning.com/wp-content/uploads/2019/05/Wirecutter.png";
 
@@ -72,7 +72,7 @@
 					$diptych_class = "feature";
 					$diptych_voice = "h2 class='attention-voice'";
 					$diptych_heading = "Organize everything in life";
-					$diptych_body = "Whether there is a work-related task or a personal goal, TickTick is here to help you manage all your to-dos.";
+					$diptych_body = "Whether there is a work-related task or a personal goal, TickTick is here to help you manage all your&nbsp;to-dos.";
 					$diptych_image = "https://d3qg9zffrnl4ph.cloudfront.net/sites/res/home/tick/feature/feature-1.png";
 
 				include('modules/graphic-diptych/template.php'); ?>
@@ -87,7 +87,7 @@
 
 					$diptych_class = "feature";
 					$diptych_heading = "Get reminded anytime, anywhere";
-					$diptych_body = "Set a reminder to ease your mind from the worry of missing deadlines.";
+					$diptych_body = "Set a reminder to ease your mind from the worry of missing&nbsp;deadlines.";
 					$diptych_image = "https://d3qg9zffrnl4ph.cloudfront.net/sites/res/home/tick/feature/feature-2.png";
 
 				include('modules/graphic-diptych/template.php'); ?>
@@ -102,7 +102,7 @@
 
 					$diptych_class = "feature";
 					$diptych_heading = "Flexible calendar views";
-					$diptych_body = "With five different calendar views, you can check and handle your schedules in a more convenient way.";
+					$diptych_body = "With five different calendar views, you can check and handle your schedules in a more convenient&nbsp;way.";
 					$diptych_image = "https://d3qg9zffrnl4ph.cloudfront.net/sites/res/home/tick/feature/feature-3.png";
 
 				include('modules/graphic-diptych/template.php'); ?>
@@ -117,7 +117,7 @@
 
 					$diptych_class = "feature";
 					$diptych_heading = "Collaborating with others";
-					$diptych_body = "From family weekend plan to teamwork, share lists and assign tasks on the go. Stay productive together!";
+					$diptych_body = "From family weekend plan to teamwork, share lists and assign tasks on the go. Stay productive&nbsp;together.";
 					$diptych_image = "https://d3qg9zffrnl4ph.cloudfront.net/sites/res/home/tick/feature/feature-4.png";
 
 				include('modules/graphic-diptych/template.php'); ?>
@@ -131,9 +131,9 @@
 
 				<?php 
 				$cta_heading = "Apple Editor's Choice";
-				$cta_image = "https://images.prismic.io/umake/04b4b164-bd99-46be-b2fa-821bf2ddc93c_homepage_awards_editor-choice.png?auto=compress,format";
-				$cta_img_id = "editors-choice";
-				$cta_body = "“This all-in-one organizer is a personal assistant for your brain, one that eases the mental strain of All That Stuff To Do by elegantly organizing it, which lets you focus less on deadlines and more on the big picture.”";
+				$cta_image = "images/editors-choice.svg";
+				$cta_img_id = "aec";
+				$cta_body = "“This all-in-one organizer is a personal assistant for your brain, one that eases the mental strain of All That Stuff To Do by elegantly organizing it, which lets you focus less on deadlines and more on the big&nbsp;picture.”";
 
 				include('modules/call-to-action/template.php'); ?>
 
@@ -155,7 +155,7 @@
 
 				<?php 
 
-				$cta_heading = "Ready to be more productive?";
+				$cta_heading = "Ready to be more&nbsp;productive?";
 				$cta_body = null;
 				$cta_img_id = "sign-up";
 				$cta_image = "https://d3qg9zffrnl4ph.cloudfront.net/sites/res/home/tick/feature/feature-more.png";

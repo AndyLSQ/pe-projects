@@ -1,13 +1,15 @@
 
 call-to-action {
-	display: block;
-	/*border: 4px solid orange;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	gap: 20px;
-	padding: 7vh /*top*/ 0/*right*/  7vh /*bottom*/ 0vw /*left*/;
+	padding: 100px /*top*/ 0/*right*/  120px /*bottom*/ 0vw /*left*/;
+}
+
+#sign-up call-to-action {
+	gap: 60px;
 }
 
 call-to-action .heading {
@@ -20,8 +22,17 @@ call-to-action .button {
 	margin-top: 20px;
 }
 
+#sign-up call-to-action .button {
+	margin-top: 0px;
+}
+
 call-to-action .story {
 	text-align: center;
+}
+
+#sign-up .story {
+	/*border: 3px red solid;*/
+	display: none;
 }
 
 .review-banner picture {
@@ -39,6 +50,12 @@ call-to-action .story {
 
 #wirecutter {
 	opacity: .7;
+}
+
+#aec {
+	opacity: .5;
+	margin-top: 12px;
+	max-width: 250px;
 }
 
 #editors-choice {

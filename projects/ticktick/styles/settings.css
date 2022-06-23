@@ -11,6 +11,7 @@ html {
 	--color3: hsla(226, 95%, 63%, 1.00); /*dark blue*/
 	--color4: hsla(204, 27%, 34%, 1.00); /*dark gray*/
 	--color5: hsla(0, 0%, 98%, 1.00); /*light gray*/
+	--color6: hsla(226, 95%, 20%, 1.00); /*dark mode blue*/
 
 	--highlight: #aadee9;
 
@@ -34,7 +35,12 @@ html {
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--paper: var(--color4);
+		--paper: var(--color6);
 		--ink: white;
+		--color2: hsla(226, 95%, 63%, 1.00); /*royal blue*/ 
+		--color: hsla(41, 100%, 50%, 1.00); /*yellow*/
+		--color3: hsla(226, 95%, 10%, 1.00); /*darker blue*/
+		--color5: hsla(226, 95%, 18%, 1.00);
+		--footer-light: black;
 	}
 }

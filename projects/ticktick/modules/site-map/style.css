@@ -43,3 +43,8 @@ site-map h3.strong-voice {
 }
 
 
+@media (prefers-color-scheme: dark) {
+	footer a:hover {
+	color: var(--color);
+	}
+}

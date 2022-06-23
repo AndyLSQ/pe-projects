@@ -34,3 +34,9 @@
 @import 'forms.css';
 
 
+
+@media (prefers-color-scheme: dark) {
+	.button {
+		color: var(--paper);
+	}
+}

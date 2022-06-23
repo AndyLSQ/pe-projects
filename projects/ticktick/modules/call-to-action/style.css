@@ -65,3 +65,13 @@ call-to-action .story {
 	object-fit: cover;
 	
 }
+
+@media (prefers-color-scheme: dark) {
+	call-to-action .heading {
+		color: var(--color);
+	}
+
+	#aec {
+		filter: invert(1);
+	}
+}

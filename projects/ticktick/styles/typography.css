@@ -63,3 +63,10 @@ code {
 	font-size: 1.1em;
 	color: green;
 }
+
+@media (prefers-color-scheme: dark) {
+	.calm-voice, p, li {
+		color: white;
+	}
+
+}

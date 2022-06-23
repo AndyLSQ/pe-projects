@@ -17,6 +17,12 @@ graphic-diptych h2 + p {
     margin-top: 0px;
 }
 
+#feature2, #feature4 {
+		/*border: 5px solid red;*/
+		background-color: var(--color5);
+		
+	}   
+
 @media (min-width:  700px) {
 	graphic-diptych {
 		flex-direction: row;
@@ -26,9 +32,9 @@ graphic-diptych h2 + p {
 
 	#feature1 graphic-diptych, #feature3 graphic-diptych {
 		/*border: 5px solid red;*/
-		color: red;
 		flex-direction: row-reverse;
-}  
+	} 
+
 
 	graphic-diptych :is(picture, text-content) {
 		flex-basis: 50%;

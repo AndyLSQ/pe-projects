@@ -10,6 +10,7 @@ html {
 	--color2: hsla(41, 100%, 50%, 1.00); /*yellow*/
 	--color3: hsla(226, 95%, 63%, 1.00); /*dark blue*/
 	--color4: hsla(204, 27%, 34%, 1.00); /*dark gray*/
+	--color5: hsla(0, 0%, 98%, 1.00); /*light gray*/
 
 	--highlight: #aadee9;
 

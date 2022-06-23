@@ -1,0 +1,65 @@
+/* 
+	BTW in case it isn't obvious... the whole PSSST-CSS idea is a joke 
+	like... (it's just CSS)
+*/
+
+/* P reset */
+@import 'preset.css';
+
+/* S etup */
+@import 'setup.css';
+
+/* S setings */
+@import 'settings.css';
+/*@import 'developer-styles.css';*/
+
+/* S tructure */
+@import 'structure.css';
+
+/* T ypography */
+@import 'typography.css';
+
+/* C omponents */
+@import 'components.css';
+
+/* S tuff (modules) */
+@import 'modules.css';
+
+/* S ections and more stuff */
+
+/* then other contextual styles */
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+
+section:is(.sign-up, .get-involved) {
+	background-color: var(--off-white);
+	color: white;
+}
+
+section:is(.sign-up, .get-involved) inner-column {
+	max-width: var(--tight);
+}
+
+/*section.get-involved .button {
+	background-color: black;
+	color: white;
+}*/
+
+
+@media (prefers-color-scheme: dark) {
+	section.sign-up {
+		background-color: var(--color3);
+	}
+
+
+	section.get-involved {
+		background-color: var(--color3);
+	}
+
+	.article-card {
+		background-color: var(--color3);
+	}
+}

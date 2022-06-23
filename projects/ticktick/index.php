@@ -8,10 +8,10 @@
 
 		<title>TickTick | Simple Task Management</title>
 		<meta name='description' content='Join millions of people to capture ideas, organize to-dos, and make the most of your life with TickTick.'>
-		<meta property='og:image' content='images/favicon.png'>
+		<meta property='og:image' content='https://d3qg9zffrnl4ph.cloudfront.net/sites/res/home/tick/feature/feature-more.png'>
 
 		<!-- LINK favicon -->
-		<link rel="icon" type="image/svg+xml" href="https://theme.zdassets.com/theme_assets/2376081/007db7a2df139ee4c08e029b2d869d14973bbca4.png">
+		<link rel="icon" type="image/svg+xml" href="images/ticktick-favicon.png">
 
 		<link rel='stylesheet' href='styles/site.css'>
 		<link rel="preconnect" href="https://fonts.googleapis.com">

@@ -7,7 +7,7 @@
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
 		<title>TickTick | Simple Task Management</title>
-		<meta name='description' content='Join millions of people to capture ideas, organize to-dos, and make the most of your life with TickTick.'>
+		<meta name='description' content='Join millions of people using TickTick to capture ideas, organize life, and do something creative everyday.'>
 		<meta property='og:image' content='https://www.droidviews.com/wp-content/uploads/2018/08/ticktick.jpg'>
 
 		<!-- LINK favicon -->

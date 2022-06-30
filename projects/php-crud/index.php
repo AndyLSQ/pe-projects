@@ -32,7 +32,7 @@ else {
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Router with Detail</title>
+	<title>Crud Cars</title>
 	<link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -42,7 +42,7 @@ else {
 	<header class="site-menu">
 		<nav class="site-menu">
 			<a href="?page=home">Home</a>
-			<a href="?page=menu">Menu</a>
+			<a href="?page=inventory">Inventory</a>
 		</nav>
 		<h1>Company Name</h1>
 	</header>
@@ -58,17 +58,18 @@ else {
 		<?php	} ?>
 
 		<?php
-			if ( $page == "menu") { 
+			if ( $page == "inventory") { 
 				include("data.php")?>
 
-				<section class="menu">
-					<h2>Welcome to the menu page</h2>
+				<section class="inventory">
+					<h2>Welcome to the inventory page</h2>
 
 					<!-- TYPE NAV -->
 					<nav class="type">
-						<a href="?page=menu">Full Menu</a>
-						<a href="?page=menu&type=hamburger">Burgers</a>
-						<a href="?page=menu&type=hot-dog">Dogs</a>
+						<a href="?page=inventory">All Vehicles</a>
+						<a href="?page=inventory&type=suv">SUVs</a>
+						<a href="?page=inventory&type=sedan">Sedans</a>
+						<a href="?page=inventory&type=performance">Performance</a>
 					</nav>
 
 					<!-- TYPE FILTER -->
@@ -83,18 +84,18 @@ else {
 						}
 						//if it is, the $type variable is set so type will be true...
 						if ($type) {
-							//run through all menu items
-							foreach ($menu_data as $dish) {
+							//run through all inventory items
+							foreach ($inventory_data as $vehicle) {
 								//if the item type matches the $type set
-								if ($dish['type'] == $type) {
+								if ($vehicle['type'] == $type) {
 									//add the item to the $filtered array
-									array_push($filtered, $dish);
+									array_push($filtered, $vehicle);
 								}
 							}
 							// print_r($filtered);
 
 							// set the main data array to equal the filtered array 
-							$menu_data = $filtered;
+							$inventory_data = $filtered;
 							//then the rest of the page can process as normal
 						}
 
@@ -104,18 +105,18 @@ else {
 
 					<!-- DISPLAY CARDS -->
 					<ul>
-						<?php foreach ($menu_data as $dish) { ?>
+						<?php foreach ($inventory_data as $vehicle) { ?>
 							<?php
-								$price = "$" . number_format($dish['price'], 2, ".", ",");
+								$price = "$" . number_format($vehicle['price'], 2, ".", ",");
 							?>
 
 							<!-- item card -->
-							<li class="dish">
-								<card class="dish">
-									<h3><?=$dish['name']?></h3>
+							<li class="vehicle">
+								<card class="vehicle">
+									<h3><?=$vehicle['name']?></h3>
 									<!-- use number formatted price instead of pulling straight from array -->
 									<p>Price: <?=$price?></p>
-									<a href="?page=detail&id=<?=$dish['id']?>">
+									<a href="?page=detail&id=<?=$vehicle['id']?>">
 									Click here
 								</a>
 								</card>
@@ -133,20 +134,20 @@ else {
 
 				//figure out which item will show detail
 				$id = null;
-				$current_dish = null;
+				$current_vehicle = null;
 
 				if ( isset($_GET['id']) ) {
 					$id = $_GET['id'];
 				}
 				else {
-					echo "Please select a menu item.";
+					echo "Please select a vehicle.";
 				}
 
 				//look at each item
-				foreach ($menu_data as $dish) {
+				foreach ($inventory_data as $vehicle) {
 					//if item matches the one we want, pull in the data
-					if ($dish['id'] == $id) {
-						$current_dish = $dish;
+					if ($vehicle['id'] == $id) {
+						$current_vehicle = $vehicle;
 					}
 				}
 				?>
@@ -155,9 +156,9 @@ else {
 				<!-- return data to the template and display -->
 				<section class="detail">
 					<h2>Item detail</h2>
-					<h3><?=$current_dish['name']?></h3>
-					<p>Description: <?=$current_dish['description']?></p>
-					<p>Price: <?=$current_dish['price']?></p>
+					<h3><?=$current_vehicle['name']?></h3>
+					<p>Description: <?=$current_vehicle['description']?></p>
+					<p>Price: <?=$current_vehicle['price']?></p>
 				</section>
 
 		<?php	} ?>

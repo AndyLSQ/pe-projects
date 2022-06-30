@@ -1,0 +1,82 @@
+{
+	"inventory_data": {
+		"001": {
+			"bodystyle": "suv",
+			"size": "subcompact",
+			"capacity": 5,
+			"year": "2022",
+			"make": "subaru",
+			"model": "crosstrek",
+			"tagline" : "asfasdfasdfasdf",
+			"model_description": "hghdshashfddfjkasfdlk",
+			"trim": "base",
+			"trim-description": "uasfdhashfweyfsfa",
+			"price": 23145
+		},
+		"002": {
+			"bodystyle": "suv",
+			"size": "compact",
+			"capacity": 5,
+			"year": "2022",
+			"make": "subaru",
+			"model": "forester",
+			"tagline" : "asfasdfasdfasdf",
+			"model_description": "hghdshashfddfjkasfdlk",
+			"trim": "base",
+			"trim-description": "uasfdhashfweyfsfa",
+			"price": 25895
+		},
+		"003": {
+			"bodystyle": "suv",
+			"size": "midsize",
+			"capacity": 5,
+			"year": "2022",
+			"make": "subaru",
+			"model": "outback",
+			"tagline" : "asfasdfasdfasdf",
+			"model_description": "hghdshashfddfjkasfdlk",
+			"trim": "base",
+			"trim-description": "uasfdhashfweyfsfa",
+			"price": 27645
+		},
+		"004": {
+			"bodystyle": "suv",
+			"size": "fullsize",
+			"capacity": 8,
+			"year": "2022",
+			"make": "subaru",
+			"model": "outback",
+			"tagline" : "asfasdfasdfasdf",
+			"model_description": "hghdshashfddfjkasfdlk",
+			"trim": "base",
+			"trim-description": "uasfdhashfweyfsfa",
+			"price": 32795
+		},
+		"005": {
+			"bodystyle": "sedan",
+			"size": "compact",
+			"capacity": 5,
+			"year": "2022",
+			"make": "subaru",
+			"model": "impreza",
+			"tagline" : "asfasdfasdfasdf",
+			"model_description": "hghdshashfddfjkasfdlk",
+			"trim": "base",
+			"trim-description": "uasfdhashfweyfsfa",
+			"price": 19295
+		},
+		"006": {
+			"bodystyle": "sedan",
+			"size": "midsize",
+			"capacity": 8,
+			"year": "2022",
+			"make": "subaru",
+			"model": "legacy",
+			"tagline" : "asfasdfasdfasdf",
+			"model_description": "hghdshashfddfjkasfdlk",
+			"trim": "base",
+			"trim-description": "uasfdhashfweyfsfa",
+			"price": 23495
+		},
+	}
+}

@@ -1,0 +1,20 @@
+form {
+	display: grid;
+	gap: 20px;
+}
+
+field {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	display: block;
+}
+
+button {
+	font: inherit;
+	border-radius: 0;
+	margin: 1rem 0rem;
+	max-width: 20ch;
+}

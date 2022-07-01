@@ -36,10 +36,11 @@
 
 	<link rel="stylesheet" href="style/style.css">
 </head>
-<body>
 
-</body>
-</html>
+
+<body>
+<inner-column>
+
 
 <h1>Vehicle Input Form</h1>
 
@@ -122,3 +123,8 @@
 
 
 </form>
+
+</inner-column>
+</body>
+
+</html>

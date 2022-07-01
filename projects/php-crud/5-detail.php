@@ -19,12 +19,14 @@
 	}
 
 	//look at each item
-	foreach ($products as $product) {
-		//if item matches the one we want, pull in the data
-		if ($product['id'] == $id) {
-			$current_vehicle = $product;
-		}
-	}
+	// foreach ($products as $product) {
+	// 	//if item matches the one we want, pull in the data
+	// 	if ($product['id'] == $id) {
+	// 		$current_vehicle = $product;
+	// 	}
+	// }
+
+	$current_vehicle = $products[$id];
 
 ?>
 

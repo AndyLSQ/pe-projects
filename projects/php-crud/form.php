@@ -7,7 +7,7 @@
 	$submittedPOST = isset($_POST['submitted']);
 
 	if($submittedPOST) {
-		$id = $_POST['id'];
+		
 		$bodystyle = $_POST['bodystyle'];
 		$size = $_POST['size'];
 		$capacity = $_POST['capacity'];
@@ -24,7 +24,7 @@
 		echo "Price is " . $price;
 	}
 
-	
+	$id = uniqid("a")
 
 ?>
 
@@ -47,7 +47,7 @@
 <form method="POST">
 	<field>
 		<label>Vehicle ID</label>
-		<input type="text" name="id" value="<?=$id?>" required>
+		<input type="text" name="id" value="<?=$id?>" disabled>
 	</field>
 
 	<field>

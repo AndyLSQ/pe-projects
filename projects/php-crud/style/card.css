@@ -3,19 +3,18 @@
 	padding-bottom: 6rem;
 }
 
-ol {
+.vehicle-list {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-	grid-gap: 2px 2px;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 30px;
 }
 
-li {
+.vehicle {
 	background-color: var(--canvas1);
 	color: var(--ink1);
 	display: flex;
 	gap: 15px;
 	padding: 5px;
-	max-width: 30%;
 }
 
 .card{

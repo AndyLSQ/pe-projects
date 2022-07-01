@@ -18,14 +18,14 @@ $products = $products_data["products"];
 	</picture>
 
 	<inner-column>
-		<h2>2022 Vehicle Lineup</h2>
+		<h2 id="list-title">2022 Vehicle Lineup</h2>
 
 		<!-- TYPE NAV -->
 		<nav class="type">
-			<a href="?page=vehicles">All Vehicles</a>
-			<a href="?page=vehicles&type=suv">SUVs</a>
-			<a href="?page=vehicles&type=sedan">Sedans</a>
-			<a href="?page=vehicles&type=performance">Performance</a>
+			<a href="?page=vehicles#list-title">All Vehicles</a>
+			<a href="?page=vehicles&type=suv#list-title">SUVs</a>
+			<a href="?page=vehicles&type=sedan#list-title">Sedans</a>
+			<a href="?page=vehicles&type=performance#list-title">Performance</a>
 		</nav>
 
 		<!-- TYPE FILTER -->
@@ -41,11 +41,12 @@ $products = $products_data["products"];
 			//if it is, the $type variable is set so type will be true...
 			if ($type) {
 				//run through all vehicles
-				foreach ($products as $product) {
+				foreach ($products as $id => $product) {
 					//if the item type matches the $type set
 					if ($product['bodystyle'] == $type) {
 						//add the item to the $filtered array
-						array_push($filtered, $product);
+						// array_push($filtered, $id => $product);
+						$filtered[$id] = $product;
 					}
 				}
 
@@ -56,11 +57,15 @@ $products = $products_data["products"];
 		?>
 
 
-		<ol>
+		<ol class="vehicle-list">
 			<?php
-				foreach ($products as $product) {
+				foreach ($products as $id => $product) {
 					include "card.php";
 				}
+
+				// foreach ($products as $product) {
+				// 	include "card.php";
+				// }
 			?>
 		</ol>
 	</inner-column>

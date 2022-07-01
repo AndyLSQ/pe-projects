@@ -1,82 +1,89 @@
 {
-	"inventory_data": {
+	"products": {
 		"001": {
+			"id": "001",
 			"bodystyle": "suv",
 			"size": "subcompact",
 			"capacity": 5,
 			"year": "2022",
 			"make": "subaru",
 			"model": "crosstrek",
-			"tagline" : "asfasdfasdfasdf",
-			"model_description": "hghdshashfddfjkasfdlk",
+			"tagline" : "Adventure: its second coat of paint.",
+			"description": "When you drive a new Crosstrek off the lot, it will be clean—alarmingly clean. But not for long. With the ability to travel over 500 miles on a single tank,1 a spontaneous adventure suddenly seems well within reason. Soon your Crosstrek will get those mud accents it deserves.",
 			"trim": "base",
-			"trim-description": "uasfdhashfweyfsfa",
-			"price": 23145
+			"price": 23145,
+			"image": "https://peprojects.dev/images/landscape.jpg"
 		},
 		"002": {
+			"id": "002",
 			"bodystyle": "suv",
 			"size": "compact",
 			"capacity": 5,
 			"year": "2022",
 			"make": "subaru",
 			"model": "forester",
-			"tagline" : "asfasdfasdfasdf",
-			"model_description": "hghdshashfddfjkasfdlk",
+			"tagline" : "Fits your life. And wherever you want to take it.",
+			"description": "The 2022 Forester is an SUV that can’t be summed up in three letters. It offers room for long weekends, reliability for daily drives, and a wide range of safety innovations—so wherever you go, peace of mind will follow.",
 			"trim": "base",
-			"trim-description": "uasfdhashfweyfsfa",
-			"price": 25895
+			"price": 25895,
+			"image": "https://peprojects.dev/images/landscape.jpg"
 		},
 		"003": {
+			"id": "003",
 			"bodystyle": "suv",
 			"size": "midsize",
 			"capacity": 5,
 			"year": "2022",
 			"make": "subaru",
 			"model": "outback",
-			"tagline" : "asfasdfasdfasdf",
-			"model_description": "hghdshashfddfjkasfdlk",
+			"tagline" : "Inspiring out-of-office memos since ’95.",
+			"description": "The first Outback wasn’t just a way to get out there, but a reason to see something new—to have an adventure. That was 1995, and still the Outback continues to push ahead. From its advanced technologies and safety systems to its capable engineering, this SUV lets you know the outdoors is waiting. So take a personal day—or two.",
 			"trim": "base",
-			"trim-description": "uasfdhashfweyfsfa",
-			"price": 27645
+			"price": 27645,
+			"image": "https://peprojects.dev/images/landscape.jpg"
 		},
 		"004": {
+			"id": "004",
 			"bodystyle": "suv",
 			"size": "fullsize",
 			"capacity": 8,
 			"year": "2022",
 			"make": "subaru",
-			"model": "outback",
-			"tagline" : "asfasdfasdfasdf",
-			"model_description": "hghdshashfddfjkasfdlk",
+			"model": "ascent",
+			"tagline" : "Dream bigger",
+			"description": "When you’re ready for life’s next big adventure, the 2022 Ascent™ is ready to take you to new heights. It’s the largest and most versatile Subaru ever, with three rows and seating for up to eight.1 It’s packed with advanced technologies, from active safety systems to entertainment features. Thanks to legendary Subaru quality, durability and reliability, you can drive with confidence.",
 			"trim": "base",
-			"trim-description": "uasfdhashfweyfsfa",
-			"price": 32795
+			"price": 32795,
+			"image": "https://peprojects.dev/images/landscape.jpg"
 		},
+
 		"005": {
+			"id": "005",
 			"bodystyle": "sedan",
 			"size": "compact",
 			"capacity": 5,
 			"year": "2022",
 			"make": "subaru",
 			"model": "impreza",
-			"tagline" : "asfasdfasdfasdf",
-			"model_description": "hghdshashfddfjkasfdlk",
+			"tagline" : "Getting there is important. Being there is everything. ",
+			"description": "Wherever you go, experience it fully with the 2022 Impreza. Peace of mind is at its core, from standard Subaru EyeSight ® Driver Assist Technology1,2 to the seamless connectivity delivered by SUBARU STARLINK ® Multimedia—featuring standard Apple CarPlay ® and Android Auto ™ integration. Whether you choose the Impreza 5-door or the sedan, you can count on standard Subaru Symmetrical All-Wheel Drive and the reliable engineering that goes into every Subaru. The day is just beginning, and the only question is: Where will you go next? ",
 			"trim": "base",
-			"trim-description": "uasfdhashfweyfsfa",
-			"price": 19295
+			"price": 19295,
+			"image": "https://peprojects.dev/images/landscape.jpg"
 		},
 		"006": {
+			"id": "006",
 			"bodystyle": "sedan",
 			"size": "midsize",
 			"capacity": 8,
 			"year": "2022",
 			"make": "subaru",
 			"model": "legacy",
-			"tagline" : "asfasdfasdfasdf",
-			"model_description": "hghdshashfddfjkasfdlk",
+			"tagline" : "Arrive like you’ve never imagined.",
+			"description": "It’s that feeling you get when the next level is within reach. When the latest safety technologies combine with renowned Subaru reliability to give you confidence. A sense of connection is made possible by advanced technology, and you experience the warm invitation of premium materials and abundant space. You’re here. Feel the love, for all the right reasons.",
 			"trim": "base",
-			"trim-description": "uasfdhashfweyfsfa",
-			"price": 23495
-		},
+			"price": 23495,
+			"image": "https://peprojects.dev/images/landscape.jpg"
+		}
 	}
 }

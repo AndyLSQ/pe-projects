@@ -1,24 +1,103 @@
-@import "form.css";
+@import "meyer-reset.css";
+@import "dev.css";
+@import "a-site-header.css";
+@import "b-home.css";
+@import "c-sec-a.css";
+@import "card.css";
+@import "footer.css";
 
+
+
+/*COLOR Definitions*/
 html {
-	background-color: beige;
-	box-sizing: border-box;
+	--canvas1: white;
+	--ink1: black;
+	--canvas2: white;
+	--ink2: black;
 }
 
-ul {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-	grid-gap: 20px 2px;
+/*Typography*/
+html {
+	font-family: "Roboto", sans-serif;
 }
 
-li.dish {
-	display: block;
-	border: 1px solid black;
-	padding: 10px;
-	max-width: 200px;
+h1 {
+	font-size: 2rem;
+}
+
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 2rem 0rem;
 }
 
 h3 {
-	text-transform: capitalize;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-color:  var(--ink1);
 }
 
+h4 {
+	font-size: 1.25rem;
+}
+
+p {
+	max-width: 75ch;
+}
+
+/*STRUCTURE*/
+* {
+	box-sizing: border-box;
+}
+
+/*centered inner column*/
+inner-column {
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .25rem 1rem;
+}
+
+
+/*flex with min-height 100vh to ensure page (incl footer)
+always fills the window at minimum*/
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+/*grow <main class="page-content"> to keep footer at bottom*/
+main {
+	flex-grow: 1; 
+}
+
+/*IMPORTANT TO SET BOTH THE PICTURE AND IMAGE AS BLOCK*/
+picture {
+	display: block; 
+/*	object-fit: cover;
+	object-position: center;*/
+	/*overflow: hidden;*/
+	
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	/*max-height: 100%;*/
+
+}
+
+
+@media (max-width: 700px) {
+	inner-column{
+		width: 100%;
+		padding: .25rem;
+	}
+
+	.card h4 {
+		font-size: 1rem;
+	}

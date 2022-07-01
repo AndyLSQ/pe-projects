@@ -1,0 +1,25 @@
+.welcome{
+	background-image: url("https://s7d1.scene7.com/is/image/scom/200_23_OBK_HPR_xlf_4096x2160?$1550w$");
+	
+	background-size: cover;
+	background-position: center;
+	color: var(--ink1);
+}
+
+.welcome inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	min-height: 300px;
+	font-size: clamp(1.5rem, 6vw, 3.5rem);
+	padding-right: 25px;
+	padding-left: 5vw;
+
+	font-weight: bold;
+	color: white;
+}
+
+.overview inner-column {
+	padding-bottom: 45px;
+}

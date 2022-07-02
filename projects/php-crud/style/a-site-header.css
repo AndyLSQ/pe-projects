@@ -1,4 +1,5 @@
-header{
+
+header {
 	background-color: var(--canvas1);
 	color:  var(--ink1);
 	position: sticky;
@@ -6,10 +7,55 @@ header{
 	box-shadow: 0 2px 5px 5px rgba(0,0,0,.4);
 }
 
-header picture {
-	height: 50px;
+header inner-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
 }
 
-header img{
-	max-height: 100%;
+header nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 0px;
+	width: 100%;
+}
+
+header picture {
+	width: 80%;
+	max-width: 300px;
+	/*width: 50%;
+	max-width: 350px;
+	min-height: 100%;*/
+	/*flex-basis: 20rem;*/
+}
+
+header a {
+	display: inline-block;
+	width:  100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+header a:hover {
+	color: var(--brand1);
+}
+
+a, a:visited, a:active {
+  color: inherit;
+}
+
+@media (min-width: 600px) {
+	header inner-column{
+		flex-direction: row;
+		gap: 20px;
+	}
+
+	header picture {
+		flex-basis: 20rem;
+	}
+
 }

@@ -36,7 +36,6 @@
 	</picture>
 	<card-info>
 		<card-text>
-			<h2><?=$id?></h2>
 			<h3 class="model"><?=$model?></h3>
 			<h4 class="tagline"><?=$tagline?></h4>
 			<a href="?page=detail&id=<?=$id?>">Click here</a>

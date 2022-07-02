@@ -3,32 +3,43 @@
 	padding-bottom: 6rem;
 }
 
+.vehicles nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 0;
+}
+
+.vehicles a {
+	padding: 20px 0px;
+	flex-grow: 1;
+	flex-basis: 0;
+	text-align: center;
+	border:  1px solid var(--brand2);
+}
+
 .vehicle-list {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	grid-gap: 30px;
+	grid-gap: 50px;
+	padding-top: 50px;
 }
 
-.vehicle {
+/*.vehicle {
 	background-color: var(--canvas1);
 	color: var(--ink1);
 	display: flex;
 	gap: 15px;
 	padding: 5px;
-}
+}*/
 
 .card{
 	display: flex;
 	flex-direction: column;
 }
 
-.card picture{
-	/*height: 30%;*/
-	/*object-fit: cover;*/
-}
-
-.card img{
-/*	object-fit: cover;*/
+.card a {
+	text-align: left;
 }
 
 card-info {
@@ -53,28 +64,28 @@ card-buy{
 	gap: 15px;
 }
 
-.status{
+/*.status{
 	display: inline-block;
 	border: 1px solid white;
 	text-align: center;
-	/*margin: 20px 5px;*/
+	margin: 20px 5px;
 	padding: 5px;
 	background-color: var(--ink1);
 	color: var(--canvas1);
-}
+}*/
 
-.sold-out .status{
+/*.sold-out .status{
 	color: var(--ink1);
 	background-color: var(--canvas1);
 }
-
-.headphones inner-column, .speakers inner-column {
+*/
+/*.headphones inner-column, .speakers inner-column {
 	display: block;
 }
+*/
 
-
-@media (max-width: 700px) {
-	inner-column{
+/*@media (max-width: 700px) {
+inner-column{
 		width: 100%;
 	}
 
@@ -103,13 +114,3 @@ card-buy{
 		/*align-items: center;*/
 		/*align-content: center;*/
 	}
-
-	card-text {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.description{
-		display: none;
-	}
-}

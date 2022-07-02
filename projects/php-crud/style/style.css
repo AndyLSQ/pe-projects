@@ -2,7 +2,6 @@
 @import "dev.css";
 @import "a-site-header.css";
 @import "b-home.css";
-@import "c-sec-a.css";
 @import "card.css";
 @import "footer.css";
 @import "form.css";
@@ -12,9 +11,23 @@
 /*COLOR Definitions*/
 html {
 	--canvas1: white;
-	--ink1: black;
-	--canvas2: white;
-	--ink2: black;
+	--ink1: hsla(212, 77%, 5%, 1.00);
+	--brand1: hsla(212, 77%, 47%, 1.00); /*royal blue*/
+	--brand2: hsla(212, 77%, 20%, 1.00); /*dark blue*/
+}
+
+picture.logo {
+	stroke: var(--brand1);
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a.active {
+	color: white;
+	background-color: var(--brand1);
+	border-bottom: 3px solid green;
 }
 
 /*Typography*/
@@ -31,6 +44,7 @@ h2 {
 	font-size: 2rem;
 	font-weight: bold;
 	padding: 2rem 0rem;
+	color: var(--brand2);
 }
 
 h3 {
@@ -45,6 +59,7 @@ h4 {
 
 p {
 	max-width: 75ch;
+	color: var(--ink1);
 }
 
 /*STRUCTURE*/
@@ -56,7 +71,7 @@ p {
 inner-column {
 	display: flex;
 	flex-direction: column;
-	width: 85%;
+	width: 90%;
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
@@ -93,12 +108,12 @@ img {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
 	inner-column{
 		width: 100%;
 		padding: .25rem;
 	}
 
-	.card h4 {
-		font-size: 1rem;
+	/*.card h4 {
+		font-size: 1rem;*/
 	}

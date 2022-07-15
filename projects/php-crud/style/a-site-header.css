@@ -26,10 +26,7 @@ header nav{
 header picture {
 	width: 80%;
 	max-width: 300px;
-	/*width: 50%;
-	max-width: 350px;
-	min-height: 100%;*/
-	/*flex-basis: 20rem;*/
+	height: auto;
 }
 
 header a {
@@ -38,6 +35,7 @@ header a {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	border: .5px solid var(--ink1);
 }
 
 header a:hover {
@@ -55,7 +53,7 @@ a, a:visited, a:active {
 	}
 
 	header picture {
-		flex-basis: 20rem;
+		/*flex-basis: 20rem;*/
 	}
 
 }

@@ -1,0 +1,48 @@
+{
+
+	"experience":
+	{
+
+		"accenture":
+		{
+			"company": "accenture llp",
+			"title": "strategy manager",
+			"location": "austin, tx",
+			"startDate": "may 2021",
+			"endDate": "present",
+			"description": ["acn point 1", "acn point 2", "acn point 3"]
+		},
+
+		"siegfried":
+		{
+			"company": "the siegfried group",
+			"title": "consulting manager",
+			"location": "new york, ny",
+			"startDate": "june 2017",
+			"endDate": "may 2021",
+			"description": ["tsg point 1", "tsg point 2", "tsg point 3"]
+		},
+
+		"urban":
+		{
+			"company": "urban outfitters, inc.",
+			"title": "senior financial analyst",
+			"location": "philadelphia, pa",
+			"startDate": "dec 2013",
+			"endDate": "june 2017",
+			"description": ["urbn point 1", "urbn point 2", "urbn point 3"]
+		},
+
+		"deloitte":
+		{
+			"company": "deloite llp",
+			"title": "audit senior",
+			"location": "philadelphia, pa",
+			"startDate": "aug 2011",
+			"endDate": "dec 2013",
+			"description": ["dtt point 1", "dtt point 2", "dtt oint 3"]
+		}
+
+
+	}
+}

@@ -1,0 +1,92 @@
+html {
+	font-family: "helvetica neue";
+}
+
+/* small headings */
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+}
+
+h2 {
+	font-size: 1.17em;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 1.33em;
+	margin-bottom: 1.33em;
+}
+
+h4 {
+	font-size: .83em;
+	font-weight: bold;
+	margin-top: 1.67em;
+	margin-bottom: 1.67em;
+}
+
+h5 {
+	font-size: .67em;
+	font-weight: bold;
+	margin-top: 2.33em;
+	margin-bottom: 2.33em;
+}
+
+p {
+	line-height: 1.4;
+}
+
+
+/* large headings */
+@media (min-width: 600px) {
+	
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+}
+
+h3 {
+	font-size: 1.17em;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+h4 {
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 1.33em;
+	margin-bottom: 1.33em;
+}
+
+h5 {
+	font-size: .83em;
+	font-weight: bold;
+	margin-top: 1.67em;
+	margin-bottom: 1.67em;
+}
+
+h6 {
+	font-size: .67em;
+	font-weight: bold;
+	margin-top: 2.33em;
+	margin-bottom: 2.33em;
+}
+
+}

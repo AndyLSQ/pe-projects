@@ -13,6 +13,8 @@
 	<li><a href="06-retirement-calculator.php">Retirement Calculator</a></li>
 	<li><a href="07-room-area.php">Room Area</a></li>
 	<li><a href="08-pizza-party.php">Pizza Party</a></li>
+	<li><a href="14-tax-calculator.php">Tax Calculator</a></li>
+	<li><a href="15-password-validation.php">Password Validation</a></li>
 
 
 </ul>

@@ -29,7 +29,6 @@
 	}
 
 	function showDeleteId() {
-		$delete = showUrl();
 		$deleteId = explode('=', showUrl())[1];
 		// print_r($deleteId);
 		return $deleteId;

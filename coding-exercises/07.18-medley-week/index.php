@@ -15,9 +15,14 @@
 
 
 	<main>
-	
-	<?php include("templates/pages/layout1.php") ?>	
+	<h1 class="divider"> ---(Layout 1)---</h1>
+	<hr>
+	<?php include("templates/pages/layout1.php"); ?>	
 
+
+	<h1 class="divider"> ---(Layout 2)---</h1>
+	<hr>
+	<?php include("templates/pages/layout2.php"); ?>
 
 	</main>
 

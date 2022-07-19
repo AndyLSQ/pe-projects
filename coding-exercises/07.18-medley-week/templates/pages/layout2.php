@@ -1,9 +1,10 @@
 <div class="layout">
-<inner-column class="layout1">
+<inner-column class="layout2">
 
 <div class="text">
 
 	<div class="page-header">
+		<p class="teaser">Little teaser</p>
 		<h2>Heading level 2</h2>
 		<p class="intro-voice">This is some body text. This is
 		some body text. This is some body
@@ -14,41 +15,48 @@
 	<ul class="articles">
 
 		<li class="article">
+			<picture class="shapes">
+				<?php include("images/shapes.php"); ?>
+			</picture>
 			<h3>Heading level 3</h3>
 			<p>This is some body text. This is some
 			body text. This is some body text. This
 			is some body text.</p>
 		</li>
 
+
 		<li class="article">
+
+			<picture class="shapes">
+				<?php include("images/shapes.php"); ?>
+			</picture>
+
 			<h3>Heading level 3</h3>
 			<p>This is some body text. This is some
 			body text. This is some body text. This
 			is some body text.</p>
 		</li>
 
+
 		<li class="article">
+
+			<picture class="shapes">
+				<?php include("images/shapes.php"); ?>
+			</picture>
+
 			<h3>Heading level 3</h3>
 			<p>This is some body text. This is some
 			body text. This is some body text. This
 			is some body text.</p>
 		</li>
 
-		<li class="article">
-			<h3>Heading level 3</h3>
-			<p>This is some body text. This is some
-			body text. This is some body text. This
-			is some body text.</p>
-		</li>
 
 		<li class="article">
-			<h3>Heading level 3</h3>
-			<p>This is some body text. This is some
-			body text. This is some body text. This
-			is some body text.</p>
-		</li>
 
-		<li class="article">
+			<picture class="shapes">
+				<?php include("images/shapes.php"); ?>
+			</picture>
+
 			<h3>Heading level 3</h3>
 			<p>This is some body text. This is some
 			body text. This is some body text. This
@@ -57,41 +65,14 @@
 
 	</ul>
 
-</div>
-
-
-
-<div class="gallery">
-
-	<ul class="images">
-
-		<li class="image">
-			<picture>
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-			</picture>
-		</li>
-
-		<li class="image">
-			<picture>
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-			</picture>
-		</li>
-
-		<li class="image">
-			<picture>
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-			</picture>
-		</li>
-
-		<li class="image">
-			<picture>
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-			</picture>
-		</li>
-
-	</ul>
+	<callout>
+		<p>This is some body text. This is some
+		body text. This is some body text. This
+		is some body text.</p>
+	</callout>
 
 </div>
+
 
 
 

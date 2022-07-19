@@ -12,6 +12,7 @@
 
 /* modules */
 @import "layout1.css";
+@import "layout2.css";
 
 
 
@@ -21,9 +22,14 @@
 /* COLOR DEFINITION */
 
 html {
-	--canvasLight: ;
+	--canvasLight: white;
 	--canvasDark: ;
-	--inkDark: ;
+	--inkDark: black;
 	--inkLight: ;
+	--color: hsla(208, 100%, 50%, 1.00); /*royal blue*/
+	--highlight: hsla(323, 100%, 50%, 1.00); /*hot pink*/
 
+/* SVG stroke width definition */
+	--thin: 8;
+	--thick: 12;
 }

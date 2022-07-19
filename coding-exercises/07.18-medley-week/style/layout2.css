@@ -1,0 +1,58 @@
+.layout2 .article {
+	border-top: none;
+}
+
+picture.shapes {
+	width: 50px;
+	/*margin-top: 25px;*/
+}
+
+
+callout::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: -15px;
+    width: 66%;
+    border-top: 2px solid var(--color);
+}
+
+@media (min-width: 600px) {
+
+	.articles {
+		display: grid;
+	   grid-template-columns: repeat(2, 1fr);
+	   grid-template-rows: repeat(2, 1fr);
+	   grid-gap: 20px;
+	}
+
+	.layout2 .article {
+		border: 3px solid var(--inkLight);
+		padding: 25px;
+
+	}
+
+	callout::before {
+    border-top: none;
+
+	}
+
+	callout {
+		max-width: 40ch;
+		color: white;
+		background-color: var(--color);
+		padding-left: 25px;
+		padding-right: 100px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+
+	}
+
+
+@media (min-width: 1200px) {
+
+	.layout2 .article {
+		padding: 50px 75px;
+	}
+
+	}

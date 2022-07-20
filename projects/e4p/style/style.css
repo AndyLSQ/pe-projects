@@ -69,8 +69,12 @@ ul {
 
 }
 
-li{
+li {
 	padding: 15px;
+}
+
+#gender {
+	max-width: 18ch;
 }
 
 /*global link reset*/

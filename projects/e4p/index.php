@@ -15,6 +15,7 @@
 	<li><a href="08-pizza-party.php">Pizza Party</a></li>
 	<li><a href="14-tax-calculator.php">Tax Calculator</a></li>
 	<li><a href="15-password-validation.php">Password Validation</a></li>
-
+	<li><a href="16-legal-driving-age.php">Legal Driving Age</a></li>
+	<li><a href="17-blood-alcohol-calculator.php">Blood Alcohol Calculator</a></li>
 
 </ul>

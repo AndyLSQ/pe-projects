@@ -32,6 +32,12 @@ label{
 	margin: 1rem 0rem;
 }
 
+label a {
+	text-decoration: underline;
+	border: none;
+	padding: 0;
+}
+
 textarea, input {
 	font:  inherit;
 	padding: .5rem;

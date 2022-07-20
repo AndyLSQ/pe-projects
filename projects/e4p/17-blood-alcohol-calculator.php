@@ -103,7 +103,7 @@ if ($submittedPOST) {
 	</div>
 
 	<div class="field">
-		<label for="">How many drinks have you had?</label>
+		<label for="">How many <a href="https://www.rethinkingdrinking.niaaa.nih.gov/how-much-is-too-much/what-counts-as-a-drink/whats-a-standard-drink.aspx" target="reference">drinks</a> have you had?</label>
 		<input type="number" name="drinks" value="<?=$drinks?>" min=0 required>
 	</div>
 

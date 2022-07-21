@@ -58,16 +58,16 @@
 
 @media (min-width: 1200px) {
 
-	.text {
+	.module4 .text {
 		flex-direction: row;
 		justify-content: space-between;
 	}
 
-	page-header {
+	.module4 page-header {
 		width: 50%;
 	}
 
-	.section1 {
+	.module4 .section1 {
 		width: 50%;
 	}
 

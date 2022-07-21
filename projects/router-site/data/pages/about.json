@@ -1,0 +1,16 @@
+{
+	"id": "about",
+	"title": "ABOUT",
+	"intro": "You've made it!",
+
+	"sections": [
+		{
+			"heading": "My latest work",
+			"content": "My latest work is asdfsadfsadfsfasdfasdfasdfasdfasdfsadfasf"
+		},
+		{
+			"heading": "Things I like",
+			"content": "Some things I like are oiruetwoeirutpweirutwpeorituwertpreitweporitup"
+		}
+	]
+}

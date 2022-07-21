@@ -1,1 +1,1 @@
-<h1>HOME</h1>
+<?php include('page-header.php');?>

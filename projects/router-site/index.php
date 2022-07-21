@@ -23,7 +23,7 @@
 
 </header>
 
-<?php getPageTemplate( currentPage() ); ?>
+<?php renderPageTemplate( currentPage() ); ?>
 
 <section>
 	<h1><?=$database['title']?></h1>

@@ -24,6 +24,15 @@
 	<hr>
 	<?php include("templates/pages/layout2.php"); ?>
 
+
+	<h1 class="divider"> ---(Layout 3)---</h1>
+	<hr>
+	<?php include("templates/pages/layout3.php"); ?>
+
+	<h1 class="divider"> ---(Layout 4)---</h1>
+	<hr>
+	<?php include("templates/pages/layout4.php"); ?>
+
 	</main>
 
 

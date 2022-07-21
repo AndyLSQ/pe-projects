@@ -20,7 +20,7 @@ h2 {
 	margin-bottom: 1em;
 }
 
-h3 {
+h3, .h3 {
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 1.33em;

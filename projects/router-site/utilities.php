@@ -13,7 +13,7 @@ function currentPage() {
 	}
 }
 
-function getPageTemplate($name) {
+function renderPageTemplate($name) {
 	$filePath = "pages/" . currentPage() . ".php";
 	if (file_get_contents($filePath) ) {
 	include($filePath);

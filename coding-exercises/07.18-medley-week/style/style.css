@@ -13,6 +13,8 @@
 /* modules */
 @import "layout1.css";
 @import "layout2.css";
+@import "layout3.css";
+@import "layout4.css";
 
 
 
@@ -23,9 +25,10 @@
 
 html {
 	--canvasLight: white;
-	--canvasDark: ;
+	--canvasDark: black;
+	--canvasAccent1: hsla(0, 0%, 86%, 1.00); /*gray*/
 	--inkDark: black;
-	--inkLight: ;
+	--inkLight: white;
 	--color: hsla(208, 100%, 50%, 1.00); /*royal blue*/
 	--highlight: hsla(323, 100%, 50%, 1.00); /*hot pink*/
 

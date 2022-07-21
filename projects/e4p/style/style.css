@@ -83,6 +83,10 @@ li {
 	max-width: 18ch;
 }
 
+#uom {
+	max-width: 25ch;
+}
+
 /*global link reset*/
 
 a{

@@ -18,5 +18,6 @@
 	<li><a href="16-legal-driving-age.php">Legal Driving Age</a></li>
 	<li><a href="17-blood-alcohol-calculator.php">Blood Alcohol Calculator</a></li>
 	<li><a href="18-temperature-converter.php">Temperature Converter</a></li>
+	<li><a href="19-bmi-calculator.php">BMI Calculator</a></li>
 
 </ul>

@@ -1,0 +1,90 @@
+
+media-overview {
+	display: block;
+	padding-top: 6vh;
+	padding-bottom: 6vh;
+}
+
+media-overview .writing {
+
+}
+
+media-overview header {
+	
+}
+
+media-overview .article-list {
+	display: grid;
+	gap: 20px;
+}
+
+media-overview .card {
+	border: 1px solid red;
+
+}
+
+media-overview .image-grid {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*borders*/
+
+media-overview {
+
+	border: 4px solid red;
+}
+
+media-overview .writing {
+
+	border: 4px solid blue;
+}
+
+media-overview header {
+	
+	border: 4px solid green;
+}
+
+media-overview .article-list {
+	
+	border: 4px solid orange;
+}
+
+media-overview .image-grid {
+	
+	border: 4px solid purple;
+}

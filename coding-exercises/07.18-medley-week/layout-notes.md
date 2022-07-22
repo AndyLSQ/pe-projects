@@ -4,10 +4,10 @@
 	- Sketch out sections by drawing boxes around different elements
 
 - File setup
-	- folder for each module
-		- contains index.php and style.css for each module
-	- separate folder for stylesheets
-	- index lives in the main directory
+	- Folder for each module
+		- Contains index.php and style.css for each module
+	- Separate folder for stylesheets
+	- Index lives in the main directory
 
 - Styling
 	- Typography- use voices
@@ -22,8 +22,8 @@
 		- Might be better to align image grid to article grid
 		- Tried getting rid of parent zone
 	- More on grids
-		- inspector shows numbers on both axes
-			- columns across, rows up and down
+		- Inspector shows numbers on both axes
+			- Columns across, rows up and down
 			- **Flexbox- 1 dimension**
 			- **Grid- 2 dimension**
 		- Can specify how many columns & rows you want each element to take up

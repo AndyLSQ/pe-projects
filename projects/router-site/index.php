@@ -8,4 +8,5 @@
 </header>
 
 
-<?php renderPageTemplate( currentPage() ); ?>
+<?php renderPageTemplate(); ?>
+ 

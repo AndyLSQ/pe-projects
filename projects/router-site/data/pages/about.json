@@ -1,16 +1,18 @@
 {
 	"id": "about",
-	"title": "ABOUT",
-	"intro": "You've made it!",
+	"title": "Who am I?",
+	"intro": "Well, I'm glad you've asked",
 
 	"sections": [
 		{
-			"heading": "My latest work",
+			"module": "generic_text",
+			"heading": "My favorite colors",
 			"content": "My latest work is asdfsadfsadfsfasdfasdfasdfasdfasdfsadfasf"
 		},
 		{
-			"heading": "Things I like",
-			"content": "Some things I like are oiruetwoeirutpweirutwpeorituwertpreitweporitup"
+			"module": "generic_text",
+			"heading": "Super secret stuff",
+			"content": "This stuff is really secret sadfjlasdflsadfkl"
 		}
 	]
 }

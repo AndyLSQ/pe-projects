@@ -1,12 +1,29 @@
 {
-	"id": "list",
-	"title": "Some stuff",
-	"intro": "View it!",
-
-	"sections": [
-		{
-			"heading": "Grid of things",
-			"content": "this is a thing"
-		}
-	]
+    "id": "list",
+    "title": "Some other stuff",
+    "intro": "View it!",
+    "sections": [
+        {
+            "module": "things_grid",
+            "heading": "Grid of things",
+            "items": [
+                {
+                    "title": "Thing number 1",
+                    "copy": "This is the first thing"
+                },
+                {
+                    "title": "Thing number 2",
+                    "copy": "This is the second thing"
+                },
+                {
+                    "title": "Thing number 3",
+                    "copy": "This is the third thing"
+                },
+                {
+                    "title": "Thing number 4",
+                    "copy": "This is the fourth thing"
+                }
+            ]
+        }
+    ]
 }

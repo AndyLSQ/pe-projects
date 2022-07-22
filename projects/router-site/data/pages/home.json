@@ -5,10 +5,12 @@
 
 	"sections": [
 		{
+			"module": "generic_text",
 			"heading": "My latest work",
 			"content": "My latest work is asdfsadfsadfsfasdfasdfasdfasdfasdfsadfasf"
 		},
 		{
+			"module": "generic_text",
 			"heading": "Things I like",
 			"content": "Some things I like are oiruetwoeirutpweirutwpeorituwertpreitweporitup"
 		}

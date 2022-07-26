@@ -4,6 +4,7 @@
 
 /* site-wide */
 @import "meyer-reset.css";
+@import "colors.css";
 @import "setup.css";
 @import "typography.css";
 @import "dev.css";
@@ -15,24 +16,13 @@
 @import "layout2.css";
 @import "layout3.css";
 @import "layout4.css";
+@import "vrbo-features.css";
 
 
-
-
-
-
-/* COLOR DEFINITION */
-
-html {
-	--canvasLight: white;
-	--canvasDark: black;
-	--canvasAccent1: hsla(0, 0%, 86%, 1.00); /*gray*/
-	--inkDark: black;
-	--inkLight: white;
-	--color: hsla(208, 100%, 50%, 1.00); /*royal blue*/
-	--highlight: hsla(323, 100%, 50%, 1.00); /*hot pink*/
-
-/* SVG stroke width definition */
-	--thin: 8;
-	--thick: 12;
+/* apply color here to update the module as its used on this page but still be usable for other projects*/
+.breaking-news {
+	background-color: var(--canvasDark);
+	color: var(--highlight);
 }
+
+

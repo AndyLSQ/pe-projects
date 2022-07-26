@@ -1,3 +1,7 @@
+html {
+	box-sizing: border-box;
+}
+
 inner-column {
 	display: flex;
 	flex-direction: column;

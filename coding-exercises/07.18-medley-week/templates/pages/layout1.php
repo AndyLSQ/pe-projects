@@ -1,5 +1,4 @@
-<div class="layout">
-<inner-column class="layout1">
+<breaking-news>
 
 <div class="text">
 
@@ -95,5 +94,4 @@
 
 
 
-</inner-column>
-</div>
+</breaking-news>

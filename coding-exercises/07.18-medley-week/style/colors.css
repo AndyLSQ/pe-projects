@@ -1,0 +1,15 @@
+/* COLOR DEFINITION */
+
+html {
+	--canvasLight: white;
+	--canvasDark: black;
+	--canvasAccent1: hsla(0, 0%, 86%, 1.00); /*gray*/
+	--inkDark: black;
+	--inkLight: white;
+	--color: hsla(208, 100%, 50%, 1.00); /*royal blue*/
+	--highlight: hsla(323, 100%, 50%, 1.00); /*hot pink*/
+
+/* SVG stroke width definition */
+	--thin: 8;
+	--thick: 12;
+}

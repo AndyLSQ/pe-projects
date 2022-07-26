@@ -23,12 +23,12 @@ function pageData() {
 }
 
 function renderPageTemplate() {
-  $filePath = "pages/" . currentPage() . ".php";
+  $filePath = "templates/pages/" . currentPage() . ".php";
   $pageData = pageData();
 
   if (file_get_contents($filePath) ) {
   include($filePath);
   } else {
-    include('pages/404.php');
+    include('templates/pages/404.php');
   }
 }

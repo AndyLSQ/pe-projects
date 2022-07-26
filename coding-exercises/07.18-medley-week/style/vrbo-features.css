@@ -1,0 +1,105 @@
+vrbo-features {
+	display: block; /*helpful to set this to block for every section (can be changed below)*/
+	/*background-color: hsla(198, 100%, 95%, 1.00);*/
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+vrbo-features * {
+	/*border: 2px solid blue;*/
+}
+
+vrbo-features {
+	display: grid;
+	gap: 30px;
+	
+}
+
+
+vrbo-features .feature-list {
+		display: grid;
+		gap: 25px;
+
+	}
+
+vrbo-features .link {
+	display: block;
+	text-decoration: none;
+	color: var(--inkDark);
+}
+
+vrbo-features .link h2{
+	margin-top: 10px;
+}
+
+@media (min-width: 600px) { 
+
+	vrbo-features .feature-list {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	vrbo-features .feature-list .feature:first-of-type {
+		/*grid-column: 1 / 3;*/
+		grid-column: span 2;
+	}
+}
+
+@media (min-width: 900px) { 
+
+	vrbo-features .feature-list {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+	vrbo-features .feature-list .feature:nth-of-type(5n+1) {
+		/*grid-column: 1 / 3;*/
+
+		grid-row: span 2;
+		grid-column: span 2;
+	}
+
+	vrbo-features .card {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+
+	}	
+
+	vrbo-features :is(picture, .feature-title) {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+
+	vrbo-features .feature-title {
+		align-self: end;
+		/*justify-self: end;*/
+		padding: 0px 10px;
+	}
+
+	vrbo-features .link {
+		/*border: 5px solid red;*/
+		height: 100%;
+		color: var(--inkLight);
+	}
+
+	vrbo-features .card {
+		/*border: 5px solid green;*/
+		height: 100%;
+	}
+
+	vrbo-features picture {
+		height: 100%;
+		/*border: 5px solid yellow;*/
+	}
+
+	vrbo-features img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+	vrbo-features nav a {
+		color: var(--color);
+	}
+
+
+}

@@ -15,10 +15,29 @@
 
 
 	<main>
+	
+	<h1 class="divider"> ---(Feature-Cards Layout)---</h1>
+	<hr>
+	<section>
+		<inner-column>
+			<?php include("templates/pages/vrbo-features.php"); ?>	
+		</inner-column>
+	</section>
+
+
 	<h1 class="divider"> ---(Layout 1)---</h1>
 	<hr>
-	<?php include("templates/pages/layout1.php"); ?>	
+	<section class="breaking-news">
+		<inner-column>
+			<?php include("templates/pages/layout1.php"); ?>	
+		</inner-column>
+	</section>
 
+	<section>
+		<inner-column>
+			<?php include("templates/pages/layout1.php"); ?>	
+		</inner-column>
+	</section>
 
 	<h1 class="divider"> ---(Layout 2)---</h1>
 	<hr>

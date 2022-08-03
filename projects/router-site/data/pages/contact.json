@@ -1,8 +1,8 @@
 {
-	"id": "about",
-	"title": "Who am I?",
+	"id": "contact",
+	"title": "Hello",
 	"template": "standard",
-	"intro": "Well, I'm glad you've asked",
+	"intro": "Let's talk",
 
 	"sections": [
 		{

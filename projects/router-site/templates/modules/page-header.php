@@ -5,9 +5,12 @@
 
 	<?php
 		if ($pageId == "home") { ?>
+			<p class="quiet-voice"><?=$pageData['subheader']?></p>
+	<?php } ?>
 
-		<p class="quiet-voice"><?=$pageData['callout']?></p>
-
+	<?php
+		if ($pageId == "resume") { ?>
+			<h2 class="quiet-voice"><?=$pageData['subheader']?></h2>
 	<?php } ?>
 
 </header>

@@ -2,7 +2,7 @@
     "id": "home",
     "title": "welcome",
     "intro": "Hi,<br>I'm Andy Eliscu",
-    "callout": "(pronounced L-S-Q)",
+    "subheader": "(pronounced L-S-Q)",
     "sections": [
         {
             "type": "paragraph",

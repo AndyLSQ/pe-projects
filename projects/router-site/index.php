@@ -60,6 +60,17 @@
 	}
 
 
+	if ($pageId == "contact") {
+	$json = file_get_contents('data/pages/contact.json');
+	$pageData = json_decode($json, true);
+	}
+
+	if ($pageId == "resume") {
+	$json = file_get_contents('data/pages/resume.json');
+	$pageData = json_decode($json, true);
+	}
+
+
 // renderPageTemplate(); 
 
 ?>
@@ -92,6 +103,14 @@
 
 	if ($pageId == "goals") { //goals page
 	include('templates/pages/goals.php');
+	}
+
+	if ($pageId == "contact") { //goals page
+	include('templates/pages/contact.php');
+	}
+
+	if ($pageId == "resume") { //goals page
+	include('templates/pages/resume.php');
 	}
 
 ?>

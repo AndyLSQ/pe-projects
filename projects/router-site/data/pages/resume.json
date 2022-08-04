@@ -1,8 +1,9 @@
 {
-	"id": "contact",
-	"title": "Contact",
-	"template": "standard",
-	"intro": "Let’s Chat",
+	"id": "resume",
+	"title": "Resume",
+	"template": "custom",
+	"intro": "Andy Eliscu",
+	"subheader": "Front End Web Developer",
 
 	"sections": [
 		{

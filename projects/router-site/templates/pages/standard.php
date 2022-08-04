@@ -4,13 +4,13 @@
 <?php
 	
 	foreach ($pageData["sections"] as $section) {
-
+		// print_r($section);
 		if ( $section["module"] == "generic_text"){
 			include ('templates/partials/page-section.php');
 		}
 
 		if ( $section["module"] == "things_grid"){
-			include ('templates/partials/things-grid.php');
+			include ('../partials/things-grid.php');
 		}
 
 

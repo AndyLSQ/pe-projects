@@ -32,18 +32,31 @@
 	}
 
 	if ($pageId == "projects") {
-		$json = file_get_contents('data/projects.json');
+		$jsonPage = file_get_contents('data/pages/projects.json');
+		$pageData = json_decode($jsonPage, true);
+
+		$json = file_get_contents('data/projects-data.json');
 		$projectsData = json_decode($json, true);
 	}
 
 	if ($pageId == "project") {
-		$json = file_get_contents('data/projects.json');
+		$json = file_get_contents('data/projects-data.json');
 		$projectsData = json_decode($json, true);
 		foreach ($projectsData as $project) {
 			if ($project["id"] == $_GET["id"]) {
 				$projectData = $project;
 			}
 		}
+	}
+
+	if ($pageId == "about") {
+	$json = file_get_contents('data/pages/about.json');
+	$pageData = json_decode($json, true);
+	}
+
+	if ($pageId == "goals") {
+	$json = file_get_contents('data/pages/goals.json');
+	$pageData = json_decode($json, true);
 	}
 
 
@@ -71,6 +84,14 @@
 
 	if ($pageId == "project") { //project detail page
 	include('templates/pages/project.php');
+	}
+
+	if ($pageId == "about") { //about page
+	include('templates/pages/about.php');
+	}
+
+	if ($pageId == "goals") { //goals page
+	include('templates/pages/goals.php');
 	}
 
 ?>

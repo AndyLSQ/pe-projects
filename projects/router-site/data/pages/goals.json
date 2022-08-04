@@ -1,0 +1,19 @@
+{
+	"id": "goals",
+	"title": "My Goals",
+	"template": "standard",
+	"intro": "Keeping the big picture in mind",
+
+	"sections": [
+		{
+			"module": "generic_text",
+			"heading": "Goal 1",
+			"content": "My first goal is asdfasdfsdaf"
+		},
+		{
+			"module": "generic_text",
+			"heading": "Goal 2",
+			"content": "My second goal is fasdfasdfsdaf"
+		}
+	]
+}

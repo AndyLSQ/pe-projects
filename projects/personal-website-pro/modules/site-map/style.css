@@ -1,0 +1,28 @@
+
+site-map {
+  display: block;
+  /* */
+  padding-top: 40px;
+  padding-bottom: 120px;
+  /* */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+site-map .logo {
+  max-width:  40px;
+}
+
+site-map .logo * {
+  fill: currentColor;
+}
+
+site-map h3 {
+  margin-bottom: 10px;
+}
+
+site-map a, site-map label {
+  padding: 10px 0;
+  text-decoration: underline;
+}

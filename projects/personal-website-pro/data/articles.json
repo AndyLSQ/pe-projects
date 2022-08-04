@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"title": "On Type Patterns and Style Guides",
+		"publication" : "CSS Tricks",
+		"date" : "January 19, 2021",
+		"teaser": "Teaser would go here",
+		"url" : "https://css-tricks.com/on-type-patterns-and-style-guides"
+	},
+	{
+		"id": 1,
+		"title": "An analogy for the designer : developer relationship?",
+		"publication" : "Perpetual Education",
+		"date" : "October 1, 2019",
+		"teaser": "Teaser would go here",
+		"url" : "https://perpetual.education/an-analogy-for-the-designer-developer-relationship"
+	},
+	{
+		"id": 3,
+		"title": "Almost all of the UI layout comes down to just this",
+		"publication" : "Dev.to",
+		"date" : "July 2, 2020",
+		"teaser": "Teaser would go here",
+		"url" : "https://dev.to/perpetual_edu/almost-all-of-the-ui-comes-down-to-just-this-24ef"
+	}
+]

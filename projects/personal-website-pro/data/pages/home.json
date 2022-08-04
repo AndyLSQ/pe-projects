@@ -1,0 +1,18 @@
+{
+	"id" : 1,
+	"slug:" : "home",
+	"heading" : "Insert video of Derek dancing slowly in fog while starring deeply into your&nbsp;soul.",
+	"intro" : "Hello, there. you are now on this page. Does it feel like home?",
+	"sections" : [
+		{
+			"type" : "one-paragraph",
+			"content" : "Heya... this is one paragraph."
+		},
+		{
+			"type" : "projects-intro"
+		},
+		{
+			"type" : "articles-intro"
+		}
+	]
+}

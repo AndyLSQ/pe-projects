@@ -1,0 +1,79 @@
+[
+	{
+		"title" : "5-year goals",
+		"intro" : "These can always change, but it's hard to figure out what to do - if you don't know what you are trying to do. The key is also to dream big. Because - if you don't get all the way there, that's going to be OK.",
+		"pieces" : [
+			{
+				"heading" : "Designing the space",
+				"info" : "I'd like to be gearing up to design and architect a dwelling. I'm not sure if this is a retreat for education that I live at / or a house - or what. But I'm sure I want to build it - and I want to go really <em>big</em>. I'm talking serious modern art style with huge fire places and swinging sunken living rooms. I'm going to leave this as first... but really - it's kinda secondary to the one below in many ways / but also not. This is the 'think big!' part."
+			},
+			{
+				"heading" : "PE expansion",
+				"info" : "PE has started with web dev, but my inspiration is more about education in a larger sense. I just happen to be a web developer by accident - and the web is the worlds most powerful communication platform. That worked well together. Withing a year, I expect the newer DFTW program to be running smoothly - but we will will then be working on all of the electives. So, in 2 years / the team will be growing to 5 people. We'll be building out all of the main most important electives for past students. But - at 5 years, we'll be building new programs for things other than web dev. I'm hoping for some architecture programs! because ^ see other goal! I want the architechture school to start small - but actually build our first campus"
+			},
+			{
+				"heading" : "Student success",
+				"info" : "In the first year - we had something like 30 students. We've learned a lot about people, the industry, what works and why, what doesn't / and what we can and can't control. In five years, we'll grow. But we'll keep things real. If we have 100 *real* - designers out in the world - we will have done a very amazing thing. We can do it. We need to do it. and we WILL do it. Think of how many people they will share with - and how many things that just 100 people with power - can change."
+			},
+			{
+				"heading" : "V will be 18",
+				"info" : "I don't know what that means. I guess in retrospect, I wish I'd been able to travel and see older countries at a younger age. So I would like to make sure she has funding to do that BEFORE choosing a college or path. It might sound 'fancy' - but I kinda think it's just nessesary to live your best life."
+			},
+			{
+				"heading" : "Music",
+				"info" : "I absolutly love my design and dev work. But - at some point in this next five years / I'd like to tour a few times - and write some new music and start building out that pipeline again. That's pretty easy to measure. You can really just buy it - if you want. I don't want to make a 2-year category... but - let's call it - at least one record - and 2 tours by that time."
+			},
+			{
+				"heading" : "Boring stuff",
+				"info" : "I would like to have my college loans paid off, have any other debts paid off, and have some sort of financial planning in place to be saving or investing as needed. I'd like to never live month to month - ever again. Which is totally possible."
+			}
+		]
+	},
+	{
+		"title" : "End of alpha-three goals",
+		"intro" : "By July at this rate?",
+		"pieces" : [
+			{
+				"heading" : "Get all the alpha-three students jobs",
+				"info" : "We can really only help the people who put in the work and actually want jobs, but that's the idea - right? Get people lined up with the <em>right</em> jobs."
+			},
+			{
+				"heading" : "New PE website ready and in place.",
+				"info" : "The current PE site is pretty good. But - we want to rework it. One reason is that we built it with Stylus for the CSS. That is dead in the water. So, we'll gut that out - and while we're at it we can rework everything from an accessibility-first mindset. We always expected to do this and wanted to use it a a teaching tool for the early classes but it turned out that all students so far have more than occupied by the core lesson exercises. That's OK. We'll just do it - and video it."
+			}
+		]
+	},
+	{
+		"title" : "End of month goals",
+		"intro" : "That means end of April as of now",
+		"pieces" : [
+			{
+				"heading" : "CSS grid series",
+				"info" : "That ^. I don't think people teach it very well, but so far - my version is going well. So, let's see how it goes!"
+			},
+			{
+				"heading" : "The 'centering a div' seriew",
+				"info" : "This mostly involves a landing page and some marketing. It will also mean creating extra exercises given that it's a longer program with more repetition. But we should be able to make that addition as it's going."
+			},
+			{
+				"heading" : "Get 'DTFW Survivor series' up and running",
+				"info" : "This mostly involves a landing page and some marketing. It will also mean creating extra exercises given that it's a longer program with more repetition. But we should be able to make that addition as it's going."
+			}
+
+		]
+	},
+	{
+		"title" : "End of week goals",
+		"intro" : "What to do now: to get all those things above to happen!",
+		"pieces" : [
+			{
+				"heading" : "The detailed version control series",
+				"info" : "So far, I've helped people with Git as we go - but I think they need it in video form - because they don't seem to be <em>getting</em> it. We'll need to enforce more repetition for it to click."
+			},
+			{
+				"heading" : "The lesson about CSS pre-processing",
+				"info" : "I got some good real-wold situation to use for examples finally - thanks to Tara's website. I had been waiting for this!"
+			}
+		]
+	}
+]

@@ -1,0 +1,93 @@
+/* RESET */
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+/* DEV temp styles */
+@import 'developer-styles.css'; 
+/* comment this ^ out - when you are ready */
+
+/* SETTINGS */
+@import 'settings.css'; /* variables/ etc */
+
+/* STRUCTURE */
+@import 'structure.css';
+
+/* TYPOGRAPHY */
+@import 'typography.css';
+
+/* COMPONENTS */
+@import 'components.css';
+
+/* ? */
+@import 'header.css';
+@import 'footer.css';
+
+/* MODULES */
+@import 'modules.css';
+
+
+html {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+
+
+/* just to show the full-width and section seperation */
+section:nth-of-type(odd) {
+	background-color: rgba(0,0,0,.05);
+}
+
+/* just kinda mute these out */
+picture img {
+	opacity: 0;
+}
+picture {
+	background-color: var(--white);
+}
+
+
+.show-code {
+	display: block;
+	padding: 10px;
+	background-color: #222;
+	color: lime;
+}
+
+
+html.home {
+	background-color: wheat;
+}
+
+html.about {
+	/*background-color: salmon;*/
+	/*color: white;*/
+}
+
+html.contact {
+	background-color: hsl(200, 100%, 90%);
+}
+
+
+.project.responsive-layout-garden {
+	background-color: hsl(100, 100%, 90%);;
+}
+
+
+html.style-guide section {
+	position: relative;
+}
+
+.detail-link {
+	display: block;
+
+	padding: 10px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.1);
+
+	font-family: monospace;
+	font-size: .8rem;
+}

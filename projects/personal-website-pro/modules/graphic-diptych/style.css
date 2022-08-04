@@ -1,0 +1,34 @@
+
+graphic-diptych {
+  display: block;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  display: grid;
+  gap: 20px;
+}
+
+graphic-diptych picture {
+  max-width: 480px;
+  border-radius: var(--corners);
+}
+
+@media (min-width: 660px) {
+  graphic-diptych {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+  }
+
+  graphic-diptych :is(picture, text-content) {
+    width: 50%;
+  }
+
+  graphic-diptych picture {
+
+  }
+
+  graphic-diptych.flipped {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,15 @@
+
+projects-intro {
+  display: block;
+  padding-top: 100px;
+}
+
+projects-intro header {
+  margin-bottom: 40px;
+}
+
+projects-intro project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 5.4rem 1rem;
+}

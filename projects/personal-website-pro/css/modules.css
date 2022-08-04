@@ -1,0 +1,27 @@
+
+@import '../modules/masthead/style.css';
+@import '../modules/big-heading/style.css';
+@import '../modules/one-paragraph/style.css';
+@import '../modules/heading-and-paragraph/style.css';
+@import '../modules/quote-spotlight/style.css';
+@import '../modules/call-to-action/style.css';
+
+@import '../modules/grid-fun/style.css';
+
+@import '../modules/goals-list/style.css';
+
+@import '../modules/graphic-diptych/style.css';
+@import '../modules/graphic-diptych/style.css';
+@import '../modules/projects-intro/style.css';
+@import '../modules/projects-intro/project-card.css';
+@import '../modules/articles-intro/style.css';
+@import '../modules/articles-intro/article-card.css';
+
+@import '../modules/exercise-list/style.css';
+
+@import '../modules/resume-list/style.css';
+
+
+@import '../modules/font-overview/style.css';
+
+@import '../modules/site-map/style.css';

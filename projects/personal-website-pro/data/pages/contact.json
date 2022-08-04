@@ -1,0 +1,18 @@
+{
+	"id": 3,
+	"slug:" : "contact",
+	"heading" : "Contact me",
+	"intro" : "We should probably be friends.",
+	"sections" : [
+		{
+			"type" : "one-paragraph",
+			"content" : "contact me......"
+		},
+		{
+			"type" : "call-to-action"
+		},
+		{
+			"type" : "graphic-diptych"
+		}
+	]
+}

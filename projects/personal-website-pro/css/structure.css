@@ -1,0 +1,40 @@
+/* STRUCTURE */
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /* for the footer */
+} 
+
+main {
+	flex-grow: 1; /* grow to fill up the page and push the footer down */
+}
+/* explained here: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer */
+
+inner-column {
+	display: block;
+	width: 98%;
+	max-width: 1100px; /* could be a variable in settings */
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px 14px; /* a default */
+	/*border: 1px solid red;*/
+}
+
+main section:last-of-type {
+	padding-bottom: clamp(100px, 20vh, 10rem);
+}
+
+.site-header {
+	position: sticky;
+	top: 0;
+	z-index: 5;
+}
+
+.site-header inner-column {
+	padding: 0;
+	/* the links take care of this - visually */
+}
+
+html.module :is(header, footer) {
+	display: none;
+}

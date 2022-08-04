@@ -1,0 +1,13 @@
+
+exercise-list {
+	display: block;
+}
+
+exercise-list ol {
+	display: grid;
+	gap: 20px;
+}
+
+exercise-card {
+	display: block;
+}

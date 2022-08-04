@@ -1,0 +1,31 @@
+
+mast-head {
+  display: block;
+}
+
+mast-head nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+mast-head .logo {
+  max-width: 60px;
+}
+
+mast-head a {
+  padding: 10px 14px;
+}
+
+@media (min-width: 600px) {
+  mast-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+mast-head .url {
+  padding: 10px;
+}

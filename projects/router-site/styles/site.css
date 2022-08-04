@@ -1,0 +1,39 @@
+ P reset */
+@import 'preset.css';
+
+/* S etup */
+@import 'setup.css';
+
+/* S setings */
+@import 'settings.css';
+@import 'developer-styles.css';
+
+/* S tructure */
+@import 'structure.css';
+
+/* T ypography */
+@import 'typography.css';
+
+/* C omponents */
+@import 'components.css';
+
+/* S tuff (modules) */
+@import 'modules.css';
+
+/* S ections and more stuff */
+
+/* then other contextual styles */
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+.my-fantastic-image {
+	max-width: 300px;
+	border-bottom-right-radius: 30px;
+}
+
+/*thee styles could go here*/
+
+
+/* inbox for styles to be moved to the correct place a la scratchpad 

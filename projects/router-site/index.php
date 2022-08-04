@@ -1,3 +1,17 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>--personal page--</title>
+
+	<link rel="stylesheet" href="styles/site.css">
+</head>
+
+
+
+
+
 <?php include('functions.php'); ?>
 
 
@@ -36,7 +50,9 @@
 // renderPageTemplate(); 
 
 ?>
- 
+
+<body>
+	 
  <header class="site-header">
 	<p>?<?=queryString();?></p>
 	<?php include('templates/partials/site-menu.php');?>
@@ -58,3 +74,8 @@
 	}
 
 ?>
+
+
+</body>
+
+</html>

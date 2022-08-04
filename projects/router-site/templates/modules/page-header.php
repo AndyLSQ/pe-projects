@@ -1,7 +1,7 @@
 
 <header class='page-header'>
 
-	<h1><?=$pageData['title']?></h1>
-	<p><?=$pageData['intro']?></p>
+	<h1 class="loud-voice"><?=$pageData['intro']?></h1>
+	<p class="quiet-voice"><?=$pageData['callout']?></p>
 
 </header>

@@ -1,18 +1,16 @@
 {
-	"id": "home",
-	"title": "welcome",
-	"intro": "You've made it!",
-
-	"sections": [
-		{
-			"module": "generic_text",
-			"heading": "My latest work",
-			"content": "My latest work is asdfsadfsadfsfasdfasdfasdfasdfasdfsadfasf"
-		},
-		{
-			"module": "generic_text",
-			"heading": "Things I like",
-			"content": "Some things I like are oiruetwoeirutpweirutwpeorituwertpreitweporitup"
-		}
-	]
+    "id": "home",
+    "title": "welcome",
+    "intro": "Hi,<br>I'm Andy Eliscu",
+    "callout": "(pronounced L-S-Q)",
+    "sections": [
+        {
+            "type": "paragraph",
+            "content": "I’m a longtime management consultant turned <span>front-end web developer</span>, pursuing lifelong passions in technology and design."
+        },
+        {
+            "type": "paragraph",
+            "content": "I love creating <span>clean, responsive websites</span>, and I strive for continuous improvement in my processes and methods."
+        }
+    ]
 }

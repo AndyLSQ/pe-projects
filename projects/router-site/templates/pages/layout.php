@@ -9,14 +9,13 @@
 	echo "querystring TEST: " . $layoutId;
 
 	foreach ($projectData['sections'] as $section ) {
-
-		if ($layoutId == $sections['slug']) {
-			echo $sections['content'];
-
+		foreach ($section['cards'] as $layout){
+			echo $layout['content'];
 
 
 		}
 	}
+	
 ?>
 
 

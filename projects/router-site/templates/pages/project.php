@@ -33,14 +33,12 @@
 				$name = $card['name'];
 				$slug = $card['slug'];
 
-				//TEST: display the thumbnail and name
-				// print_r("TEST: " . $thumbnail . "<br>" . $name . "<br> " . $slug . "<br>");
 
 				//compile a card with this info on it
 				?>
 
 				<li>
-					<a href="?page=layout&id=<?=$slug?>">
+					<a href="?page=layout&id=<?=$slug?>"> <!-- this links to the detail page -->
 						<picture>
 							<img src="<?=$thumbnail?>" alt="">
 						</picture>

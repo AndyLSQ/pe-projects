@@ -1,18 +1,58 @@
 [
     {
         "id": 1,
-        "name": "Future JavaScript Project"
+        "name": "Future JavaScript Project",
+        "intro": "Future JavaScript Project",
+        "teaser": "This slot is reserved for a future project built using JavaScript. ",
+        "thumbnail": "https://peprojects.dev/images/landscape.jpg",
+        "sections": []
     },
     {
         "id": 2,
-        "name": "Industry Theming"
+        "name": "Industry Theming",
+        "intro": "Industry Theming",
+        "teaser": "An exploration of prevalent design themes in consumer software websites",
+        "thumbnail": "https://peprojects.dev/images/landscape.jpg",
+        "sections": []
     },
     {
         "id": 3,
-        "name": "Responsive Layout Garden"
+        "name": "Responsive Layout Garden",
+        "intro": "Industry Theming",
+        "teaser": "A collection of various layout modules that can be themed to match any existing page",
+        "thumbnail": "https://peprojects.dev/images/landscape.jpg",
+        "sections": [
+            {
+                "module": "generic_text",
+                "heading": "Planting seeds to grow future websites",
+                "content": "No flowers here. This is a collection of various layout modules that can be themed to match an existing page. Click any module from the gallery below for a closer look."
+            },
+            {
+                "module": "links_gallery",
+                "heading": "",
+                "cards": [
+                    {
+                        "thumbnail": "https://peprojects.dev/images/abstract.jpg",
+                        "name": "El Paso",
+                        "slug": "el-paso"
+                    },
+                    {
+                        "thumbnail": "https://peprojects.dev/images/abstract.jpg",
+                        "name": "Laredo",
+                        "slug": "laredo"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 4,
-        "name": "Exercises for Programmers"
+        "name": "Exercises for Programmers",
+        "intro": "Exercises for Programmers",
+        "teaser": "A collection of exercises from the book “Exercises for Progammers” by Brian P Hogan",
+        "thumbnail": "https://peprojects.dev/images/landscape.jpg",
+        "sections": [
+            {}
+        ]
     }
 ]

@@ -40,6 +40,9 @@
 	}
 
 	if ($pageId == "project") {
+		// $jsonPage = file_get_contents('data/projects-data.json');
+		// $pageData = json_decode($jsonPage, true);
+
 		$json = file_get_contents('data/projects-data.json');
 		$projectsData = json_decode($json, true);
 		foreach ($projectsData as $project) {
@@ -70,6 +73,18 @@
 	$pageData = json_decode($json, true);
 	}
 
+//FIX: how to do this without pulling the data twice?
+	// if ($pageID == "layout") {
+	// $json = file_get_contents('data/projects-data.json');
+	// $projectsData = json_decode($json, true);
+	// foreach ($projectsData as $project) {
+	// 	if ($project["id"] == $_GET["id"]) {
+	// 		$projectData = $project;
+	// 		}
+	// 	}
+	// }
+
+
 
 // renderPageTemplate(); 
 
@@ -97,20 +112,24 @@
 	include('templates/pages/project.php');
 	}
 
-	if ($pageId == "about") { //about page
+	if ($pageId == "about") { 
 	include('templates/pages/about.php');
 	}
 
-	if ($pageId == "goals") { //goals page
+	if ($pageId == "goals") { 
 	include('templates/pages/goals.php');
 	}
 
-	if ($pageId == "contact") { //goals page
+	if ($pageId == "contact") { 
 	include('templates/pages/contact.php');
 	}
 
-	if ($pageId == "resume") { //goals page
+	if ($pageId == "resume") { 
 	include('templates/pages/resume.php');
+	}
+
+	if ($pageId == "layout") { //layout (plant) page
+	include('templates/pages/layout.php');
 	}
 
 ?>

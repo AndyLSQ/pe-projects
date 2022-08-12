@@ -1,12 +1,12 @@
 /* color sets, site wide spacing (margin, max widths, variables inner-columns if desired) */
 html {
 	--black: #111111;
-	--white: #efefef;
+	--white: white;
 
-	--neutral-stuffs: gray;
+	--neutral-stuffs: #efefef;
 
-	--color: #9ec9eb;
-	--highlight: #aadee9;
+	--color1: hsla(200, 9%, 21%, 1.00);
+	--highlight: hsla(333, 100%, 50%, 1.00);
 
 	--shadow: rgba(0,0,0,.8);
 

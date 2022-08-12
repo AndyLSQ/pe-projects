@@ -1,4 +1,16 @@
+<?php	
+	$json = file_get_contents('data/projects-data.json');
+	$projectsData = json_decode($json, true);
+	foreach ($projectsData as $project) {
+		if ($project["id"] == $_GET["id"]) {
+			$projectData = $project;
+		}
+	}
 
+
+	
+
+	?>
 
 <header class='page-header'>
 
@@ -19,6 +31,8 @@
 
 		<?php 
 		if ($section['module'] == "links_gallery") { 
+			$layoutJson = file_get_contents('data/layouts.json');
+			$layoutsData = json_decode($layoutJson, true);
 			//create a list of cards?>
 			
 			<ul>
@@ -26,19 +40,19 @@
 
 			<?php
 			//loop through cards
-			foreach ($section['cards'] as $card) {
+			foreach ($layoutsData as $layout) {
 
 				//set thumbnail, name, and slug variables based on the json data
-				$thumbnail = $card['thumbnail'];
-				$name = $card['name'];
-				$slug = $card['slug'];
+				$thumbnail = $layout['thumbnail'];
+				$name = $layout['name'];
+				$slug = $layout['slug'];
 
 
 				//compile a card with this info on it
 				?>
 
 				<li>
-					<a href="?page=layout&id=<?=$slug?>"> <!-- this links to the detail page -->
+					<a href="?page=layout&slug=<?=$slug?>"> <!-- this links to the detail page -->
 						<picture>
 							<img src="<?=$thumbnail?>" alt="">
 						</picture>

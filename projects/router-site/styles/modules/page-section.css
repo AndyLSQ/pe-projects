@@ -1,0 +1,14 @@
+.generic-text * {
+	/*border: 1px dashed red;*/
+}
+.generic-text {
+	padding: 25px 0px;
+	display: grid;
+	
+}
+
+.generic-text .text {
+	max-width: 60ch;
+	background-color: var(--neutral-stuffs);
+	padding: 15px;
+}

@@ -6,7 +6,7 @@
 
 /* S etings */
 @import 'settings.css';
-@import 'developer-styles.css';
+/*@import 'developer-styles.css';*/
 
 /* S tructure */
 @import 'structure.css';
@@ -19,6 +19,11 @@
 
 /* S tuff (modules) */
 @import 'modules.css';
+@import 'modules/site-menu.css';
+@import 'pages/home.css';
+@import 'pages/projects.css';
+@import 'pages/about.css';
+@import 'partials/page-section.css';
 
 /* S ections and more stuff */
 

@@ -1,3 +1,29 @@
 .page-header {
-	background-color: red;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	background-color: var(--color1);
+	color: var(--white);
+	height: 15vh;
 }
+
+.page-header inner-column {
+	padding: 0px;
+}
+
+.page-header .header-content {
+	width: fit-content;
+	max-width: 40ch;
+}
+
+
+
+
+.page-header .quiet-voice {
+	color: var(--highlight);
+	/*width: fit-content;*/
+	/*width: auto;*/
+	/*text-align: right;*/
+}
+

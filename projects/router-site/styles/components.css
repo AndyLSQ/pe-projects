@@ -3,3 +3,9 @@
 
 
 @import 'forms.css';
+
+.button1 {
+	border: 1px solid var(--ink);
+	background-color: var(--neutral-stuffs);
+	padding: 10px 15px;
+}

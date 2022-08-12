@@ -3,31 +3,47 @@
 /*voice examples:  loud, attention, strong, calm, stout, micro, whisper, quiet*/
 /*use voice classes instead of header levels for styling*/
 
+html {
+	font-family: 'DM Sans', sans-serif;
+}
+
 .loud-voice	{
-	font-family: sans-serif;
-	font-size: 40px /*clamp(36px, 5vw, 60px)*/;
+	font-family: 'DM Serif Display', serif;
+	font-size: 50px /*clamp(36px, 5vw, 60px)*/;
 }
 @media (min-width: 600px) {
 	.loud-voice {
-		font-weight: 700; /* or variable font */
+		/*font-weight: 700;  or variable font */
 	}
 }
 
 .attention-voice	{
-	font-family: sans-serif;
+	font-family: 'DM Serif Text', serif;;
 	font-size: 30px;
 }
 
 .calm-voice, p {
-	font-family: sans-serif;
+	font-family: 'DM Sans', sans-serif;;
+	font-size: 1rem;
+	line-height: 1.4;
+	/*font-weight: light;*/
+}
+
+.quiet-voice {
+	font-family: 'DM Sans', sans-serif;;
 	font-size: 1rem;
 	line-height: 1.4;
 }
 
-.quiet-voice {
-	font-family: sans-serif;
+.whisper-voice {
+	font-family: 'DM Sans', sans-serif;;
 	font-size: .75rem;
 	line-height: 1.4;
+}
+
+.logo {
+	font-family: 'DM Serif Display', serif;;
+	font-size: 30px;
 }
 
 
@@ -49,6 +65,10 @@ p + p {
 
 h2 + p {
 	margin-top: 20px;
+}
+
+h1 + .attention-voice {
+	margin-top: 10px;
 }
 
 code {

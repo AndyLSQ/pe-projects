@@ -1,0 +1,23 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+home .page-header {
+	height: 40vh;
+}
+
+.home nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 25px;
+
+}
+
+.home .paragraph {
+	max-width: 40ch;
+	gap: 20px;
+}
+

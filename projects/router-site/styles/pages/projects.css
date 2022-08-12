@@ -1,0 +1,90 @@
+
+.projects .project-list {
+		display: grid;
+		gap: 25px;
+	}
+
+
+.projects .link h2{
+	margin-top: 10px;
+}
+
+@media (min-width: 600px) { 
+
+
+
+	.projects .card {
+		border: 2px solid green;
+		display: grid;
+		grid-template-columns: 1fr 1 fr 1fr;
+		gap: 20px;
+	}
+
+	.projects picture {
+		width: 100%;
+		border: 1px solid red;
+		grid-column: 1 / 2;
+	}
+
+
+
+	.projects img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+	.projects .project-text {
+		border: 1px solid blueviolet;
+		grid-column: 2 /4;
+		padding: 10px;
+		max-width: 35ch;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+}
+
+@media (min-width: 900px) { 
+
+	.projects .project-list {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.projects .card {
+		height: 100%;
+	}
+	.projects .card {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+
+	}	
+
+	.projects :is(picture, .project-text) {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+
+	.projects picture {
+		background-color: black;
+	}
+
+	.projects img {
+		opacity: 40%;
+	}
+
+	.projects .project-text  {
+		align-self: end;
+		padding: 15px 15px;
+		/*color: var(--white);*/
+	}
+
+	.projects a {
+		color: white;
+	}
+	.projects a:hover {
+		color: var(--highlight);
+	}
+}

@@ -11,12 +11,19 @@ a {
 	display: block;
 	text-decoration: none;
 	color: inherit;
+	transition-duration: .5s;
+}
+
+a:hover {
+	color: var(--highlight);
+	transition-duration: .25s;
 }
 
 p a {
 	display: inline;
-	color: blue;
-	text-decoration: underline;
+	color: var(--highlight);
+	text-decoration: none;
+	font-weight: bold;
 }
 
 picture {

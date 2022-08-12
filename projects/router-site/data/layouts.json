@@ -1,0 +1,16 @@
+[
+	
+	{
+		"thumbnail": "https://peprojects.dev/images/abstract.jpg",
+		"name": "El Paso",
+		"slug": "el-paso",
+		"content": "the el paso layout module would be inserted here"
+	},
+	{
+		"thumbnail": "https://peprojects.dev/images/abstract.jpg",
+		"name": "Laredo",
+		"slug": "laredo",
+		"content": "the laredo layout module would be inserted here"
+	}
+
+]

@@ -1,17 +1,24 @@
-<?php include('templates/modules/page-header.php');?>
+<home>
+	<?php include('templates/modules/page-header.php');?>
 
+	<inner-column class="home">
 
-<?php
-	
-	foreach ($pageData["sections"] as $section) {
+		<?php
+			
+			foreach ($pageData["sections"] as $section) {
 
-		if ( $section["type"] == "paragraph"){
-			include ('templates/partials/paragraph.php');
-		}
+				if ( $section["type"] == "paragraph"){
+					include ('templates/partials/paragraph.php');
+				}
 
-	}
+			}
 
-?>
+		?>
 
-<a href="?page=projects">See my work</a>
-<a href="?page=projects">Get in touch</a>
+		<nav>
+			<a href="?page=projects" class="button1">See my work</a>
+			<a href="?page=contact" class="button1">Get in touch</a>
+		</nav>
+
+	</inner-column>
+</home>

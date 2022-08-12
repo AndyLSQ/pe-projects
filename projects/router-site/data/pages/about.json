@@ -7,17 +7,22 @@
         {
             "module": "generic_text",
             "heading": "Who am I?",
-            "content": "I’m a front-end web developer based in Austin, Texas, and currently under the mentorship of <a href='https://perpetual.education/'>Perpetual Education</a>, a program covering the entire design and web development process from idea to completion.<br>Follow my learning journey on <a href='https://lisq.substack.com/'>Substack</a>."
+            "content": "I’m a front-end web developer based in Austin, Texas, and currently under the mentorship of <a href='https://perpetual.education/'>Perpetual Education</a>, a program covering the entire design and web development process from idea to completion.</p><p>Follow my learning journey on <a href='https://lisq.substack.com/'>Substack</a>."
         },
         {
             "module": "generic_text",
             "heading": "Where have I been?",
-            "content": "I have 10 years of prior experience in financial technology, serving large corporate clients in Finance Process Architecture and Software Implementation.<br>Check out my <a href='?page=resume'>resume</a>."
+            "content": "I have 10 years of prior experience in financial technology, serving large corporate clients in Finance Process Architecture and Software Implementation.</p><p>Check out my <a href='?page=resume'>resume</a>."
         },
         {
             "module": "generic_text",
             "heading": "Why am I here?",
-            "content": "I’m here to pursue a career path that aligns with my lifelong interest in design and technology.<br>Take an in-depth look at my <a href='?page=goals'>goals</a>."
+            "content": "I’m here to pursue a career path that aligns with my lifelong interest in design and technology.</p><p>Take an in-depth look at my <a href='?page=goals'>goals</a>."
+        },
+        {
+            "module": "portrait",
+            "url": "https://peprojects.dev/images/portrait.jpg",
+            "alt": "Portrait of Andy"
         }
     ]
 }

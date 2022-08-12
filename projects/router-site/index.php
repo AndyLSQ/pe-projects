@@ -1,139 +1,56 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>--personal page--</title>
 
 	<link rel="stylesheet" href="styles/site.css">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-
-
-
-
-
-<?php include('functions.php'); ?>
-
-
 
 
 <?php 
 
+	include('functions.php'); 
+
+	$pageData = "";
+
+//Determine the active page
+	//Page is home by default
 	$pageId="home";
+
 	if ( isset($_GET["page"]) ) {
 		$pageId = $_GET["page"];
 	}
+	// echo $pageId;
 
-	echo $pageId;
-
-	if ($pageId == "home") {
-		$json = file_get_contents('data/pages/home.json');
-		$pageData = json_decode($json, true);
-	}
-
-	if ($pageId == "projects") {
-		$jsonPage = file_get_contents('data/pages/projects.json');
-		$pageData = json_decode($jsonPage, true);
-
-		$json = file_get_contents('data/projects-data.json');
-		$projectsData = json_decode($json, true);
-	}
-
-	if ($pageId == "project") {
-		// $jsonPage = file_get_contents('data/projects-data.json');
-		// $pageData = json_decode($jsonPage, true);
-
-		$json = file_get_contents('data/projects-data.json');
-		$projectsData = json_decode($json, true);
-		foreach ($projectsData as $project) {
-			if ($project["id"] == $_GET["id"]) {
-				$projectData = $project;
-			}
-		}
-	}
-
-	if ($pageId == "about") {
-	$json = file_get_contents('data/pages/about.json');
+//Get data for the page
+	$json = file_get_contents("data/pages/$pageId.json");
 	$pageData = json_decode($json, true);
-	}
-
-	if ($pageId == "goals") {
-	$json = file_get_contents('data/pages/goals.json');
-	$pageData = json_decode($json, true);
-	}
-
-
-	if ($pageId == "contact") {
-	$json = file_get_contents('data/pages/contact.json');
-	$pageData = json_decode($json, true);
-	}
-
-	if ($pageId == "resume") {
-	$json = file_get_contents('data/pages/resume.json');
-	$pageData = json_decode($json, true);
-	}
-
-//FIX: how to do this without pulling the data twice?
-	// if ($pageID == "layout") {
-	// $json = file_get_contents('data/projects-data.json');
-	// $projectsData = json_decode($json, true);
-	// foreach ($projectsData as $project) {
-	// 	if ($project["id"] == $_GET["id"]) {
-	// 		$projectData = $project;
-	// 		}
-	// 	}
-	// }
-
-
-
-// renderPageTemplate(); 
 
 ?>
+
 
 <body>
 	 
- <header class="site-header">
-	<p>?<?=queryString();?></p>
-	<?php include('templates/partials/site-menu.php');?>
-		
-</header>
+	 <header class="site-header">
+		<p>?<?=queryString();?></p>
+		<?php include('templates/modules/site-menu.php');?>
+			
+	</header>
 
-<?php
+	<main>
 
-	if ($pageId == "home") {
-		include('templates/pages/home.php');
-	}
+		<?php
+			foreach ($pageData["sections"] as $section) {
+				//TODO: NEED EVERY TEMPLATE IN 1 DIRECTORY
+				include ( "templates/modules/$section[type].php" );
+			}
+		?>
 
-	if ($pageId == "projects") { //projects list page
-		include('templates/pages/projects.php');
-	}
-
-	if ($pageId == "project") { //project detail page
-	include('templates/pages/project.php');
-	}
-
-	if ($pageId == "about") { 
-	include('templates/pages/about.php');
-	}
-
-	if ($pageId == "goals") { 
-	include('templates/pages/goals.php');
-	}
-
-	if ($pageId == "contact") { 
-	include('templates/pages/contact.php');
-	}
-
-	if ($pageId == "resume") { 
-	include('templates/pages/resume.php');
-	}
-
-	if ($pageId == "layout") { //layout (plant) page
-	include('templates/pages/layout.php');
-	}
-
-?>
-
+	</main>
 
 </body>
 

@@ -1,15 +1,15 @@
 {
-    "id": "home",
-    "title": "welcome",
-    "intro": "Hi,<br>I’m Andy Eliscu.",
-    "subheader": "(pronounced L-S-Q)",
+    "id": "style-guide",
+    "title": "Style Guide",
+    "intro": "This is the style guide.",
+    "subheader": "Subheader goes here.",
     "sections": [
         {
-            "type": "paragraph",
+            "type": "text-block",
             "content": "I’m a longtime management consultant turned <a href='?page=resume'>front-end web developer</a>, pursuing lifelong passions in technology and design."
         },
         {
-            "type": "paragraph",
+            "type": "project-grid",
             "content": "I love creating <a href='?page=projects'>clean, responsive websites</a>, and I strive for continuous improvement in my processes and methods."
         }
     ]

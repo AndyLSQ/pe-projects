@@ -1,0 +1,22 @@
+{
+    "id": "home",
+    "title": "welcome",
+    "header": "Hi,<br>I’m Andy Eliscu.",
+    "subheader": "(pronounced L-S-Q)",
+    "sections": [
+        {
+            "type": "text-block",
+            "header": "",
+            "content": [
+                "I’m a longtime management consultant turned <a href='?page=resume'>front-end web developer</a>, pursuing lifelong passions in technology and design."
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "",
+            "content": [
+                "I love creating <a href='?page=projects'>clean, responsive websites</a>, and I strive for continuous improvement in my processes and methods."
+            ]
+        }
+    ]
+}

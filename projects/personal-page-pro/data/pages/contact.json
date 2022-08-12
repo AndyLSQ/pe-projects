@@ -1,0 +1,12 @@
+{
+    "id": "contact",
+    "title": "Contact",
+    "header": "Let’s chat",
+    "subheader": "Contact page subheader goes here",
+    "sections": [
+        {
+            "type": "contact-form",
+            "header": "Contact Form"
+        }
+    ]
+}

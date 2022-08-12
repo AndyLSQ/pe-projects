@@ -1,0 +1,13 @@
+{
+    "id": "projects",
+    "title": "Projects",
+    "header": "Here's what I’ve been up to...",
+    "subheader": "Projects page subheader goes here",
+    "sections": [
+         {
+            "type": "card-grid",
+            "header": "This is a grid of project cards",
+            "data-source": "data/projects-data.json"
+        }
+    ]
+}

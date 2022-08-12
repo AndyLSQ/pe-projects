@@ -1,0 +1,11 @@
+{
+    "id": "404",
+    "title": "404",
+    "intro": "This page does not exist",
+    "sections": [
+        {
+            "heading": "Here are some other very lovely pages",
+            "content": "Other pages go here"
+        }
+    ]
+}

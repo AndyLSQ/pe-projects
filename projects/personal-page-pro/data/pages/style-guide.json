@@ -1,0 +1,32 @@
+{
+    "id": "style-guide",
+    "title": "Style Guide",
+    "header": "This is the style guide header.",
+    "subheader": "Style guide subheader goes here.",
+    "sections": [
+        {
+            "type": "text-block",
+            "header": "This is a text block",
+            "content": [
+                "It's used for standard text that may or may not have headers.",
+                "Here's a second block of text in the same section."
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "",
+            "content": [
+                "Here's a separate section of text with no header."
+            ]
+        },
+        {
+            "type": "card-grid",
+            "header": "This is a grid of information cards",
+            "data-source": "data/projects-data.json"
+        },
+        {
+            "type": "contact-form",
+            "header": "Contact Form"
+        }
+    ]
+}

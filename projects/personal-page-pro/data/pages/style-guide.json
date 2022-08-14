@@ -77,35 +77,35 @@
             ]
         },
         {
-            "type": "layered-text",
-            "header": "Five Years",
-            "subsections":
-            {
-                "type": "text-block",
-                "header": "Passion in Work",
-                "content": [
-                    "I’ve always been incredibly passionate about technology, and in five years I want to be bringing that passion to my work. I want to wake up excited for what I can create each day, and constantly be improving my skils to unlock new creative possibilities."
-                ]
-            },
-            { 
-                "type": "text-block",
-                "header": "Continuous learning",
-                "content": [
-                    "I want to have a firm command of my tools and always be learning new ones. And I want to be a contibutor to the technology and web development communities by continuously exploring new ideas and passing my knowledge on to others. I want to mentor and lead my peers in adopting new technologies."
-                ]
-            }
+            "type": "text-block",
+            "header": "",
+            "content": [
+                "<hr>"
+            ]
         },
         {
             "type": "layered-text",
-            "header": "End of Course",
-            "subsections":
-            {
-                "type": "text-block",
-                "header": "Find My Path",
-                "content": [
-                    "By the end of the course I hope to find the particular role that best matches my interests and skills. I intend to explore different pathways so I can make an informed decision, when the time comes, about the type of career I want to pursue."
-                ]
-            }
+            "header": "Layered Text",
+            "subsections": [
+                {
+                    "header": "Text with subsections",
+                    "content": [
+                        "This area functions similar to standard text blocks but the data structure can handle an additional layer of grouping."
+                    ]
+                },
+                {
+                    "header": "Subsection 2",
+                    "content": [
+                        "Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. "
+                    ]
+                },
+                {
+                    "header": "Subsection 3",
+                    "content": [
+                        "Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. "
+                    ]
+                }
+            ]
         }
     ]
 }

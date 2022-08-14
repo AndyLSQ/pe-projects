@@ -2,7 +2,7 @@
     "id": "contact",
     "title": "Contact",
     "header": "Let’s chat",
-    "subheader": "Contact page subheader goes here",
+    "subheader": "Ask me anything",
     "sections": [
         {
             "type": "contact-form",

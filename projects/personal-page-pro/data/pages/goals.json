@@ -1,0 +1,56 @@
+{
+    "id": "goals",
+    "title": "My Goals",
+    "header": "My Goals",
+    "subheader": "Keeping the big picture in mind",
+    "sections": [
+        {
+            "type": "layered-text",
+            "header": "Five Years",
+            "subsections": [
+                {
+                    "header": "Passion in Work",
+                    "content": [
+                        "I’ve always been incredibly passionate about technology, and in five years I want to be bringing that passion to my work. I want to wake up excited for what I can create each day, and constantly be improving my skils to unlock new creative possibilities."
+                    ]
+                },
+                {
+                    "header": "Continuous learning",
+                    "content": [
+                        "I want to have a firm command of my tools and always be learning new ones. And I want to be a contibutor to the technology and web development communities by continuously exploring new ideas and passing my knowledge on to others. I want to mentor and lead my peers in adopting new technologies."
+                    ]
+                },
+                {
+                    "header": "Know myself",
+                    "content": [
+                        "Lastly I want to learn more about myself, both as a developer and as an individual. I want to better understand my own strengths and weaknesses and use that knowledge to drive my own growth. I want to have clear goals based on a deep understanding of myself, my wants, and my needs, and devote my time and energy towards achieving them."
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "layered-text",
+            "header": "End of Course",
+            "subsections": [
+                {
+                    "header": "Find My Path",
+                    "content": [
+                        "By the end of the course I hope to find the particular role that best matches my interests and skills. I intend to explore different pathways so I can make an informed decision, when the time comes, about the type of career I want to pursue."
+                    ]
+                },
+                {
+                    "header": "Rock Solid Foundation",
+                    "content": [
+                        "I want to complete this course with a strong foundational knowledge -not just of how to do things, but why to do them that way- and an appreciation for the impact of my design choices, both positive and negative."
+                    ]
+                },
+                {
+                    "header": "Employment & Growth Potential",
+                    "content": [
+                        "Of course, I want to come out of this course with the skills and portfolio needed to get a job in this field. I hope to find a job that will give me the opportunity to prove myself and grow quickly."
+                    ]
+                }
+            ]
+        }
+    ]
+}

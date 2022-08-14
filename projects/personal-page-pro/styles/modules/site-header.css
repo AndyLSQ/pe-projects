@@ -1,0 +1,33 @@
+header {
+	background-color: var(--color1);
+}
+
+.site-header {
+	padding: 10px 0px;
+	color: var(--white);
+}
+
+.site-header inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0px 0px;
+}
+
+.site-header logo {
+	display: block;
+	padding: 0;
+}
+
+.site-header logo a {
+	display: block;
+	padding: 0;
+}
+
+.site-header ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 0px;
+	gap: 25px;
+}

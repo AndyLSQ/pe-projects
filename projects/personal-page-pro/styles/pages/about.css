@@ -1,0 +1,53 @@
+.about main inner-column {
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 50px;
+	align-items: center;
+	/*background-color: pink;*/
+}
+
+.about .about-text {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.about picture {
+	height: 500px;
+}
+
+.about img {
+	object-fit: cover;
+	height: 100%;
+}
+
+
+@media (min-width: 775px) {
+	.about main inner-column {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		gap: 50px;
+		align-items: center;
+		/*background-color: pink;*/
+	}
+
+	.about .about-text {
+		gap: 75px;
+		justify-content: center;
+	}
+
+	.about text-block {
+		/*max-width: 80ch;*/
+	}
+
+	.about picture {
+		height: auto;
+	}
+
+	.about img {
+		object-fit: cover;
+		width: none;
+		height: none;
+	}
+}

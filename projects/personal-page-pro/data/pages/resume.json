@@ -6,7 +6,7 @@
 
 	"sections": [
 		{
-			"module": "generic_text",
+			"module": "resume-contact",
 			"heading": "My favorite colors",
 			"content": "My latest work is asdfsadfsadfsfasdfasdfasdfasdfasdfsadfasf"
 		},

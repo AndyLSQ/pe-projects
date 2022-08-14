@@ -1,9 +1,14 @@
 {
     "id": "about",
     "title": "About Me",
-    "header": "Meet Andy.",
-    "subheader": "Subheader goes here",
+    "header": "About Me",
+    "subheader": "Meet Andy",
     "sections": [
+        {
+            "type": "element-open",
+            "element": "div",
+            "class": "about-text"
+        },
         {
             "type": "text-block",
             "header": "Who am I?",
@@ -15,7 +20,7 @@
             "type": "text-block",
             "header": "Where have I been?",
             "content": [
-                "I have 10 years of prior experience in financial technology, serving large corporate clients in Finance Process Architecture and Software Implementation.</p><p>Check out my <a href='?page=resume'>resume</a>."
+                "I have 10 years experience as a Management Consultant and Financial Analyst, serving large corporate clients in <a href='https://twitter.com/benedictevans/status/1535919372241211392'>Digital Transformation</a> and Finance Process Architecture.</p><p>Check out my <a href='?page=resume'>resume</a>."
             ]
         },
         {
@@ -26,9 +31,14 @@
             ]
         },
         {
+            "type": "element-close",
+            "element":"div"
+        },
+        {
             "type": "portrait",
             "url": "https://peprojects.dev/images/portrait.jpg",
-            "alt": "Portrait of Andy"
+            "alt": "Portrait of Andy",
+            "caption": "This is a picture of Andy so you know he's a human and&nbsp;not&nbsp;a&nbsp;robot&nbsp;(yet)."
         }
     ]
 }

@@ -12,12 +12,10 @@ $message = "";
 	//retrieve input and assign to variables
 
 if ($section["header"]) { ?>
-		<h2><?=$section["header"]?></h2>
+		<h2 class="attention-voice"><?=$section["header"]?></h2>
 	<?php } 
 
 ?>
-
-<h2></h2>
 
 <form method="POST">
 
@@ -38,7 +36,7 @@ if ($section["header"]) { ?>
 
 	<div class="message">
 		<label for="">Message</label>
-		<textarea name="message" placeholder="Enter your message here" rows=4 cols=30 required><?=$message?></textarea>
+		<textarea name="message" placeholder="Enter your message here" rows=10 cols=60 required><?=$message?></textarea>
 	</div>
 
 	<button type='submit' name="submitted">

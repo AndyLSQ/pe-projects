@@ -1,0 +1,86 @@
+.card-grid .cards {
+	display: grid;
+	gap: 25px;
+}
+
+.card-grid  .link h2{
+	margin-top: 15px;
+}
+
+@media (min-width: 600px) {
+
+	.card-grid .card {
+		border: 2px solid green;
+		background-color: var(--neutral-stuffs);
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+		height: 200px;
+		/*max-width: 900px;*/
+	}
+
+	.card-grid .card picture {
+		width: 100%;
+		border: 1px solid red;
+		grid-column: 1 / 2;
+	}
+
+	.card-grid .card img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+	.card-grid .card .card-text {
+		border: 1px solid blueviolet;
+		grid-column: 2 /4;
+		padding: 10px;
+		max-width: 40ch;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+}
+
+
+@media (min-width: 900px) { 
+
+	.card-grid .cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.card-grid .card {
+		grid-template-columns: 1;
+		grid-template-rows: 1;
+		height: 100%;
+
+	}
+
+	.card-grid .card :is(picture, .card-text){
+		width: 100%;
+		border: 1px solid red;
+		grid-column: 1 / -1;
+		grid-row: 1 / -1;
+	}
+
+	.card-grid picture {
+		background-color: black;
+	}
+
+	.card-grid img {
+		opacity: 40%;
+	}
+
+	.card-grid .card-text  {
+		align-self: end;
+		padding: 15px 15px;
+	}
+
+	.card-grid a {
+		color: white;
+	}
+	.card-grid a:hover {
+		color: var(--highlight);
+	}
+}

@@ -9,13 +9,18 @@
 
 ?>
 
-<card-grid>
+<section class="card-grid">
 
-	<h2><?=$section['header']?></h2>
+	<?php
+	//Only include header element if there's header content
+	if ($section["header"]) { ?>
+		<h2 class="attention-voice"><?=$section["header"]?></h2>
+	<?php } ?>
+
 	
-	<ul class='card-list'>
+	<ul class='cards'>
 		<?php foreach ($cardsData as $card) { ?>
-			<li class='card'>
+			<li>
 				<a class="link" href='?page=card&id=<?=$card["id"]?>'>
 					<div class="card">
 						<picture>
@@ -32,4 +37,4 @@
 	</ul>
 
 
-</card-grid>
+</section>

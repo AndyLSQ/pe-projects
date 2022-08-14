@@ -4,7 +4,7 @@
 	<?php
 	//Only include header element if there's header content
 	if ($section["header"]) { ?>
-		<h3><?=$section["header"]?></h3>
+		<h2 class="attention-voice"><?=$section["header"]?></h2>
 	<?php } 
 
 	foreach($section['content'] as $paragraph) { ?>

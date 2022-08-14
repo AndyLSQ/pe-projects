@@ -3,6 +3,15 @@
 	gap: 25px;
 }
 
+.card-grid .card {
+	background-color: var(--neutral-stuffs);
+}
+
+.card-grid .card .card-text {
+	padding: 25px 15px;
+}
+
+
 .card-grid  .link h2{
 	margin-top: 15px;
 }
@@ -10,8 +19,8 @@
 @media (min-width: 600px) {
 
 	.card-grid .card {
-		border: 2px solid green;
-		background-color: var(--neutral-stuffs);
+		/*border: 2px solid green;*/
+
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 20px;
@@ -21,7 +30,7 @@
 
 	.card-grid .card picture {
 		width: 100%;
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		grid-column: 1 / 2;
 	}
 
@@ -32,7 +41,7 @@
 	}
 
 	.card-grid .card .card-text {
-		border: 1px solid blueviolet;
+		/*border: 1px solid blueviolet;*/
 		grid-column: 2 /4;
 		padding: 10px;
 		max-width: 40ch;
@@ -59,7 +68,7 @@
 
 	.card-grid .card :is(picture, .card-text){
 		width: 100%;
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		grid-column: 1 / -1;
 		grid-row: 1 / -1;
 	}

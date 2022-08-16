@@ -1,48 +1,66 @@
 [
     {
-        "id": 1,
-        "name": "Future JavaScript Case Study",
-        "slug": "future-javascript-case-study",
-        "intro": "Future JavaScript Case Study",
-        "teaser": "This slot is reserved for a future project built using JavaScript. ",
-        "thumbnail": "https://peprojects.dev/images/landscape.jpg",
-        "sections": ""
-    },
-    {
-        "id": 2,
-        "name": "Industry Theming Case Study",
-        "slug": "industry-theming",
-        "intro": "Industry Theming",
-        "teaser": "An exploration of prevalent design themes in consumer software websites",
-        "thumbnail": "https://peprojects.dev/images/landscape.jpg",
-        "sections": ""
-    },
-    {
-        "id": 3,
-        "name": "Responsive Layout Garden",
-        "slug": "responsive-layout-garden",
-        "intro": "Responsive Layout Garden",
-        "teaser": "A collection of various layout modules that can be themed to match any existing page",
+        "id": "future-js",
+        "header": "Future JavaScript Case Study",
+        "title": "Future JavaScript Case Study",
+        "subheader": "This slot is reserved for a future project built using JavaScript. ",
         "thumbnail": "https://peprojects.dev/images/landscape.jpg",
         "sections": [
             {
-                "module": "generic_text",
-                "heading": "Planting seeds to grow future websites",
-                "content": "No flowers here. This is a collection of various layout modules that can be themed to match an existing page. Click any module from the gallery below for a closer look."
-            },
-            {
-                "module": "links_gallery",
-                "heading": ""
+                "type": "text-block",
+                "header": "asdfassdfasadf",
+                "content": [
+                    "content asfdasfddf"
+                ]
             }
         ]
     },
     {
-        "id": 4,
-        "name": "Exercises for Programmers",
-        "slug": "e4p",
-        "intro": "Exercises for Programmers",
-        "teaser": "A collection of exercises from the book “Exercises for Progammers” by Brian P Hogan",
+        "id": "theming",
+        "header": "Industry Theming Case Study",
+        "title": "Industry Theming",
+        "subheader": "An exploration of prevalent design themes in consumer software websites",
         "thumbnail": "https://peprojects.dev/images/landscape.jpg",
-        "sections": ""
+        "sections": [
+            {
+                "type": "text-block",
+                "header": "theming asdfassdfasadf",
+                "content": [
+                    "content for theming asfdasfddf"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "layout-garden",
+        "header": "Responsive Layout Garden",
+        "title": "Responsive Layout Garden",
+        "subheader": "A collection of various layout modules that can be themed to match any existing page",
+        "thumbnail": "https://peprojects.dev/images/landscape.jpg",
+        "sections": [
+            {
+                "type": "text-block",
+                "header": "Planting seeds to grow future websites",
+                "content": [
+                    "No flowers here. This is a collection of various layout modules that can be themed to match an existing page.",
+                    "Click any module from the gallery below for a closer look."
+                ]
+            },
+            {
+                "type": "layout-garden"
+            }
+        ]
+    },
+    {
+        "id": "e4p",
+        "header": "Exercises for Programmers",
+        "title": "Exercises for Programmers",
+        "subheader": "A collection of exercises from the book “Exercises for Programmers” by Brian P. Hogan",
+        "thumbnail": "https://peprojects.dev/images/landscape.jpg",
+        "sections": [
+            {
+                "type": "e4p"
+            }
+        ]
     }
 ]

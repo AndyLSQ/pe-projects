@@ -1,19 +1,128 @@
 {
-	"id": "resume",
-	"title": "Resume",
-	"header": "Andy Eliscu",
-	"subheader": "Front End Web Developer",
-
-	"sections": [
-		{
-			"module": "resume-contact",
-			"heading": "My favorite colors",
-			"content": "My latest work is asdfsadfsadfsfasdfasdfasdfasdfasdfsadfasf"
-		},
-		{
-			"module": "generic_text",
-			"heading": "Super secret stuff",
-			"content": "This stuff is really secret sadfjlasdflsadfkl"
-		}
-	]
+    "id": "resume",
+    "title": "Resume",
+    "header": "Andy Eliscu",
+    "subheader": "Front End Web Developer",
+    "sections": [
+        {
+            "type": "sidebar",
+            "header": "Sidebar",
+            "subsections": [
+                {
+                    "header": "Info",
+                    "content": [
+                        "mailto:andrew.eliscu@gmail.com",
+                        "austin, tx",
+                        "<a href='https://linkedin.com/in/andreweliscu/'>linkedin.com/in/andreweliscu/</a>",
+                        "<a href='https://lsq.dev/'>lsq.dev</a>"
+                    ]
+                },
+                {
+                    "header": "Tools",
+                    "content": [
+                        "JavaScript",
+                        "PHP",
+                        "CSS",
+                        "HTML",
+                        "Python",
+                        "SQL",
+                        "Oracle EBS",
+                        "Hyperion SmartView"
+                    ]
+                },
+                {
+                    "header": "Certificates",
+                    "content": [
+                        "AWS Certified Cloud Practitioner",
+                        "Tableau Certified Desktop Specialist",
+                        "Microsoft Certified Excel Expert",
+                        "Certified Public Accountant"
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "",
+            "content": [
+                "SAMPLE ONLY: Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries. Equipped with a record of success in consistently identifying and providing the technological needs of companies through ingenious innovation."
+            ]
+        },
+        {
+            "type": "work-experience",
+            "header": "Work Experience",
+            "content": [
+                {
+                    "company": "Accenture, LLP",
+                    "title": "Strategy & Consulting Manager",
+                    "location": "Austin, TX",
+                    "start-date": "May 2021",
+                    "end-date": "Present",
+                    "content": [
+                        "acn point 1",
+                        "acn point 2",
+                        "acn point 3"
+                    ]
+                },
+                {
+                    "company": "The Siegfried Group, LLP",
+                    "title": "Consulting Manager",
+                    "location": "New York, NY",
+                    "start-date": "MMM YYYY",
+                    "end-date": "May 2021",
+                    "content": [
+                        "tsg point 1",
+                        "tsg point 2",
+                        "tsg point 3"
+                    ]
+                },
+                {
+                    "company": "Urban Outfitters, Inc.",
+                    "title": "Senior Financial Analyst",
+                    "location": "Philadelphia, PA",
+                    "start-date": "MMM YYYY",
+                    "end-date": "MMM YYYY",
+                    "content": [
+                        "urbn point 1",
+                        "urbn point 2",
+                        "urbn point 3"
+                    ]
+                },
+                {
+                    "company": "Deloitte & Touche, LLP",
+                    "title": "Audit Senior",
+                    "location": "Philadelphia, PA",
+                    "start-date": "MMM YYYY",
+                    "end-date": "MMM YYYY",
+                    "content": [
+                        "d&t point 1",
+                        "d&t point 2",
+                        "d&t point 3"
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "education",
+            "header": "Education",
+            "content": [
+                {
+                    "institution": "Perpetual Education",
+                    "program": "Design for the Web",
+                    "end-date": "Projected: 2022",
+                    "content": [
+                        "dftw point 1"
+                    ]
+                },
+                {
+                    "institution": "University of Delaware",
+                    "program": "BS Accounting, Management Information Systems Minor",
+                    "end-date": "2011",
+                    "content": [
+                        "Alpha Kappa Psi Professional Business Fraternity- VP of Finance"
+                    ]
+                }
+            ]
+        }
+    ]
 }

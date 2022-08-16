@@ -31,25 +31,22 @@
 
 <body class="<?=$pageId?>">
 	 
-	 <header>
+	<?php
 
-		<?php
-			include('templates/modules/site-header.php');
-			include('templates/modules/page-header.php');
-		?>
-			
-	</header>
+	if ($pageId == "project") {
+		include('templates/pages/project.php');
+	}
+	elseif ($pageId == "exercise") {
+		include('templates/pages/exercise.php');
+	}
+	elseif ($pageId == "layout") {
+		include('templates/pages/layout.php');
+	}
+	else {
+		include('templates/pages/default-page.php');
+	}
 
-	<main>
-		<inner-column>
-			<?php
-				foreach ($pageData["sections"] as $section) {
-					include ( "templates/modules/$section[type].php" );
-				}
-			?>
-		</inner-column>
-
-	</main>
+	?>
 
 </body>
 

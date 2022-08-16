@@ -1,3 +1,8 @@
+.buttons nav {
+	display: flex;
+	gap: 25px;
+}
+
 .button {
 	/*border: 1px solid var(--ink);*/
 	background-color: var(--color1);
@@ -9,4 +14,8 @@
 .button:hover {
 	background-color: var(--highlight);
 	color: var(--white);
+}
+
+h2 + nav {
+	margin-top: 25px;
 }

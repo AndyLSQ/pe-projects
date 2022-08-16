@@ -36,6 +36,7 @@
         {
             "type": "card-grid",
             "header": "This is a grid of information cards",
+            "card-type": "project",
             "data-source": "data/projects-data.json"
         },
         {
@@ -57,14 +58,8 @@
             ]
         },
         {
-            "type": "text-block",
-            "header": "Buttons",
-            "content": [
-                ""
-            ]
-        },
-        {
             "type": "buttons",
+            "header": "Buttons",
             "content": [
                 {
                     "label": "Button 1",

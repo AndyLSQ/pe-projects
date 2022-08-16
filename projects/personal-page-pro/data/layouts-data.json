@@ -1,0 +1,39 @@
+[
+    {
+        "group": "all",
+        "layouts": [
+            {
+                "id": "el-paso",
+                "header": "El Paso",
+                "title": "",
+                "subheader": "",
+                "thumbnail": "https://peprojects.dev/images/landscape.jpg",
+                "sections": [
+                    {
+                        "type": "text-block",
+                        "header": "This is the El Paso layout",
+                        "content": [
+                            "El Paso content asfdasfddf"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "laredo",
+                "header": "Laredo",
+                "title": "",
+                "subheader": "",
+                "thumbnail": "https://peprojects.dev/images/landscape.jpg",
+                "sections": [
+                    {
+                        "type": "text-block",
+                        "header": "This is the Laredo layout",
+                        "content": [
+                            "Laredo content asfdasfddf"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

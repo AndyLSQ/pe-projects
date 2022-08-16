@@ -1,0 +1,1 @@
+This is the El Paso layout detail page

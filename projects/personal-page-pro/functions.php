@@ -11,6 +11,7 @@ function currentPage() {
   }
 }
 
+
 //Get json data for the active page
 function pageData() {
 	$pageId = currentPage();

@@ -1,6 +1,7 @@
 <?php
 	//Fetch data
 	$dataSource = $section['data-source'];
+	$cardType = $section['card-type'];
 	// print_r($dataSource);
 
 	$json = file_get_contents($dataSource);
@@ -21,14 +22,14 @@
 	<ul class='cards'>
 		<?php foreach ($cardsData as $card) { ?>
 			<li>
-				<a class="link" href='?page=card&id=<?=$card["id"]?>'>
+				<a class="link" href='?page=<?=$cardType?>&id=<?=$card["id"]?>'>
 					<div class="card">
 						<picture>
 							<img src="<?=$card["thumbnail"];?>" alt="">
 						</picture>
 						<div class="card-text">
-							<h2 class="attention-voice card-title"><?=$card["name"];?></h2>
-							<p><?=$card["teaser"];?></p>
+							<h2 class="attention-voice card-title"><?=$card["header"];?></h2>
+							<p><?=$card["subheader"];?></p>
 						</div>
 					</div>
 				</a>

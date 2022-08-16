@@ -3,6 +3,7 @@
     "title": "welcome",
     "header": "Hi,<br>I’m Andy Eliscu.",
     "subheader": "(pronounced L-S-Q)",
+    "breadcrumbs": false,
     "sections": [
         {
             "type": "text-block",

@@ -8,6 +8,15 @@
 					<h2 class="attention-voice"><?=$pageData['subheader']?></h2>
 			<?php } ?>
 
+			<?php
+				//print_r($pageData);
+				if ($pageData['breadcrumbs']) {
+
+					include("breadcrumbs.php");
+				}
+
+			?>
+
 		</div>
 	</inner-column>
 </section>

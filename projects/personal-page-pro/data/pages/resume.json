@@ -3,6 +3,7 @@
     "title": "Resume",
     "header": "Andy Eliscu",
     "subheader": "Front End Web Developer",
+    "breadcrumbs": true,
     "sections": [
         {
             "type": "sidebar",

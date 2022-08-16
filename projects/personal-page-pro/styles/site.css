@@ -22,6 +22,7 @@
 @import 'modules/site-header.css';
 @import 'modules/page-header.css';
 @import 'modules/card-grid.css';
+@import 'modules/breadcrumbs.css';
 
 /* S ections and more stuff (pages) */
 @import 'pages/home.css';

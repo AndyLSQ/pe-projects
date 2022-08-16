@@ -3,6 +3,7 @@
     "title": "Style Guide",
     "header": "Style Guide",
     "subheader": "The building blocks of this site",
+    "breadcrumbs":false,
     "sections": [
         {
             "type": "text-block",

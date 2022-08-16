@@ -3,6 +3,7 @@
     "title": "About Me",
     "header": "About Me",
     "subheader": "Meet Andy",
+    "breadcrumbs":false,
     "sections": [
         {
             "type": "element-open",

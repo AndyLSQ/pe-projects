@@ -2,7 +2,8 @@
     "id": "contact",
     "title": "Contact",
     "header": "Let’s chat",
-    "subheader": "Ask me anything",
+    "subheader": "Reach out on any channel",
+    "breadcrumbs":false,
     "sections": [
         {
             "type": "contact-form",

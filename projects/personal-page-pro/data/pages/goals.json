@@ -3,6 +3,7 @@
     "title": "My Goals",
     "header": "My Goals",
     "subheader": "Keeping the big picture in mind",
+    "breadcrumbs": true,
     "sections": [
         {
             "type": "layered-text",

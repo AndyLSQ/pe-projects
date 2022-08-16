@@ -3,8 +3,9 @@
     "title": "Projects",
     "header": "Projects",
     "subheader": "See what I’ve been up&nbsp;to",
+    "breadcrumbs":false,
     "sections": [
-         {
+        {
             "type": "card-grid",
             "header": "",
             "card-type": "project",

@@ -1,0 +1,28 @@
+footer {
+	background-color: var(--color1);
+	color: var(--white);
+
+}
+
+footer inner-column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+footer social {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+}
+
+icon svg{
+	fill: var(--white);
+	transition-duration: 1s;
+}
+
+icon svg:hover{
+	fill: var(--highlight);
+	transition-duration: .5s;
+}

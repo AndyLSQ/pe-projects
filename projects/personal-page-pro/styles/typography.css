@@ -13,12 +13,6 @@ html {
 	font-weight: normal;
 }
 
-@media (min-width: 600px) {
-	.loud-voice {
-		/*font-weight: 700;  or variable font */
-	}
-}
-
 .attention-voice	{
 	font-family: 'DM Serif Text', serif;;
 	font-size: 26px;
@@ -58,7 +52,17 @@ html {
 	font-weight: 700;
 }
 
-@media (max-width: )
+@media (max-width: 600px) {
+
+	.loud-voice	{
+		font-size: 45px;
+	}
+
+	.attention-voice	{
+		font-size: 22px;
+	}
+
+}
 
 
 /* these would be scoped to section or to an article element */

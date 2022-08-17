@@ -56,14 +56,14 @@ elseif ($bcPage == "resume" || "goals") {
 
 ?>
 
-<ul class="breadcrumbs">
-  <li><a href="?">home</a></li>
+  <ul class="breadcrumbs">
+    <li><a href="?">home</a></li>
 
-  <li><a href="?page=<?=$pageCrumb1?>">&nbsp;> <?=$pageCrumb1?></a></li>
+    <li><a href="?page=<?=$pageCrumb1?>">&nbsp;> <?=$pageCrumb1?></a></li>
 
-  <?php if ($pageCrumb2) {?>
-    <li><a href="?page=<?=$pageCrumb2?>">&nbsp;> <?=$pageCrumb2?></a></li>
-  <?php } ?>
+    <?php if ($pageCrumb2) {?>
+      <li><a href="?page=<?=$pageCrumb2?>">&nbsp;> <?=$pageCrumb2?></a></li>
+    <?php } ?>
 
-  <li><a href="#">&nbsp;> <?=$idCrumb?></a></li>
-</ul>
+    <li><a href="#">&nbsp;> <?=$idCrumb?></a></li>
+  </ul>

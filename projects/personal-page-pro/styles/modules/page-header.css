@@ -1,3 +1,8 @@
+.page-header inner-column{
+	display: block;
+}
+
+
 .page-header {
 	display: flex;
 	flex-direction: column;
@@ -12,21 +17,30 @@
 }
 
 .page-header .header-content {
-	width: fit-content;
+	/*width: fit-content;*/
 	max-width: 50ch;
-}
+	/*display: flex;
+	flex-direction: column;
+	gap: 15px;
+*/}
 
 .page-header .attention-voice {
 	color: var(--highlight);
+	/*display: inline;*/
 }
 
-.page-header .quiet-voice {
-	color: var(--highlight);
-	/*width: fit-content;*/
-	/*width: auto;*/
-	/*text-align: right;*/
+
+
+.page-header h1 + .attention-voice {
+     margin-top: 15px; 
 }
 
-.page-header h1+h2 {
-	margin-top: 15px;
+.page-header .breadcrumbs {
+     margin-top: 15px; 
 }
+
+/*.page-header h1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+*/

@@ -56,9 +56,9 @@
     },
     {
         "id": "e4p",
-        "header": "Exercises for Programmers",
+        "header": "Programming Exercises",
         "title": "Exercises for Programmers",
-        "subheader": "A collection of exercises from the book “Exercises for Programmers” by Brian P. Hogan",
+        "subheader": "From the book “Exercises for Programmers” by Brian&nbsp;P.&nbsp;Hogan",
         "breadcrumbs": true,
         "thumbnail": "https://peprojects.dev/images/landscape.jpg",
         "sections": [

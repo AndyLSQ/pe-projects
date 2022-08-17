@@ -46,7 +46,11 @@
 		include('templates/pages/default-page.php');
 	}
 
+	include('templates/modules/footer.php');
+
 	?>
+
+
 
 </body>
 

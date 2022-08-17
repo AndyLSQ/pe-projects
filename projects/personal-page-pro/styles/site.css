@@ -23,11 +23,13 @@
 @import 'modules/page-header.css';
 @import 'modules/card-grid.css';
 @import 'modules/breadcrumbs.css';
+@import 'modules/footer.css';
 
 /* S ections and more stuff (pages) */
 @import 'pages/home.css';
 @import 'pages/style-guide.css';
 @import 'pages/about.css';
+
 
 /* Other contextual styles */
 body {

@@ -9,7 +9,7 @@
 		<?php } 
 
 		foreach($section['subsections'] as $subsection) { ?>
-		<subsection>
+		<subsection class="<?=strtolower($subsection['header'])?>">
 			<?php
 			if ($subsection["header"]) { ?>
 				<h2 class="attention-voice"><?=$subsection["header"]?></h2>

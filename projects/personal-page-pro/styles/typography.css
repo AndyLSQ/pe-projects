@@ -9,14 +9,15 @@ html {
 
 .loud-voice	{
 	font-family: 'DM Serif Text', serif;
-	font-size: 55px /*clamp(36px, 5vw, 60px)*/;
+	font-size: 3.5rem /*clamp(36px, 5vw, 60px)*/;
 	font-weight: normal;
 }
 
 .attention-voice	{
 	font-family: 'DM Serif Text', serif;;
-	font-size: 26px;
+	font-size: 2rem;
 	font-weight: normal;
+	color: var(--highlight);
 }
 
 .calm-voice, p {
@@ -39,10 +40,14 @@ html {
 }
 
 .logo {
-	font-family: 'DM Serif Display', serif;;
+	font-family: 'DM Serif Display', serif;
 	font-size: 30px;
 }
 
+.embellish-voice {
+	font-family: 'DM Serif Display', serif;
+	font-size: 140px;
+}
 
 :is(.calm-voice, p ) em {
 	font-style: italic;

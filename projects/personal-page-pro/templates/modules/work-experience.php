@@ -1,11 +1,10 @@
 <work-experience>
 
+	<?php if ($section["header"]) { ?>
+		<h2 class="loud-voice"><?=$section["header"]?></h2>
+	<?php } ?>
 
-		<?php if ($section["header"]) { ?>
-			<h2 class="loud-voice"><?=$section["header"]?></h2>
-		<?php } ?>
-
-
+	<jobs>
 		<?php foreach($section['content'] as $job) { ?>
 			<job>
 
@@ -17,9 +16,9 @@
 						<li><?=$point?></li>
 					<?php } ?>
 				</ul>
-
-			<?php } ?>
 			</job>
+			<?php } ?>
+	</jobs>
 
 
 

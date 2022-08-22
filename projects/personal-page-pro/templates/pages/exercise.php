@@ -30,6 +30,7 @@ foreach ($exerciseData as $groups) {
 // display current exercise
 ?>
 
+
  <header>
 
 	<?php
@@ -39,10 +40,13 @@ foreach ($exerciseData as $groups) {
 		
 </header>
 
+<main>
 <exercise>
 
 	<?php
 		include("exercises/$exerciseSlug.php");
 	?>
 
+
 </exercise>
+</main>

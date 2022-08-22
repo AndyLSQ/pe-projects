@@ -1,0 +1,81 @@
+{
+    "sections": [
+        {
+            "type": "text-block",
+            "header": "The Challenge",
+            "content": [
+                "Our class was instructed to pick an “industry” and create a site that incorporated the themes and feel of existing websites in that industry. The end goal was to create a fully polished home page, that would fit right in with the professionally designed sites of the industry.",
+                "I chose consumer software as my industry of focus for this assignment. I was inspired by the websites of my favorite apps, such as:",
+                "<ul><li>https://pocketcasts.com/</li><li>https://www.craft.do/</li><li>https://www.youneedabudget.com/</li><li>https://dayoneapp.com/</li><li>https://www.sortedapp.com/</li></ul>",
+                "And many more."
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "Research",
+            "content": [
+                "The first step in the process was to visit these sites and look for common themes. I grabbed tons of screenshots and compiled them in Affinity Designer for analysis. I grouped similar sections from different sites together for easier observation."
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "Style Tile",
+            "content": [
+                "Style tiles are like paint chips and fabric swatches for web design. They are condensed visuals that convey the visual theme of the site without creating a full blown layout or mockup. This can be valuable for presenting different styling ideas to clients and quickly adjusting on the fly based on the clients' feedback. Check out this page for more background on style tiles and how they can help: http://styletil.es/"
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "Coding & Framework",
+            "content": [
+                "To kick off the coding portion of the assignment, we were provided a generic PHP/CSS/HTML template. Inititally, we were not supposed to change any of the HTML so our focus would be entirely on the theming and style.",
+                "The template used a framework nicknamed PSSST CSS. Full details on the framework are here https://github.com/perpetual-education/pssst-css, but essentially the site consisted of generic modules with generic templates (all named super generic things like <em>style.css</em> and <em>template.php</em>) that could be interchanged on different parts of the page. Styling could be applied at a high level to the shared modules, or to specific parts of the page as needed."
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "Result: First Attempt",
+            "content": [
+                "Here is my coded interpretation of the site. The images and copy were intentionally left as placeholders (that was the scope of the assignment at this point).",
+                "I thought I was almost done!"
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "",
+            "content": [
+                "You might have noticed this looks a little different than my style tile. Those aren't meant to be hard rules so I ended up combining elements from both my dark and light style tiles to something I thought looked better. I felt like the white canvas was too boring so I substituted a lighter shade of blue in its place."
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "Feedback",
+            "content": [
+                "I received generally positive feedback on this design but there were also some flaws that my instructor and classmates pointed out to me.",
+                "The spacing was not consistent",
+                "The rounded corners looked a little childish in some situations.",
+                "So many little details! The differences between a professional looking site and one looking like it was designed by a student are all in the details. I had to put in a bit more work on this end."
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "Redesign",
+            "content": [
+                "Rule update! We were now allowed and encouraged to change the copy and add images!",
+                "This really opened up a new level of inspiration for me. Once I could put more of a story behind the site it was easier to visualize the direction I wanted it to take. Suddenly white didnt seem like such a bad idea...",
+                "I ended up sourcing my content from one of my favorite apps- TickTick (no, not TikTok). TickTick is a task management system with tons and tons of features, but still easy to use since you can hide all the features you don't need.",
+                "Here is the current version of the page: https://peprojects.dev/alpha-4/andy/projects/theme-challenge/"
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "Conclusion",
+            "content": [
+                "This was a long, painstaking process and it definitely had it's challenging moments, but I'm very happy with where it ended up. I would say this has been my most complete project to date and I'm excited to see where this learning journey takes me next.",
+                "Here are links to the completed site, and the code:",
+                "Site: https://peprojects.dev/alpha-4/andy/projects/theme-challenge/",
+                "Code: https://github.com/AndyLSQ/pe-projects/tree/main/projects/theme-challenge"
+            ]
+        }
+    ]
+}

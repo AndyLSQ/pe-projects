@@ -24,14 +24,21 @@
 			<li>
 				<a class="link" href='?page=<?=$cardType?>&id=<?=$card["id"]?>'>
 					<div class="card">
-						<picture>
-							<img src="<?=$card["thumbnail"];?>" alt="">
-						</picture>
+
 						<div class="card-text">
-							<h2 class="attention-voice card-title"><?=$card["header"];?></h2>
+							<h3 class="attention-voice card-title"><?=$card["header"];?></h3>
 							<p><?=$card["subheader"];?></p>
 						</div>
+
+						<picture>
+								<img src="<?=$card["thumbnail"];?>" alt="">
+
+						</picture>
+
+						
+
 					</div>
+					
 				</a>
 			</li>
 		<?php } ?>

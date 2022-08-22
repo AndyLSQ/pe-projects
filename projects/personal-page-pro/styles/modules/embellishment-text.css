@@ -1,0 +1,50 @@
+main {
+	position: relative;
+	border: 3px solid green;
+}
+
+embellish-contain {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	border: 3px solid red;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	
+	pointer-events: none;
+}
+
+embellishment {
+	display: block;
+	position: sticky;
+	bottom: 0;
+	border: 3px solid purple;
+	padding: 10px;
+	min-height: 300px;
+	writing-mode: vertical-lr;
+	transform: rotate(-180deg);
+	text-orientation: mixed;
+	color: var(--neutral);
+
+}
+
+.projects embellishment {
+	right: 20px;
+}
+
+@media (max-width: 1000px){
+	embellishment {
+		display: none;
+	}
+}
+
+@media (max-width: 1500px){
+	:is(.projects, .about, .style-guide) embellishment {
+		display: none;
+/*		position: absolute;*/
+	}
+}

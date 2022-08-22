@@ -18,4 +18,8 @@
 			?>
 		</inner-column>
 
+		<?php
+			include('templates/modules/embellishment-text.php');
+		?>
+
 	</main>

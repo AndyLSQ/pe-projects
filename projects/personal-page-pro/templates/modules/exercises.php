@@ -8,7 +8,7 @@ $exerciseData = json_decode($json, true);
 ?>
 
 
-<exercise-card>
+<exercises>
 	<?php
 	// loop thru each exercise in the data and display a card for it
 	foreach ($exerciseData as $groups) {
@@ -16,8 +16,10 @@ $exerciseData = json_decode($json, true);
 		$exercises = $groups['exercises'];
 
 	?>
+	<exercise-group>
 		<h2 class="attention-voice"><?=$groupName?></h2>
-					
+		
+		<ul>			
 		<?php
 			foreach ($exercises as $exercise) { 
 				$exerciseId = $exercise["id"];
@@ -29,9 +31,11 @@ $exerciseData = json_decode($json, true);
 				<p><?=$exerciseHeader?></p>
 			</a>
 
-		</ul>
+		
 
-	 <?php } } 
+	 <?php } ?> 
+	 	</ul>
+	 </exercise-group>
 
-	 ?>
-</exercise-card>
+	<?php } ?>
+</exercises>

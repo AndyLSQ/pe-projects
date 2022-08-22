@@ -1,6 +1,6 @@
 {
     "id": "goals",
-    "title": "My Goals",
+    "title": "Goals",
     "header": "My Goals",
     "subheader": "Keeping the big picture in mind",
     "breadcrumbs": true,
@@ -49,6 +49,30 @@
                     "header": "Employment & Growth Potential",
                     "content": [
                         "Of course, I want to come out of this course with the skills and portfolio needed to get a job in this field. I hope to find a job that will give me the opportunity to prove myself and grow quickly."
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "layered-text",
+            "header": "Daily Mindset",
+            "subsections": [
+                {
+                    "header": "Complete Coursework",
+                    "content": [
+                        "This isn't a glamorous goal but it’s my first priority each day. Nothing moves forward if I’m not keeping up and getting lessons, exercises, and projects done on schedule."
+                    ]
+                },
+                {
+                    "header": "Fully Utilize My Mentor",
+                    "content": [
+                        "Not everything can be learned from a textbook (even an online one). It's crucial for me to meet consistently with my mentor to keep me progressing in the right direction, push me to try more things, and get realtime feedback on my work. Doing this will vastly accelerate the learning process and ultimately make me a better developer."
+                    ]
+                },
+                {
+                    "header": "Break Things",
+                    "content": [
+                        "I've long battled a perfectionist mindset and the relentless desire to figure out the 'right' way to do things before attempting to execute them. In order to build a developer skillset, I'm challenging myself to explore as much as possible. Every piece of code that I break is an opportunity to learn. The more I try, the more experience I'll gain."
                     ]
                 }
             ]

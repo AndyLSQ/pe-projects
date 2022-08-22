@@ -4,7 +4,7 @@
 }
 
 .button {
-	/*border: 1px solid var(--ink);*/
+	/*border: 1px solid var(--neutral-dark);*/
 	background-color: var(--color1);
 	color: var(--white);
 	padding: 15px 40px;

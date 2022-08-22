@@ -1,11 +1,10 @@
 <education>
+	
+	<?php if ($section["header"]) { ?>
+		<h2 class="loud-voice"><?=$section["header"]?></h2>
+	<?php } ?>
 
-
-		<?php if ($section["header"]) { ?>
-			<h2 class="loud-voice"><?=$section["header"]?></h2>
-		<?php } ?>
-
-
+	<schools>
 		<?php foreach($section['content'] as $school) { ?>
 			<school>
 
@@ -18,8 +17,9 @@
 					<?php } ?>
 				</ul>
 
-			<?php } ?>
 			</school>
+			<?php } ?>
+		</schools>
 
 
 

@@ -9,6 +9,8 @@ footer inner-column {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	padding: 30px 0px;
+	gap: 20px;
 }
 
 footer social {
@@ -17,12 +19,12 @@ footer social {
 	gap: 25px;
 }
 
-icon svg{
+footer a{
 	fill: var(--white);
-	transition-duration: 1s;
+	transition: fill .5s;
 }
 
-icon svg:hover{
+footer a:hover{
 	fill: var(--highlight);
-	transition-duration: .5s;
+	transition: fill .5s;
 }

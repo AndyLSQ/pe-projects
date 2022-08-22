@@ -42,6 +42,9 @@
 	elseif ($pageId == "layout") {
 		include('templates/pages/layout.php');
 	}
+	elseif ($pageId =="resume") {
+		include 'templates/pages/resume.php';
+	}
 	else {
 		include('templates/pages/default-page.php');
 	}

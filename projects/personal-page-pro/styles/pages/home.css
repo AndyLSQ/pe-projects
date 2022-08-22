@@ -4,8 +4,9 @@
 
 .home text-block {
 	max-width: 50ch;
-	background-color: var(--neutral-stuffs);
+	background-color: var(--neutral);
 	padding: 25px;
+	/*border: 3px solid var(--neutral-dark);*/
 	/*box-shadow: 5px 5px 10px #999;*/
 	/*border: 3px solid var(--color1);*/
 }

@@ -4,11 +4,15 @@
 }
 
 .card-grid .card {
-	background-color: var(--neutral-stuffs);
+	background-color: var(--neutral);
 }
 
 .card-grid .card .card-text {
 	padding: 25px 15px;
+}
+
+.card-grid .card .attention-voice {
+	color: var(--white);
 }
 
 
@@ -68,28 +72,45 @@
 
 	.card-grid .card :is(picture, .card-text){
 		width: 100%;
-		/*border: 1px solid red;*/
 		grid-column: 1 / -1;
 		grid-row: 1 / -1;
 	}
 
 	.card-grid picture {
+		position: relative;
+		filter: brightness(30%);
+		transition: 1s;
+	}
+
+	.card-grid picture:hover {
+		filter: brightness(70%);
+		transition: 1s;
+	}
+
+
+	.card-grid .card-text {
+		z-index: 2;
+		pointer-events: none;
+		/*background-color: black;*/
+	}
+
+	/*.card-grid picture::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
 		background-color: black;
-	}
+		opacity: 0.8;
+		z-index: 1;
+	}*/
 
-	.card-grid img {
-		opacity: 40%;
-	}
 
-	.card-grid .card-text  {
+	.card-grid .card .card-text  {
 		align-self: end;
-		padding: 15px 15px;
+		padding: 25px 25px;
 	}
 
 	.card-grid a {
 		color: white;
-	}
-	.card-grid a:hover {
-		color: var(--highlight);
 	}
 }

@@ -1,5 +1,5 @@
 
-<text-block>
+<text-block class="<?=strtolower($section['header'])?>">
 	
 	<?php
 	//Only include header element if there's header content

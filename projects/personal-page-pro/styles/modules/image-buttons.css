@@ -1,0 +1,27 @@
+image-buttons {
+	/*border: 2px solid red;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/*gap: 25px;*/
+}
+
+image-buttons a {
+	/*border: 2px solid blue;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1em;
+	padding: 10px 0px;
+	background-color: var(--highlight);
+	width: 28%;
+	text-align: center;
+	fill: white;
+	transition: background-color .5s, fill .5s;
+}
+
+image-buttons a:hover {
+	background-color: var(--neutral);
+	fill: var(--highlight);
+	transition: background-color .5s, fill .5s;
+}

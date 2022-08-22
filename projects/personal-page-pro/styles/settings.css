@@ -3,11 +3,13 @@ html {
 	--black: #111111;
 	--white: white;
 
-	--neutral-stuffs: hsla(200, 9%, 90%, 1.00);
+	--color1: hsla(200, 15%, 20%, 1.00);
+	--neutral: hsla(200, 15%, 90%, 1.00);
+	--neutral-dark: hsla(243, 1%, 62%, 1.00);
+	--neutral-light: hsla(0, 0%, 95%, 1.00);
 
-	--color1: hsla(200, 9%, 20%, 1.00);
-	--highlight: hsla(333, 100%, 60%, 1.00);
-
+	
+	--highlight: hsla(333, 100%, 50%, 1.00);
 	--shadow: rgba(0,0,0,.8);
 
 	--corners: 10px; /* or whatevers */
@@ -16,21 +18,21 @@ html {
 	--ink: var(--black);
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 	html {
 		--black: #111111;
 		--white: #efefef;
 
-		--neutral-stuffs: gray;
+		--neutral: gray;
 
 		--color: #9ec9eb;
 		--highlight: #aadee9;
 
 		--shadow: rgba(0,0,0,.8);
 
-		--corners: 10px; /* or whatevers */
+		--corners: 10px; 
 
-		--paper: red;
-		--ink: yellow;
+		--paper: white;
+		--ink: black;
 	}
-}
+}*/

@@ -1,6 +1,6 @@
 .about main inner-column {
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	gap: 50px;
 	align-items: center;
 	/*background-color: pink;*/
@@ -13,7 +13,7 @@
 }
 
 .about picture {
-	height: 500px;
+	height: 400px;
 }
 
 .about img {
@@ -21,15 +21,20 @@
 	height: 100%;
 }
 
+.about text-block {
+		max-width: 70ch;
+		background-color: var(--neutral);
+		padding: 25px;
+		/*border: 3px solid var(--highlight);*/
 
-@media (min-width: 775px) {
+	}
+
+/*@media (min-width: 775px) {
 	.about main inner-column {
 		display: flex;
-		flex-direction: row;
 		flex-wrap: nowrap;
 		gap: 50px;
 		align-items: center;
-		/*background-color: pink;*/
 	}
 
 	.about .about-text {
@@ -37,9 +42,7 @@
 		justify-content: center;
 	}
 
-	.about text-block {
-		/*max-width: 80ch;*/
-	}
+	
 
 	.about picture {
 		height: auto;
@@ -50,4 +53,4 @@
 		width: none;
 		height: none;
 	}
-}
+}*/

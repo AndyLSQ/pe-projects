@@ -1,9 +1,53 @@
+contact-form {
+	/*padding: 35px 20px;*/
+	/*background-color: var(--neutral);*/
+	display: flex;
+	flex-direction: column;
+	/*justify-content: flex-start;*/
+	align-items: flex-start;
+	gap: 50px;
+	margin-top: 25px;
+}
+
+contact-form .attention-voice {
+	max-width: 20ch;
+}
+
+.input {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 25px;
+	/*margin-top: 50px;*/
+	gap: 25px;
+	background-color: var(--neutral);
+	/*max-width: 45ch;*/
+}
+
+.radio {
+	/*border: 1px solid red;*/
+	/*background-color: var(--neutral-light);*/
+	/*color: var(--highlight);*/
+	/*padding: 45px 25px;*/
+	/*max-width: 35ch;*/
+
+}
+radio-buttons {
+	padding-left: 1em;
+}
+
 form {
 	display: flex;
 	flex-direction: column;
 	gap: 25px;
+	justify-content: center;
 	/*background-color: pink;*/
 }
+
+/*.input hr {
+	border: 2px solid var(--highlight);
+}*/
 
 form .field {
 	display: flex;
@@ -13,7 +57,7 @@ form .field {
 
 form label{
 	display: block;
-	margin: 1rem 0rem;
+	margin-bottom: 1rem;
 }
 
 form label a {
@@ -26,18 +70,20 @@ form textarea, input {
 	font:  inherit;
 	padding: .5rem;
 	border: 1px solid grey;
-	background-color: var(--neutral-stuffs);
+	background-color: var(--white);
 }
 
 form input {
 	display: block;
-	max-width:  25ch;
+	width: 95%;
+	max-width:  35ch;
 	color: var(--ink);
 }
 
 form textarea {
 	display: block;
-	max-width:  25ch;
+	width: 95%;
+	max-width:  35ch;
 	height: ;
 	color: var(--ink);
 }
@@ -45,7 +91,7 @@ form textarea {
 button {
 	font: inherit;
 	border-radius: 0;
-	margin: 2rem 0rem;
+	/*margin: 2rem 0rem;*/
 	max-width: 15ch;
 	padding: 10px 20px;
 	border: 2px solid grey;
@@ -60,24 +106,38 @@ code, pre {
 	font-family: 'DM Mono', monospace;
 }
 
-@media (min-width: 450px) {
 
-	form input {
-		max-width:  35ch;
+
+@media (min-width: 550px) {
+
+	.contact embellishment {
+		display: block;
+		position: absolute;
+		bottom: 10%;
+		right: 0;
+		font-size: 15vw;
+	}
+}
+
+@media (min-width: 750px) {
+	.input {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 50px;
+		align-items: flex-start;
+		/*max-width: 1100px;*/
+		gap: 50px;
 	}
 
-	form textarea {
-		max-width:  35ch;	
+	.contact embellishment {
+		display: none;
 	}
 }
 
-@media (min-width: 525px) {
-
-	form input {
-		max-width:  45ch;
+@media (min-width: 1100px) {
+	.contact embellishment {
+		display: block;
+		font-size: clamp(0px, 8vw, 150px);
 	}
-
-	form textarea {
-		max-width:  45ch;	
 	}
-}

@@ -11,12 +11,12 @@ a {
 	display: block;
 	text-decoration: none;
 	color: inherit;
-	transition-duration: .5s;
+	transition: color .5s;
 }
 
 a:hover {
 	color: var(--highlight);
-	transition-duration: .25s;
+	transition: color .5s;
 }
 
 p a {

@@ -1,0 +1,174 @@
+
+.resume main {
+	display: flex;
+	flex-direction: column;
+}
+
+.resume resume {
+	display: grid;
+	grid-template-columns: auto repeat(12, minmax(0,91px)) auto;
+	grid-template-rows: repeat(5, auto);
+	height: 100%;
+	flex-grow: 1;
+	border: 2px solid blue;
+}
+
+.resume resume div {
+	border: 2px solid red;
+	color:  white;
+}
+
+.resume .background {
+	grid-column: 1 / 4;
+	grid-row: 1 / -1;
+	background-color: black;
+}
+
+.resume sidebar {
+	grid-column: 2 / 4;
+	grid-row: 1/4;
+
+}
+
+/*.resume .info {
+	grid-row: 1 / 2;
+}
+.resume .tools {
+	grid-row: 2 / 3;
+}
+.resume .certificates {
+	grid-row: 3 / 4;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.resume sidebar text-block {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	background-color: var(--color1);
+	color: var(--white);
+	border: 5px solid var(--neutral);
+	padding: 25px;
+	
+}
+
+.resume main inner-column {
+	transform: translate(0px, -100px);
+}
+
+.resume sidebar text-block .attention-voice {
+	color: var(--highlight);
+}
+
+.resume sidebar text-block a {
+	color: var(--white);
+	font-weight: normal;
+}
+
+.resume sidebar text-block a:hover {
+	color: var(--highlight);
+	font-weight: normal;
+}
+
+.resume :is(.tools, .certificates) p+p{
+	margin-top: .25rem;
+}
+
+.resume :is(jobs, schools, .bio) {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	background-color: var(--neutral);
+	padding: 25px;
+
+	max-width: 60ch;
+	
+}
+
+
+.resume .bio h2 {
+	display: none;
+}
+
+.resume .bio p {
+	margin: 0;
+
+
+}
+
+.resume :is(work-experience, education) h3 {
+	font-weight: bold;
+	margin-top: .75rem;
+}
+
+.resume :is(work-experience, education) p {
+	
+}
+
+.resume :is(work-experience, education) ul {
+	list-style-type: square;
+	list-style-position: outside;
+	margin-top: 1rem;
+	line-height: 1.4;
+	padding-left: 1rem;
+	display: grid;
+	gap: 1rem;
+}
+
+.resume :is(work-experience, education) li {
+
+}
+
+.resume :is(work-experience, education) {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+
+}
+
+.resume :is(job, school) {
+
+	}*/

@@ -2,9 +2,30 @@
     "id": "contact",
     "title": "Contact",
     "header": "Let’s chat",
-    "subheader": "Reach out on any channel",
-    "breadcrumbs":false,
+    "subheader": "Reach me on any channel",
+    "breadcrumbs": false,
     "sections": [
+        {
+            "type": "image-buttons",
+            "content": [
+                {
+                    "image": "images/svg/icon-github.php",
+                    "text": "GitHub",
+                    "url": "https://github.com/AndyLSQ"
+                },
+                {
+                    "image": "images/svg/icon-linkedin.php",
+                    "text": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/andreweliscu/"
+                },
+                {
+                    "image": "images/svg/icon-substack.php",
+                    "text": "Substack",
+                    "url": "https://lisq.substack.com/"
+                }
+
+            ]
+        },
         {
             "type": "contact-form",
             "header": "Contact Form"

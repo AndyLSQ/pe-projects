@@ -1,0 +1,13 @@
+.project exercises {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	align-items: flex-start;
+	/*color: red;*/
+}
+
+exercise-group {
+	background-color: var(--neutral);
+	width: 30ch;
+	padding: 30px;
+}

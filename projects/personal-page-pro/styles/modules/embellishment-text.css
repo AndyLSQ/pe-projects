@@ -1,6 +1,6 @@
 main {
 	position: relative;
-	border: 3px solid green;
+	/*border: 3px solid green;*/
 }
 
 embellish-contain {
@@ -9,7 +9,7 @@ embellish-contain {
 	right: 0;
 	bottom: 0;
 	height: 100%;
-	border: 3px solid red;
+	/*border: 3px solid red;*/
 	
 	display: flex;
 	flex-direction: column;
@@ -21,14 +21,15 @@ embellish-contain {
 embellishment {
 	display: block;
 	position: sticky;
-	bottom: 0;
-	border: 3px solid purple;
-	padding: 10px;
+	bottom: 0px;
+	/*border: 3px solid purple;*/
+	padding: 12px;
 	min-height: 300px;
 	writing-mode: vertical-lr;
 	transform: rotate(-180deg);
 	text-orientation: mixed;
 	color: var(--neutral);
+
 
 }
 
@@ -42,9 +43,14 @@ embellishment {
 	}
 }
 
-@media (max-width: 1500px){
-	:is(.projects, .about, .style-guide) embellishment {
+@media (max-width: 1400px){
+	:is(.about) embellishment {
 		display: none;
-/*		position: absolute;*/
+	}
+}
+
+@media (max-width: 1500px){
+	:is(.projects, .style-guide) embellishment {
+		display: none;
 	}
 }

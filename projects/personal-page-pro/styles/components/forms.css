@@ -112,10 +112,7 @@ code, pre {
 
 	.contact embellishment {
 		display: block;
-		position: absolute;
-		bottom: 10%;
-		right: 0;
-		font-size: 15vw;
+		font-size: 13vw;
 	}
 }
 
@@ -126,7 +123,6 @@ code, pre {
 		justify-content: space-around;
 		padding: 50px;
 		align-items: flex-start;
-		/*max-width: 1100px;*/
 		gap: 50px;
 	}
 

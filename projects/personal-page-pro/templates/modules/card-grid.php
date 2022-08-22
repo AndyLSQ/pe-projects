@@ -32,7 +32,6 @@
 
 						<picture>
 								<img src="<?=$card["thumbnail"];?>" alt="">
-
 						</picture>
 
 						

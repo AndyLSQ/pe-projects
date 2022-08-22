@@ -43,14 +43,38 @@ embellishment {
 	}
 }
 
+@media (min-width: 850px){
+	:is(.projects) embellishment {
+		display: block;
+	}
+}
+
+@media (min-width: 950px){
+	:is(.projects) embellishment {
+		display: none;
+	}
+}
+
 @media (max-width: 1400px){
 	:is(.about) embellishment {
 		display: none;
 	}
 }
 
+@media (min-width: 1500px){
+	:is(.projects) embellishment {
+		display: block;
+	}
+}
+
 @media (max-width: 1500px){
-	:is(.projects, .style-guide) embellishment {
+	:is(/*.projects,*/ .style-guide) embellishment {
+		display: none;
+	}
+}
+
+@media (max-height: 1250px){
+	embellishment {
 		display: none;
 	}
 }

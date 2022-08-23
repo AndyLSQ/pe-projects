@@ -3,7 +3,7 @@
         "id": "future-js",
         "header": "Future JavaScript",
         "title": "Future JavaScript Case Study",
-        "subheader": "This slot is reserved for a future project built using JavaScript. ",
+        "subheader": "This slot reserved for a future JavaScript project",
         "breadcrumbs": true,
         "thumbnail": "images/projects/javascript.jpg",
         "sections": [
@@ -20,7 +20,7 @@
         "id": "theming",
         "header": "Industry Theming",
         "title": "Industry Theming",
-        "subheader": "An exploration of prevalent design themes in consumer software websites",
+        "subheader": "An exploration of prevalent design themes",
         "breadcrumbs": true,
         "thumbnail": "images/projects/theming.jpg",
         "sections": [
@@ -58,7 +58,7 @@
         "id": "e4p",
         "header": "Programming Exercises",
         "title": "Exercises for Programmers",
-        "subheader": "From the book “Exercises for Programmers” by Brian&nbsp;P.&nbsp;Hogan",
+        "subheader": "Real world, practical applications",
         "breadcrumbs": true,
         "thumbnail": "images/projects/programming-exercises.jpg",
         "sections": [

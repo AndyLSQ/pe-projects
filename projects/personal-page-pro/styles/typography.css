@@ -14,14 +14,20 @@ html {
 }
 
 .attention-voice	{
-	font-family: 'DM Serif Text', serif;;
+	font-family: 'DM Serif Text', serif;
 	font-size: 2rem;
 	font-weight: normal;
 	color: var(--highlight);
 }
 
+.mid-voice {
+	font-family: 'DM Serif Text', serif;
+	font-size: 1.5rem;
+	line-height: 1.2;
+}
+
 .calm-voice, p {
-	font-family: 'DM Sans', sans-serif;;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 1rem;
 	line-height: 1.4;
 	/*font-weight: light;*/
@@ -65,6 +71,10 @@ html {
 
 	.attention-voice	{
 		font-size: 22px;
+	}
+
+	.mid-voice {
+		font-size: 18px;
 	}
 
 }

@@ -1,0 +1,38 @@
+.exercise exercise {
+	/*border: 2px solid red;*/
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	max-width: 700px;
+}
+
+.exercise form-container {
+	background-color: var(--neutral);
+	padding: 40px; display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.exercise form {
+	gap: 50px;
+}
+
+.exercise output {
+	background-color: var(--color1);
+	color: var(--white);
+	padding: 40px;
+}
+
+.exercise array-checker {
+	background-color: var(--neutral);
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+@media (max-width: 600px) {
+	.exercise :is(form-container, array-checker, output) {
+		padding: 40px 25px;
+	}
+}

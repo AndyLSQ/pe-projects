@@ -41,12 +41,11 @@ foreach ($exerciseData as $groups) {
 </header>
 
 <main>
-<exercise>
-
-	<?php
-		include("exercises/$exerciseSlug.php");
-	?>
-
-
-</exercise>
+	<inner-column>
+		<exercise>
+			<?php
+				include("exercises/$exerciseSlug.php");
+			?>
+		</exercise>
+</inner-column>
 </main>

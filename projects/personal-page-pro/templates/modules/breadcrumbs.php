@@ -27,7 +27,7 @@ if ($bcPage == "project") {
 //if page is exercise
 elseif ($bcPage == "exercise") {
   $pageCrumb1 = "projects";
-  $pageCrumb2 = "e4p";
+  $pageCrumb2 = "project";
   $idCrumb = $bcId;
 }
 //elseif page is resume or goals
@@ -67,3 +67,5 @@ elseif ($bcPage == "resume" || "goals") {
 
     <li><a href="#">&nbsp;> <?=$idCrumb?></a></li>
   </ul>
+
+<!-- ?page=project&id=e4p -->

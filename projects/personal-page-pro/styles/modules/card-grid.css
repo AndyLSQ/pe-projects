@@ -20,7 +20,12 @@
 	color: var(--ink);
 }
 
-
+.card-grid .card:hover {
+	color: var(--highlight);
+	transition: color .25s, background-color .25s;
+	background-color: var(--color1);
+	/*border: 1px solid var(--highlight);*/
+}
 
 
 @media (min-width: 600px) {
@@ -62,10 +67,7 @@
 		justify-content: center;
 	}
 
-	.card-grid .card:hover {
-		color: var(--highlight);
-		transition: color .25s;
-	}
+
 
 }
 

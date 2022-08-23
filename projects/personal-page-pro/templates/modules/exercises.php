@@ -27,7 +27,7 @@ $exerciseData = json_decode($json, true);
 				$exerciseHeader = $exercise["header"];
 				?>
 			
-			<a href="?page=exercise&id=<?=$exerciseId?>">
+			<a href="?page=exercise&id=<?=$exerciseId?>" class="button">
 				<p><?=$exerciseHeader?></p>
 			</a>
 

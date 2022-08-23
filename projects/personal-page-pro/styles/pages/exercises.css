@@ -11,3 +11,9 @@ exercise-group {
 	width: 30ch;
 	padding: 30px;
 }
+
+.project ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+}

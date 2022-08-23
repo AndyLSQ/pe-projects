@@ -12,7 +12,7 @@ exercise-group {
 	padding: 30px;
 }
 
-.project ul {
+.project exercise-group ul {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 25px;

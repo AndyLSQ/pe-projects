@@ -1,7 +1,7 @@
 [
     {
         "id": "future-js",
-        "header": "Future JavaScript Case Study",
+        "header": "Future JavaScript",
         "title": "Future JavaScript Case Study",
         "subheader": "This slot is reserved for a future project built using JavaScript. ",
         "breadcrumbs": true,
@@ -18,7 +18,7 @@
     },
     {
         "id": "theming",
-        "header": "Industry Theming Case Study",
+        "header": "Industry Theming",
         "title": "Industry Theming",
         "subheader": "An exploration of prevalent design themes in consumer software websites",
         "breadcrumbs": true,

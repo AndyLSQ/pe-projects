@@ -52,7 +52,7 @@ html {
 
 .embellish-voice {
 	font-family: 'DM Serif Display', serif;
-	font-size: clamp(0px, 8vw, 150px);
+	font-size: clamp(0px, 8vw, 100px);
 }
 
 :is(.calm-voice, p ) em {

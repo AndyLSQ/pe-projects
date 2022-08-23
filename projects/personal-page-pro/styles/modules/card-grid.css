@@ -78,8 +78,8 @@
 	}
 
 	.card-grid .card {
-		grid-template-columns: 1;
-		grid-template-rows: 1;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
 		height: 100%;
 
 	}
@@ -116,8 +116,11 @@
 
 
 	.card-grid .card .card-text  {
-		align-self: end;
-		padding: 25px 25px;
+		grid-row: 2;
+		justify-content: flex-start;
+		/*display: block;*/
+		/*align-self: end;*/
+		/*padding: 25px 25px;*/
 	}
 
 	.card-grid a {

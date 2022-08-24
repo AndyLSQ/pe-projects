@@ -21,9 +21,9 @@
 }
 
 .card-grid .card:hover {
-	color: var(--highlight);
+	color: var(--white);
 	transition: color .25s, background-color .25s;
-	background-color: var(--color1);
+	background-color: var(--neutral-dark);
 	/*border: 1px solid var(--highlight);*/
 }
 

@@ -17,7 +17,7 @@ html {
 	font-family: 'DM Serif Text', serif;
 	font-size: 2rem;
 	font-weight: normal;
-	color: var(--highlight);
+	/*color: var(--highlight);*/
 }
 
 .mid-voice {
@@ -39,11 +39,6 @@ html {
 	line-height: 1.4;
 }
 
-.whisper-voice {
-	font-family: 'DM Sans', sans-serif;;
-	font-size: .75rem;
-	line-height: 1.4;
-}
 
 .logo {
 	font-family: 'DM Serif Display', serif;

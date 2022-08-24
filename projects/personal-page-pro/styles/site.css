@@ -26,6 +26,7 @@
 @import 'modules/footer.css';
 @import 'modules/embellishment-text.css';
 @import 'modules/image-buttons.css';
+@import 'modules/swatches.css';
 
 /* S ections and more stuff (pages) */
 @import 'pages/home.css';

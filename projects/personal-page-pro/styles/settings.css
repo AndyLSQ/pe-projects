@@ -1,15 +1,16 @@
 /* color sets, site wide spacing (margin, max widths, variables inner-columns if desired) */
 html {
-	--black: #111111;
-	--white: white;
+	--black: hsla(200, 15%, 20%, 1.00);
+	--white: hsla(0, 0%, 100%, 1);
 
 	--color1: hsla(200, 15%, 20%, 1.00);
 	--neutral: hsla(200, 15%, 90%, 1.00);
-	--neutral-dark: hsla(243, 1%, 62%, 1.00);
-	--neutral-light: hsla(0, 0%, 95%, 1.00);
+	--neutral-dark: hsla(200, 15%, 40%, 1.00);
+	--neutral-light: hsla(200, 15%, 97%, 1.00);
 
 	
 	--highlight: hsla(333, 100%, 50%, 1.00);
+	--highlight2: hsla(333, 100%, 50%, 1.00);
 	--shadow: rgba(0,0,0,.8);
 
 	--corners: 10px; /* or whatevers */

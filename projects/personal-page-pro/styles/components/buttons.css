@@ -5,7 +5,7 @@
 
 .button {
 	/*border: 1px solid var(--neutral-dark);*/
-	background-color: var(--color1);
+	background-color: var(--neutral-dark);
 	color: var(--white);
 	padding: 15px 40px;
 	text-align: center;

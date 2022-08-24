@@ -2,3 +2,83 @@
 	display: flex;
 	gap: 25px;
 }
+
+:is(.dm-serif, .dm-sans) h2 {
+	color: var(--neutral-dark);
+	font-family: 'dm mono', monospace;
+	font-size: 1rem;
+
+}
+
+.dm-serif p {
+	font-family: 'DM Serif Text', serif;
+	font-size: 1.5rem;
+	margin-top: .5rem;
+}
+
+.dm-sans p {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 1.5rem;
+	margin-top: .5rem;
+}
+
+.style-guide h2.calm-voice {
+	color: var(--neutral-dark);
+	font-family: 'dm mono', monospace;
+}
+
+
+.style-guide text-block {
+	/*margin-top: 25px;*/
+	/*color: red;*/
+}
+
+.style-guide voice {
+	display: inline;
+}
+
+.style-guide voices {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	flex-wrap: wrap;
+}
+
+.style-guide .card-grid {
+	/*margin-bottom: 25px;*/
+}
+
+.style-guide sg-heading {
+	margin-top: 35px;
+}
+
+.style-guide contact-form {
+	margin-top: 0px;
+}
+
+.style-guide main {
+	margin-bottom: 75px;
+}
+
+layer-1 {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+layer-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+layer-3 {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+@media (max-width: 500px) {
+	:is(.dm-sans, .dm-serif) p {
+		font-size: 1.1rem;
+}

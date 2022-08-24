@@ -74,7 +74,7 @@ if ($submittedPOST) {
 
 			<?php
 
-				//array checker to monitor inputs
+				//Array checker to monitor inputs
 				function format($variable) {
 					echo "<pre>";
 						echo "<code>";

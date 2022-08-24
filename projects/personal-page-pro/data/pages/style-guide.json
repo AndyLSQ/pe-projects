@@ -3,8 +3,58 @@
     "title": "Style Guide",
     "header": "Style Guide",
     "subheader": "The building blocks of this site",
-    "breadcrumbs":false,
+    "breadcrumbs": false,
     "sections": [
+        {
+            "type": "sg-heading",
+            "header": "Typography"
+        },
+        {
+            "type": "text-block",
+            "header": "DM-Serif",
+            "content": [
+                "abcdefghijklmnopqrstuvwxyz",
+                "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "!@#$%^&*()_+[]{}<>?,\\/:;",
+                "1234567890"
+            ]
+        },
+        {
+            "type": "text-block",
+            "header": "DM-Sans",
+            "content": [
+                "abcdefghijklmnopqrstuvwxyz",
+                "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "!@#$%^&*()_+[]{}<>?,\\/:;",
+                "1234567890"
+            ]
+        },
+        {
+            "type": "sg-heading",
+            "header": "Color"
+        },
+        {
+            "type": "swatches",
+            "content": [
+                "hsla(200, 15%, 20%, 1.00)",
+                "hsla(200, 15%, 90%, 1.00)",
+                "hsla(200, 15%, 40%, 1.00)",
+                "hsla(200, 15%, 97%, 1.00)",
+                "hsla(0, 0%, 0%, 1)",
+                "hsla(333, 100%, 50%, 1.00)"
+            ]
+        },
+        {
+            "type": "sg-heading",
+            "header": "Type \"Voices\""
+        },
+        {
+            "type": "voices"
+        },
+        {
+            "type": "sg-heading",
+            "header": "Text"
+        },
         {
             "type": "text-block",
             "header": "This is a text block",
@@ -17,66 +67,7 @@
             "type": "text-block",
             "header": "",
             "content": [
-                "<hr>"
-            ]
-        },
-        {
-            "type": "text-block",
-            "header": "",
-            "content": [
                 "This is a separate section of text with no header."
-            ]
-        },
-        {
-            "type": "text-block",
-            "header": "",
-            "content": [
-                "<hr>"
-            ]
-        },
-        {
-            "type": "card-grid",
-            "header": "This is a grid of information cards",
-            "card-type": "project",
-            "data-source": "data/projects-data.json"
-        },
-        {
-            "type": "text-block",
-            "header": "",
-            "content": [
-                "<hr>"
-            ]
-        },
-        {
-            "type": "contact-form",
-            "header": "Contact Form"
-        },
-        {
-            "type": "text-block",
-            "header": "",
-            "content": [
-                "<hr>"
-            ]
-        },
-        {
-            "type": "buttons",
-            "header": "Buttons",
-            "content": [
-                {
-                    "label": "Button 1",
-                    "href": "?page=projects"
-                },
-                {
-                    "label": "Button 2",
-                    "href": "?page=contact"
-                }
-            ]
-        },
-        {
-            "type": "text-block",
-            "header": "",
-            "content": [
-                "<hr>"
             ]
         },
         {
@@ -100,6 +91,42 @@
                     "content": [
                         "Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. Body copy goes here. "
                     ]
+                }
+            ]
+        },
+        {
+            "type": "sg-heading",
+            "header": "Grid"
+        },
+        {
+            "type": "card-grid",
+            "header": "This is a grid of information cards",
+            "card-type": "project",
+            "data-source": "data/projects-data.json"
+        },
+        {
+            "type": "sg-heading",
+            "header": "Form"
+        },
+        {
+            "type": "contact-form",
+            "header": "Contact Form"
+        },
+        {
+            "type": "sg-heading",
+            "header": "Buttons"
+        },
+        {
+            "type": "buttons",
+            "header": "Buttons",
+            "content": [
+                {
+                    "label": "Button 1",
+                    "href": "?page=projects"
+                },
+                {
+                    "label": "Button 2",
+                    "href": "?page=contact"
                 }
             ]
         }

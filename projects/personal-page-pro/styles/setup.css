@@ -21,7 +21,7 @@ a:hover {
 
 p a {
 	display: inline;
-	color: var(--highlight);
+	color: var(--highlight2);
 	text-decoration: none;
 	font-weight: bold;
 }

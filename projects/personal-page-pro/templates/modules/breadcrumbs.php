@@ -41,22 +41,6 @@ elseif ($bcPage == "resume" || "goals") {
 
 
 
-
-
-
-//if id is layout-garden
-
-//set $idCrumb to layout-garden
-
-//if page is about
-
-
-//set $pageCrumb1 to about
-
-
-
-
-
 ?>
 
   <ul class="breadcrumbs">

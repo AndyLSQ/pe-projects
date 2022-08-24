@@ -34,9 +34,9 @@ $age = $_POST['age'];
 
 ?>
 
+<form-container>
 
-<h1>Exercise- Legal Driving Age</h1>
-<h2>Let us know how old you are. We'll let you know if you're old enough to drive.</h2>
+<h2 class="mid-voice exercise-intro">Let us know how old you are. We'll let you know if you're old enough to drive.</h2>
 
 
 <form method="POST">
@@ -51,15 +51,19 @@ $age = $_POST['age'];
 	</button>
 
 </form>
+</form-container>
 
-<output>
-	<?=$outputString?>
-</output>
 
 
 
 <?php
+if ($submittedPOST) { ?>
 
+	<output>
+		<?=$outputString?>
+	</output>
+
+<?php
 	//array checker to monitor inputs
 	function format($variable) {
 		echo "<pre>";
@@ -72,3 +76,5 @@ $age = $_POST['age'];
 	format( $_POST );
 
 ?>
+	</array-checker>
+	<?php } ?>

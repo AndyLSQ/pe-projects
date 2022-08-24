@@ -37,40 +37,54 @@ if ($submittedPOST) {
 ?>
 
 
-<h1>Exercise- Password Validation</h1>
-<h2>Enter your password and we'll let you in.</h2>
+<form-container>
+
+	<h2 class="mid-voice exercise-intro">Enter your password and we'll let you in.</h2>
 
 
-<form method="POST">
-	
-	<div class="field">
-		<label for="">What is the password?</label>
-		<input type="password" name="enteredPassword" required>
-	</div>
+	<form method="POST">
+		
+		<div class="field">
+			<label for="">What is the password?</label>
+			<input type="password" name="enteredPassword" required>
+		</div>
 
-	<button type="submit" name="submitted">
-		Submit
-	</button>
+		<button type="submit" name="submitted">
+			Submit
+		</button>
 
-</form>
-
-<output>
-	<?=$outputString?>
-</output>
+	</form>
+</form-container>
 
 
 
-<?php
+<?php 
+	if ($submittedPOST) { ?>
 
-	//array checker to monitor inputs
-	function format($variable) {
-		echo "<pre>";
-			echo "<code>";
-				print_r( $variable );
-			echo "</code>";
-		echo "</pre>";
-	}
+		<output>
+			<?=$outputString?>
+		</output>
 
-	format( $_POST );
+		<array-checker>
+			<text-block>
+				<h2 class="mid-voice exercise-intro">Take a peek behind the&nbsp;scenes</h2>
+				<p>See what values are currently stored by the program. Note that the array will remain empty until the form has been submitted.</p>
+			</text-block>
+		
 
-?>
+			<?php
+
+				//array checker to monitor inputs
+				function format($variable) {
+					echo "<pre>";
+						echo "<code>";
+							print_r( $variable );
+						echo "</code>";
+					echo "</pre>";
+				}
+
+				format( $_POST );
+
+				?>
+	</array-checker>
+	<?php } ?>

@@ -70,9 +70,9 @@ if ($submittedPOST) {
 
 ?>
 
+<form-container>
 
-<h1>Exercise- Temperature Converter</h1>
-<h2>Convert from Fahrenheit to Celsius or vice-versa.</h2>
+<h2 class="mid-voice exercise-intro">Convert from Fahrenheit to Celsius or vice-versa.</h2>
 
 
 <form method="POST">
@@ -91,19 +91,24 @@ if ($submittedPOST) {
 		<input type="number" name="startTemp" value="<?=$startTemp?>" required>
 	</div>
 
-	<div class="field">
-
-
 	<button type="submit" name="submitted">
 		Submit
 	</button>
 
 </form>
 
-<output>
-	<?=$outputString?>
-</output>
+</form-container>
 
+<?php 
+	if ($submittedPOST) { ?>
+		<output>
+			<?=$outputString?>
+		</output>
+		<array-checker>
+			<text-block>
+				<h2 class="mid-voice exercise-intro">Take a peek behind the&nbsp;scenes</h2>
+				<p>See what values are currently stored by the program. Note that the array will remain empty until the form has been submitted.</p>
+			</text-block>
 
 
 <?php
@@ -120,3 +125,6 @@ if ($submittedPOST) {
 	format( $_POST );
 
 ?>
+
+	</array-checker>
+	<?php } ?>

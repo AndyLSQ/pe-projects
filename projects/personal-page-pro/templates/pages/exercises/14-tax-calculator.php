@@ -48,7 +48,7 @@ if ($state == "WI") {
 	//show total
 
 $total = $tax + $subtotal;
-$totalOutput = "$taxOutput <p>The total is \$" . number_format($total, 2) . ".</p>";
+$totalOutput = "$taxOutput <h2 class='mid-voice'>The total is \$" . number_format($total, 2) . ".</h2><p>(Tax applies only for the state of Wisconsin.)</p>";
 
 ?>
 
@@ -65,7 +65,7 @@ $totalOutput = "$taxOutput <p>The total is \$" . number_format($total, 2) . ".</
 		</div>
 		
 		<div class="field">
-			<label for="">What is the state?</label>
+			<label for="">What is the state? (2 character abbreviation)</label>
 			<input type="text" name="state" value="<?=$state?>"required>
 		</div>
 

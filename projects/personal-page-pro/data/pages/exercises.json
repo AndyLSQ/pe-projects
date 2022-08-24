@@ -55,14 +55,7 @@
                 "header": "Room Area",
                 "subheader": "",
                 "breadcrumbs": true
-            },
-            {
-                "id": "15",
-                "slug": "15-password-validation",
-                "header": "Password Validation",
-                "subheader": "",
-                "breadcrumbs": true
-            }   
+            }
         ]
     },
     {

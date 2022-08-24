@@ -81,8 +81,8 @@ if ($submittedPOST) {
 
 ?>
 
+<form-container>
 
-<h1>Exercise- Blood Alcohol Calculator</h1>
 <h2>Let us know a few things about you and your alcohol consumption. We'll let you know if you're ok to drive.</h2>
 
 
@@ -96,7 +96,7 @@ if ($submittedPOST) {
 	<div class="field" id="gender">
 		<label for="">What is your gender?</label>
 		<select name="gender" id="" value="<?=$gender?>" required>
-			<option value="">--- Choose a gender ---</option>
+			<option value="<?=$genderSelected?>">--- Choose a gender ---</option>
 			<option value="male">Male</option>
 			<option value="female">Female</option>
 		</select>
@@ -118,24 +118,36 @@ if ($submittedPOST) {
 	</button>
 
 </form>
-
-<output>
-	<?=$outputString?>
-</output>
+</form-container>
 
 
 
-<?php
+<?php 
+	if ($submittedPOST) { ?>
 
-	//array checker to monitor inputs
-	function format($variable) {
-		echo "<pre>";
-			echo "<code>";
-				print_r( $variable );
-			echo "</code>";
-		echo "</pre>";
-	}
+		<output>
+			<?=$outputString?>
+		</output>
 
-	format( $_POST );
+		<array-checker>
+			<text-block>
+				<h2 class="mid-voice exercise-intro">Take a peek behind the&nbsp;scenes</h2>
+				<p>See what values are currently stored by the program. Note that the array will remain empty until the form has been submitted.</p>
+			</text-block>
 
-?>
+		<?php
+
+			//array checker to monitor inputs
+			function format($variable) {
+				echo "<pre>";
+					echo "<code>";
+						print_r( $variable );
+					echo "</code>";
+				echo "</pre>";
+			}
+
+			format( $_POST );
+
+		?>
+	</array-checker>
+	<?php } ?>

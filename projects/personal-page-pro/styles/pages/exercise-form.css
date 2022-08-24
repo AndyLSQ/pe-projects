@@ -23,6 +23,10 @@
 	padding: 40px;
 }
 
+.exercise output p+h2 {
+	margin-top: 20px;
+}
+
 .exercise array-checker {
 	background-color: var(--neutral);
 	padding: 40px;

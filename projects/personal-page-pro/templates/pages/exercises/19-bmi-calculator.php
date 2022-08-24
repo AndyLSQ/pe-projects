@@ -78,31 +78,32 @@ if ($submittedPOST) {
 <?php 
 	if ($submittedPOST) { ?>
 
-<array-checker>
-	<text-block>
-		<h2 class="mid-voice exercise-intro">Take a peek behind the&nbsp;scenes.</h2>
-		<p>See what values are currently stored by the program. Note that the array will be empty if the form had not been submitted.</p>
-	</text-block>
+		<output>
+			<?=$bmiOutput?></h2>
+			<?=$rangeOutput?>
+		</output>
 
-	<?php
+		<array-checker>
+			<text-block>
+				<h2 class="mid-voice exercise-intro">Take a peek behind the&nbsp;scenes</h2>
+				<p>See what values are currently stored by the program. Note that the array will remain empty until the form has been submitted.</p>
+			</text-block>
 
-		//array checker to monitor inputs
-		function format($variable) {
-			echo "<pre>";
-				echo "<code>";
-					print_r( $variable );
-				echo "</code>";
-			echo "</pre>";
-		}
+			<?php
 
-		format( $_POST );
+				//array checker to monitor inputs
+				function format($variable) {
+					echo "<pre>";
+						echo "<code>";
+							print_r( $variable );
+						echo "</code>";
+					echo "</pre>";
+				}
 
-	?>
-</array-checker>
+				format( $_POST );
 
-<output>
-	<?=$bmiOutput?></h2>
-	<?=$rangeOutput?>
-</output>
+			?>
+		</array-checker>
+
 
 <?php } ?>

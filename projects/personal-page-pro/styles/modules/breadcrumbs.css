@@ -14,3 +14,7 @@ ul.breadcrumbs li {
   font-size: 16px;
 }
 
+ul.breadcrumbs a {
+  padding: 12px 0px;
+  /*border: 1px solid red;*/
+}

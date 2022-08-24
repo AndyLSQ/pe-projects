@@ -52,34 +52,43 @@ $totalOutput = "$taxOutput <p>The total is \$" . number_format($total, 2) . ".</
 
 ?>
 
+<form-container>
 
-<h1>Exercise- Tax Calculator</h1>
-<h2>Let us know the amount of your order, and what state you live in. We'll let you know the amount of state sales tax (WI only) and your grand total.</h2>
-
-
-<form method="POST">
-
-	<div class="field">
-		<label for="">What is the order amount?</label>
-		<input type="number" name="subtotal" value="<?=$subtotal?>" min=0 required>
-	</div>
-	
-	<div class="field">
-		<label for="">What is the state?</label>
-		<input type="text" name="state" value="<?=$state?>"required>
-	</div>
-
-	<button type="submit" name="submitted">
-		Submit
-	</button>
-
-</form>
-
-<output>
-	<?=$totalOutput?>
-</output>
+	<h2 class="mid-voice exercise-intro">Let us know the amount of your order, and what state you live in. We'll let you know the amount of state sales tax (WI only) and your grand total.</h2>
 
 
+	<form method="POST">
+
+		<div class="field">
+			<label for="">What is the order amount?</label>
+			<input type="number" name="subtotal" value="<?=$subtotal?>" min=0 required>
+		</div>
+		
+		<div class="field">
+			<label for="">What is the state?</label>
+			<input type="text" name="state" value="<?=$state?>"required>
+		</div>
+
+		<button type="submit" name="submitted">
+			Submit
+		</button>
+
+	</form>
+
+</form-container>
+
+<?php 
+	if ($submittedPOST) { ?>
+
+	<output>
+		<?=$totalOutput?>
+	</output>
+
+	<array-checker>
+			<text-block>
+				<h2 class="mid-voice exercise-intro">Take a peek behind the&nbsp;scenes</h2>
+				<p>See what values are currently stored by the program. Note that the array will remain empty until the form has been submitted.</p>
+			</text-block>
 
 <?php
 
@@ -94,4 +103,8 @@ $totalOutput = "$taxOutput <p>The total is \$" . number_format($total, 2) . ".</
 
 	format( $_POST );
 
-?>
+		?>
+	</array-checker>
+
+
+<?php } ?>

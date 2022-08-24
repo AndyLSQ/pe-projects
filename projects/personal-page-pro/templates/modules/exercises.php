@@ -1,7 +1,7 @@
 
 <?php
 
-//load e4p.json data
+//load exercises json data
 $json = file_get_contents('data/pages/exercises.json');
 $exerciseData = json_decode($json, true);
 // print_r($exerciseData);

@@ -31,7 +31,7 @@ if ($submittedPOST) {
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$subject = $_POST['subject'];
-	$message = $_POST['message'];
+	$message = "Message from " . $name . ":\r\n" . $_POST['message'];
 	$headers = 'From: ' . $email . "\r\n" . 'Reply-To: ' . $email;
 
 
@@ -94,7 +94,7 @@ else {?>
 		</div>
 
 		<button type='submit' name="submitted" class="button">
-			Submit- TEST
+			Submit
 		</button>
 
 	</form>

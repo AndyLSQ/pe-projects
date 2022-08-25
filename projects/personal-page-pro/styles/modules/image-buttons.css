@@ -2,8 +2,8 @@ image-buttons {
 	/*border: 2px solid red;*/
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	/*gap: 25px;*/
+	/*justify-content: space-around;*/
+	gap: 25px;
 }
 
 image-buttons a {
@@ -13,7 +13,7 @@ image-buttons a {
 	justify-content: center;
 	gap: 1em;
 	padding: 10px 0px;
-	background-color: var(--highlight);
+	background-color: var(--neutral-dark);
 	width: 28%;
 	text-align: center;
 	fill: white;
@@ -21,7 +21,7 @@ image-buttons a {
 }
 
 image-buttons a:hover {
-	background-color: var(--neutral);
-	fill: var(--highlight);
+	background-color: var(--highlight);
+	fill: var(--white);
 	transition: background-color .5s, fill .5s;
 }

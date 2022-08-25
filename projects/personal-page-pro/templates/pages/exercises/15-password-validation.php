@@ -49,7 +49,7 @@ if ($submittedPOST) {
 			<input type="password" name="enteredPassword" required>
 		</div>
 
-		<button type="submit" name="submitted">
+		<button type="submit" name="submitted" class="button">
 			Submit
 		</button>
 

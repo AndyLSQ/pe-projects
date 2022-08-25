@@ -6,7 +6,7 @@
 	max-width: 50ch;
 	background-color: var(--neutral);
 	padding: 25px;
-	box-shadow: 1px 1px 2px #666;
+	box-shadow: var(--shadow);
 	/*border: 3px solid var(--neutral-dark);*/
 	/*box-shadow: 5px 5px 10px #999;*/
 }
@@ -16,5 +16,9 @@
 	flex-direction: row;
 	gap: 30px;
 	padding: 25px 0px;
-	
+
+}
+
+.home .loud-voice {
+	/*text-shadow: var(--shadow)*/;
 }

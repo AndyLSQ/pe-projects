@@ -10,7 +10,7 @@
 	padding: 15px 40px;
 	text-align: center;
 	transition: background-color .5s;
-	box-shadow: 1px 1px 2px #666;
+	box-shadow: var(--shadow);
 }
 
 .button:hover {

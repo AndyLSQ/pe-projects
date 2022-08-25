@@ -18,7 +18,33 @@ if ($section["header"]) { ?>
 	<?php } 
 ?>
 
-<div class="input">
+
+
+<?php
+
+$submittedPOST = isset($_POST['submitted']);
+
+if ($submittedPOST) {
+
+	// In case any of our lines are larger than 70 characters, we should use wordwrap()
+	$message = wordwrap($message, 70, "\r\n");
+
+	// Send
+	$send = mail('aeliscu@live.com', $subject, $message);
+
+	$confirmation = $send ? "Thank you for your message!" : "There was an error";
+?>
+
+<confirmation> 
+	<h2 class="mid-voice"><?=$confirmation?></h2>
+	<!-- <p>Forgot something?</p> -->
+	<a href="?page=contact" class="button">Back to form</a>
+
+</confirmation>
+<?php
+}
+else {?>
+	<div class="input">
 
 	<form class="radio">
 		<h2 class=attention-voice>What do you want to talk&nbsp;about?</h2>
@@ -33,8 +59,6 @@ if ($section["header"]) { ?>
 		
 
 	</form>
-
-
 
 	<form class="message-form" method="POST">
 
@@ -68,19 +92,4 @@ if ($section["header"]) { ?>
 
 </contact-form>
 
-<?php
-
-$submittedPOST = isset($_POST['submitted']);
-
-if ($submittedPOST) {
-
-	// In case any of our lines are larger than 70 characters, we should use wordwrap()
-	$message = wordwrap($message, 70, "\r\n");
-
-	// Send
-	$send = mail('aeliscu@live.com', $subject, $message);
-
-	echo($send ? "Thank you for your message!" : "There was an error");
-
-	}
-?>
+<?php }?>

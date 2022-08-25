@@ -106,7 +106,17 @@ code, pre {
 	font-family: 'DM Mono', monospace;
 }
 
+confirmation {
+	background-color: var(--neutral);
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	padding: 30px 50px;
+}
 
+confirmation h2 + p {
+	margin-top: 0px;
+	}
 
 @media (min-width: 550px) {
 

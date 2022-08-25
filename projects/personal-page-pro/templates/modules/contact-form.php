@@ -7,6 +7,7 @@ $name = "";
 $email = ""; //TODO: add data validation
 $subject = "";
 $message = "";
+$headers = "";
 
 ?>
 
@@ -26,13 +27,23 @@ $submittedPOST = isset($_POST['submitted']);
 
 if ($submittedPOST) {
 
-	// In case any of our lines are larger than 70 characters, we should use wordwrap()
+	//Assign variables
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$subject = $_POST['subject'];
+	$message = $_POST['message'];
+	$headers = 'From: ' . $email . "\r\n" . 'Reply-To: ' . $email;
+
+
+	//GENERATE MAIL
+
+	// Use wordwrap() on any lines longer than 70 characters,
 	$message = wordwrap($message, 70, "\r\n");
 
 	// Send
-	$send = mail('aeliscu@live.com', $subject, $message);
+	$send = mail('aeliscu@live.com', $subject, $message, $headers);
 
-	$confirmation = $send ? "Thank you for your message!" : "There was an error";
+	$confirmation = $send ? "Thank you for your message." : "Error. Please try again.";
 ?>
 
 <confirmation> 
@@ -74,7 +85,7 @@ else {?>
 
 		<div class="field">
 			<label for="">Subject</label>
-			<input type="text" name="email" value="<?=$subject?>" required>
+			<input type="text" name="subject" value="<?=$subject?>" required>
 		</div>
 
 		<div class="message">

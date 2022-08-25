@@ -7,44 +7,16 @@
 			
 	</header>
 
-	<main>
+	<main class="resume">
 		<resume>
-			<div class="background">
-				hi
+			<div class="sidebar">
+				<div class="child info">INFO</div>
+
+				<div class="child skills">SKILLS</div>
+
+				<div class="child tools">TOOLS</div>
 			</div>
-
-			<sidebar>	
-				<div class="info">
-					<p>here is some info</p>
-					<p>here is some info</p>
-					<p>here is some info</p>
-					<p>here is some info</p>
-					<p>here is some info</p>
-					<p>here is some info</p>
-					<p>here is some info</p>
-					<p>here is some info</p>
-
-				</div>
-
-
-				<div class="tools">
-					<p>here is some tools</p>
-					<p>here is some tools</p>
-					<p>here is some tools</p>
-					<p>here is some tools</p>
-				</div>
-
-
-				<div class="certificates">
-					<p>here is some certs</p>
-					<p>here is some certs</p>
-					<p>here is some certs</p>
-					<p>here is some certs</p>
-				</div>
-				
-			</sidebar>
-
-
-
-	</resume>
+			
+			<div class="child content">RESUME CONTENT</div>
+		</resume>
 	</main>

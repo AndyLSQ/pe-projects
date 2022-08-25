@@ -58,8 +58,8 @@ if ($section["header"]) { ?>
 			<textarea name="message" placeholder="Enter your message here" rows=15 cols=60 required><?=$message?></textarea>
 		</div>
 
-		<button type='submit' name="submitted">
-			Submit
+		<button type='submit' name="submitted" class="button">
+			Submit- TEST
 		</button>
 
 	</form>

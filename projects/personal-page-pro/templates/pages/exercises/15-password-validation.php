@@ -39,7 +39,7 @@ if ($submittedPOST) {
 
 <form-container>
 
-	<h2 class="mid-voice exercise-intro">Enter your password and we'll let you in.</h2>
+	<h2 class="mid-voice exercise-intro">Enter the correct password and we'll let you in.</h2>
 
 
 	<form method="POST">

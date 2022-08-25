@@ -26,6 +26,10 @@ p a {
 	font-weight: bold;
 }
 
+p a:hover {
+	color: var(--neutral-dark);
+}
+
 picture {
 	display: block;
 	overflow: hidden;

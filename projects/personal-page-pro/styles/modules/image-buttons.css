@@ -18,10 +18,12 @@ image-buttons a {
 	text-align: center;
 	fill: white;
 	transition: background-color .5s, fill .5s;
+	/*box-shadow: 1px 1px 2px #666;*/
 }
 
 image-buttons a:hover {
 	background-color: var(--highlight);
 	fill: var(--white);
 	transition: background-color .5s, fill .5s;
+	/*box-shadow: 1px 1px 2px #222;*/
 }

@@ -1,14 +1,14 @@
 <work-experience>
 
 	<?php if ($section["header"]) { ?>
-		<h2 class="loud-voice"><?=$section["header"]?></h2>
+		<h2 class="attention-voice"><?=$section["header"]?></h2>
 	<?php } ?>
 
 	<jobs>
 		<?php foreach($section['content'] as $job) { ?>
 			<job>
 
-				<h2 class="attention-voice"><?=$job["company"]?></h2>
+				<h2 class="mid-voice"><?=$job["company"]?></h2>
 				<h3><?=$job["title"]?></h3>
 				<p><?=$job["location"]?> | <?=$job["start-date"]?> - <?=$job["end-date"]?></p>
 				<ul>

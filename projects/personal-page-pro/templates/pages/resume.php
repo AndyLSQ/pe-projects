@@ -9,14 +9,25 @@
 
 	<main class="resume">
 		<resume>
-			<div class="sidebar">
-				<div class="child info">INFO</div>
+			<?php
+			foreach($pageData['sections'] as $section) {
+				if ($section['type'] == "sidebar") {
+					include ( "templates/modules/$section[type].php" );
+				}
+			}
+			?>
 
-				<div class="child skills">SKILLS</div>
 
-				<div class="child tools">TOOLS</div>
-			</div>
 			
-			<div class="child content">RESUME CONTENT</div>
+			<div class="child content">
+				<?php
+					foreach($pageData['sections'] as $section) {
+						if ($section['type'] == "work-experience" or $section['type'] =="education" or $section['type'] =="text-block") {
+							include ( "templates/modules/$section[type].php" );
+						}
+					}
+				?>
+			</div>
+		
 		</resume>
 	</main>

@@ -9,19 +9,14 @@ resume {
 	gap: 20px;
 }
 
-.parent {
-	border: 1px solid red;
-}
-
 .child {
+	display: block;
 	border: 1px solid blue;
 	padding: 20px;
 }
 
-resume .sidebar {
+resume sidebar {
 	display: contents;
-
-
 }
 
 resume .child.info {
@@ -32,20 +27,50 @@ resume .child.content {
 	order: 2;
 }
 
-resume .child.skills {
+resume .child.tools {
 	order: 3;
 }
 
-resume .child.tools {
+resume .child.certificates {
 	order: 4;
+}
+
+resume .child.content {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
+resume :is(work-experience, education) {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+resume :is(jobs, schools) {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
+resume ul {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+resume li {
+	list-style-type: square;
+	line-height: 1.2;
 }
 
 @media (min-width: 700px) {
 	resume {
-		grid-template-column: 1fr 2fr;
+		grid-template-column: 1fr 11fr;
 	}
 
-	resume .sidebar {
+	resume sidebar {
 		display: block;
 		border: 1px solid red;
 		color: white;
@@ -57,6 +82,6 @@ resume .child.tools {
 	}
 	
 	resume .content {
-		grid-column: 2 / 4;
+		grid-column: 2 / 13;
 	}	
 }

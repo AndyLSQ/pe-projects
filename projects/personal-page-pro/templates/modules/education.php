@@ -1,14 +1,14 @@
 <education>
 	
 	<?php if ($section["header"]) { ?>
-		<h2 class="loud-voice"><?=$section["header"]?></h2>
+		<h2 class="attention-voice"><?=$section["header"]?></h2>
 	<?php } ?>
 
 	<schools>
 		<?php foreach($section['content'] as $school) { ?>
 			<school>
 
-				<h2 class="attention-voice"><?=$school["institution"]?></h2>
+				<h2 class="mid-voice"><?=$school["institution"]?></h2>
 				<h3><?=$school["program"]?> - <?=$school["end-date"]?></h3>
 				<p></p>
 				<ul>

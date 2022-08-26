@@ -19,13 +19,6 @@
                     ]
                 },
                 {
-                    "type": "text-block",
-                    "header": "",
-                    "content": [
-                        "<hr>"
-                    ]
-                },
-                {
                     "header": "Tools",
                     "content": [
                         "⧰ JavaScript",
@@ -36,13 +29,6 @@
                         "⧰ SQL",
                         "⧰ Oracle EBS",
                         "⧰ Hyperion SmartView"
-                    ]
-                },
-                {
-                    "type": "text-block",
-                    "header": "",
-                    "content": [
-                        "<hr>"
                     ]
                 },
                 {
@@ -58,7 +44,7 @@
         },
         {
             "type": "text-block",
-            "header": "bio",
+            "header": "",
             "content": [
                 "<em>SAMPLE ONLY: Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries. Equipped with a record of success in consistently identifying and providing the technological needs of companies through ingenious innovation.</em>"
             ]

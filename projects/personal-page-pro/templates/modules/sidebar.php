@@ -1,6 +1,6 @@
 <sidebar>
 
-	<text-block>
+
 		
 		<?php
 		//Only include header element if there's header content
@@ -9,10 +9,10 @@
 		<?php } 
 
 		foreach($section['subsections'] as $subsection) { ?>
-		<subsection class="<?=strtolower($subsection['header'])?>">
+		<subsection class="child <?=strtolower($subsection['header'])?>">
 			<?php
 			if ($subsection["header"]) { ?>
-				<h2 class="attention-voice"><?=$subsection["header"]?></h2>
+				<h2 class="mid-voice"><?=$subsection["header"]?></h2>
 			<?php }
 
 		// print_r($subsection['content']);
@@ -27,6 +27,6 @@
 
 ?>
 
-	</text-block>
+
 
 </sidebar>

@@ -28,3 +28,8 @@ footer a:hover{
 	fill: var(--highlight);
 	transition: fill .5s;
 }
+
+@media (max-width: 600px) {
+	footer social {
+		gap: 15px;
+	}

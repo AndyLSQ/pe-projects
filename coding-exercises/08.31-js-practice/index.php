@@ -10,6 +10,9 @@
 eg
 
 
+	<script>
+		<?php include ('practice.js') ?>
+	</script>
 
 </body>
 

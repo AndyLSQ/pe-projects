@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta name="description" content="Andy is a front-end web developer with a passion for creating clean, responsive websites.">
-	<meta property="og:image" content="images/svg/metadata-img.svg">
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/projects/personal-page-pro/images/svg/metadata-img.svg">
 
 	<title>Andy LSQ | Web Developer</title>
 

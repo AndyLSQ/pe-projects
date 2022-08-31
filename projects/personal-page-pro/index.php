@@ -7,7 +7,7 @@
 
 	<meta name="description" content="Andy is a front-end web developer with a passion for creating clean, responsive websites.">
 
-	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/projects/personal-page-pro/images/metadata-img.png">
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/projects/personal-page-pro/images/metadata-image.png">
 
 	<title>Andy LSQ | Web Developer</title>
 

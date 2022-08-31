@@ -11,7 +11,7 @@ function hello() {
 		alert(message);
 	} else {
 		alert("Please enter your name.");
-		hello();
+		// hello();
 	}
 }
 var helloButton = document.createElement('button');
@@ -34,7 +34,7 @@ function charCount() {
 		alert(outputString);
 	} else {
 		alert("Please input a string.");
-		charCount();
+		// charCount();
 	}
 }
 var charCountButton = document.createElement('button');
@@ -55,7 +55,7 @@ function printQuotes() {
 		alert(outputString); 
 	} else {
 		alert("Please enter a quote and author.");
-		printQuotes();
+		// printQuotes();
 	}
 
 }
@@ -81,7 +81,7 @@ function madLib() {
 	alert(outputString)
 	} else {
 		alert("Please enter all fields.");
-		madLib();
+		// madLib();
 	}
 
 }
@@ -119,7 +119,7 @@ function simpleMath() {
 		alert(outputString);
 	} else {
 		alert("Please input all fields with nonzero numbers.");
-		simpleMath();
+		// simpleMath();
 	}
 }
 var simpleMathButton = document.createElement('button');
@@ -147,7 +147,7 @@ function retirement() {
 	alert(outputString);
 	} else {
 		alert("Please input all fields with nonzero numbers.");
-		retirement();
+		// retirement();
 	}
 }
 var retirementButton = document.createElement('button');
@@ -174,7 +174,7 @@ function roomArea() {
 		alert(outputString);
 	} else {
 		alert("Please input all fields with nonzero numbers.");
-		roomArea();
+		// roomArea();
 	}
 }
 var roomAreaButton = document.createElement('button');
@@ -206,7 +206,7 @@ function pizzaParty() {
 
 	} else {
 		alert("Please input all fields with nonzero numbers.");
-		pizzaParty();
+		// pizzaParty();
 	}
 
 }
@@ -232,7 +232,7 @@ function paintCalc() {
 		alert(outputString);
 	} else {
 		alert("Please input all fields with nonzero numbers.");
-		paintCalc();
+		// paintCalc();
 	}
 }
 var paintCalcButton = document.createElement('button');
@@ -283,7 +283,7 @@ function selfCheckout() {
 
 	} else {
 		alert("Please input all fields with nonzero numbers.");
-		selfCheckout();
+		// selfCheckout();
 	}
 
 }

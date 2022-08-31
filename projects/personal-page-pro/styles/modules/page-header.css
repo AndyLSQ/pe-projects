@@ -42,7 +42,7 @@
 @media (max-width: 600px) {
 	body:not(.home) .page-header {
 		justify-content: flex-start;
-		height: 200px;
-		padding-top: 25px;
+		height: 250px;
+		padding-top: 50px;
 	}
 }

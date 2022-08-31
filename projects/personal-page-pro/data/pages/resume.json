@@ -12,32 +12,32 @@
                 {
                     "header": "Info",
                     "content": [
-                        "<a href='mailto:andrew.eliscu@gmail.com'>⧰ andrew.eliscu@gmail.com</a>",
-                        "<a href='https://linkedin.com/in/andreweliscu/'>⧰ linkedin.com/in/andreweliscu/</a>",
-                        "<a href='https://lsq.dev/'>⧰ lsq.dev</a>",
-                        "⧰ austin, tx"
+                        "<a href='mailto:andrew.eliscu@gmail.com'>andrew.eliscu@gmail.com</a>",
+                        "<a href='https://linkedin.com/in/andreweliscu/'>linkedin.com/in/andreweliscu/</a>",
+                        "<a href='https://lsq.dev/'>lsq.dev</a>",
+                        "Austin, TX"
                     ]
                 },
                 {
                     "header": "Tools",
                     "content": [
-                        "⧰ JavaScript",
-                        "⧰ PHP",
-                        "⧰ CSS",
-                        "⧰ HTML",
-                        "⧰ Python",
-                        "⧰ SQL",
-                        "⧰ Oracle EBS",
-                        "⧰ Hyperion SmartView"
+                        "JavaScript",
+                        "PHP",
+                        "CSS",
+                        "HTML",
+                        "Python",
+                        "SQL",
+                        "Oracle EBS",
+                        "Hyperion SmartView"
                     ]
                 },
                 {
                     "header": "Certificates",
                     "content": [
-                        "⧰ AWS Certified Cloud Practitioner",
-                        "⧰ Tableau Certified Desktop Specialist",
-                        "⧰ Microsoft Certified Excel Expert",
-                        "⧰ Certified Public Accountant"
+                        "AWS Certified Cloud Practitioner",
+                        "Tableau Certified Desktop Specialist",
+                        "Microsoft Certified Excel Expert",
+                        "Certified Public Accountant"
                     ]
                 }
             ]

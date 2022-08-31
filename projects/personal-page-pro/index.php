@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
 <head>
 	<meta charset="utf-8">
@@ -7,6 +7,7 @@
 
 	<meta name="description" content="Andy is a front-end web developer with a passion for creating clean, responsive websites.">
 
+	<!-- Note: Standard metadata image size ~(1200 x 630) -->
 	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/projects/personal-page-pro/images/metadata-image.png">
 
 	<title>Andy LSQ | Web Developer</title>

@@ -39,8 +39,10 @@
      margin-top: 15px; 
 }
 
-/*.page-header h1 {
-	display: flex;
-	flex-wrap: wrap;
+@media (max-width: 600px) {
+	body:not(.home) .page-header {
+		justify-content: flex-start;
+		height: 200px;
+		padding-top: 25px;
+	}
 }
-*/

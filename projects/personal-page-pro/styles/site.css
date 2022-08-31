@@ -42,6 +42,7 @@
 body {
 	background-color: var(--paper);
 	color: var(--ink);
+	overflow-x: hidden;
 }
 
 main inner-column  {

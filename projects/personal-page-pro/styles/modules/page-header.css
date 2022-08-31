@@ -21,7 +21,7 @@
 .page-header .header-content {
 	/*width: fit-content;*/
 	max-width: 50ch;
-	transform: translate(0px, -30px);
+	transform: translate(0px, -25px);
 	/*display: flex;
 	flex-direction: column;
 	gap: 15px;

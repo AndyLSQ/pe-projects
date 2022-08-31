@@ -291,3 +291,5 @@ var selfCheckoutButton = document.createElement('button');
 selfCheckoutButton.addEventListener('click', selfCheckout);
 selfCheckoutButton.textContent = "Self Checkout";
 document.querySelector('body').appendChild(selfCheckoutButton);
+
+sadfjsfdlakjf(

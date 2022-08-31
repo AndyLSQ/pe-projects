@@ -8,14 +8,18 @@
 	<meta name="description" content="Andy is a front-end web developer with a passion for creating clean, responsive websites.">
 
 	<!-- Note: Standard metadata image size ~(1200 x 630) -->
-	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/projects/personal-page-pro/images/metadata-image.png">
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/images/metadata-image.png">
 
 	<title>Andy LSQ | Web Developer</title>
 
+	<!-- LINK primary stylesheet -->
 	<link rel="stylesheet" href="styles/site.css">
 
+	<!-- LINK fonts as needed -->
 	<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+	<!-- LINK favicon -->
+	<link rel="icon" type="image/svg+xml" href="images/svg/favicon.svg">
 
 
 </head>

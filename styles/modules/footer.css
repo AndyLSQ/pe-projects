@@ -31,5 +31,5 @@ footer a:hover{
 
 @media (max-width: 600px) {
 	footer social {
-		gap: 15px;
+		gap: 10px;
 	}

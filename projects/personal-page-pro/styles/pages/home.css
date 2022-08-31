@@ -1,5 +1,7 @@
 .home .page-header {
 	height: 500px;
+	padding-top: 0px;
+	justify-content: center;
 }
 
 .home text-block {

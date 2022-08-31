@@ -3,6 +3,7 @@
 }
 
 
+
 .page-header {
 	display: flex;
 	flex-direction: column;
@@ -10,6 +11,7 @@
 	justify-content: center;
 	color: var(--white);
 	height: 350px;
+	
 }
 
 .page-header inner-column {
@@ -19,6 +21,7 @@
 .page-header .header-content {
 	/*width: fit-content;*/
 	max-width: 50ch;
+	transform: translate(0px, -30px);
 	/*display: flex;
 	flex-direction: column;
 	gap: 15px;
@@ -41,8 +44,16 @@
 
 @media (max-width: 600px) {
 	body:not(.home) .page-header {
-		justify-content: flex-start;
+		/*justify-content: flex-start;*/
 		height: 250px;
-		padding-top: 50px;
+		/*padding-top: 60px;*/
+	}
+
+	body:not(.home) .page-header .header-content {
+		transform: translate(0px, -25px);
+	}
+
+	body.style-guide .page-header .header-content {
+		transform: translate(0px, -10px);
 	}
 }

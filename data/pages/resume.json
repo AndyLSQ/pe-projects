@@ -44,9 +44,9 @@
         },
         {
             "type": "text-block",
-            "header": "",
+            "header": "Summary",
             "content": [
-                "<em>SAMPLE ONLY: Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries. Equipped with a record of success in consistently identifying and providing the technological needs of companies through ingenious innovation.</em>"
+                "<em>Longtime management consultant turned front-end web developer, with 10 years professional experience in a complex, analytical field, and 3 years of study in HTML, CSS, JavaScript, SQL, and Python. Equipped with a record of success in digital transformation and client service, and thrilled to leverage this skillset to pursue lifelong passions in technology and design.</em>"
             ]
         },
         {
@@ -60,45 +60,49 @@
                     "start-date": "May 2021",
                     "end-date": "Present",
                     "content": [
-                        "acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 acn point 1 ",
-                        "acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2 acn point 2",
-                        "acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 acn point 3 "
+                        "Led configuration and implementation of enterprise perfomance management software for complex global corporations",
+                        "Directed workshops and interviews with clients to determine business requirements of new software systems and processes",
+                        "Architected client processes to work within the new tools and take advantage of advanced features",
+                        "Directed development team in configuring software to meet the needs and wants of the clients",
+                        "Designed and led User Acceptance Testing to identify and correct bugs across all business units, worldwide",
+                        "Created and delivered detailed End User Training programs to clearly outline new processes to superusers across all departments and international offices"
                     ]
                 },
                 {
                     "company": "The Siegfried Group, LLP",
                     "title": "Consulting Manager",
                     "location": "New York, NY",
-                    "start-date": "MMM YYYY",
+                    "start-date": "Jun 2017",
                     "end-date": "May 2021",
                     "content": [
-                        "tsg point 1",
-                        "tsg point 2",
-                        "tsg point 3"
+                        "Delivered leadership in software implementation and process enhancement to Merger & Acquisition clients",
+                        "Automated monthly data aggregation processes to cut turnaround time up to 50%",
+                        "Led adoption of Anaplan, Tableau, and PowerBI, for visualization and analysis of financial perfomance metrics",
+                        "Digital Agility Ambassador- Assisted in adopting firmwide training programs for SQL and foundational Python for Data Analysis"
                     ]
                 },
                 {
                     "company": "Urban Outfitters, Inc.",
                     "title": "Senior Financial Analyst",
                     "location": "Philadelphia, PA",
-                    "start-date": "MMM YYYY",
-                    "end-date": "MMM YYYY",
+                    "start-date": "Dec 2013",
+                    "end-date": "Jun 2017",
                     "content": [
-                        "urbn point 1",
-                        "urbn point 2",
-                        "urbn point 3"
+                        "Managed top to bottom P&L budget, forecast and variance analysis for the Free People Wholesale channel",
+                        "Self-taught Microsoft Access and built a gross-to-net sales database when data volume became too high for Excel, leading to 75% reduction in forecasting time, and allowing for daily updates to sales reps.",
+                        "Fostered strong relationships with creative directors and operational leads to establish department budgets and communicate results in real time.",
+                        "Managed adoption of new general ledger and inventory management systems for the Wholesale channel"
                     ]
                 },
                 {
                     "company": "Deloitte & Touche, LLP",
                     "title": "Audit Senior",
                     "location": "Philadelphia, PA",
-                    "start-date": "MMM YYYY",
-                    "end-date": "MMM YYYY",
+                    "start-date": "Aug 2011",
+                    "end-date": "Dec 2013",
                     "content": [
-                        "d&t point 1",
-                        "d&t point 2",
-                        "d&t point 3"
+                        "Demonstrated quick learning ability under stringent time constraints to understand and provide oversight to ever-changing client environments, across multiple industries. ",
+                        "Highly involved in recruiting and training of new employees."
                     ]
                 }
             ]
@@ -112,7 +116,7 @@
                     "program": "Design for the Web",
                     "end-date": "Projected: 2022",
                     "content": [
-                        "Dftw point 1"
+                        "A program covering the entire design and web development process from idea to completion."
                     ]
                 },
                 {

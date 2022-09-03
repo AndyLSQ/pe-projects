@@ -11,7 +11,6 @@ resume {
 
 .child {
 	display: block;
-	border: 1px solid blue;
 	padding: 20px;
 }
 
@@ -19,12 +18,26 @@ resume sidebar {
 	display: contents;
 }
 
+
+resume .child:is(.info, .tools, .certificates){
+	background-color: var(--neutral);
+	/*color: var(--white);*/
+}
+
 resume .child.info {
 	order: 1;
+	background-color: var(--neutral);
+	color: var(--ink);
+}
+
+resume .child.info a{
+	color: var(--ink);
+	font-weight: normal;
 }
 
 resume .child.content {
 	order: 2;
+	padding: 30px 10px;
 }
 
 resume .child.tools {
@@ -41,6 +54,25 @@ resume .child.content {
 	gap: 35px;
 }
 
+resume .summary {
+	background-color: var(--neutral);
+	padding: 20px;
+}
+
+resume .summary h2 {
+	display: none;
+}
+
+resume .summary h2 + p {
+	margin-top: 0px;
+}
+
+resume h3 {
+	font-weight: bold;
+	padding: 5px 0px;
+	color: var(--neutral-dark);
+}
+
 resume :is(work-experience, education) {
 	display: flex;
 	flex-direction: column;
@@ -55,6 +87,7 @@ resume :is(jobs, schools) {
 
 resume ul {
 	margin-top: 15px;
+	margin-left: 15px;
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
@@ -72,10 +105,18 @@ resume li {
 
 	resume sidebar {
 		display: block;
-		border: 1px solid red;
 		color: white;
 		background-color: var(--color1);
 	}
+
+	resume .child:is(.info, .tools, .certificates){
+		background-color: var(--color1);
+		color: var(--white);
+}
+
+resume .child.info a{
+	color: var(--white);
+}
 
 	resume .info {
 		grid-column: 1 / 2;

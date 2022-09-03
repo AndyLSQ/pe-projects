@@ -136,6 +136,12 @@ confirmation h2 + p {
 		gap: 50px;
 	}
 
+	form :is(input, textarea) {
+	max-width:  55ch;
+	color: red;
+}
+
+
 	.contact embellishment {
 		display: none;
 	}
@@ -146,4 +152,9 @@ confirmation h2 + p {
 		display: block;
 		font-size: clamp(0px, 8vw, 150px);
 	}
+
+	form :is(input, textarea) {
+	width:  95ch;
 	}
+
+}

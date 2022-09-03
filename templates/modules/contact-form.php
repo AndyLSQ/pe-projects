@@ -57,7 +57,7 @@ if ($submittedPOST) {
 else {?>
 	<div class="input">
 
-	<form class="radio">
+<!-- 	<form class="radio">
 		<h2 class=attention-voice>What do you want to talk&nbsp;about?</h2>
 		
 		<radio-buttons>
@@ -69,7 +69,7 @@ else {?>
 		</radio-buttons>
 		
 
-	</form>
+	</form> -->
 
 	<form class="message-form" method="POST">
 

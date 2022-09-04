@@ -20,12 +20,7 @@
 	color: var(--ink);
 }
 
-.card-grid .card:hover {
-	color: var(--white);
-	transition: color .25s, background-color .25s;
-	background-color: var(--neutral-dark);
-	/*border: 1px solid var(--highlight);*/
-}
+
 
 
 @media (min-width: 600px) {
@@ -41,6 +36,13 @@
 		height: 200px;
 		transition: color 1s;
 
+	}
+
+	.card-grid .card:hover {
+	color: var(--white);
+	transition: color .25s, background-color .25s;
+	background-color: var(--neutral-dark);
+	/*border: 1px solid var(--highlight);*/
 	}
 
 	.card-grid .card picture {

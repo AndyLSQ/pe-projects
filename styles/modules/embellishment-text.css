@@ -43,6 +43,12 @@ embellishment {
 	}
 }
 
+@media (min-width: 700px){
+	:is(.home) embellishment {
+		display: block;
+	}
+}
+
 @media (min-width: 850px){
 	:is(.projects) embellishment {
 		display: block;
@@ -55,9 +61,9 @@ embellishment {
 	}
 }
 
-@media (max-width: 1400px){
+@media (min-width: 900px){
 	:is(.about) embellishment {
-		display: none;
+		display: block;
 	}
 }
 

@@ -53,9 +53,14 @@ main inner-column  {
 	transform: translate(0px, -80px);
 }
 
-:is(.project, .style-guide) main inner-column {
+:is(.style-guide) main inner-column {
 	transform: translate(0px, 0px);
 }
+
+:is(.project) main inner-column {
+	transform: translate(0px, -75px);
+}
+
 
 text-block {
 

@@ -52,6 +52,7 @@ resume .child.content {
 	display: flex;
 	flex-direction: column;
 	gap: 35px;
+	max-width: 70ch;
 }
 
 resume .summary {
@@ -101,6 +102,10 @@ resume li {
 @media (min-width: 700px) {
 	resume {
 		grid-template-column: 1fr 11fr;
+	}
+
+	.resume header inner-column {
+		/*margin-left: 20px;*/
 	}
 
 	resume sidebar {

@@ -1,6 +1,20 @@
 {
     "sections": [
         {
+            "type": "buttons",
+            "header": "",
+            "content": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/AndyLSQ/pe-projects/tree/main/projects/theme-challenge"
+                },
+                {
+                    "label": "Live",
+                    "href": "https://peprojects.dev/alpha-4/andy/projects/theme-challenge/"
+                }
+            ]
+        },
+        {
             "type": "text-block",
             "header": "The Challenge",
             "content": [

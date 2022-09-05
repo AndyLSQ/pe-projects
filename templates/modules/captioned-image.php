@@ -1,4 +1,4 @@
-<div class="portrait">
+<div class="captioned-image">
 	
 	<picture>
 		<img src="<?=$section["url"]?>" alt="<?=$section["alt"]?>">

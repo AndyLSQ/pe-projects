@@ -46,6 +46,24 @@
         },
         {
             "type": "sg-heading",
+            "header": "Buttons"
+        },
+        {
+            "type": "buttons",
+            "header": "Buttons",
+            "content": [
+                {
+                    "label": "Button 1",
+                    "href": "?page=projects"
+                },
+                {
+                    "label": "Button 2",
+                    "href": "?page=contact"
+                }
+            ]
+        },
+        {
+            "type": "sg-heading",
             "header": "Type \"Voices\""
         },
         {
@@ -111,24 +129,6 @@
         {
             "type": "contact-form",
             "header": "Contact Form"
-        },
-        {
-            "type": "sg-heading",
-            "header": "Buttons"
-        },
-        {
-            "type": "buttons",
-            "header": "Buttons",
-            "content": [
-                {
-                    "label": "Button 1",
-                    "href": "?page=projects"
-                },
-                {
-                    "label": "Button 2",
-                    "href": "?page=contact"
-                }
-            ]
         }
     ]
 }

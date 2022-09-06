@@ -7,7 +7,7 @@
             "module": "hero",
             "variant": "hero04",
             "heading": "Arcu suscipit massa aliquam proin amet",
-            "subheading": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
+            "paragraph": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
             "buttons": [
                 {
                     "variant": "button01",

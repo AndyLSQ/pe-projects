@@ -7,7 +7,7 @@ function currentPage() {
   if (isset($_GET["page"])) {
     return $_GET["page"];
   } else {
-    return "home";
+    return "page01";
   }
 }
 

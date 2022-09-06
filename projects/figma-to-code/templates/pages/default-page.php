@@ -2,7 +2,7 @@
 
 	<?php
 		if ( isset($pageData["header"]) ) {
-				include ( "templates/modules/$header.php");
+			include ( "templates/modules/headers/$pageData[header].php");
 		}
 	?>
 
@@ -13,8 +13,10 @@
 
 	<?php
 		if ( isset($pageData["sections"]) ) {
+			echo "set";
 			foreach ($pageData["sections"] as $section) {
-				include ( "templates/modules/$section[module].php");
+				echo "section";
+				include ("templates/modules/sections/$section[module].php");
 			}
 		}
 	?>
@@ -25,9 +27,9 @@
 <footer>
 
 	<?php
-		if ( isset($pageData["footer"]) ) {
-				include ( "templates/modules/$footer.php");
-		}
+		// if ( isset($pageData["footer"]) ) {
+		// 		include ( "templates/modules/$footer.php");
+		// }
 	?>
 	
 </footer>

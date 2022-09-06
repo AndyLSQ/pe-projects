@@ -1,0 +1,50 @@
+{
+    "id": "page01",
+    "title": "Page 01",
+    "header": "nav02",
+    "sections": [
+        {
+            "module": "hero",
+            "variant": "hero04",
+            "heading": "Arcu suscipit massa aliquam proin amet",
+            "subheading": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
+            "buttons": [
+                {
+                    "variant": "button01",
+                    "text-content": "Get Started"
+                },
+                {
+                    "variant": "button02",
+                    "text-content": "Start free trial"
+                }
+            ]
+        },
+        {
+            "module": "center",
+            "variant": "center05",
+            "eyebrow": "Rhoncus, accumsan dictum",
+            "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+            "subheading": "Neque, pulvinar vestibulum non aliquam.",
+            "images": [
+            	
+            ]
+        },
+        {
+            "module": "feature",
+            "variant": "feature06"
+        },
+        {
+            "module": "clients",
+            "variant": "clients05"
+        },
+        {
+            "module": "cta",
+            "variant": "cta01"
+        },
+        {
+            "module": "faq",
+            "variant": "faq01"
+        }
+    ],
+    "footer": "footer02"
+}

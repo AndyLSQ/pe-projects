@@ -1,0 +1,1 @@
+<p><?=$section['paragraph']?></p>

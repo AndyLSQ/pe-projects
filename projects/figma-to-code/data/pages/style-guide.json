@@ -1,0 +1,73 @@
+{
+    "id": "page01",
+    "title": "Page 01",
+    "header": "nav02",
+    "sections": [
+        {
+            "module": "hero",
+            "variant": "hero04",
+            "heading": "Arcu suscipit massa aliquam proin amet",
+            "paragraph": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
+            "buttons": [
+                {
+                    "variant": "button01",
+                    "href": "#",
+                    "text-content": "Get Started"
+                },
+                {
+                    "variant": "button02",
+                    "href": "#",
+                    "text-content": "Start free trial"
+                }
+            ],
+            "images": [
+            	{
+            		"class": "test-class",
+            		"src": "https://peprojects.dev/images/landscape.jpg",
+            		"alt": "example pic",
+            		"caption":"test caption"
+            	}
+            ],
+            "diptychs": [
+            	{
+            		"class": "test-class",
+            		"heading": "Test Diptych Heading",
+            		"body": "Test diptych body text goes here.",
+            		"src": "https://peprojects.dev/images/landscape.jpg",
+            		"alt": "example pic",
+            		"quote": "example quote goes here",
+            		"quote-author": "Author Person",
+            		"quote-author-title": "Manger of Management",
+            		"quote-author-image": ""
+            	}
+            ]
+        },
+        {
+            "module": "center",
+            "variant": "center05",
+            "eyebrow": "Rhoncus, accumsan dictum",
+            "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+            "subheading": "Neque, pulvinar vestibulum non aliquam.",
+            "images": [
+            	
+            ]
+        },
+        {
+            "module": "feature",
+            "variant": "feature06"
+        },
+        {
+            "module": "clients",
+            "variant": "clients05"
+        },
+        {
+            "module": "cta",
+            "variant": "cta01"
+        },
+        {
+            "module": "faq",
+            "variant": "faq01"
+        }
+    ],
+    "footer": "footer02"
+}

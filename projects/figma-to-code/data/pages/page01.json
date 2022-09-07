@@ -6,44 +6,146 @@
         {
             "module": "hero",
             "variant": "hero04",
-            "heading": "Arcu suscipit massa aliquam proin amet",
-            "paragraph": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
-            "buttons": [
+            "components": [
                 {
-                    "variant": "button01",
-                    "text-content": "Get Started"
+                    "type": "text-block",
+                    "heading": "Arcu suscipit massa aliquam proin amet",
+                    "paragraphs": [
+                        "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,"
+                    ]
                 },
                 {
-                    "variant": "button02",
-                    "text-content": "Start free trial"
+                    "type": "button-nav",
+                    "button-list": [
+                        {
+                            "variant": "button01",
+                            "href": "#",
+                            "text-content": "Get Started"
+                        },
+                        {
+                            "variant": "button02",
+                            "href": "#",
+                            "text-content": "Start free trial"
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "class": "test-class",
+                    "src": "https://peprojects.dev/images/landscape.jpg",
+                    "alt": "example pic",
+                    "caption": "test caption"
+                },
+                {
+                    "type": "diptych-quote",
+                    "class": "test-class",
+                    "heading": "Test Diptych Heading",
+                    "body": "Test diptych body text goes here.",
+                    "src": "https://peprojects.dev/images/landscape.jpg",
+                    "alt": "example pic",
+                    "quote": "example quote goes here",
+                    "quote-author": "Author Person",
+                    "quote-author-title": "Manger of Management",
+                    "quote-author-image": "https://peprojects.dev/images/portrait.jpg"
                 }
             ]
         },
         {
             "module": "center",
             "variant": "center05",
-            "eyebrow": "Rhoncus, accumsan dictum",
-            "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
-            "subheading": "Neque, pulvinar vestibulum non aliquam.",
-            "images": [
-            	
+            "components": [
+                {
+                    "type": "enhanced-heading",
+                    "eyebrow": "Rhoncus, accumsan dictum",
+                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                },
+                {
+                    "type": "video"
+                }
             ]
         },
         {
             "module": "feature",
-            "variant": "feature06"
+            "variant": "feature06",
+            "components": [
+                {
+                    "type": "diptych",
+                    "class": "test-class",
+                    "heading": "FEATURE 06 Test Diptych Heading",
+                    "body": "F06 Test diptych body text goes here.",
+                    "src": "https://peprojects.dev/images/landscape.jpg",
+                    "alt": "example pic",
+                },
+                {
+                    "type": "list",
+                    "ordered": "ol",
+                    "list-items": [
+                    	{
+                    		"heading": "Sit quam gravida",
+                    		"body": "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus.",
+                    		"icon": ""
+                    	},
+                    	{
+                    		"heading": "Elementum enim tempus",
+                    		"body": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit..",
+                    		"icon": ""
+                    	},
+                    	{
+                    		"heading": "Tempor egestas augue",
+                    		"body": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
+                    		"icon": ""
+                    	},
+                    	{
+                    		"heading": "Nulla ac lacinia",
+                    		"body": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non.",
+                    		"icon": ""
+                    	},
+                    	{
+                    		"heading": "Velit nibh a",
+                    		"body": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis.",
+                    		"icon": ""
+                    	}
+
+                    ]
+                }
+            ]
         },
         {
             "module": "clients",
-            "variant": "clients05"
+            "variant": "clients05",
+            "components": [
+                {
+                    "type": ""
+                },
+                {
+                    "type": ""
+                }
+            ]
         },
         {
             "module": "cta",
-            "variant": "cta01"
+            "variant": "cta01",
+            "components": [
+                {
+                    "type": ""
+                },
+                {
+                    "type": ""
+                }
+            ]
         },
         {
             "module": "faq",
-            "variant": "faq01"
+            "variant": "faq01",
+            "components": [
+                {
+                    "type": ""
+                },
+                {
+                    "type": ""
+                }
+            ]
         }
     ],
     "footer": "footer02"

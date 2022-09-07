@@ -1,15 +1,11 @@
 <section class="<?=$section['module']?>">
 	<inner-column class="<?=$section['variant']?>">
-		<h2 class="loud-voice">
-			<?=$section['heading']?>
-		</h2>
-		<p><?=$section['paragraph']?></p>
-		<nav>
-			<?php foreach ($section['buttons'] as $button) {
-				include("templates/modules/components/button.php");
-			} ?>
-		
-		</nav>
+
+		<?php
+			foreach ($section['components'] as $component) {
+				include("templates/modules/components/$component[type].php");
+			}
+		?>
 
 	</inner-column>
 </section>

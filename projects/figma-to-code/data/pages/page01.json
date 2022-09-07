@@ -83,36 +83,41 @@
                 {
                     "type": "list",
                     "ordered": "ol",
+                    "list-heading": "TEST LIST HEADING",
                     "list-items": [
                         {
                             "heading": "Sit quam gravida",
                             "paragraphs": [
-                            	"Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
+                                "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
                             ],
                             "image": ""
                         },
                         {
                             "heading": "Elementum enim tempus",
                             "paragraphs": [
-                            	"At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.."],
+                                "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.."
+                            ],
                             "image": ""
                         },
                         {
                             "heading": "Tempor egestas augue",
                             "paragraphs": [
-                            	"Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."],
+                                "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
+                            ],
                             "image": ""
                         },
                         {
                             "heading": "Nulla ac lacinia",
                             "paragraphs": [
-                            	"Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."],
+                                "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
+                            ],
                             "image": ""
                         },
                         {
                             "heading": "Velit nibh a",
                             "paragraphs": [
-                            	"Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."],
+                                "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
+                            ],
                             "image": ""
                         }
                     ]
@@ -124,37 +129,58 @@
             "variant": "clients05",
             "components": [
                 {
-                    "type": ""
+                    "type": "enhanced-heading",
+                    "eyebrow": "",
+                    "heading": "What Our Clients Say",
+                    "subheading": "Neque, pulvinar vestibulum non aliquam."
                 },
                 {
-                    "type": ""
-                }
-            ]
-        },
-        {
-            "module": "cta",
-            "variant": "cta01",
-            "components": [
-                {
-                    "type": ""
+                    "type": "list-quote",
+                    "ordered": "ul",
+                    "list-heading": "",
+                    "list-items": [
+                        {
+                            "rating-img": "images/icons/ratings/5-star.svg",
+                            "quote": "example quote goes here",
+                            "quote-author": "Courtney Henry",
+                            "quote-author-title": "Marketing Coordinator",
+                            "quote-author-image": "images/icons/avatars/avatar-portrait-large.svg"
+                        },
+                        {
+                            "rating-img": "images/icons/ratings/5-star.svg",
+                            "quote": "example quote goes here",
+                            "quote-author": "Courtney Henry",
+                            "quote-author-title": "Marketing Coordinator",
+                            "quote-author-image": "images/icons/avatars/avatar-portrait-large.svg"
+                        }
+                    ]
                 },
                 {
-                    "type": ""
-                }
-            ]
-        },
-        {
-            "module": "faq",
-            "variant": "faq01",
-            "components": [
-                {
-                    "type": ""
+                    "module": "cta",
+                    "variant": "cta01",
+                    "components": [
+                        {
+                            "type": "text-block"
+                        },
+                        {
+                            "type": "text-block"
+                        }
+                    ]
                 },
                 {
-                    "type": ""
+                    "module": "faq",
+                    "variant": "faq01",
+                    "components": [
+                        {
+                            "type": "text-block"
+                        },
+                        {
+                            "type": "text-block"
+                        }
+                    ]
                 }
-            ]
+            ],
+            "footer": "footer02"
         }
-    ],
-    "footer": "footer02"
+    ]
 }

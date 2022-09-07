@@ -28,12 +28,17 @@
 
 			<?php if ($component['quote-author']) {?>
 				<figcaption>
+
 					<?=$component['quote-author']?>
-					<div class="author-title">
+
+					
+
 						<?php if ($component['quote-author-title']) {?>
-							<?=$component['quote-author-title']?>
+							<div class="quote-author-title">
+								<?=$component['quote-author-title']?>
+							</div>
 						<?php } ?>
-					</div>
+
 				</figcaption>
 			<?php } ?>
 

@@ -61,7 +61,10 @@
                     "subheading": "Neque, pulvinar vestibulum non aliquam."
                 },
                 {
-                    "type": "video"
+                    "type": "video",
+                    "class": "test-class-video",
+                    "src": "https://peprojects.dev/images/landscape.jpg",
+                    "caption": "test video caption"
                 }
             ]
         },
@@ -75,38 +78,43 @@
                     "heading": "FEATURE 06 Test Diptych Heading",
                     "body": "F06 Test diptych body text goes here.",
                     "src": "https://peprojects.dev/images/landscape.jpg",
-                    "alt": "example pic",
+                    "alt": "example pic"
                 },
                 {
                     "type": "list",
                     "ordered": "ol",
                     "list-items": [
-                    	{
-                    		"heading": "Sit quam gravida",
-                    		"body": "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus.",
-                    		"icon": ""
-                    	},
-                    	{
-                    		"heading": "Elementum enim tempus",
-                    		"body": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit..",
-                    		"icon": ""
-                    	},
-                    	{
-                    		"heading": "Tempor egestas augue",
-                    		"body": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
-                    		"icon": ""
-                    	},
-                    	{
-                    		"heading": "Nulla ac lacinia",
-                    		"body": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non.",
-                    		"icon": ""
-                    	},
-                    	{
-                    		"heading": "Velit nibh a",
-                    		"body": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis.",
-                    		"icon": ""
-                    	}
-
+                        {
+                            "heading": "Sit quam gravida",
+                            "paragraphs": [
+                            	"Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
+                            ],
+                            "image": ""
+                        },
+                        {
+                            "heading": "Elementum enim tempus",
+                            "paragraphs": [
+                            	"At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.."],
+                            "image": ""
+                        },
+                        {
+                            "heading": "Tempor egestas augue",
+                            "paragraphs": [
+                            	"Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."],
+                            "image": ""
+                        },
+                        {
+                            "heading": "Nulla ac lacinia",
+                            "paragraphs": [
+                            	"Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."],
+                            "image": ""
+                        },
+                        {
+                            "heading": "Velit nibh a",
+                            "paragraphs": [
+                            	"Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."],
+                            "image": ""
+                        }
                     ]
                 }
             ]

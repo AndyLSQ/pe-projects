@@ -1,0 +1,25 @@
+header inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 4px solid red;
+	padding: 20px 0px;
+}
+
+header .logo {
+	max-width: 150px;
+}
+
+header nav {
+	display: flex;
+	gap: 20px;
+}
+
+header .right-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}

@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>[[INSERT TITLE]]</title>
-	<link rel="stylesheet" href="styles.site.css">
+	<link rel="stylesheet" href="styles/site.css">
 
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">

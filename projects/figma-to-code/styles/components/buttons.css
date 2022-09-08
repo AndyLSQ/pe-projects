@@ -1,0 +1,42 @@
+.buttons nav {
+	display: flex;
+	gap: 25px;
+}
+
+.button {
+	padding: 15px 40px;
+	text-align: center;
+	/*box-shadow: var(--shadow);*/
+}
+
+.button.rounded {
+	border-radius: var(--corners);
+}
+
+.button01 {
+	background-color: var(--button);
+	color: var(--white);
+	transition: background-color .5s;
+	}
+
+.button01:hover {
+	background-color: var(--button-hover);
+	transition: background-color .5s;
+}
+
+.button02 {
+	background-color: var(--white);
+	border: 1px solid var(--button);
+	color: var(--button);
+	transition: background-color .5s, color .5s;
+	}
+
+.button02:hover {
+	background-color: var(--button02-hover);
+	border: 1px solid var(--button-hover);
+	transition: background-color .5s, color .5s;
+}
+
+h2 + nav {
+	margin-top: 25px;
+}

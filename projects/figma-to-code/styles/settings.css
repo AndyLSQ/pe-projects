@@ -1,0 +1,43 @@
+/* color sets, site wide spacing (margin, max widths, variables inner-columns if desired) */
+html {
+	--black: hsla(0, 0%, 13%, 1.00);
+	--white: hsla(0, 0%, 100%, 1.00);
+
+	--color1: hsla(221, 89%, 54%, 1.00);
+	--neutral: hsla(221, 89%, 98%, 1.00);
+
+	--button: hsla(221, 88%, 54%, 1.00);
+	--button-hover: hsla(223, 84%, 50%, 1.00);
+	--button02-hover: hsla(221, 100%, 98%, 1.00);
+	
+	/*--highlight: hsla(333, 100%, 50%, 1.00);*/
+	/*--highlight2: hsla(333, 100%, 50%, 1.00);*/
+	--shadow: rgba(0,0,0,.8);
+
+	--corners: 5px;
+
+	--shadow: 1px 1px 2px #666;
+
+	--paper: var(--white);
+	--ink: var(--black);
+	--ink-light: hsla(0, 0%, 46%, 1.00);
+}
+
+/*@media (prefers-color-scheme: dark) {
+	html {
+		--black: #111111;
+		--white: #efefef;
+
+		--neutral: gray;
+
+		--color: #9ec9eb;
+		--highlight: #aadee9;
+
+		--shadow: rgba(0,0,0,.8);
+
+		--corners: 10px; 
+
+		--paper: white;
+		--ink: black;
+	}
+}*/

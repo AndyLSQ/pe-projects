@@ -1,0 +1,47 @@
+/* For box sizing, links, and images */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} /* https://www.paulirish.com/2012/box-sizing-border-box-ftw */
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	transition: color .5s;
+}
+
+a:hover {
+	/*color: var(--highlight);*/
+	transition: color .5s;
+}
+
+p a {
+	display: inline;
+	/*color: var(--highlight2);*/
+	text-decoration: none;
+	font-weight: bold;
+}
+
+p a:hover {
+	/*color: var(--neutral-dark);*/
+}
+
+picture {
+	display: block;
+	overflow: hidden;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+svg {
+  display: block;
+  width: 100%;
+}

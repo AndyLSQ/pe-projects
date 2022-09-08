@@ -154,33 +154,68 @@
                             "quote-author-image": "images/icons/avatars/avatar-portrait-large.svg"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "module": "cta",
+            "variant": "cta01",
+            "components": [
+                {
+                    "type": "enhanced-heading",
+                    "eyebrow": "Rhoncus, accumsan dictum",
+                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+                    "subheading": ""
                 },
                 {
-                    "module": "cta",
-                    "variant": "cta01",
-                    "components": [
+                    "type": "button-nav",
+                    "button-list": [
                         {
-                            "type": "text-block"
-                        },
-                        {
-                            "type": "text-block"
-                        }
-                    ]
-                },
-                {
-                    "module": "faq",
-                    "variant": "faq01",
-                    "components": [
-                        {
-                            "type": "text-block"
-                        },
-                        {
-                            "type": "text-block"
+                            "variant": "button01",
+                            "href": "#",
+                            "text-content": "Get free quotes >"
                         }
                     ]
                 }
-            ],
-            "footer": "footer02"
+            ]
+        },
+        {
+            "module": "faq",
+            "variant": "faq01",
+            "components": [
+                {
+                    "type": "enhanced-heading",
+                    "eyebrow": "",
+                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+                    "subheading": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque."
+                },
+                {
+                    "type": "details",
+                    "detail-items": [
+                        {
+                            "summary": "How soon will my order ship?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "Are there any warranty exclusions?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "Are there any return exclusions?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "Will I be charged for a replacement item?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "How can I track my orders & payment?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        }
+                    ]
+                }
+            ]
         }
-    ]
+    ],
+    "footer": "footer02"
 }

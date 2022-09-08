@@ -1,7 +1,7 @@
 
 
 <?php if ($component['eyebrow']) {?>
-	<h3 class="normal-voice">
+	<h3 class="normal-voice eybrow">
 		<?=$component['eyebrow']?>
 	</h3>
 <?php } ?>
@@ -15,7 +15,7 @@
 
 
 <?php if ($component['subheading']) {?>
-	<h3 class="normal-voice">
+	<h3 class="normal-voice subheading">
 		<?=$component['subheading']?>
 	</h3>
 <?php } ?>

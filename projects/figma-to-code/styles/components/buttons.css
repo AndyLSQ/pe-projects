@@ -9,8 +9,10 @@
 	/*box-shadow: var(--shadow);*/
 }
 
+
 .button.rounded {
 	border-radius: var(--corners);
+	padding: 10px 30px;
 }
 
 .button01 {

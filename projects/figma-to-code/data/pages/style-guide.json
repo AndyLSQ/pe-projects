@@ -6,67 +6,215 @@
         {
             "module": "hero",
             "variant": "hero04",
-            "heading": "Arcu suscipit massa aliquam proin amet",
-            "paragraph": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
-            "buttons": [
+            "components": [
                 {
-                    "variant": "button01",
-                    "href": "#",
-                    "text-content": "Get Started"
+                    "type": "text-block",
+                    "heading": "Arcu suscipit massa aliquam proin amet",
+                    "paragraphs": [
+                        "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,"
+                    ]
                 },
                 {
-                    "variant": "button02",
-                    "href": "#",
-                    "text-content": "Start free trial"
+                    "type": "button-nav",
+                    "button-list": [
+                        {
+                            "variant": "button01",
+                            "href": "#",
+                            "text-content": "Get Started"
+                        },
+                        {
+                            "variant": "button02",
+                            "href": "#",
+                            "text-content": "Start free trial"
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "class": "test-class",
+                    "src": "https://peprojects.dev/images/landscape.jpg",
+                    "alt": "example pic",
+                    "caption": "test caption"
+                },
+                {
+                    "type": "diptych-quote",
+                    "class": "test-class",
+                    "heading": "Test Diptych Heading",
+                    "body": "Test diptych body text goes here.",
+                    "src": "https://peprojects.dev/images/landscape.jpg",
+                    "alt": "example pic",
+                    "quote": "example quote goes here",
+                    "quote-author": "Author Person",
+                    "quote-author-title": "Manger of Management",
+                    "quote-author-image": "https://peprojects.dev/images/portrait.jpg"
                 }
-            ],
-            "images": [
-            	{
-            		"class": "test-class",
-            		"src": "https://peprojects.dev/images/landscape.jpg",
-            		"alt": "example pic",
-            		"caption":"test caption"
-            	}
-            ],
-            "diptychs": [
-            	{
-            		"class": "test-class",
-            		"heading": "Test Diptych Heading",
-            		"body": "Test diptych body text goes here.",
-            		"src": "https://peprojects.dev/images/landscape.jpg",
-            		"alt": "example pic",
-            		"quote": "example quote goes here",
-            		"quote-author": "Author Person",
-            		"quote-author-title": "Manger of Management",
-            		"quote-author-image": ""
-            	}
             ]
         },
         {
             "module": "center",
             "variant": "center05",
-            "eyebrow": "Rhoncus, accumsan dictum",
-            "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
-            "subheading": "Neque, pulvinar vestibulum non aliquam.",
-            "images": [
-            	
+            "components": [
+                {
+                    "type": "enhanced-heading",
+                    "eyebrow": "Rhoncus, accumsan dictum",
+                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                },
+                {
+                    "type": "video",
+                    "class": "test-class-video",
+                    "src": "https://peprojects.dev/images/landscape.jpg",
+                    "caption": "test video caption"
+                }
             ]
         },
         {
             "module": "feature",
-            "variant": "feature06"
+            "variant": "feature06",
+            "components": [
+                {
+                    "type": "diptych",
+                    "class": "test-class",
+                    "heading": "FEATURE 06 Test Diptych Heading",
+                    "body": "F06 Test diptych body text goes here.",
+                    "src": "https://peprojects.dev/images/landscape.jpg",
+                    "alt": "example pic"
+                },
+                {
+                    "type": "list",
+                    "ordered": "ol",
+                    "list-heading": "TEST LIST HEADING",
+                    "list-items": [
+                        {
+                            "heading": "Sit quam gravida",
+                            "paragraphs": [
+                                "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
+                            ],
+                            "image": ""
+                        },
+                        {
+                            "heading": "Elementum enim tempus",
+                            "paragraphs": [
+                                "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.."
+                            ],
+                            "image": ""
+                        },
+                        {
+                            "heading": "Tempor egestas augue",
+                            "paragraphs": [
+                                "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
+                            ],
+                            "image": ""
+                        },
+                        {
+                            "heading": "Nulla ac lacinia",
+                            "paragraphs": [
+                                "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
+                            ],
+                            "image": ""
+                        },
+                        {
+                            "heading": "Velit nibh a",
+                            "paragraphs": [
+                                "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
+                            ],
+                            "image": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "module": "clients",
-            "variant": "clients05"
+            "variant": "clients05",
+            "components": [
+                {
+                    "type": "enhanced-heading",
+                    "eyebrow": "",
+                    "heading": "What Our Clients Say",
+                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                },
+                {
+                    "type": "list-quote",
+                    "ordered": "ul",
+                    "list-heading": "",
+                    "list-items": [
+                        {
+                            "rating-img": "images/icons/ratings/5-star.svg",
+                            "quote": "example quote goes here",
+                            "quote-author": "Courtney Henry",
+                            "quote-author-title": "Marketing Coordinator",
+                            "quote-author-image": "images/icons/avatars/avatar-portrait-large.svg"
+                        },
+                        {
+                            "rating-img": "images/icons/ratings/5-star.svg",
+                            "quote": "example quote goes here",
+                            "quote-author": "Courtney Henry",
+                            "quote-author-title": "Marketing Coordinator",
+                            "quote-author-image": "images/icons/avatars/avatar-portrait-large.svg"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "module": "cta",
-            "variant": "cta01"
+            "variant": "cta01",
+            "components": [
+                {
+                    "type": "enhanced-heading",
+                    "eyebrow": "Rhoncus, accumsan dictum",
+                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+                    "subheading": ""
+                },
+                {
+                    "type": "button-nav",
+                    "button-list": [
+                        {
+                            "variant": "button01",
+                            "href": "#",
+                            "text-content": "Get free quotes >"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "module": "faq",
-            "variant": "faq01"
+            "variant": "faq01",
+            "components": [
+                {
+                    "type": "enhanced-heading",
+                    "eyebrow": "",
+                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+                    "subheading": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque."
+                },
+                {
+                    "type": "details",
+                    "detail-items": [
+                        {
+                            "summary": "How soon will my order ship?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "Are there any warranty exclusions?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "Are there any return exclusions?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "Will I be charged for a replacement item?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "How can I track my orders & payment?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "footer": "footer02"

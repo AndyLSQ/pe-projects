@@ -14,13 +14,13 @@
 	<?php
 		if ( isset($pageData["sections"]) ) {
 			foreach ($pageData["sections"] as $section) {
-				echo "---section---";
+				// echo "---section---";
 				//SEPARATE FILE FOR EACH SECTION 
 				// include ("templates/modules/sections/$section[module].php");
 
 				//OR PULL COMPONENTS IN RIGHT HERE (if the setup is the same for all sections)
 				?>
-				<section class="<?=$section['module']?>">
+				<section class="<?=$section['module']?> s-<?=$section['variant']?>">
 					<inner-column class="<?=$section['variant']?>">
 
 					<?php

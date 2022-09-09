@@ -17,10 +17,15 @@
 /* C omponents */
 @import 'components/buttons.css';
 @import 'components/headers.css';
+@import 'components/diptych.css';
 
 
 /* S tuff (modules) */
 /*@import 'modules/site-header.css';*/
+@import 'modules/hero.css';
+@import 'modules/center-content.css';
+@import 'modules/feature.css';
+
 
 /* S ections and more stuff (pages) */
 /*@import 'pages/home.css';*/

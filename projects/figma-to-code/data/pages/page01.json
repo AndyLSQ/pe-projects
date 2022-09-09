@@ -28,25 +28,6 @@
                             "text-content": "Start free trial"
                         }
                     ]
-                },
-                {
-                    "type": "image",
-                    "class": "test-class",
-                    "src": "https://peprojects.dev/images/landscape.jpg",
-                    "alt": "example pic",
-                    "caption": "test caption"
-                },
-                {
-                    "type": "diptych-quote",
-                    "class": "test-class",
-                    "heading": "Test Diptych Heading",
-                    "body": "Test diptych body text goes here.",
-                    "src": "https://peprojects.dev/images/landscape.jpg",
-                    "alt": "example pic",
-                    "quote": "example quote goes here",
-                    "quote-author": "Author Person",
-                    "quote-author-title": "Manger of Management",
-                    "quote-author-image": "https://peprojects.dev/images/portrait.jpg"
                 }
             ]
         },
@@ -75,15 +56,16 @@
                 {
                     "type": "diptych",
                     "class": "test-class",
-                    "heading": "FEATURE 06 Test Diptych Heading",
-                    "body": "F06 Test diptych body text goes here.",
+                    "heading": "Etiam nulla lectus molestie at vulputate.",
+                    "subheading": "Neque, pulvinar vestibulum non aliquam.",
+                    "body": "",
                     "src": "https://peprojects.dev/images/landscape.jpg",
                     "alt": "example pic"
                 },
                 {
                     "type": "list",
                     "ordered": "ol",
-                    "list-heading": "TEST LIST HEADING",
+                    "list-heading": "",
                     "list-items": [
                         {
                             "heading": "Sit quam gravida",

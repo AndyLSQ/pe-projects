@@ -1,0 +1,27 @@
+.center inner-column {
+	align-items: center;
+}
+
+.center h2 {
+	text-align: center;
+}
+
+.center05 .enhanced-heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 32px;
+	text-transform: capitalize;
+
+}
+
+.center05 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 120px;
+	gap: 60px;
+}

@@ -1,0 +1,41 @@
+
+/* used for:  hero04 */
+.hero .button {
+	padding: 15px 65px;
+	text-transform: capitalize;
+}
+
+/* used for:  hero04 */
+.hero nav {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	padding-top: 35px;
+}
+
+/* HERO 04 */
+.s-hero04 {
+	background-image: url("../../images/backgrounds/diagonal-lines.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+inner-column.hero04 {
+	padding: 200px 0px;
+	flex-direction: column;
+	align-items: center;
+	gap: 0px;
+}
+
+.hero04 :is(h2, p) {
+	text-align: center;
+}
+
+.hero04 h2 {
+	text-transform: capitalize;
+	max-width: 974px;
+}
+
+.hero04 p {
+	max-width: 733px;
+}

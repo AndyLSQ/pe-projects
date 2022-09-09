@@ -1,0 +1,36 @@
+.feature inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/*padding: 80px 120px;*/
+	gap: 20px;
+}
+
+.feature .diptych {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 40px;
+	max-width: 45%;
+}
+
+.diptych-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+}
+
+.feature ol {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
+
+	max-width: 45%;
+
+}

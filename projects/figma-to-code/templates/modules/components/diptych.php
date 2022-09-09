@@ -5,12 +5,18 @@
 
 	</picture>
 
-	<div class="picture-text">
+	<div class="diptych-text">
 		
 		<?php if ($component['heading']) {?>
-			<h2 class="loud-voice">
+			<h2 class="module-heading">
 				<?=$component['heading']?>
 			</h2>
+		<?php } ?>
+
+		<?php if ($component['subheading']) {?>
+			<h3 class="subheading">
+				<?=$component['subheading']?>
+			</h3>
 		<?php } ?>
 
 		<?php if ($component['body']) {?>

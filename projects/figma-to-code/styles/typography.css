@@ -34,7 +34,7 @@ html {
 .enhanced-heading h2 {
 	font-style: normal;
 	font-weight: 600;
-	font-size: 56px;
+	font-size: 48px;
 	line-height: 68px;
 	display: flex;
 	align-items: center;
@@ -45,11 +45,9 @@ html {
 
 .module-heading {
 	font-weight: 600;
-	font-size: 48px;
-	line-height: 58px;
+	font-size: 42px;
 	display: flex;
 	align-items: center;
-	letter-spacing: 0.2px;
 	text-transform: capitalize;
 }
 
@@ -60,8 +58,15 @@ html {
 }
 
 .quiet-voice {;
-	font-size: .75rem;
-	line-height: 1.4;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.8;
+
+}
+
+.footer-heading {
+	font-size: 16;
+	font-weight: 700;
 }
 
 :is(.calm-voice, p ) em {

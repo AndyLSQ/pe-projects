@@ -13,19 +13,21 @@
 					</picture>
 				<?php } ?>
 
-				<?php if ($li['heading']) {?>
-					<h3 class="attention-voice">
-						<?=$li['heading']?>
-					</h3>
-				<?php } ?>
+				<div class="list-text">
+					<?php if ($li['heading']) {?>
+						<h3 class="list-heading">
+							<?=$li['heading']?>
+						</h3>
+					<?php } ?>
 
 
-				<?php if ($li['paragraphs']) {
-					foreach ($li['paragraphs'] as $paragraph) { ?>
-						<p><?=$paragraph?></p>
-					<?php }
-				}?>
-			</li>	
+					<?php if ($li['paragraphs']) {
+						foreach ($li['paragraphs'] as $paragraph) { ?>
+							<p class="list-paragraph"><?=$paragraph?></p>
+						<?php }
+					}?>
+				</li>
+</div>
 			
 	<?php	} ?>
 

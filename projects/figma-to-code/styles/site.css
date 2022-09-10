@@ -16,15 +16,22 @@
 
 /* C omponents */
 @import 'components/buttons.css';
-@import 'components/headers.css';
 @import 'components/diptych.css';
+@import 'components/enhanced-heading.css';
 
 
 /* S tuff (modules) */
 /*@import 'modules/site-header.css';*/
+@import 'modules/header.css';
 @import 'modules/hero.css';
 @import 'modules/center-content.css';
 @import 'modules/feature.css';
+@import 'modules/clients.css';
+@import 'modules/cta.css';
+@import 'modules/faq.css';
+@import 'modules/footer.css';
+
+
 
 
 /* S ections and more stuff (pages) */

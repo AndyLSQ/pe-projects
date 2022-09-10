@@ -1,0 +1,21 @@
+.cta {
+	display: flex;
+	flex-direction: column;
+	padding: 80px 40px;
+}
+
+
+.cta .button {
+	width: 30ch;
+}
+
+.cta nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.cta01 {
+	background-color: hsla(221, 89%, 98%, 1.00);
+	padding: 60px 90px;
+}

@@ -1,5 +1,5 @@
 header {
-	border-bottom: 1px solid hsla(127, 3%, 91%, 1.00);	
+	border-bottom: 1px solid var(--border);	
 }
 header inner-column {
 	display: flex;

@@ -1,0 +1,11 @@
+.enhanced-heading {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+.enhanced-heading :is(.eyebrow, .subheading) {
+	line-height: 1.4;
+}

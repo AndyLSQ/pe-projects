@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>[[INSERT TITLE]]</title>
+	<title>Ipsum, Inc.</title>
+	<meta name="description" content="Your #1 source for senseless gibberish. Check us out today and see why no one knows what we're talking about.">
+
 	<link rel="stylesheet" href="styles/site.css">
 
 	<!-- Fonts -->

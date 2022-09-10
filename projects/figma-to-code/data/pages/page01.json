@@ -59,7 +59,7 @@
                     "heading": "Etiam nulla lectus molestie at vulputate.",
                     "subheading": "Neque, pulvinar vestibulum non aliquam.",
                     "body": "",
-                    "src": "https://peprojects.dev/images/landscape.jpg",
+                    "src": "https://peprojects.dev/images/square.jpg",
                     "alt": "example pic"
                 },
                 {
@@ -72,35 +72,35 @@
                             "paragraphs": [
                                 "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
                             ],
-                            "image": ""
+                            "image": "images/icons/numbers/num01.svg"
                         },
                         {
                             "heading": "Elementum enim tempus",
                             "paragraphs": [
                                 "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.."
                             ],
-                            "image": ""
+                            "image": "images/icons/numbers/num02.svg"
                         },
                         {
                             "heading": "Tempor egestas augue",
                             "paragraphs": [
                                 "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
                             ],
-                            "image": ""
+                            "image": "images/icons/numbers/num03.svg"
                         },
                         {
                             "heading": "Nulla ac lacinia",
                             "paragraphs": [
                                 "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
                             ],
-                            "image": ""
+                            "image": "images/icons/numbers/num04.svg"
                         },
                         {
                             "heading": "Velit nibh a",
                             "paragraphs": [
                                 "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
                             ],
-                            "image": ""
+                            "image": "images/icons/numbers/num05.svg"
                         }
                     ]
                 }
@@ -120,19 +120,21 @@
                     "type": "list-quote",
                     "ordered": "ul",
                     "list-heading": "",
+                    "arrow-left": "images/icons/arrows/leftArrow.svg",
+                    "arrow-right": "images/icons/arrows/rightArrow.svg",
                     "list-items": [
                         {
                             "rating-img": "images/icons/ratings/5-star.svg",
-                            "quote": "example quote goes here",
+                            "quote": "Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.",
                             "quote-author": "Courtney Henry",
-                            "quote-author-title": "Marketing Coordinator",
+                            "quote-author-title": "",
                             "quote-author-image": "images/icons/avatars/avatar-portrait-large.svg"
                         },
                         {
                             "rating-img": "images/icons/ratings/5-star.svg",
-                            "quote": "example quote goes here",
+                            "quote": "Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.",
                             "quote-author": "Courtney Henry",
-                            "quote-author-title": "Marketing Coordinator",
+                            "quote-author-title": "",
                             "quote-author-image": "images/icons/avatars/avatar-portrait-large.svg"
                         }
                     ]
@@ -168,7 +170,7 @@
                 {
                     "type": "enhanced-heading",
                     "eyebrow": "",
-                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+                    "heading": "Frequently Asked Questions",
                     "subheading": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque."
                 },
                 {

@@ -4,6 +4,12 @@
 		<?=$component['list-heading']?>
 	<?php } ?>
 
+	<?php if ($component['arrow-left']) {?>
+		<picture class="arrow">
+			<img src="<?=$component['arrow-left']?>">
+		</picture>
+	<?php } ?>
+
 	<?php
 		foreach ($component['list-items'] as $li) { ?>
 			<li>
@@ -16,9 +22,8 @@
 
 		<?php if ($li['quote']) {?>
 			<figure>
-				<blockquote>“
-					<?=$li['quote']?>
-					”;
+				<blockquote>
+					“<?=$li['quote']?>”
 				</blockquote>
 
 			<?php if ($li['quote-author']) {?>
@@ -53,5 +58,9 @@
 			
 	<?php	} ?>
 
-
+	<?php if ($component['arrow-right']) {?>
+		<picture class="arrow">
+			<img src="<?=$component['arrow-right']?>">
+		</picture>
+	<?php } ?>
 </<?=$component['ordered']?>>

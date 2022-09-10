@@ -4,11 +4,17 @@ html {
 	--white: hsla(0, 0%, 100%, 1.00);
 
 	--color1: hsla(221, 89%, 54%, 1.00);
+	--color2: hsla(223, 85%, 50%, 1.00);  /*darker blue*/
 	--neutral: hsla(221, 89%, 98%, 1.00);
+
 
 	--button: hsla(221, 88%, 54%, 1.00);
 	--button-hover: hsla(223, 84%, 50%, 1.00);
 	--button02-hover: hsla(221, 100%, 98%, 1.00);
+
+	--icon: hsla(227, 77%, 52%, 1);
+
+	--border:  hsla(127, 3%, 91%, 1.00);
 	
 	/*--highlight: hsla(333, 100%, 50%, 1.00);*/
 	/*--highlight2: hsla(333, 100%, 50%, 1.00);*/
@@ -20,7 +26,7 @@ html {
 
 	--paper: var(--white);
 	--ink: var(--black);
-	--ink-light: hsla(0, 0%, 46%, 1.00);
+	--ink-light: hsla(0, 0%, 46%, 1);
 }
 
 /*@media (prefers-color-scheme: dark) {

@@ -8,7 +8,7 @@
 		foreach ($component['list-items'] as $li) { ?>
 			<li>
 				<?php if ($li['image']) {?>
-					<picture class="list-image">
+					<picture class="list-image icon">
 						<img src="<?=$li['image']?>">
 					</picture>
 				<?php } ?>

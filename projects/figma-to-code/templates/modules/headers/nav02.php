@@ -6,11 +6,9 @@
 	</a>
 
 	<nav>
-		<a href="#">Home</a>
-		<a href="#">Updates</a>
-		<a href="#">Services</a>
-		<a href="#">Features</a>
-		<a href="#">About Us</a>
+		<a href="?page=page01">Page 1</a>
+		<a href="?page=page02">Page 2</a>
+		<a href="?page=page03">Page 3</a>
 	</nav>
 
 	<div class="right-buttons">

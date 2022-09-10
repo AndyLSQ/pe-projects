@@ -81,13 +81,13 @@
 
 		<nav>
 			<li>
-				<a href="#">Terms</a>
+				<a href="?page=page01">Page 1</a>
 			</li>
 			<li>
-				<a href="#">Privacy</a>
+				<a href="?page=page02">Page 2</a>
 			</li>
 			<li>
-				<a href="#">Cookies</a>
+				<a href="?page=page03">Page 3</a>
 			</li>
 		</nav>
 

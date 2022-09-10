@@ -1,9 +1,12 @@
 <component class="diptych">
+
+	<?php if ($component['image-src']) {?>
 	<picture class=<?=$component['class']?>>
 		
-		<img src="<?=$component['src']?>" alt="<?=$component['alt']?>">
+		<img src="<?=$component['image-src']?>" alt="<?=$component['alt']?>">
 
 	</picture>
+	<?php } ?>
 
 	<div class="diptych-text">
 		

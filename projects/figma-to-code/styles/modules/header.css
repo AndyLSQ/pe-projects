@@ -1,6 +1,7 @@
 header {
 	border-bottom: 1px solid var(--border);	
 }
+
 header inner-column {
 	display: flex;
 	flex-direction: row;
@@ -18,6 +19,14 @@ header .logo {
 header nav {
 	display: flex;
 	gap: 20px;
+}
+
+header nav a {
+	color: var(--ink);
+}
+
+header nav a:hover {
+	color: var(--color1);
 }
 
 header .right-buttons {

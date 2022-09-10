@@ -15,7 +15,7 @@
 	justify-content: center;
 }
 
-.cta01 {
+:is(.cta01, .cta02) {
 	background-color: hsla(221, 89%, 98%, 1.00);
 	padding: 60px 90px;
 }

@@ -1,0 +1,216 @@
+{
+    "id": "page02",
+    "title": "Page 02",
+    "header": "nav02",
+    "sections": [
+        {
+            "module": "hero",
+            "variant": "hero05",
+            "components": [
+                {
+                    "type": "text-block",
+                    "heading": "Arcu suscipit massa aliquam proin amet",
+                    "paragraphs": [
+                        "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,"
+                    ]
+                },
+                {
+                    "type": "button-nav",
+                    "button-list": [
+                        {
+                            "variant": "button01",
+                            "href": "#",
+                            "text-content": "Get Started"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "module": "center",
+            "variant": "center07",
+            "components": [
+                {
+                    "type": "image",
+                    "src": "images/icons/upload-cloud.svg",
+                    "alt": "upload cloud icon",
+                    "caption": "",
+                    "class": "large-icon"
+                },
+                {
+                    "type": "enhanced-heading",
+                    "eyebrow": "Rhoncus, accumsan dictum",
+                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                },
+                {
+                    "type": "button-nav",
+                    "button-list": [
+                        {
+                            "variant": "button03",
+                            "href": "#",
+                            "text-content": "Learn more &#8594;"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "module": "feature",
+            "variant": "feature06",
+            "components": [
+                {
+                    "type": "diptych",
+                    "class": "test-class",
+                    "heading": "Etiam nulla lectus molestie at vulputate.",
+                    "subheading": "Neque, pulvinar vestibulum non aliquam.",
+                    "body": "",
+                    "image-src": "",
+                    "alt": "example pic"
+                },
+                {
+                    "type": "list",
+                    "ordered": "ol",
+                    "list-heading": "",
+                    "list-items": [
+                        {
+                            "heading": "Et, odio elementum",
+                            "paragraphs": [
+                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                            ],
+                            "image": "images/icons/upload-cloud.svg"
+                        },
+                        {
+                            "heading": "Et, odio elementum",
+                            "paragraphs": [
+                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                            ],
+                            "image": "images/icons/upload-cloud.svg"
+                        },
+                        {
+                            "heading": "Et, odio elementum",
+                            "paragraphs": [
+                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                            ],
+                            "image": "images/icons/upload-cloud.svg"
+                        },
+                        {
+                            "heading": "Et, odio elementum",
+                            "paragraphs": [
+                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                            ],
+                            "image": "images/icons/upload-cloud.svg"
+                        },
+                        {
+                            "heading": "Et, odio elementum",
+                            "paragraphs": [
+                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                            ],
+                            "image": "images/icons/upload-cloud.svg"
+                        },
+                        {
+                            "heading": "Et, odio elementum",
+                            "paragraphs": [
+                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                            ],
+                            "image": "images/icons/upload-cloud.svg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "module": "clients",
+            "variant": "clients03",
+            "components": [
+                {
+                    "type": "enhanced-heading",
+                    "eyebrow": "",
+                    "heading": "What Our Clients Say",
+                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                },
+                {
+                    "type": "list-quote",
+                    "ordered": "ul",
+                    "list-heading": "",
+                    "arrow-left": "images/icons/arrows/leftArrow.svg",
+                    "arrow-right": "images/icons/arrows/rightArrow.svg",
+                    "list-items": [
+                        {
+                            "rating-img": "",
+                            "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+                            "quote-author": "Courtney Henry",
+                            "quote-author-title": "Marketing Coordinator",
+                            "quote-author-image": "images/icons/avatars/avatar-portrait-large.svg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "module": "cta",
+            "variant": "cta02",
+            "components": [
+                {
+                    "type": "enhanced-heading",
+                    "eyebrow": "Rhoncus, accumsan dictum",
+                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+                    "subheading": ""
+                },
+                {
+                    "type": "button-nav",
+                    "button-list": [
+                        {
+                            "variant": "button01",
+                            "href": "#",
+                            "text-content": "Get free quotes >"
+                        },
+                        {
+                            "variant": "button02",
+                            "href": "#",
+                            "text-content": "Free sign up >"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "module": "faq",
+            "variant": "faq02",
+            "components": [
+                {
+                    "type": "enhanced-heading",
+                    "eyebrow": "",
+                    "heading": "Frequently Asked Questions",
+                    "subheading": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque."
+                },
+                {
+                    "type": "details",
+                    "detail-items": [
+                        {
+                            "summary": "How soon will my order ship?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "Are there any warranty exclusions?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "Are there any return exclusions?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "Will I be charged for a replacement item?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        },
+                        {
+                            "summary": "How can I track my orders & payment?",
+                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "footer": "footer02"
+}

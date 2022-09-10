@@ -6,7 +6,7 @@
 	text-align: center;
 }
 
-.center05 .enhanced-heading {
+.center .enhanced-heading {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -17,7 +17,7 @@
 
 }
 
-.center05 {
+.center {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

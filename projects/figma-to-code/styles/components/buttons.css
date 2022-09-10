@@ -39,6 +39,19 @@
 	transition: background-color .5s, color .5s;
 }
 
+.button03 {
+	background-color: var(--white);
+	border: none;
+	color: var(--button);
+	transition: color .5s;
+	text-transform: capitalize;
+	}
+
+.button03:hover {
+	color: var(--ink);
+	transition: color .5s;
+}
+
 h2 + nav {
 	margin-top: 25px;
 }

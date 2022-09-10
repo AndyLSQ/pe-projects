@@ -108,6 +108,10 @@ footer nav {
 	list-style-type: none;
 }
 
+footer .bottom nav a:hover {
+	font-weight: bold;
+}
+
 footer .social {
 	display: flex;
 	flex-direction: row;

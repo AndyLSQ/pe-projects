@@ -1,0 +1,29 @@
+.icon {
+	background-color: hsla(221, 89%, 96%, 1.00);
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.large-icon {
+	background-color: hsla(221, 89%, 96%, 1.00);
+	width: 90px;
+	height: 90px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon img {
+	width: auto;
+	height: auto;
+}
+
+.large-icon img {
+	width: 50%;
+	height: auto;
+}

@@ -81,3 +81,19 @@
 	margin-left: 90px;
 	border-left: 2px solid var(--color1);
 }
+
+.faq01 {
+	flex-direction: row;
+}
+
+.faq01 :is(.enhanced-heading, .details) {
+	max-width: 45%;
+}
+
+.faq01 .enhanced-heading {
+	text-align: left ;
+}
+
+.faq01 .enhanced-heading h2 {
+	text-align: left ;
+}

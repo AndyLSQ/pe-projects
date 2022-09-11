@@ -20,3 +20,83 @@
 	background-color: hsla(221, 89%, 98%, 1.00);
 	padding: 60px 90px;
 }
+
+.cta06 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 0px;
+}
+
+.cta06 .enhanced-heading {
+	grid-column: 1 / 1;
+}
+
+.cta06 form {
+	grid-column: 1 / 1;
+}
+
+.cta06 figure {
+	grid-column: 2 / 2;
+	grid-row: 1 / -1;
+}
+
+.cta06 .enhanced-heading h2 {
+	text-align: left;
+}
+
+
+.cta06 form {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.cta06 .email-input {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 40px 0px 50px;
+	gap: 56px;
+	border: 1px solid #D6D6D6;
+	border-radius: 6px;
+	width: 325px;
+	color: var(--ink);
+
+	/*width: 248px;*/
+	height: 50px;
+	background-image: url(../../images/icons/email-light.svg);
+	background-position: 5% 44%;
+	background-repeat: no-repeat;
+	background-color: var(--white);
+	color: var(--white);
+}
+
+.cta06 .email-input {
+    color: black;
+    font-size: 16px;
+}
+
+.cta06 form button {
+	border-radius: 6px;
+	font-size: 16px;
+	height: 50px;
+	padding: 0px 30px;
+	background-color: var(--color1);
+	color: var(--white);
+}
+
+.cta06 form button:hover {
+	background-color: var(--button-hover);
+	}
+
+.cta06 .email-input::placeholder {
+	color: var(--ink-light);
+	font-size: 16px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+}
+
+.cta06 .email-input path {
+	stroke: var(--ink);
+}

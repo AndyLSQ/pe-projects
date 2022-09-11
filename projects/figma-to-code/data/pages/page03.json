@@ -141,13 +141,6 @@
                     "subheading": "Neque, pulvinar vestibulum non aliquam."
                 },
                 {
-                    "type": "image",
-                    "src": "https://peprojects.dev/images/landscape.jpg",
-                    "alt": "landscape image",
-                    "caption": "",
-                    "class": "landscape"
-                },
-                {
                     "type": "list-quote",
                     "ordered": "ul",
                     "list-heading": "",
@@ -155,8 +148,8 @@
                     "arrow-right": "",
                     "list-items": [
                         {
-                            "rating-img": "",
-                            "quote": "Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.",
+                            "rating-img": "https://peprojects.dev/images/landscape.jpg",
+                            "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
                             "quote-author": "Courtney Henry",
                             "quote-author-title": "-Marketing Coordinator",
                             "quote-author-image": ""
@@ -204,7 +197,7 @@
         },
         {
             "module": "cta",
-            "variant": "cta01",
+            "variant": "cta06",
             "components": [
                 {
                     "type": "enhanced-heading",

@@ -1,7 +1,7 @@
 {
     "id": "page03",
     "title": "Page 03",
-    "header": "nav02",
+    "header": "nav06",
     "sections": [
         {
             "module": "hero",
@@ -26,8 +26,8 @@
                 {
                     "type": "enhanced-heading",
                     "eyebrow": "Rhoncus, accumsan dictum",
-                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
-                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                    "heading": "Etiam nulla lectus amet nunc",
+                    "subheading": ""
                 },
                 {
                     "type": "list",
@@ -39,21 +39,21 @@
                             "paragraphs": [
                                 "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
                             ],
-                            "image": "images/icons/upload-cloud.svg"
+                            "image": ""
                         },
                         {
                             "heading": "Elementum enim tempus",
                             "paragraphs": [
                                 "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.."
                             ],
-                            "image": "images/icons/watch.svg"
+                            "image": ""
                         },
                         {
                             "heading": "Tempor egestas augue",
                             "paragraphs": [
                                 "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
                             ],
-                            "image": "images/icons/youtube.svg"
+                            "image": ""
                         }
                     ]
                 },
@@ -158,7 +158,7 @@
                             "rating-img": "",
                             "quote": "Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.",
                             "quote-author": "Courtney Henry",
-                            "quote-author-title": "Marketing Coordinator",
+                            "quote-author-title": "-Marketing Coordinator",
                             "quote-author-image": ""
                         }
                     ]

@@ -48,3 +48,36 @@
 	content: url('../../images/icons/arrows/upArrowSm.svg');
 }
 
+/* FAQ02 - PG 2 */
+/*.faq02 details > summary {
+	border-top: none;
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	list-style-type: none;
+}*/
+
+/*.faq02 details {
+	position: relative;
+}*/
+
+.faq02 summary span {
+	padding-left: 45px;
+}
+
+.faq02 details > summary:after {
+	content: url('../../images/icons/arrows/plus.svg');
+	position: absolute;
+	left: 10px;
+	top: 17px;
+}
+
+.faq02 details[open] > summary:after {
+	content: url('../../images/icons/arrows/minus.svg');
+}
+
+.faq02 .details p {
+	padding: 20px;
+	margin-left: 90px;
+	border-left: 2px solid var(--color1);
+}

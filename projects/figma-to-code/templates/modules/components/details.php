@@ -4,7 +4,7 @@
 
 	<?php foreach ($component['detail-items'] as $detailItem) { ?>
 		<details class="<?=$section['variant']?>">
-			<summary><?=$detailItem['summary']?></summary>
+			<summary><span><?=$detailItem['summary']?></span></summary>
 			<p><?=$detailItem['content']?></p>
 			
 		</details>

@@ -57,7 +57,7 @@
         },
         {
             "module": "feature",
-            "variant": "feature06",
+            "variant": "feature05",
             "components": [
                 {
                     "type": "diptych",
@@ -212,5 +212,5 @@
             ]
         }
     ],
-    "footer": "footer02"
+    "footer": "footer01"
 }

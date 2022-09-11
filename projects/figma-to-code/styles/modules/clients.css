@@ -21,13 +21,27 @@
 	gap: 40px;
 }
 
-.clients li {
+.clients05 li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 25px;
 	max-width: 35%;
 	padding: 10px;
+}
+
+.clients picture.arrow {
+	display: flex;
+	align-items: center;
+
+	background-color: var(--button02-hover);
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
 
 .clients .list-image {
@@ -42,9 +56,37 @@
 	gap: 8px;
 }
 
+.clients fig-text {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
 .clients .quote-author-image {
 	width: 40px;
 }
+
+/* CLIENTS 03 - Page 2 */
+.clients03 li {
+	width: 32ch;
+	font-size: 40px;
+	padding: 20px;
+}
+
+.clients03 figcaption {
+	flex-direction: row-reverse;
+	justify-content: center;
+	font-style: normal;
+	text-align: left;
+	gap: 20px;
+}
+
+.clients03 .quote-author {
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+
 
 
 /* CUSTOM TYPOGRAPHY */
@@ -53,9 +95,21 @@
 	font-size: 48px;
 }
 
-
 .clients blockquote {
+	text-transform: capitalize;
+}
+
+
+.clients05 blockquote {
 	font-size: 20px;
 	text-align: center;
 	line-height: 1.4;
+	text-transform: capitalize;
 }
+
+.clients03 blockquote {
+	font-size: 40px;
+	text-align: center;
+	line-height: 1.4;
+}
+

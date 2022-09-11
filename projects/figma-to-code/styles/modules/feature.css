@@ -16,7 +16,7 @@
 	max-width: 45%;
 }
 
-.diptych-text {
+.feature .diptych-text {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -24,7 +24,7 @@
 	gap: 24px;
 }
 
-.feature ol {
+.feature06 ol {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -40,7 +40,7 @@
 	gap: 20px;
 }
 
-.feature .list-text {
+.feature06 .list-text {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
@@ -57,7 +57,7 @@
 	color: var(--ink-light);
 }
 
-.feature .list-image {
+.feature06 .list-image {
 	background-color: hsla(221, 89%, 96%, 1.00);
 	width: 60px;
 	height: 60px;
@@ -70,4 +70,63 @@
 .feature .list-image img {
 	width: auto;
 	height: auto;
+}
+
+
+/*FEATURE 05 (PG 2)*/
+.feature inner-column.feature05 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 0px;
+	gap: 60px;
+}
+
+.feature05 .diptych {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+	gap: 40px;
+	max-width: 70%;
+
+}
+
+.feature05 .diptych-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 24px;
+	text-align: center;
+}
+
+:is(.feature05, .feature01) ol {
+	/*border: 1px solid red;*/
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 32px;
+}
+
+:is(.feature05, .feature01) li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 25px;
+	gap: 22px;
+}
+
+
+.feature05 li {
+	border: 1px solid var(--border);
+	border-radius: 10px;
+}
+
+.feature01 li {
+	align-items: center;
+	text-align: center;
 }

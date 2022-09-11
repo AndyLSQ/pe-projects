@@ -1,5 +1,5 @@
-<div class="dark-footer">
-	<inner-column class="dark-footer">
+<div class="light-footer">
+	<inner-column class="light-footer">
 		<site-map>
 			
 			<nav>

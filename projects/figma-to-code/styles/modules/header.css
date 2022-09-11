@@ -103,3 +103,11 @@ header .dark-nav .button:hover {
 	color: var(--color1);
 	background-color: var(--button02-hover);
 }
+
+header .nav06 .button02 {
+	color: var(--color1);
+}
+
+header .nav06 .button02:hover {
+	color: var(--color1);
+}

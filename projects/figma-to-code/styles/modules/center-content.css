@@ -25,3 +25,26 @@
 	padding: 80px 120px;
 	gap: 60px;
 }
+
+.center09 {
+	gap: 60px;
+}
+
+.center09 ol {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+	text-align: center;
+}
+
+.center09 .list-text {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+}
+
+.center09 .list-heading {
+	font-weight: 600;
+	font-size: 24px;
+}

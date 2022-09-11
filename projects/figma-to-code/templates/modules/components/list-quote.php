@@ -28,15 +28,17 @@
 
 			<?php if ($li['quote-author']) {?>
 				<figcaption>
-					<?=$li['quote-author']?>
-
-					
-				<?php if ($li['quote-author-title']) {?>
-					<div class="quote-author-title">
-						<?=$li['quote-author-title']?>
-					</div>
-				<?php } ?>
-					
+					<fig-text>
+						<div class="quote-author">
+							<?=$li['quote-author']?>
+						</div>
+						
+						<?php if ($li['quote-author-title']) {?>
+							<div class="quote-author-title">
+								<?=$li['quote-author-title']?>
+							</div>
+						<?php } ?>
+					</fig-text>
 
 				
 				<?php if ($li['quote-author-image']) {?>

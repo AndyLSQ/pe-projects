@@ -1,16 +1,67 @@
 
-/* used for:  hero04 */
+
 .hero .button {
 	padding: 15px 65px;
 	text-transform: capitalize;
 }
 
-/* used for:  hero04 */
+.hero form {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.hero .email-input {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 40px 0px 50px;
+	gap: 56px;
+	border: 1px solid #D6D6D6;
+	border-radius: 6px;
+	width: 325px;
+
+	/*width: 248px;*/
+	height: 50px;
+	background-image: url(../../images/icons/email.svg);
+	background-position: 5% 44%;
+	background-repeat: no-repeat;
+	background-color: var(--color2);
+	color: var(--white);
+}
+
+.hero form button {
+	border-radius: 6px;
+	font-size: 16px;
+	padding: 0px 20px;
+}
+
+.hero .email-input::placeholder {
+	color: white;
+	font-size: 16px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+}
+
+
+.hero inner-column {
+	gap: 35px;
+}
+
+.hero text-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .hero nav {
 	display: flex;
 	flex-direction: row;
 	gap: 25px;
-	padding-top: 35px;
+	/*padding-top: 35px;*/
+	align-items: center;
+	justify-content: center;
 }
 
 /* HERO 04 */
@@ -18,24 +69,45 @@
 	background-image: url("../../images/backgrounds/diagonal-lines.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	width: 100%;
 }
 
-inner-column.hero04 {
-	padding: 200px 0px;
+.s-hero05 {
+	background-image: url("../../images/backgrounds/diagonal-lines-cutout.svg");
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.hero inner-column {
+	padding: 260px 0px;
 	flex-direction: column;
 	align-items: center;
-	gap: 0px;
+	justify-content: center;
+
 }
 
-.hero04 :is(h2, p) {
+.hero :is(h2, p) {
 	text-align: center;
 }
 
-.hero04 h2 {
+.hero h2 {
 	text-transform: capitalize;
 	max-width: 974px;
 }
 
-.hero04 p {
+.hero p {
 	max-width: 733px;
+}
+
+
+.s-hero13 {
+	background-color: var(--color1);
+	color: white;
+}
+
+.s-hero13 p {
+	font-size: 20px;
 }

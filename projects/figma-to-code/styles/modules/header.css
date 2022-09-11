@@ -9,11 +9,27 @@ header inner-column {
 	align-items: center;
 	/*border: 3px solid green;*/
 
-	padding: 20px 0px;
+	padding: 22px 0px;
+}
+
+header .light-nav {
+	background-color: var(--white);
+}
+
+header .dark-nav {
+	background-color: var(--color1);
 }
 
 header .logo {
 	max-width: 150px;
+}
+
+header .light-nav .logo path {
+	fill: var(--color1);
+}
+
+header .dark-nav .logo path {
+	fill: var(--white);
 }
 
 header nav {
@@ -21,12 +37,45 @@ header nav {
 	gap: 20px;
 }
 
-header nav a {
+header language {
+	display: flex;
+	flex-direction: row;
+	font-weight: bold;
+	align-items: center;
+	gap: 7px;
+}
+
+header .dark-nav language {
+	color: white;
+}
+
+header .light-nav a {
 	color: var(--ink);
 }
 
-header nav a:hover {
+header .dark-nav a {
+	color: var(--white);
+}
+
+header .light-nav a:hover {
 	color: var(--color1);
+}
+
+header .dark-nav a:hover {
+	color: var(--ink);
+}
+
+header .light-nav .lang path {
+	stroke: var(--ink);
+}
+
+header .dark-nav .lang path {
+	stroke: var(--white);
+}
+
+header .dark-nav .lang char path {
+	stroke: red;
+	fill: var(--white);
 }
 
 header .right-buttons {
@@ -35,4 +84,22 @@ header .right-buttons {
 	justify-content: space-between;
 	align-items: center;
 	gap: 20px;
+}
+
+header .light-nav .button {
+	color: var(--white);
+}
+
+header .light-nav .button:hover {
+	color: var(--white);
+}
+
+header .dark-nav .button {
+	color: var(--color1);
+	background-color: var(--white);
+}
+
+header .dark-nav .button:hover {
+	color: var(--color1);
+	background-color: var(--button02-hover);
 }

@@ -1,5 +1,5 @@
 /* color sets, site wide spacing (margin, max widths, variables inner-columns if desired) */
-html {
+:root {
 	--black: hsla(0, 0%, 13%, 1.00);
 	--white: hsla(0, 0%, 100%, 1.00);
 

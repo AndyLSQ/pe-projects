@@ -1,5 +1,5 @@
-<div class="light-nav">
-<inner-column class="nav02 light-nav">
+<div class="dark-nav">
+<inner-column class="nav13 dark-nav">
 	<a href="#">
 		<picture class="logo">
 			<?php include ('images/logo.php') ?>

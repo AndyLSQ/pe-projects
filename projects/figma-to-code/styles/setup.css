@@ -41,7 +41,8 @@ img {
 	height: auto;
 }
 
-svg {
+svg :not(.lang) {
   display: block;
+  border: 1px solid red;
   width: 100%;
 }

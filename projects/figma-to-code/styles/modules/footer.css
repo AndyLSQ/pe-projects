@@ -161,7 +161,7 @@ footer .social {
 @media (max-width: 900px) {
 	footer site-map {
 		flex-direction: column;
-		gap: 50px;
+		gap: 125px;
 		align-items: center;
 	}
 }

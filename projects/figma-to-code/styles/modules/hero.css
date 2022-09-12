@@ -47,7 +47,7 @@
 
 .hero inner-column {
 	gap: 35px;
-	
+
 }
 
 .hero text-block {
@@ -80,11 +80,11 @@
 	background-repeat: no-repeat;
 	width: 100%;
 	background-size: cover;
-	background-position: center;
+	background-position: bottom 0px right 0px;
 }
 
 .hero inner-column {
-	padding: 260px 0px;
+	padding: 325px 0px;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;

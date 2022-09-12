@@ -9,7 +9,7 @@
 	<meta name="description" content="Your #1 source for senseless gibberish. Check us out today and see why no one knows what we're talking about.">
 
 	<!-- Note: Standard metadata image size ~(1200 x 630) -->
-	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/images/metadata-image.png">
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/projects/figma-to-code/images/meta/ipsum-metadata-image.png">
 
 	<link rel="stylesheet" href="styles/site.css">
 

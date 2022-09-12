@@ -3,8 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>Ipsum, Inc.</title>
+
 	<meta name="description" content="Your #1 source for senseless gibberish. Check us out today and see why no one knows what we're talking about.">
+
+	<!-- Note: Standard metadata image size ~(1200 x 630) -->
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/images/metadata-image.png">
 
 	<link rel="stylesheet" href="styles/site.css">
 

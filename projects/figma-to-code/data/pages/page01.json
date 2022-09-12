@@ -42,10 +42,11 @@
                     "subheading": "Neque, pulvinar vestibulum non aliquam."
                 },
                 {
-                    "type": "video",
-                    "class": "test-class-video",
+                    "type": "image",
                     "src": "https://peprojects.dev/images/landscape.jpg",
-                    "caption": "test video caption"
+                    "alt": "upload cloud icon",
+                    "caption": "",
+                    "class": "test-class-video"
                 }
             ]
         },

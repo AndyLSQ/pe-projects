@@ -90,6 +90,10 @@
 	max-width: 45%;
 }
 
+inner-column.faq01 {
+	padding-bottom: 180px;
+}
+
 
 @media (max-width: 900px) {
 

@@ -38,6 +38,10 @@ header nav {
 	gap: 20px;
 }
 
+header .lang svg {
+	width: 24px;
+}
+
 header language {
 	display: flex;
 	flex-direction: row;

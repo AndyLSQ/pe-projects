@@ -7,6 +7,7 @@ header inner-column {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: nowrap;
 	/*border: 3px solid green;*/
 
 	padding: 22px 0px;
@@ -110,4 +111,13 @@ header .nav06 .button02 {
 
 header .nav06 .button02:hover {
 	color: var(--color1);
+}
+
+@media (max-width: 700px){
+header inner-column {
+	flex-direction: column;
+	gap: 15px;
+	align-items: center;
+	justify-content: center;
+}
 }

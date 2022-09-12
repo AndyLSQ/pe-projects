@@ -1,5 +1,5 @@
 <figure class="video">
-	<picture class=<?=$component['class']?>>
+	<picture class="<?=$component['class']?>">
 		
 		<img src="<?=$component['src']?>" alt="<?=$component['alt']?>">
 

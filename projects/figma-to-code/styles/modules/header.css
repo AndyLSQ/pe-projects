@@ -42,6 +42,7 @@ header language {
 	display: flex;
 	flex-direction: row;
 	font-weight: bold;
+	justify-content: flex-start;
 	align-items: center;
 	gap: 7px;
 }

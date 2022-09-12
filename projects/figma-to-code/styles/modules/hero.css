@@ -112,3 +112,29 @@
 .s-hero13 p {
 	font-size: 20px;
 }
+
+
+@media (max-width: 600px) {
+
+	.hero nav {
+		flex-direction: column;
+	}
+
+	.hero nav .button {
+		width: 100%;
+	}
+
+	.hero form {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.hero form .button02 {
+		padding: 10px 20px;
+		width: 50%;
+	}
+
+	.hero .email-input {
+		width: 100%;
+	}
+}

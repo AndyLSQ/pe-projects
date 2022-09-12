@@ -100,3 +100,41 @@
 .cta06 .email-input path {
 	stroke: var(--ink);
 }
+
+@media (max-width: 600px) {
+
+	.cta {
+		padding: 80px 10px;
+	}
+
+	:is(.cta01, .cta02) {
+		padding: 60px 10px;
+	}
+
+	.cta .enhanced-heading h2 {
+		font-size: 24px;
+	}
+
+	.cta nav {
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.cta .button {
+		width: 25ch;
+	}
+
+	.cta form {
+		flex-direction: column;
+	}
+
+.cta06 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 35px;
+}
+
+
+}

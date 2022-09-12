@@ -130,3 +130,29 @@
 	align-items: center;
 	text-align: center;
 }
+
+
+@media (max-width: 600px) {
+
+	.feature .diptych {
+		max-width: 95%;
+	}
+
+	.feature ol {
+		max-width: 95%;
+		grid-template-columns: 1fr;
+	}
+
+	.feature li {
+		/*flex-direction: column;*/
+	}
+
+	.feature img {
+		width:100%;
+		/*border:1px solid red;*/
+		
+		
+	}
+
+
+}

@@ -9,3 +9,10 @@
 .enhanced-heading :is(.eyebrow, .subheading) {
 	line-height: 1.4;
 }
+
+@media (max-width: 600px) {
+	.enhanced-heading :is(.eyebrow, h2, .subheading) {
+		text-align: center;
+	}
+
+}

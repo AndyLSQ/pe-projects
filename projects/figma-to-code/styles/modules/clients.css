@@ -68,7 +68,7 @@
 
 /* CLIENTS 03 - Page 2 */
 .clients03 li {
-	width: 32ch;
+	max-width: 32ch;
 	font-size: 40px;
 	padding: 20px;
 }
@@ -154,4 +154,52 @@
 
 .clients01 .quote-author {
 	font-weight: bold;
+}
+
+@media (max-width: 600px) {
+	
+	.clients .enhanced-heading {
+		text-align: center;
+	}
+
+	.clients li {
+		flex-direction: column;
+		max-width: 95%;
+	}
+
+	.clients .list-image {
+		width: 95%;
+	}
+
+	.clients05 .list-image {
+		width: 50%;
+	}
+
+	.clients ul {
+		flex-direction: column;
+	}
+
+	.clients ul .arrow {
+		display: none;
+	}
+
+
+	.clients01 li figure {
+		max-width: 95%;
+	}
+
+	.clients01 fig-text {
+		flex-direction: column;
+	}
+
+	.clients :is(blockquote, figcaption) {
+		text-align: center;
+		justify-content: center;
+	}
+
+	.clients03 blockquote {
+		font-size: 30px;
+		text-align: center;
+		line-height: 1.4;
+	}
 }

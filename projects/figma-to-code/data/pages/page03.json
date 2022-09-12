@@ -137,7 +137,7 @@
                 {
                     "type": "enhanced-heading",
                     "eyebrow": "",
-                    "heading": "What Our Clients Say",
+                    "heading": "What Our Clients&nbsp;Say",
                     "subheading": "Neque, pulvinar vestibulum non aliquam."
                 },
                 {
@@ -172,23 +172,23 @@
                     "type": "details",
                     "detail-items": [
                         {
-                            "summary": "How soon will my order ship?",
+                            "summary": "How soon will my order&nbsp;ship?",
                             "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
                         },
                         {
-                            "summary": "Are there any warranty exclusions?",
+                            "summary": "Are there any warranty&nbsp;exclusions?",
                             "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
                         },
                         {
-                            "summary": "Are there any return exclusions?",
+                            "summary": "Are there any return&nbsp;exclusions?",
                             "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
                         },
                         {
-                            "summary": "Will I be charged for a replacement item?",
+                            "summary": "Will I be charged for a replacement&nbsp;item?",
                             "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
                         },
                         {
-                            "summary": "How can I track my orders & payment?",
+                            "summary": "How can I track my orders&nbsp;&&nbsp;payment?",
                             "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
                         }
                     ]

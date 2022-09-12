@@ -90,10 +90,22 @@
 	max-width: 45%;
 }
 
-.faq01 .enhanced-heading {
-	text-align: left ;
-}
 
-.faq01 .enhanced-heading h2 {
-	text-align: left ;
-}
+@media (max-width: 750px) {
+
+	.faq summary span {
+		/*display: block;*/
+		margin-right: 40px;
+		line-height: 1.2;
+	}
+
+	.faq :is(.enhanced-heading, .details) {
+    	max-width: 95%;
+	}
+
+	.faq02 summary span {
+		display: block;
+		margin-left: 15px;
+	}
+
+	}

@@ -77,7 +77,7 @@ html {
 	font-weight: 700;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
 	.loud-voice	{
 		font-size: 44px;

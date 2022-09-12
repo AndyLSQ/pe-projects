@@ -156,7 +156,7 @@
 	font-weight: bold;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 	
 	.clients .enhanced-heading {
 		text-align: center;

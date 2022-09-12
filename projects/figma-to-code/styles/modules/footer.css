@@ -145,3 +145,55 @@ footer .social {
 	flex-direction: row;
 	gap: 20px;
 }
+
+@media (max-width: 1000px) {
+	
+	footer site-map {
+		gap: 0px;
+		/*border: 1px solid red;*/
+	}
+
+	footer site-map nav {
+		gap: 20px;
+	}
+}
+
+@media (max-width: 900px) {
+	footer site-map {
+		flex-direction: column;
+		gap: 50px;
+		align-items: center;
+	}
+}
+
+@media (max-width: 900px) {
+	footer .bottom nav {
+		gap: 30px;
+	}
+}
+
+@media (max-width: 700px) {
+	
+	footer .bottom {
+			flex-direction: column-reverse;
+			gap: 40px;
+		}
+
+	}
+
+@media (max-width: 500px) {
+	
+		footer site-map nav {
+			flex-direction: column;
+			gap: 60px;
+		}
+
+		footer form {
+			max-width: 300px;
+			padding: 30px 10px;
+			align-items: center;
+		}
+
+		
+
+	}

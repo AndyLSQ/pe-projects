@@ -101,7 +101,7 @@
 	stroke: var(--ink);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
 	.cta {
 		padding: 80px 10px;

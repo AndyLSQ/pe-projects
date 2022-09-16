@@ -1,0 +1,57 @@
+body {
+	max-width: 400px;
+	max-height: 600px;
+	width: 100%;
+	height: 100vh;
+	border: 1px solid red;
+
+	display: flex;
+	flex-direction: column;
+
+	--color: lightblue;
+}
+
+main {
+	flex-grow: 1;
+	border: 2px dashed green;
+	padding: 1 rem;
+}
+
+footer {
+	border: 1px solid blue;
+	position: relative;
+}
+
+footer nav {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+footer nav button {
+	padding:  20px 10px;
+
+	/*border: 0;*/
+	background: white;
+	border: 1px solid black;
+}
+
+button:hover {
+	background-color: lightgray;
+}
+
+button:active {
+	background-color: var(--color);
+	-webkit-tap-highlight-color: transparent; /*for mobile- need to look into this more*/
+}
+
+footer .add {
+	position: absolute;
+	top: -20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	border: 3px solid purple;
+	padding: 15px 10px;
+
+}
+

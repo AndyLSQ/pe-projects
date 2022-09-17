@@ -1,3 +1,7 @@
+html{
+	font-family: sans-serif;
+}
+
 body {
 	max-width: 400px;
 	max-height: 600px;
@@ -14,7 +18,7 @@ body {
 main {
 	flex-grow: 1;
 	border: 2px dashed green;
-	padding: 1 rem;
+	padding: 1rem;
 }
 
 footer {

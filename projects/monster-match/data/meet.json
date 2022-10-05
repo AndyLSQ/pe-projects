@@ -1,0 +1,74 @@
+[
+	{
+		"id": "001",
+		"image": "",
+		"name": "Monster 1",
+		"age": 5,
+		"gender": "",
+		"food": "",
+		"color": "",
+		"characteristics": [
+			"",
+			"",
+			""
+		],
+		"housebroken": true,
+		"vaccinated": true,
+		"description":"descriptiongoeshere"
+
+	},
+	{
+		"id": "002",
+		"image": "",
+		"name": "Monster 2",
+		"age": 5,
+		"gender": "",
+		"food": "",
+		"color": "",
+		"characteristics": [
+			"",
+			"",
+			""
+		],
+		"housebroken": true,
+		"vaccinated": true,
+		"description":"descriptiongoeshere"
+
+	},
+	{
+		"id": "003",
+		"image": "",
+		"name": "Monster 3",
+		"age": 5,
+		"gender": "",
+		"food": "",
+		"color": "",
+		"characteristics": [
+			"",
+			"",
+			""
+		],
+		"housebroken": true,
+		"vaccinated": true,
+		"description":"descriptiongoeshere"
+
+	},
+	{
+		"id": "004",
+		"image": "",
+		"name": "Monster 4",
+		"age": 5,
+		"gender": "",
+		"food": "",
+		"color": "",
+		"characteristics": [
+			"",
+			"",
+			""
+		],
+		"housebroken": true,
+		"vaccinated": true,
+		"description":"descriptiongoeshere"
+
+	}
+]

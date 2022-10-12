@@ -1,0 +1,106 @@
+/* Should we pull in @fonts here? */
+/* use px not pt (pt px) */
+/*voice examples:  loud, attention, strong, calm, stout, micro, whisper, quiet*/
+/*use voice classes instead of header levels for styling*/
+
+html {
+	font-family: 'Inter', sans-serif;
+}
+
+.loud-voice1	{
+	font-size: 3.5rem /*clamp(36px, 5vw, 60px)*/;
+	font-weight: bold;
+}
+
+.loud-voice2	{
+	font-size: 2rem;
+	font-weight: normal;
+	/*color: var(--highlight);*/
+}
+
+.loud-voice3 {
+	font-size: 1.5rem;
+	line-height: 1.2;
+}
+
+.standard-voice, p {
+	font-size: 1rem;
+	line-height: 1.4;
+	/*font-weight: light;*/
+}
+
+.quiet-voice {
+	font-size: .75rem;
+	line-height: 1.4;
+}
+
+
+.logo {
+	font-size: 30px;
+}
+
+em {
+	font-weight: bold;
+	color: var(--color1);
+}
+
+:is(.calm-voice, p ) em {
+	font-style: italic;
+}
+
+:is(.calm-voice, p ) strong {
+	font-weight: 700;
+}
+
+@media (max-width: 600px) {
+
+	.loud-voice	{
+		font-size: 45px;
+	}
+
+	.attention-voice	{
+		font-size: 22px;
+	}
+
+	.mid-voice {
+		font-size: 18px;
+	}
+
+}
+
+
+/* these would be scoped to section or to an article element */
+/* this is just a loose setting for now */
+p + p {
+	margin-top: 1em;
+}
+
+text-block + text-block {
+
+}
+
+h2 + p {
+	margin-top: 20px;
+}
+
+h2 + ul {
+	margin-top: 20px;
+}
+
+h1 + .attention-voice {
+	margin-top: 10px;
+}
+
+figcaption {
+	font-size: .9rem;
+	font-style: italic;
+	opacity: 50%;
+	text-align: center;
+	margin-top: 5px;
+	line-height: 1.2;
+}
+
+code {
+	font-size: 1.1em;
+	color: green;
+}

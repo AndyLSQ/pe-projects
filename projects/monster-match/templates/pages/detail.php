@@ -29,5 +29,26 @@
 	<section class="detail">
 		<h2>Monster detail</h2>
 		<h3><?=$current_monster['name']?></h3>
-		<p>Description: <?=$current_monster['description']?></p>
+		<picture>
+			<img src="<?=$current_monster['image']?>" alt="">
+		</picture>
+		<p>Age: <?=$current_monster['age']?></p>
+		<p>Gender: <?=$current_monster['gender']?></p>
+		<p>Color: <?=$current_monster['color']?></p>
+		<p>Favorite Food: <?=$current_monster['food']?></p>
+		<p>Characteristics:
+			<?php
+				foreach ($current_monster['characteristics'] as $characteristics) { ?>
+					<p><?=$characteristics?></p>
+			<?php } ?>
+
+		</p>
+		<p>Housebroken: <?=$current_monster['housebroken']?></p>
+		<p>Vaccinated: <?=$current_monster['vaccinated']?></p>
+		<p>Description: 
+			<?php
+				foreach ($current_monster['description'] as $description) { ?>
+					<p><?=$description?></p>
+			<?php } ?>
+
 	</section>

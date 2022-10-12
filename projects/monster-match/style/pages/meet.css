@@ -1,0 +1,31 @@
+.meet {
+
+}
+
+.meet ul.monsters {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+li.monster{
+	border-radius: var(--corners);
+	/*border: 1px solid red;*/
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	/* offset-x | offset-y | blur-radius | spread-radius | color */
+	box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.meet ul.info {
+	display: flex;
+	flex-direction: column;
+	gap: .75rem;
+}
+
+li.monster picture {
+	border-radius: var(--corners);
+}
+

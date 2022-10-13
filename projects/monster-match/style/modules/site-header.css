@@ -6,7 +6,7 @@ header inner-column {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 15px 0px;
+	padding: 30px 0px;
 }
 
 header nav {

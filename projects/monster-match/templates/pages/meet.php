@@ -5,11 +5,19 @@
 ?>
 
 
-<h2 class="loud-voice2">Meet the Monsters</h2>
+<h2 class="loud-voice1">Meet the Monsters</h2>
+
+<!-- <div class="swatch neutral-lighter">neutral-lighter</div>
+<div class="swatch neutral-light">neutral-light</div>
+<div class="swatch neutral">neutral</div>
+<div class="swatch neutral-dark">neutral-dark</div>
+<div class="swatch neutral-darker">neutral-darker</div> -->
+
+
 
 
 <!-- DISPLAY CARDS -->
-<ul class=monsters>
+<ul class="monsters" data-outlet="monster-list">
 	<?php foreach ($monsterData as $monster) { ?>
 
 		<!-- item card -->
@@ -29,3 +37,8 @@
 
 	<?php } ?>
 </ul>
+
+<script>
+	let monster_outlet = document.querySelector('[data-outlet="monster-list"]')
+	monster_outlet.innerHTML = "TEST123 STRING"
+</script>

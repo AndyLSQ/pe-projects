@@ -1,13 +1,20 @@
 /* color sets, site wide spacing (margin, max widths, variables inner-columns if desired) */
 html {
-	--black: hsla(200, 15%, 20%, 1.00);
+	--black: hsl(200 15% 20% / 1); /*new way to write*/
 	--white: hsla(0, 0%, 100%, 1);
 
-	--color1: hsla(259, 99%, 65%, 1.00);
-	--color1-dark: hsla(259, 99%, 60%, 1.00);
-	--neutral: hsla(259, 99%, 85%, 1.00);
-	--neutral-dark: hsla(259, 99%, 85%, 1.00);
-	--neutral-light: hsla(259, 99%, 85%, 1.00);
+	--color1: hsla(268, 100%, 59%, 1.00);
+	--color1-dark: hsla(268, 100%, 64%, 1.00);
+
+	--color2: hsla(298, 100%, 59%, 1.00);
+
+	--color3: hsla(239, 100%, 59%, 1.00);
+
+	--neutral-lighter: hsla(0, 0%, 98%, 1.00);
+	--neutral-light: hsla(0, 0%, 96%, 1.00);
+	--neutral: hsla(0, 0%, 94%, 1.00);
+	--neutral-dark: hsla(0, 0%, 90%, 1.00);
+	--neutral-darker: hsla(0, 0%, 70%, 1.00);
 
 	
 	--highlight: hsla(259, 99%, 65%, 1.00);
@@ -18,7 +25,7 @@ html {
 
 	--shadow: /*1px 1px 2px #666*/;
 
-	--paper: var(--white);
+	--paper: var(--neutral-lighter);
 	--ink: var(--black);
 }
 

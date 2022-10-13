@@ -8,13 +8,13 @@ html {
 }
 
 .loud-voice1	{
-	font-size: 3.5rem /*clamp(36px, 5vw, 60px)*/;
-	font-weight: bold;
+	font-size: 3rem /*clamp(36px, 5vw, 60px)*/;
+	font-weight: 700;
 }
 
 .loud-voice2	{
 	font-size: 2rem;
-	font-weight: normal;
+	font-weight: 600;
 	/*color: var(--highlight);*/
 }
 

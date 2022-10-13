@@ -49,10 +49,18 @@ else {
 	<link rel="stylesheet" href="style/style.css">
 
 	<!-- LINK favicon -->
-	<link rel="icon" type="image/svg+xml" href="images/svg/favicon.svg">
+	<!-- <link rel="icon" type="image/svg+xml" href="images/svg/favicon.svg"> -->
 
 </head>
 
+
+<?php 
+
+	$json = file_get_contents("data/meet.json");
+	// dont need the below
+	// $json = json_encode($file);
+	// $json = $file;
+?>
 
 <body class="<?=$pageId?>">
 
@@ -70,6 +78,13 @@ else {
 
 
 	</main>
+
+<script>
+	let monster_data = <?=$json?>;
+	
+</script>
+
+<script src="scripts/site.js"></script>
 
 </body>
 </html>

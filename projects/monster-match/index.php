@@ -55,11 +55,7 @@ else {
 
 
 <?php 
-
 	$json = file_get_contents("data/meet.json");
-	// dont need the below
-	// $json = json_encode($file);
-	// $json = $file;
 ?>
 
 <body class="<?=$pageId?>">

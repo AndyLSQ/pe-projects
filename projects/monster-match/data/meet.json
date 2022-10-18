@@ -14,6 +14,7 @@
 		],
 		"housebroken": true,
 		"vaccinated": true,
+		"adopted": false,
 		"description":[
 			"Limabean has a very unique set of skills you won't see anywhere else!  While other monsters may smell like farts and old cheese, foster mom says that darling Limabean always seems to smell like fresh baked french bread.  Limabean also has the uniqe skill of being able to observe her surroundings with one googly eye while keeping her other eye on a tasty snack.  So very talented!",
 			"Limabean is a super snuggly girl, and we truly hope her forever family allows her on the furniture, because it's hard not to give her everything she wants when she gives you \"the look.\"  She'll always have the sweetest most heart melting puppy dog eyes!  She's currently living with another monster who is very calm, and  while it took a minute for her to settle in and feel safe, she and her foster brother now nap together and play tug with their favorite toys.",
@@ -26,7 +27,7 @@
 		"name": "Codey",
 		"age": 2,
 		"gender": "male",
-		"food": "MacBooks",
+		"food": "apple silicon",
 		"color": "red",
 		"characteristics": [
 			"smart",
@@ -35,6 +36,7 @@
 		],
 		"housebroken": true,
 		"vaccinated": true,
+		"adopted": false,
 		"description":[
 			"A future hacker in the making, Codey spends most of his free time brushing up on his C++ and Bash programming skills. As an avid proponent of social justice, Codey dreams of one day joining the hacktivist collective, Anonymous.",
 			"Codey has a voracious appetite and loves to snack on computers and peripherals, so make sure to lock up any valuable gadgets before welcoming him into your home",
@@ -48,7 +50,7 @@
 		"name": "Shadow",
 		"age": 154,
 		"gender": "Male",
-		"food": "eggplant",
+		"food": "cake",
 		"color": "deep purple",
 		"characteristics": [
 			"gentle",
@@ -57,8 +59,9 @@
 		],
 		"housebroken": true,
 		"vaccinated": true,
+		"adopted": false,
 		"description": [
-			"Shadow is a gentle giant. You can find him most of the time just snoozing the day away, tongue out and feet up, in his favorite bed. He loves to lounge, but is also a great walking buddy! He loves to go for a ride in the car for a cup of toilet water and a urinal cake from Starbucks, or hike around the lake and get his paws wet. Most of the time, he's down to just chill. ",
+			"Shadow is a gentle giant. You can find him most of the time just snoozing the day away, tongue out and feet up, in his favorite bed. He loves to lounge, but is also a great walking buddy! He loves going out for a urinal cake from Starbucks, or hiking around the lake and getting his paws wet. Most of the time, he's down to just chill. ",
 			"But, if the mood strikes him right, he loves a good game of fetch! He may be a (young) senior, but he's still playful and full of fun! Where are you going to find a better companion with a cuter face? Adopt Shadow today!"
 		]
 
@@ -72,12 +75,13 @@
 		"food": "poison ivy",
 		"color": "pink",
 		"characteristics": [
-			"Friendly",
-			"Affectionate",
-			"Playful"
+			"friendly",
+			"affectionate",
+			"playful"
 		],
 		"housebroken": true,
 		"vaccinated": true,
+		"adopted": false,
 		"description":[
 			"Fragoo is everything we love about monsters.  From the second we saw his razor sharp teeth and massive claws, we were smitten.  He is stubborn in all the best ways, LOVES to be outside, and especially enjoys riding in his wagon or car.  In fact, if you can't get Fragoo to sleep, a good car ride is guaranteed to have him snoring.  And if you are not accommodating Fragoo, he will most definitely let you know!  This guy also needs his pampering time.  Give him baths every day of the week and blow dry him, brush him, whatever.  The more you serve Fragoo, the happier he is.  Fragoo has no boundaries and doesn't understand personal space.",
 			"If your current monster doesn't want a flat nose snorting up and down his whole body, Fragoo is not the companion for him.  And if your monster gets nervous by a pushy monster shoving them out of the way to get to the snacks or marching up to them to say hi face to face, probably won't be a good buddy for this dude.  Luckily, that personal space thing applies to humans too.  Fragoo is a big cuddler.  He would love to sleep in bed next to you and snuggle all night but good luck getting him up in the morning.",
@@ -91,17 +95,19 @@
 		"name": "Miss Reads-a-Lot",
 		"age": 750,
 		"gender": "female",
-		"food": "hardcover novels",
+		"food": "small children",
 		"color": "blue",
 		"characteristics": [
-			"Playful",
-			"Independent",
-			"Well educated"
+			"playful",
+			"independent",
+			"well educated"
 		],
 		"housebroken": true,
 		"vaccinated": true,
+		"adopted": false,
 		"description":[
-			"Miss Reads-a-Lot is your typical monster - sweet with random spurts of energy, with a little grumpiness. Miss Reads-a-Lot loves everyone she meets and quickly warms up to you. She loves to spend her days napping or sunbathing, but don't let that fool you - when this girl is ready to play, she'll let you know! She enjoys going on walks, chasing after the leaves and sometimes even frogs (so watch out lol). She enjoys toys especially ones that crinkle - like a water bottle! Cats are a no go for this girl, small children, and she doesn't like some monsters (for any family with other monsters in the home who are interested in her, please don't let that stop you from applying! A meet and greet is the perfect opportunity for your monsters and her to meet - you never know, she might love your monsters!)"
+			"Miss Reads-a-Lot is your typical monster - sweet with random spurts of energy, with a little grumpiness. Miss Reads-a-Lot loves everyone she meets and quickly warms up to you. She loves to spend her days napping or sunbathing, but don't let that fool you - when this girl is ready to play, she'll let you know! She enjoys going on walks, chasing after the leaves and sometimes even frogs (so watch out lol). She enjoys toys especially ones that crinkle - like a water bottle! Cats are a no go for this girl, small children, and she doesn't like some monsters (for any family with other monsters in the home who are interested in her, please don't let that stop you from applying! A meet and greet is the perfect opportunity for your monsters and her to meet - you never know, she might love your monsters!)",
+			"Please note: Due to her voracious appetite, Miss Reads-a-Lot is not recommend for households with small children."
 		]
 	},
 		{
@@ -113,14 +119,16 @@
 		"food": "razor blades",
 		"color": "orange",
 		"characteristics": [
-			"",
-			"",
-			""
+			"gentle",
+			"curious",
+			"quiet"
 		],
 		"housebroken": true,
 		"vaccinated": true,
+		"adopted": false,
 		"description":[
-			"descriptiongoeshere"
+			"This sweet, shy love bug is looking for a sweet and loving home. She is very soft natured, gentle, and just a bit timid at first. She loves to be pet and will lean right in for love. We suspect she’d do well in just about any home.",
+			"All monsters are altered, heartworm tested, vaccinated, and microchipped prior to adoption."
 		]
 	},
 		{
@@ -132,14 +140,16 @@
 		"food": "apples",
 		"color": "blue",
 		"characteristics": [
-			"",
-			"",
-			""
+			"friendly",
+			"funny",
+			"loves kisses"
 		],
 		"housebroken": true,
 		"vaccinated": true,
+		"adopted": false,
 		"description":[
-			"Coming soon"
+			"Mr. Banana may be small in stature but he is big in personality. This goofball is as friendly as can be and pretty much always ready to play.",
+			"He loves attention from the people around him. If you are looking for a monster that is also part clown (the scary kind), Mr. Banana is ready to entertain you for the rest of his days."
 		]
 	}
 ]

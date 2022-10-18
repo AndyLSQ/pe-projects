@@ -51,4 +51,6 @@
 					<p><?=$description?></p>
 			<?php } ?>
 
+		<a href="?page=adopt">Learn how to adopt</a>
+
 	</section>

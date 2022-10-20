@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <?php
@@ -58,6 +59,10 @@ else {
 	$json = file_get_contents("data/meet.json");
 ?>
 
+<script>
+	let monstersData = <?=$json?>;
+</script>
+
 <body class="<?=$pageId?>">
 
 	<?php include('functions.php')?>
@@ -75,12 +80,15 @@ else {
 
 	</main>
 
-<script>
-	let monster_data = <?=$json?>;
-	
-</script>
+
 
 <script src="scripts/site.js"></script>
+
+<?php 
+	if ($pageId == "meet") { ?>
+		<script src="scripts/meet.js"></script>
+<?php	} ?>
+
 
 </body>
 </html>

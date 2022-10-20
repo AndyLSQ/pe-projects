@@ -48,10 +48,10 @@
 		"id": "003",
 		"image": "images/headshots/shadow.jpg",
 		"name": "Shadow",
-		"age": 154,
-		"gender": "Male",
+		"age": 254,
+		"gender": "male",
 		"food": "cake",
-		"color": "deep purple",
+		"color": "red",
 		"characteristics": [
 			"gentle",
 			"quiet",
@@ -138,7 +138,7 @@
 		"age": 36,
 		"gender": "male",
 		"food": "apples",
-		"color": "blue",
+		"color": "yellow",
 		"characteristics": [
 			"friendly",
 			"funny",

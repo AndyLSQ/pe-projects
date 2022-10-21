@@ -63,14 +63,17 @@ function renderColorSelector() {
 
 	let unique = [...new Set(monsterColors)].sort();
 
-	let select = `<select id="color-selector" data-input="color">`
+	let select = `<div class="color-checkboxes">`
 
-	select += `<option value='any'>Any color</option>`
 
 	unique.forEach( function(color) {
-		select += `<option value='${color}'>${color}</option>`
+		select += `
+		<div class="color-checkbox">
+			<input type="checkbox" value="${color}" checked>
+			<label for='${color}'>${color}</option>
+		</div>`
 	})
-	select += `</select>`
+	select += `</div>`
 
 	return select;
 }

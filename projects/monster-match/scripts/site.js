@@ -61,7 +61,7 @@ function renderColorSelector() {
 		return monster.color;
 	});
 
-	let unique = [...new Set(monsterColors)];
+	let unique = [...new Set(monsterColors)].sort();
 
 	let select = `<select id="color-selector" data-input="color">`
 
@@ -81,7 +81,7 @@ function renderGenderSelector() {
 		return monster.gender;
 	});
 
-	let unique = [...new Set(monsterGenders)];
+	let unique = [...new Set(monsterGenders)].sort();
 
 	let select = `<select id="gender-selector" data-input="gender">`
 

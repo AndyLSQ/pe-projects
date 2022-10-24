@@ -89,6 +89,25 @@ function gatherAges(){
 form.addEventListener("change", function(event) {
 	console.clear();
 
+	// Listener - CHECKBOX - ALL / CLEAR
+	if ( event.target.matches('#all-color') ) {
+		selectAll('color');
+	}
+
+	if ( event.target.matches('#clear-color') ) {
+		clearAll('color');
+	}
+
+	if ( event.target.matches('#all-age') ) {
+		selectAll('age');
+	}
+
+	if ( event.target.matches('#clear-age') ) {
+		clearAll('age');
+	}
+
+
+
 	//handle filter- pass off to functions
 	var colorList = gatherColors();
 	var ageList = gatherAges();

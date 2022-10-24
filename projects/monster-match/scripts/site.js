@@ -22,9 +22,25 @@ function renderMonster(monster) {
 	`
 }
 
+function renderNoResults() {
+	return`
+		<picture>
+			<img src="images/icons/monster-sad.png" alt="Monsters icons created by Smashicons - Flaticon https://www.flaticon.com/free-icons/monsters">
+		</picture>
+		<h2 class="loud-voice3"> No Monsters Found</h2>
+		<p>There are no monsters matching your criteria. Please consider broadening your search.</p>
+	 `
+}
+
+
 
 // Loop the monster list and render the content for each
 	function renderMonsters(monsters) {
+
+		if (monsters.length < 1) {
+			return renderNoResults();
+		}
+
 		//randomly sort
 		//monsters = monsters.sort(()=> Math.random() - 0.5);
 
@@ -39,6 +55,8 @@ function renderMonster(monster) {
 
 		//closing tag is added to the template, then the whole template is returned
 		template +=`</ul>`
+
+
 
 		return template;
 	}
@@ -98,6 +116,40 @@ function renderGenderSelector() {
 	return select;
 }
 
+//render INDIVIDUAL
+function renderAgeSelector() {
+	let monsterAgeGroups = ["Baby", "Young", "Adult", "Senior"];
+
+	let select = `<div class="age-checkboxes">`
+
+
+	monsterAgeGroups.forEach( function(ageGroup) {
+		select += `
+		<div class="age-checkbox">
+			<input type="checkbox" value="${ageGroup}" checked>
+			<label for='${ageGroup}'>${ageGroup}</option>
+		</div>`
+	})
+	select += `</div>`
+
+	return select;
+}
+
+
+function renderAgeSelectorNOPE() {
+	let monsterAgeGroups = ["Baby", "Young", "Adult", "Senior"];
+
+	let select = `<select id="age-group-selector" data-input="age-group">`
+
+	select += `<option value='any'>Any age</option>`
+
+	monsterAgeGroups.forEach( function(ageGroup) {
+		select += `<option value='${ageGroup}'>${ageGroup}</option>`
+	})
+	select += `</select>`
+
+	return select;
+}
 
 
 
@@ -105,7 +157,7 @@ function renderGenderSelector() {
 //render ALL
 
 function renderSelectors() {
-	return renderColorSelector() + renderGenderSelector();
+	return renderColorSelector() + renderGenderSelector() + renderAgeSelector();
 }
 
 

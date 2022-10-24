@@ -21,7 +21,7 @@ function propertySelected(property, monster, selected) {
 	return false;
 }
 
-//should return t/f
+//should return t/f for COLORS
 function hasColor(colorList, monster) {
 	for (let i=0; i <= colorList.length; i++ ) {
 		if (colorList[i] == monster.color){
@@ -30,14 +30,29 @@ function hasColor(colorList, monster) {
 	}
 	return false;
 }
+
+//should return t/f for AGES
+function hasAge(ageList, monster) {
 	
+	if ((monster.age > 0) && (monster.age <=10)){
+		monsterAgeGrouping = "Baby";
+	} else if ((monster.age > 10) && (monster.age <= 50)) {
+		monsterAgeGrouping = "Young";
+	} else if ((monster.age > 50) && (monster.age <= 200)) {
+		monsterAgeGrouping = "Adult";
+	} else if (monster.age > 200) {
+		monsterAgeGrouping = "Senior";
+	}
 
-	//loop thru monsters
 
-
-	//if monster color is included in colorList, return true for that monster
-
-
+	for (let i=0; i <= ageList.length; i++ ) {
+		if (ageList[i] == monsterAgeGrouping){
+			return true;
+		}
+	}
+	return false;
+}
+	
 
 //function to create list of selected colors (or other filters)
 //get data from filter
@@ -53,6 +68,20 @@ function gatherColors(){
 	return colorList;
 }
 
+//function to create list of selected AGEs (or other filters)
+//get data from filter
+function gatherAges(){
+
+	checkedAges = [...form.querySelectorAll(".age-checkbox input:checked")];
+
+	let ageList = [];
+	checkedAges.forEach(function(item){
+		ageList.push(item.value);
+	})
+	console.log("ageList: ",ageList)
+	return ageList;
+}
+
 
 //Event listener to detect changes in selections
 //Arguments- Type of event (as a "string"), anonymous function
@@ -61,15 +90,10 @@ form.addEventListener("change", function(event) {
 
 	//handle filter- pass off to functions
 	var colorList = gatherColors();
+	var ageList = gatherAges();
 
 
 
-
-
-//DELETE
-	// filteredMonsterList = monsterList.filter(function(colorList){
-	// 	colorList.includes(monster.color)
-	// })
 
 	
 
@@ -106,7 +130,7 @@ form.addEventListener("change", function(event) {
 	//anytime input changes filter monster data and run render monsters again
 	const monsterDataFiltered = monstersData.filter(function(monster) {
 
-		return hasColor(colorList, monster) && propertySelected("gender",monster, filterObject);
+		return hasColor(colorList, monster) && propertySelected("gender",monster, filterObject) && hasAge(ageList, monster);
 
 		//return propertySelected("color",monster, filterObject) && propertySelected("gender",monster, filterObject);
 	})

@@ -1,27 +1,28 @@
 console.log("MEET.JS")
 
-//Create variables for data outlets
+//create variables for data outlets
 const monsterList = document.querySelector('[data-outlet="monster-list"]')
 
 const form = document.querySelector('[data-outlet="monster-filter"]')
 
-//Run render functions - Monsters and selector menus
+//run render functions (from site.js) - Monsters and selector menus
 monsterList.innerHTML = renderMonsters(monstersData);
 form.innerHTML = renderSelectors();
 
 
-
+//Match property for dropdowns (eg: gender, etc)
+// (gender, monster, filterObject)
 function propertySelected(property, monster, selected) {
-	// an example property would be gender
-	// e.g.: if monster[gender] == selected[gender]
+	// e.g.: if monster[gender] == selected[gender] (or no properties selected aka no filters activated)
 	if (monster[property] == (selected[property]) || !(selected[property])) {
+		console.log("selected property", selected[property])
 		console.log("monster property", monster[property]);
 		return true;
 	}
 	return false;
 }
 
-//should return t/f for COLORS
+//COLORS- return true if monster matches filter
 function hasColor(colorList, monster) {
 	for (let i=0; i <= colorList.length; i++ ) {
 		if (colorList[i] == monster.color){
@@ -31,7 +32,7 @@ function hasColor(colorList, monster) {
 	return false;
 }
 
-//should return t/f for AGES
+//AGES- group numerical ages and return true if monster matches filter
 function hasAge(ageList, monster) {
 	
 	if ((monster.age > 0) && (monster.age <=10)){
@@ -54,37 +55,37 @@ function hasAge(ageList, monster) {
 }
 	
 
-//function to create list of selected colors (or other filters)
-//get data from filter
+//Compile array of selected COLORS
 function gatherColors(){
-
+	//get data from filters
 	checkedColors = [...form.querySelectorAll(".color-checkbox input:checked")];
 
 	let colorList = [];
 	checkedColors.forEach(function(item){
 		colorList.push(item.value);
 	})
+
 	console.log("colorList: ",colorList)
 	return colorList;
 }
 
-//function to create list of selected AGEs (or other filters)
-//get data from filter
+//Create list of selected AGES
 function gatherAges(){
-
+	//get data from filters
 	checkedAges = [...form.querySelectorAll(".age-checkbox input:checked")];
 
 	let ageList = [];
 	checkedAges.forEach(function(item){
 		ageList.push(item.value);
 	})
+
 	console.log("ageList: ",ageList)
 	return ageList;
 }
 
 
-//Event listener to detect changes in selections
-//Arguments- Type of event (as a "string"), anonymous function
+//EVENT LISTENER to detect changes in selections
+//Arguments: Type of event (as a "string"), anonymous function
 form.addEventListener("change", function(event) {
 	console.clear();
 
@@ -93,21 +94,17 @@ form.addEventListener("change", function(event) {
 	var ageList = gatherAges();
 
 
+//--Retrieve filters and compile into object--
 
-
-	
-
-
-
-//--------OLD----------
-	//Node list (not array) of the form selectors used
+	//Retrieve node list (not array) of the form selectors used
 	var inputNodeList = form.querySelectorAll('[data-input]'); 
 	console.log("input node list: ", inputNodeList);
+
 	//Convert node list to array using spread ...
 	var inputArray = [...inputNodeList] //remember no space after ...
 	console.log("input array: ", inputArray)
 
-//Create list of any filters that arent set to "any"
+	//Create list of any active filters (i.e. not set to "any")
 	var filterList = 
 		inputArray
 			.filter( function(input) {
@@ -121,18 +118,17 @@ form.addEventListener("change", function(event) {
 	filterList.forEach(function(option){ //option is the select element (html dropdown) TODO: REVIST FOREACH ANONYMOUS FUNCTION ARGUMENTS - OPTION, INDEX , ARRAY (foreach loop is different than a for loop)
 		filterObject[option.dataset.input] = option.value;
 	})
-	console.log("filter object", filterObject);
+	console.log("Filter OBJECT", filterObject);
 
-//--------/OLD-----------------
+//-------------------------
 
 
 
 	//anytime input changes filter monster data and run render monsters again
 	const monsterDataFiltered = monstersData.filter(function(monster) {
 
-		return hasColor(colorList, monster) && propertySelected("gender",monster, filterObject) && hasAge(ageList, monster);
+		return hasColor(colorList, monster) && propertySelected("gender",monster, filterObject) && hasAge(ageList, monster) && propertySelected("vaccinated", monster, filterObject);
 
-		//return propertySelected("color",monster, filterObject) && propertySelected("gender",monster, filterObject);
 	})
 
 	monsterList.innerHTML = renderMonsters(monsterDataFiltered);

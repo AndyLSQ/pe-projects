@@ -61,19 +61,9 @@ function renderNoResults() {
 		return template;
 	}
 
-// CREATE OPTION LISTS
-//look at monster data and retrieve all colors to create a color list
-//map uses an "anonymous" function
+// ---- CREATE OPTION LISTS ----
 
-//console.log(monsterColors);
-
-//look at monster data and retrieve all genders to create a gender list
-
-//console.log(monsterGenders);
-
-
-
-//render INDIVIDUAL
+//Retrieve all COLORs from monster data to create color filter checkbox lists
 function renderColorSelector() {
 	let monsterColors = monstersData.map( function(monster) {
 		return monster.color;
@@ -96,7 +86,7 @@ function renderColorSelector() {
 	return select;
 }
 
-//render INDIVIDUAL
+//.. for GENDERs
 function renderGenderSelector() {
 	let monsterGenders = monstersData.map( function(monster) {
 		return monster.gender;
@@ -116,7 +106,31 @@ function renderGenderSelector() {
 	return select;
 }
 
-//render INDIVIDUAL
+//.. for vaccinated (boolean only)
+function renderVaccinatedSelector() {
+	// let monsterVax = [true, false]
+
+	// let select = `<select id="gender-selector" data-input="gender">`
+
+	// monsterVax.forEach( function(status) {
+	// 	select += `<option value='${status}'>${status}</option>`
+	// })
+	// select += `</select>`
+
+	// return select;
+
+	let select = `
+		<select id="vaccinated-selector" data-input="vaccinated">
+			<option value='any'>Any (Vaccinated)</option>
+			<option value=true>Yes</option>
+			<option value=false>No</option>
+		</select>`
+
+	return select;
+}
+
+
+//render AGE
 function renderAgeSelector() {
 	let monsterAgeGroups = ["Baby", "Young", "Adult", "Senior"];
 
@@ -136,28 +150,12 @@ function renderAgeSelector() {
 }
 
 
-function renderAgeSelectorNOPE() {
-	let monsterAgeGroups = ["Baby", "Young", "Adult", "Senior"];
-
-	let select = `<select id="age-group-selector" data-input="age-group">`
-
-	select += `<option value='any'>Any age</option>`
-
-	monsterAgeGroups.forEach( function(ageGroup) {
-		select += `<option value='${ageGroup}'>${ageGroup}</option>`
-	})
-	select += `</select>`
-
-	return select;
-}
-
-
 
 
 //render ALL
 
 function renderSelectors() {
-	return renderColorSelector() + renderGenderSelector() + renderAgeSelector();
+	return renderColorSelector() + renderAgeSelector() + renderGenderSelector() + renderVaccinatedSelector() ;
 }
 
 

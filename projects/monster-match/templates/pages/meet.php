@@ -1,6 +1,6 @@
 <?php 
-	$json = file_get_contents("data/meet.json");
-	$monsterData = json_decode($json, true);
+	// $json = file_get_contents("data/meet.json");
+	// $monsterData = json_decode($json, true);
 
 ?>
 

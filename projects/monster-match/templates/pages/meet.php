@@ -20,7 +20,7 @@
 
 
 <!-- DISPLAY CARDS -->
-<ul class="monsters" data-outlet="monster-list">
+<section class="monsters" data-outlet="monster-list">
 
-</ul>
+</section>
 

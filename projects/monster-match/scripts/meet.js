@@ -14,9 +14,14 @@ form.innerHTML = renderSelectors();
 // (gender, monster, filterObject)
 function propertySelected(property, monster, selected) {
 	// e.g.: if monster[gender] == selected[gender] (or no properties selected aka no filters activated)
-	if (monster[property] == (selected[property]) || !(selected[property])) {
-		console.log("selected property", selected[property])
-		console.log("monster property", monster[property]);
+	// console.log("property arg: ", property);
+	// console.log("monster arg: ", monster);
+	// console.log("selected arg: ", selected);
+	var propertyString = property.toString();
+	console.log("PS!!! ", propertyString)
+	if (monster[propertyString].toString() == (selected[property]) || !(selected[propertyString])) {
+		// console.log("selected property", selected[property])
+		// console.log("monster property", monster[property]);
 		return true;
 	}
 	return false;
@@ -86,25 +91,20 @@ function gatherAges(){
 
 //EVENT LISTENER to detect changes in selections
 //Arguments: Type of event (as a "string"), anonymous function
-form.addEventListener("change", function(event) {
+form.addEventListener("input", function(event) {
 	console.clear();
 
 	// Listener - CHECKBOX - ALL / CLEAR
-	if ( event.target.matches('#all-color') ) {
-		selectAll('color');
+	if ( event.target.matches('#toggle-all-color') ) {
+		toggleAll('color', event);
 	}
 
-	if ( event.target.matches('#clear-color') ) {
-		clearAll('color');
+
+	if ( event.target.matches('#toggle-all-age') ) {
+		toggleAll('age', event);
 	}
 
-	if ( event.target.matches('#all-age') ) {
-		selectAll('age');
-	}
 
-	if ( event.target.matches('#clear-age') ) {
-		clearAll('age');
-	}
 
 
 
@@ -134,14 +134,13 @@ form.addEventListener("change", function(event) {
 
 	//Convert filterList array to filterObject object
 	let filterObject = {};
-	filterList.forEach(function(option){ //option is the select element (html dropdown) TODO: REVIST FOREACH ANONYMOUS FUNCTION ARGUMENTS - OPTION, INDEX , ARRAY (foreach loop is different than a for loop)
+	filterList.forEach(function(option){ //option is the selected element (full html dropdown element for specified filter) 
 		filterObject[option.dataset.input] = option.value;
+		console.log("OPTION VALUE: ", option.value);
 	})
 	console.log("Filter OBJECT", filterObject);
 
 //-------------------------
-
-
 
 	//anytime input changes filter monster data and run render monsters again
 	const monsterDataFiltered = monstersData.filter(function(monster) {

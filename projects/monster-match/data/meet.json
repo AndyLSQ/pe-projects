@@ -35,7 +35,7 @@
 			"talented"
 		],
 		"housebroken": true,
-		"vaccinated": true,
+		"vaccinated": false,
 		"adopted": false,
 		"description":[
 			"A future hacker in the making, Codey spends most of his free time brushing up on his C++ and Bash programming skills. As an avid proponent of social justice, Codey dreams of one day joining the hacktivist collective, Anonymous.",

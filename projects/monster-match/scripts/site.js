@@ -163,6 +163,19 @@ function renderVaccinatedSelector() {
 	return select;
 }
 
+//.. for housebroken (boolean only)
+function renderHousebrokenSelector() {
+
+	let select = `
+		<select id="housebroken-selector" data-input="housebroken">
+			<option value='any'>Any (Housebroken)</option>
+			<option value='true'>Yes</option>
+			<option value='false'>No</option>
+		</select>`
+
+	return select;
+}
+
 
 
 
@@ -172,7 +185,7 @@ function renderVaccinatedSelector() {
 //render ALL
 
 function renderSelectors() {
-	return renderColorSelector() + renderAgeSelector() + renderGenderSelector() + renderVaccinatedSelector() ;
+	return renderColorSelector() + renderAgeSelector() + renderGenderSelector() + renderVaccinatedSelector() + renderHousebrokenSelector() ;
 }
 
 

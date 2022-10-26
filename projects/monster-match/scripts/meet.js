@@ -145,7 +145,7 @@ form.addEventListener("input", function(event) {
 	//anytime input changes filter monster data and run render monsters again
 	const monsterDataFiltered = monstersData.filter(function(monster) {
 
-		return hasColor(colorList, monster) && propertySelected("gender",monster, filterObject) && hasAge(ageList, monster) && propertySelected("vaccinated", monster, filterObject);
+		return hasColor(colorList, monster) && propertySelected("gender",monster, filterObject) && hasAge(ageList, monster) && propertySelected("vaccinated", monster, filterObject) && propertySelected("housebroken", monster, filterObject);
 
 	})
 

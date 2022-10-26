@@ -1,5 +1,3 @@
-console.clear()
-
 //Global- print function
 //(argument is note, default it to blank)
 // Log a separator and note on one line, items (with static label) on the next line
@@ -14,12 +12,12 @@ function print(context, note=""){
 const todoApp = {
 	//Variables scoped to app (as object members)
 	todos: [],
-	todoIdMaker: 0,
+	idIncrementor: 0,
 
 
-	add: function(content) {
+	add(content) {
 		todo = {
-			id: this.todoIdMaker++,
+			id: this.idIncrementor++,
 			content: content
 		}
 	
@@ -30,28 +28,30 @@ const todoApp = {
 	},
 
 
-	remove: function(id) {
+	remove(id) {
 		print(this, `Removed: ${this.todos[id].content}`);
 		delete this.todos[id];
 	},
 
-	complete: function(id, newContent) {
+	complete(id, newContent) {
 		this.todos[id].complete = true;
 		print(this, `Completed: ${this.todos[id].content}`);
 	},
 
-	update: function(id, newContent) {
+	update(id, newContent) {
 		this.todos[id].content = newContent;
 		print(this, `Updated: ${this.todos[id].content}`);
 	}
 
-}
+};
+
+
 
 	
 
 todoApp.add("Brush your teeth!");
 todoApp.add("Go for a run");
 todoApp.add("Play tennis");
-todoApp.complete(0); 
-todoApp.remove(1); //THIS USES INDEX NUMBERS BECAUSE ITS USING SPLICE TO DELETE THINGS
+todoApp.complete(0);
+todoApp.remove(1);
 todoApp.update(2, "Play pickleball");

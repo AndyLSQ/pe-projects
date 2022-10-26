@@ -1,4 +1,7 @@
 
+// --------USING CONSTRUCTOR FUNCTIONS---------
+
+
 //ASSIGNMENT: Create constructor functions for the todo app (as a whole)
 // Pick one function (COMPLETE) and add it later using the prototype
 
@@ -25,6 +28,7 @@ function Todo(content) {
 }
 
 //could have filtered list of completed items only
+//could have an archive page
 
 function TodoApp(name) { //make the constructor function name uppercase
 	this.name = name;

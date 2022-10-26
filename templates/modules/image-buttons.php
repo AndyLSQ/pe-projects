@@ -12,13 +12,18 @@ foreach ($contactData['sections'] as $section) {
 		<image-buttons>
 			<?php
 		foreach ($section['content'] as $buttonData) { 
-			$href=$buttonData['url']
+			$href=$buttonData['url'];
+
+			$label = $buttonData['text'];
+
 			?>
-			<a href="<?=$href?>">
+
+
+			<a href="<?=$href?>" target="<?=$label?>">
 				<?php
 					$imagePath = $buttonData['image']; 
 					include($imagePath);
-					$label = $buttonData['text'];
+					// $label = $buttonData['text'];
 				?>
 			
 			</a>

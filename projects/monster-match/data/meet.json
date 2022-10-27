@@ -1,155 +1,402 @@
 [
-	{
-		"id": "001",
-		"image": "images/headshots/limabean.jpg",
-		"name": "Limabean",
-		"age": 3,
-		"gender": "female",
-		"food": "candy corn",
-		"color": "green",
-		"characteristics": [
-			"athletic",
-			"affectionate",
-			"curious"
-		],
-		"housebroken": false,
-		"vaccinated": true,
-		"adopted": false,
-		"description":[
-			"Limabean has a very unique set of skills you won't see anywhere else!  While other monsters may smell like farts and old cheese, foster mom says that darling Limabean always seems to smell like fresh baked french bread.  Limabean also has the uniqe skill of being able to observe her surroundings with one googly eye while keeping her other eye on a tasty snack.  So very talented!",
-			"Limabean is a super snuggly girl, and we truly hope her forever family allows her on the furniture, because it's hard not to give her everything she wants when she gives you \"the look.\"  She'll always have the sweetest most heart melting puppy dog eyes!  She's currently living with another monster who is very calm, and  while it took a minute for her to settle in and feel safe, she and her foster brother now nap together and play tug with their favorite toys.",
-			"In fact, Limabean LOVES to play and go on walks around the block.  She is currently living in an apartment building and does well when out and about, but is diligently working on her leash manners.  Limabean likes to paw at her new friends and snuggle in real close, so we think she'd be best with older kids."
-		]
-	},
-	{
-		"id": "002",
-		"image": "images/headshots/codey.jpg",
-		"name": "Codey",
-		"age": 2,
-		"gender": "male",
-		"food": "apple silicon",
-		"color": "red",
-		"characteristics": [
-			"smart",
-			"mysterious",
-			"talented"
-		],
-		"housebroken": false,
-		"vaccinated": false,
-		"adopted": false,
-		"description":[
-			"A future hacker in the making, Codey spends most of his free time brushing up on his C++ and Bash programming skills. As an avid proponent of social justice, Codey dreams of one day joining the hacktivist collective, Anonymous.",
-			"Codey has a voracious appetite and loves to snack on computers and peripherals, so make sure to lock up any valuable gadgets before welcoming him into your home",
-			"Codey is known to spend many long hours in his room with the doors shut and the curtains drawn. Whatever you do, don't enter without knocking!"
-	]
-
-	},
-	{
-		"id": "003",
-		"image": "images/headshots/shadow.jpg",
-		"name": "Shadow",
-		"age": 254,
-		"gender": "male",
-		"food": "cake",
-		"color": "red",
-		"characteristics": [
-			"gentle",
-			"quiet",
-			"couch potato"
-		],
-		"housebroken": true,
-		"vaccinated": true,
-		"adopted": false,
-		"description": [
-			"Shadow is a gentle giant. You can find him most of the time just snoozing the day away, tongue out and feet up, in his favorite bed. He loves to lounge, but is also a great walking buddy! He loves going out for a urinal cake from Starbucks, or hiking around the lake and getting his paws wet. Most of the time, he's down to just chill. ",
-			"But, if the mood strikes him right, he loves a good game of fetch! He may be a (young) senior, but he's still playful and full of fun! Where are you going to find a better companion with a cuter face? Adopt Shadow today!"
-		]
-
-	},
-	{
-		"id": "004",
-		"image": "images/headshots/fragoo.jpg",
-		"name": "Fragoo",
-		"age": 8,
-		"gender": "male",
-		"food": "poison ivy",
-		"color": "pink",
-		"characteristics": [
-			"friendly",
-			"affectionate",
-			"playful"
-		],
-		"housebroken": true,
-		"vaccinated": true,
-		"adopted": false,
-		"description":[
-			"Fragoo is everything we love about monsters.  From the second we saw his razor sharp teeth and massive claws, we were smitten.  He is stubborn in all the best ways, LOVES to be outside, and especially enjoys riding in his wagon or car.  In fact, if you can't get Fragoo to sleep, a good car ride is guaranteed to have him snoring.  And if you are not accommodating Fragoo, he will most definitely let you know!  This guy also needs his pampering time.  Give him baths every day of the week and blow dry him, brush him, whatever.  The more you serve Fragoo, the happier he is.  Fragoo has no boundaries and doesn't understand personal space.",
-			"If your current monster doesn't want a flat nose snorting up and down his whole body, Fragoo is not the companion for him.  And if your monster gets nervous by a pushy monster shoving them out of the way to get to the snacks or marching up to them to say hi face to face, probably won't be a good buddy for this dude.  Luckily, that personal space thing applies to humans too.  Fragoo is a big cuddler.  He would love to sleep in bed next to you and snuggle all night but good luck getting him up in the morning.",
-			"The only creature who seems to have its personal space bubble respected by Fragoo is cats.  He's fine coexisting with them in the house and doesn't give a hoot about them.  He's currently living with multiple cats in his foster home and rarely interacts or even seems to notice they're around.",
-			"Fragoo's 'low and slow' body type would not do well in a home where he has to traverse a lot of stairs.  We'd also recommend a home with its own yard, not because he can't walk, but because Fragoo will stop at every single door he sees and drop anchor.  After all, there might be someone in that door who will give him a treat or extra attention."
-		]
-	},
-		{
-		"id": "005",
-		"image": "images/headshots/miss-reads-a-lot.jpg",
-		"name": "Miss Reads-a-Lot",
-		"age": 750,
-		"gender": "female",
-		"food": "small children",
-		"color": "blue",
-		"characteristics": [
-			"playful",
-			"independent",
-			"well educated"
-		],
-		"housebroken": true,
-		"vaccinated": false,
-		"adopted": false,
-		"description":[
-			"Miss Reads-a-Lot is your typical monster - sweet with random spurts of energy, with a little grumpiness. Miss Reads-a-Lot loves everyone she meets and quickly warms up to you. She loves to spend her days napping or sunbathing, but don't let that fool you - when this girl is ready to play, she'll let you know! She enjoys going on walks, chasing after the leaves and sometimes even frogs (so watch out lol). She enjoys toys especially ones that crinkle - like a water bottle! Cats are a no go for this girl, small children, and she doesn't like some monsters (for any family with other monsters in the home who are interested in her, please don't let that stop you from applying! A meet and greet is the perfect opportunity for your monsters and her to meet - you never know, she might love your monsters!)",
-			"Please note: Due to her voracious appetite, Miss Reads-a-Lot is not recommend for households with small children."
-		]
-	},
-		{
-		"id": "006",
-		"image": "images/headshots/orangina.jpg",
-		"name": "Orangina",
-		"age": 89,
-		"gender": "female",
-		"food": "razor blades",
-		"color": "orange",
-		"characteristics": [
-			"gentle",
-			"curious",
-			"quiet"
-		],
-		"housebroken": true,
-		"vaccinated": true,
-		"adopted": false,
-		"description":[
-			"This sweet, shy love bug is looking for a sweet and loving home. She is very soft natured, gentle, and just a bit timid at first. She loves to be pet and will lean right in for love. We suspect she’d do well in just about any home.",
-			"All monsters are altered, heartworm tested, vaccinated, and microchipped prior to adoption."
-		]
-	},
-		{
-		"id": "007",
-		"image": "images/headshots/mr-banana.jpg",
-		"name": "Mr. Banana",
-		"age": 36,
-		"gender": "male",
-		"food": "apples",
-		"color": "yellow",
-		"characteristics": [
-			"friendly",
-			"funny",
-			"loves kisses"
-		],
-		"housebroken": true,
-		"vaccinated": true,
-		"adopted": false,
-		"description":[
-			"Mr. Banana may be small in stature but he is big in personality. This goofball is as friendly as can be and pretty much always ready to play.",
-			"He loves attention from the people around him. If you are looking for a monster that is also part clown (the scary kind), Mr. Banana is ready to entertain you for the rest of his days."
-		]
-	}
+    {
+        "id": "001",
+        "image": "images/headshots/limabean.jpg",
+        "name": "Limabean",
+        "age": 3,
+        "gender": "female",
+        "food": "candy corn",
+        "color": "green",
+        "characteristics": [
+            "athletic",
+            "affectionate",
+            "curious"
+        ],
+        "housebroken": false,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Limabean has a very unique set of skills you won't see anywhere else!  While other monsters may smell like farts and old cheese, foster mom says that darling Limabean always seems to smell like fresh baked french bread.  Limabean also has the uniqe skill of being able to observe her surroundings with one googly eye while keeping her other eye on a tasty snack.  So very talented!",
+            "Limabean is a super snuggly girl, and we truly hope her forever family allows her on the furniture, because it's hard not to give her everything she wants when she gives you \"the look.\"  She'll always have the sweetest most heart melting puppy dog eyes!  She's currently living with another monster who is very calm, and  while it took a minute for her to settle in and feel safe, she and her foster brother now nap together and play tug with their favorite toys.",
+            "In fact, Limabean LOVES to play and go on walks around the block.  She is currently living in an apartment building and does well when out and about, but is diligently working on her leash manners.  Limabean likes to paw at her new friends and snuggle in real close, so we think she'd be best with older kids."
+        ]
+    },
+    {
+        "id": "002",
+        "image": "images/headshots/codey.jpg",
+        "name": "Codey",
+        "age": 2,
+        "gender": "male",
+        "food": "apple silicon",
+        "color": "red",
+        "characteristics": [
+            "smart",
+            "mysterious",
+            "talented"
+        ],
+        "housebroken": false,
+        "vaccinated": false,
+        "adopted": false,
+        "description": [
+            "A future hacker in the making, Codey spends most of his free time brushing up on his C++ and Bash programming skills. As an avid proponent of social justice, Codey dreams of one day joining the hacktivist collective, Anonymous.",
+            "Codey has a voracious appetite and loves to snack on computers and peripherals, so make sure to lock up any valuable gadgets before welcoming him into your home",
+            "Codey is known to spend many long hours in his room with the doors shut and the curtains drawn. Whatever you do, don't enter without knocking!"
+        ]
+    },
+    {
+        "id": "003",
+        "image": "images/headshots/shadow.jpg",
+        "name": "Shadow",
+        "age": 254,
+        "gender": "female",
+        "food": "cake",
+        "color": "red",
+        "characteristics": [
+            "gentle",
+            "quiet",
+            "couch potato"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Shadow is a gentle giant. You can find her most of the time just snoozing the day away, tongue out and feet up, in her favorite bed. She loves to lounge, but is also a great walking buddy! She loves going out for a urinal cake from Starbucks, or hiking around the lake and getting her paws wet. Most of the time, she's down to just chill. ",
+            "But, if the mood strikes her right, she loves a good game of fetch! She may be a (young) senior, but she's still playful and full of fun! Where are you going to find a better companion with a cuter face? Adopt Shadow today!"
+        ]
+    },
+    {
+        "id": "004",
+        "image": "images/headshots/fragoo.jpg",
+        "name": "Fragoo",
+        "age": 8,
+        "gender": "male",
+        "food": "poison ivy",
+        "color": "pink",
+        "characteristics": [
+            "friendly",
+            "affectionate",
+            "playful"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Fragoo is everything we love about monsters.  From the second we saw his razor sharp teeth and massive claws, we were smitten.  He is stubborn in all the best ways, LOVES to be outside, and especially enjoys riding in his wagon or car.  In fact, if you can't get Fragoo to sleep, a good car ride is guaranteed to have him snoring.  And if you are not accommodating Fragoo, he will most definitely let you know!  This guy also needs his pampering time.  Give him baths every day of the week and blow dry him, brush him, whatever.  The more you serve Fragoo, the happier he is.  Fragoo has no boundaries and doesn't understand personal space.",
+            "If your current monster doesn't want a flat nose snorting up and down his whole body, Fragoo is not the companion for him.  And if your monster gets nervous by a pushy monster shoving them out of the way to get to the snacks or marching up to them to say hi face to face, probably won't be a good buddy for this dude.  Luckily, that personal space thing applies to humans too.  Fragoo is a big cuddler.  He would love to sleep in bed next to you and snuggle all night but good luck getting him up in the morning.",
+            "The only creature who seems to have its personal space bubble respected by Fragoo is cats.  He's fine coexisting with them in the house and doesn't give a hoot about them.  He's currently living with multiple cats in his foster home and rarely interacts or even seems to notice they're around.",
+            "Fragoo's 'low and slow' body type would not do well in a home where he has to traverse a lot of stairs.  We'd also recommend a home with its own yard, not because he can't walk, but because Fragoo will stop at every single door he sees and drop anchor.  After all, there might be someone in that door who will give him a treat or extra attention."
+        ]
+    },
+    {
+        "id": "005",
+        "image": "images/headshots/miss-reads-a-lot.jpg",
+        "name": "Miss Reads-a-Lot",
+        "age": 750,
+        "gender": "female",
+        "food": "small children",
+        "color": "blue",
+        "characteristics": [
+            "playful",
+            "independent",
+            "well educated"
+        ],
+        "housebroken": true,
+        "vaccinated": false,
+        "adopted": false,
+        "description": [
+            "Miss Reads-a-Lot is your typical monster - sweet with random spurts of energy, with a little grumpiness. Miss Reads-a-Lot loves everyone she meets and quickly warms up to you. She loves to spend her days napping or sunbathing, but don't let that fool you - when this girl is ready to play, she'll let you know! She enjoys going on walks, chasing after the leaves and sometimes even frogs (so watch out lol). She enjoys toys especially ones that crinkle - like a water bottle! Cats are a no go for this girl, small children, and she doesn't like some monsters (for any family with other monsters in the home who are interested in her, please don't let that stop you from applying! A meet and greet is the perfect opportunity for your monsters and her to meet - you never know, she might love your monsters!)",
+            "Please note: Due to her voracious appetite, Miss Reads-a-Lot is not recommend for households with small children."
+        ]
+    },
+    {
+        "id": "006",
+        "image": "images/headshots/orangina.jpg",
+        "name": "Orangina",
+        "age": 89,
+        "gender": "female",
+        "food": "razor blades",
+        "color": "orange",
+        "characteristics": [
+            "gentle",
+            "curious",
+            "quiet"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "This sweet, shy love bug is looking for a sweet and loving home. She is very soft natured, gentle, and just a bit timid at first. She loves to be pet and will lean right in for love. We suspect she’d do well in just about any home.",
+            "All monsters are altered, heartworm tested, vaccinated, and microchipped prior to adoption."
+        ]
+    },
+    {
+        "id": "007",
+        "image": "images/headshots/mr-banana.jpg",
+        "name": "Mr. Banana",
+        "age": 36,
+        "gender": "male",
+        "food": "apples",
+        "color": "yellow",
+        "characteristics": [
+            "friendly",
+            "funny",
+            "loves kisses"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Mr. Banana may be small in stature but he is big in personality. This goofball is as friendly as can be and pretty much always ready to play.",
+            "He loves attention from the people around him. If you are looking for a monster that is also part clown (the scary kind), Mr. Banana is ready to entertain you for the rest of his days."
+        ]
+    },
+    {
+        "id": "008",
+        "image": "images/headshots/count.jpg",
+        "name": "Count",
+        "age": 123,
+        "gender": "male",
+        "food": "fresh blood",
+        "color": "purple",
+        "characteristics": [
+            "smart",
+            "curious",
+            "funny"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Count is a fun and silly boy. He is smart and loves to sit and shake for treats. He is a very sweet monster and enjoys receiving affection and attention. ",
+            "He is the funniest drinker I have ever seen. He puts his entire nose under water up to his eyes while he drinks. Very comical.",
+            "He loves his belly rubs and chasing balls. He does well with other monsters. He is medium energy and would make a great monster to take on walks and hikes."
+        ]
+    },
+    {
+        "id": "009",
+        "image": "images/headshots/frank.jpg",
+        "name": "Frank",
+        "age": 4,
+        "gender": "male",
+        "food": "acorns",
+        "color": "green",
+        "characteristics": [
+            "social",
+            "loving",
+            "loyal"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Frank is looking for his forever home! This handsome fella is a 4 year old mix… possibly various different corpses found at the graveyard, who knows! Whatever he is, he is adorable and one of the sweetest monsters we’ve met. Frank has spent the last few weeks settling in at his foster home and is now ready to find his forever family.",
+            "Frank LOVES other monsters and wants to say hi to everyone he sees. While he does roar at some monsters on walks it is because he wants to go see everyone and make friends. He settles down quickly if you just keep walking, talk to him and offer treats. He is very in tune with his people, so if you have a calm energy, he will be more calm. Frank goes to daycare, the monster park, and enjoys many long walks each day. He would be an awesome addition to any family looking for a big cuddle bug and activity buddy. Frank is great about hanging out around the house while his foster mom works from home and he looks forward to walking time throughout the day.",
+            "Frank has a very cuddly, social personality and enjoys being with his people. He will cuddle on the couch with you for hours and loves to give hugs and kisses. He would be amazing in a home with kids with proper supervision and management. Frank has energy and needs his daily walks and likes to hike, but he is also content to lay around with you on a low-key day after a walk.",
+            "Frank is so grateful for everything and just wants people to love him forever, like he deserves. He is a fantastic boy and is going to make a perfect addition to the right family."
+        ]
+    },
+    {
+        "id": "010",
+        "image": "images/headshots/zilla.jpg",
+        "name": "Zilla",
+        "age": 20500000,
+        "gender": "female",
+        "food": "radiation",
+        "color": "gray",
+        "characteristics": [
+            "funny",
+            "playful",
+            "firey"
+        ],
+        "housebroken": false,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Zilla has the most amazing energy. She is quiet and inquisitive, but youthful and exuberant when destroying cities! Zilla is about 164,000 tons, sweet and beautiful. She loves to be around other monsters, especially confident ones who can make her feel safe and secure. She needs a home with a person who will support her and help her bloom into the flower we know she can be.",
+            "Zilla is great with other monsters. She is gentle, curious and calm."
+        ]
+    },
+    {
+        "id": "011",
+        "image": "images/headshots/celia.jpg",
+        "name": "Celia Mae",
+        "age": 28,
+        "gender": "female",
+        "food": "sweet treats",
+        "color": "green",
+        "characteristics": [
+            "Friendly",
+            "Affectionate",
+            "Playful"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Meet fun and fancy Celia Mae (aka CeCe). CeCe is a social-butterfly! She turns heads wherever she goes. She can be gentle with baby monsters or rough-house with the older monsters. ",
+            "Cece didn't have the best start in life but now, the sky is the limit! She absolutley loves her toys and basking in the sun. ",
+            "She is as clever as they come and would really blossom with training. She loves to cuddle in the bed and will sleep as long as you can!"
+        ]
+    },
+    {
+        "id": "012",
+        "image": "images/headshots/stitch.jpg",
+        "name": "Stitch",
+        "age": 1,
+        "gender": "male",
+        "food": "garbage",
+        "color": "blue",
+        "characteristics": [
+            "loyal",
+            "playful",
+            "smart"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Stitch is a beautiful 1-year-old alien creature. He was found abandoned in Bakersfield where he was rescued from the fields. This boy is a ton of fun and has lots of energy.",
+            "He is obsessed with water and loves the hose. Sergio is a very sweet boy and does fine with other monsters. Not sure about cats."
+        ]
+    },
+    {
+        "id": "013",
+        "image": "images/headshots/penny.jpg",
+        "name": "Penny",
+        "age": 2000000,
+        "gender": "male",
+        "food": "red balloons",
+        "color": "white",
+        "characteristics": [
+            "Loyal",
+            "Brave",
+            "Affectionate"
+        ],
+        "housebroken": true,
+        "vaccinated": false,
+        "adopted": false,
+        "description": [
+            "Penny is a 2 million year old clown that weighs about 200 lbs. He’s such a sweetheart and gives tiny little kisses!",
+            "Penny is blind and diabetic but still has such an explorer's personality, he’ll walk around the whole house teaching himself the layout.",
+            "When he wakes up he’s trained to let out a few shrieks so you know he’s ready to go potty. He does the same thing to let you know when he’s hungry or thirsty and once he’s gotten what he’s asking for he goes right back to bed",
+            "He absolutely loves being held and being with another human or even another monster, if you let him sleep with you he buries himself right into you.",
+            "Penny would do amazing in any home where he receives daily attention and has at least one person who’s attentive to his needs. Because of his conditions he needs a little more direct care than some other monsters but it’s an extremely rewarding feeling to bond with a monster who absolutely loves and needs you.",
+            "He receives insulin twice daily within 30 minutes of breakfast and dinner and also gets eye drops as necessary."
+        ]
+    },
+    {
+        "id": "014",
+        "image": "images/headshots/invisible-man.jpg",
+        "name": "Invisible Man",
+        "age": 59,
+        "gender": "male",
+        "food": "yams",
+        "color": "none",
+        "characteristics": [
+            "elusive",
+            "sneaky",
+            "well dressed"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Invisible Man is an energetic monster in need of an adult-only home (no young kids) with a person who has some monster experience and who can give him the proper exercise he needs. This boy can do a three-mile walk/run easily and is a very playful guy, but he can become a bit mouthy when playing.",
+            "Once Invisible Man bonds with his person (or people), he is very eager to please and VERY smart, so he needs someone who can always be one step ahead of him. Invisible Man is house trained and will jump on you or pace to let you know if he needs to go to the bathroom. He is also crate trained and will go to bed on command and is very treat motivated. When you're feeling down after a rough day, Invisible Man is eager to gently nuzzle your hand and comfort you.",
+            "Invisible Man prefers people to other monsters, so if you have another monster in your home, it may take a little time for him to adjust. Invisible Man takes naps during the day and enjoys playing with squeaky and crinkly toys. He is a total love bug and likes to curl up in a little ball to nap near you when you're home."
+        ]
+    },
+    {
+        "id": "015",
+        "image": "images/headshots/kong.jpg",
+        "name": "Kong",
+        "age": 118,
+        "gender": "male",
+        "food": "squid",
+        "color": "black",
+        "characteristics": [
+            "angry",
+            "energetic",
+            "good climber"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Kong is a beautiful, 118 year old monster mix.",
+            "He loves the people and the other monsters in his foster family. He has a favorite toy that He likes to throw around. He runs zoomies in the house and the back yard.",
+            "He's a bit overweight, and whoever adopts his will need to continue his diet/exercise program. Free feeding would not be a good thing for Kong. He loves going on long walks and would be a great hiking buddy. He enjoys being with his people and cuddling. He is thriving on a schedule, which is helping his with housetraining. In his foster home He has the opportunity to be taken outdoors frequently and now rarely has an accident in the house.",
+            "Kong would do best in a home whise his people are home most of the time. He also likes the company of another monster. He's very sweet and gentle but has not been tested with cats or small children."
+        ]
+    },
+    {
+        "id": "016",
+        "image": "images/headshots/wolfie.jpg",
+        "name": "Wolfie",
+        "age": 230,
+        "gender": "female",
+        "food": "Purina ProPlan Sensitive Stomach Salmon Blend",
+        "color": "gray",
+        "characteristics": [
+            "tempermental",
+            "loud",
+            "night owl"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Wolfie is a 230 year old, wolf/human mix. She is a beautiful 300lb package of joy, playfulness and innocence.",
+            "Her smile will melt anyone's heart. She loves other wolves and loves humans as well; adults and children. She is soft taking treats and loves a good tummy rub.",
+            "Wolfie can run fast, with her long legs and has a good amount of energy for those who want a monster who can be active with them. But, equally she’s a big snoozer.",
+            "She is cat curious, but respectful.",
+            "Wolfie was primarily a yard monster, so she loves being outside. She was also not leash trained. She will need someone who is strong and patient to work through leash walks. As well as give her boundaries inside the home.",
+            "Wolfie would do best in a house with a yard and another monster. She's a big gentle soul who is eager to please and deserves a best life."
+        ]
+    },
+    {
+        "id": "017",
+        "image": "images/headshots/krumm.jpg",
+        "name": "Krumm",
+        "age": 42,
+        "gender": "male",
+        "food": "Rotten goat cheese",
+        "color": "pink",
+        "characteristics": [
+            "hairy",
+            "stinky",
+            "silly"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Krumm is a loving, handsome and gentle hippo. Krumm loves his morning walks, pooping on top of plants outside, treats and belly rubs. Krumm came from the shelter system and was returned again to the shelter for having landlord issues. Krumm now has a foster brother(alien) and sister(demon) who helped him feel welcomed at his temporary home. Krumm likes being a part of the pack but does great as a solo monster as well. Krumm has been on a diet and exercising as he has a little weight to lose to get him to a healthy place.",
+            "Krumm would benefit from basic training as well as teaching him proper socialization skills. He needs very slow introductions for little monsters.",
+            "Krumm’s love is the love we are all missing from our lives. Get this rare gem while you can!!"
+        ]
+    },
+    {
+        "id": "018",
+        "image": "images/headshots/catbus.jpg",
+        "name": "Catbus",
+        "age": 95,
+        "gender": "female",
+        "food": "catnip",
+        "color": "brown",
+        "characteristics": [
+            "athletic",
+            "speedy",
+            "spacious"
+        ],
+        "housebroken": true,
+        "vaccinated": true,
+        "adopted": false,
+        "description": [
+            "Catbus is the sweetest and friendliest animal/automobile mix. She absolutely loves people, always has a big smile on her face and is very affectionate. She is one of those monsters that just loves to be at her person's side.",
+            "Catbus is housebroken, crate-trained and not destructive. Even though she does well with large size monsters, she needs a home with no other monsters.",
+            "Catbus is excellent on leash, walking right by her person and behaves very mannerly around the public. She is a trained monster - she knows “Heel”, “Sit”, “Stay”, “Come” and “Down”. She has done an agility course and loves it.",
+            "Catbus is very agile and can jump low fences, so a fence of min. 6-ft in height is required."
+        ]
+    }
 ]

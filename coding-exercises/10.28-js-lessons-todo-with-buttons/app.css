@@ -1,0 +1,4 @@
+html {
+	--paper: rgba(0, 0, 0, .3);
+	background-color: var(--paper);
+}

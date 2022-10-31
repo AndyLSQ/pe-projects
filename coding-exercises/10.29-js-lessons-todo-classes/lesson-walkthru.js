@@ -87,19 +87,19 @@ addEventListeners() {
 }
 
 // console. log (todos); // NOT global
-var todo = new TodoApp("Tonight");
-todo.add ("Go to store"); // 0
-todo.add("Cook the food"); // 1
-todo.add("Eat the food"); // 2
-todo.add("Clean the dishes"); // 3 
-todo.remove (0);
-todo.remove (0); // show 3 
-todo.remove (1);
+var todoApp = new todoApp("Tonight");
+todoApp.add ("Go to store"); // 0
+todoApp.add("Cook the food"); // 1
+todoApp.add("Eat the food"); // 2
+todoApp.add("Clean the dishes"); // 3 
+todoApp.remove (0);
+todoApp.remove (0); // show 3 
+todoApp.remove (1);
 
-todo.complete (0);
+todoApp.complete (0);
 
-todo.add ("Go back to the store and get some wine..."); //? 
-todo. add("Drink some wine"); // ?
+todoApp.add ("Go back to the store and get some wine..."); //? 
+todoApp. add("Drink some wine"); // ?
 
 var otherTodo = new TodoApp("Fun list");
 otherTodo.add("Go to the beach");

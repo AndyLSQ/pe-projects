@@ -20,6 +20,14 @@
 	font-family: 'montserrat', sans-serif;
 }
 
+inner-column {
+	display: block;
+	width: 95%;
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 input:not([type="radio"]):not([type="checkbox"]), button {
 	appearance:  none;
 	border: none;

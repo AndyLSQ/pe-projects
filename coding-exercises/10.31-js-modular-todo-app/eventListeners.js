@@ -29,7 +29,7 @@ function addEventListeners(){
 			if (event.target.textContent == 'Complete') {
 				const id = event.target.closest('li').dataset.id;
 				var foundTodo = todoList.todos.find( function(todo) {
-					return todo.id == id;
+					return todo.data.id == id;
 				})
 				foundTodo.toggleComplete();
 				todoList.renderList(todoList.todos);

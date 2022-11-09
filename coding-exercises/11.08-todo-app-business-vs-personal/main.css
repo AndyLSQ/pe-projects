@@ -206,33 +206,22 @@ input:checked ~ .bubble::after {
 	color: var(--dark);
 	font-size: 1.125rem;
 	width: 95%;
-	border: 2px solid red;
-}
-
-@media (max-width: 500px) {
-	.todo-list .todo-item {
-		border: 2px solid green;
-	
-	}
-
-	.todo-item.label {
-		
-	}
-
-	.todo-item .todo-content input {
-		
-	}
-
-	.todo-item .actions {
-		flex-direction: column;
-		gap: 10px;
-	}
 }
 
 .todo-item .actions {
 	display: flex;
 	align-items: center;
 	gap: 10px;
+}
+
+@media (max-width: 500px) {
+	
+	.todo-item .actions {
+		flex-direction: column;
+		gap: 10px;
+		align-items: stretch;
+	}
+
 }
 
 .todo-item .actions button {

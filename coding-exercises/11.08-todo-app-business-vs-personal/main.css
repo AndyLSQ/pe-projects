@@ -183,6 +183,7 @@ input:checked ~ .bubble::after {
 .todo-list .todo-item {
 	display: flex;
 	align-items: center;
+	justify-content: flex-start;
 	background-color: white;
 	padding: 1rem;
 	border-radius: .5rem;
@@ -198,16 +199,40 @@ input:checked ~ .bubble::after {
 
 .todo-item .todo-content {
 	flex: 1 1 0%; /*TODO: Look this up (same as line 63)*/
+	flex-grow: grow;
 }
 
 .todo-item .todo-content input {
 	color: var(--dark);
 	font-size: 1.125rem;
+	width: 95%;
+	border: 2px solid red;
+}
+
+@media (max-width: 500px) {
+	.todo-list .todo-item {
+		border: 2px solid green;
+	
+	}
+
+	.todo-item.label {
+		
+	}
+
+	.todo-item .todo-content input {
+		
+	}
+
+	.todo-item .actions {
+		flex-direction: column;
+		gap: 10px;
+	}
 }
 
 .todo-item .actions {
 	display: flex;
 	align-items: center;
+	gap: 10px;
 }
 
 .todo-item .actions button {
@@ -224,12 +249,12 @@ input:checked ~ .bubble::after {
 }
 
 .todo-item .actions .edit {
-	margin-right: 0.5rem;
+	/*margin-right: 0.5rem;*/
 	background-color: var(--primary);
 }
 
 .todo-item .actions .delete {
-	margin-right: 0.5rem;
+	/*margin-right: 0.5rem;*/
 	background-color: var(--danger);
 }
 

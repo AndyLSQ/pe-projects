@@ -64,13 +64,26 @@ export default class KanbanAPI {
 			//get a reference to the destination column
 			const targetColumn = data.find(column => column.id == newProps.columnId);
 
-			console.log(targetColumn);
+			// console.log(targetColumn); // this just gets the column, nothing has moved yet 
+
+			if (!targetColumn) {
+				throw new Error("Target column not found.");
+			}
+
+			//(3b-1) Delete item from its current column
+			// - indexOf() finds what index the item is currently in
+			// - this gets passed into the splicer 
+			// - splice arguments are (position, # of items to remove, item to insert)
+			// - this removes 1 item at the index of the current item
+			currentColumn.items.splice(currentColumn.items.indexOf(item), 1) 
+
+
+			//(3b-2) Move item into its new column & position
+			// splice at new position, 0 = dont delete anything, add item
+			targetColumn.items.splice(newProps.position, 0, item);
 		}
 
-
-
-		console.log(item, currentColumn);
-
+		save(data);
 	}
 }
 

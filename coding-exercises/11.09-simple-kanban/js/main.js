@@ -4,5 +4,6 @@ import KanbanAPI from "./api/KanbanAPI.js";
 
 KanbanAPI.updateItem(45033, {
 	columnId: 1,
-	position: 0
+	position: 0,
+	content: "I've changed."
 });

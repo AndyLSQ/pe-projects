@@ -114,6 +114,7 @@ class taskListClass {
 		this.$output.addEventListener('click', (event) => {
 			if (event.target.textContent == 'Remove') {
 				const id = event.target.closest('li').dataset.id; //use .closest() to find nearest element in the dom tree and dataset.id to access data properties (data-id is just made up, it could be data-anything)
+				console.log("ID IS:::", id)
 				this.remove(id);
 			}
 

@@ -3,12 +3,15 @@
 // - Export the whole task class for use in list.js 
 
 
+import { taskListClass } from './list.js';
+
+
 class taskClass {
 
 	//class constructor
-	constructor(record, id) {
+	constructor(record) {
 		this.data = {
-			id: record.id || new Date(),
+			id: record.id, //|| new Date() //<<< ERROR HERE!!
 			content: record.content,
 			dateCreated: record.dateCreated || new Date(),
 			complete: false
@@ -19,9 +22,10 @@ class taskClass {
 	//[] Add modify
 
 	toggleComplete() {
-		console.log("TOGGLE")
-		console.log(this.data)
-		this.data.complete = !this.data.complete
+		
+		this.data.complete = !this.data.complete;
+
+		taskListClass.setData()
 	}
 
 	renderTask() {

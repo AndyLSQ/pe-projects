@@ -63,7 +63,7 @@ class taskListClass {
 	
 	add(content) {
 		console.log("input value: ", this.$input.value);
-		this.tasks = [...this.tasks, new taskClass({content: content}, `a-${this.lastId++}`)];
+		this.tasks = [...this.tasks, new taskClass({content: content, id: `a-${this.lastId++}-${new Date()}`})];
 		this.setData();
 		console.log("list after adding task: ", this.tasks);
 		this.renderList();
@@ -74,6 +74,8 @@ class taskListClass {
 		let filtered = this.tasks.filter(function(task){
 			return task.data.id != id;
 		});
+
+		console.log("FILTERED: ",filtered);
 
 		this.tasks = [...filtered];
 		this.setData();
@@ -119,7 +121,7 @@ class taskListClass {
 			if (event.target.textContent == 'Complete') {
 				const id = event.target.closest('li').dataset.id;
 				var foundTask = this.tasks.find( function(task) {
-					console.log("task.data.id: ", task.data.id);
+					// console.log("task.data.id: ", task.data.id);
 					console.log("id: ", id);
 
 					return task.data.id = id;
@@ -128,6 +130,9 @@ class taskListClass {
 				console.log("FOUND TASK::: ", foundTask);
 
 				foundTask.toggleComplete();
+				
+				console.log("back on list.js: ",this.tasks)
+				this.setData();
 				this.renderList();
 			}
 

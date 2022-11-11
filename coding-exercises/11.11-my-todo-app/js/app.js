@@ -2,4 +2,8 @@ console.log("app.js connected")
 
 import TaskList from './list.js';
 
-new TaskList("TEST LIST");
+var newTaskList = new TaskList("TEST LIST");
+
+export default {
+	newTaskList
+}

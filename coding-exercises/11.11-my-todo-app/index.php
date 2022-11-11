@@ -10,24 +10,9 @@
 	<main>
 		<inner-column>
 			<h1>My Task App</h1>
-			<form>
-				<field>
-					<label for="">Add a task</label>
-					<input type="text" autofocus="autofocus">
-				<field>
 
-				<button>Add task</button>
-			<!-- 	<input-field class="list">
-					<label for="in-app">Add a list</label>
-					<input type="text" autofocus="autofocus" id="in-app">
-					<button class="add-list">Add List</button>
-				</input-field> -->
-			</form>
 
 			<outlet>
-				<ul>
-					
-				</ul>
 			</outlet>			
 
 		</inner-column>
@@ -37,3 +22,10 @@
 
 </body>
 </html>
+
+
+			<!-- 	<input-field class="list">
+					<label for="in-app">Add a list</label>
+					<input type="text" autofocus="autofocus" id="in-app">
+					<button class="add-list">Add List</button>
+				</input-field> -->

@@ -1,31 +1,34 @@
+import TaskList from './list.js';
+
+import newTaskList from './app.js';
 
 export default class Task {
 	
-	// (1) Constructor
+// (1) Constructor
 	constructor(record) {
 		this.data = {
 			id: record.id,
 			content: record.content,
-			complete: record.complete,
+			complete: false,
 			dateCreated: record.dateCreated || new Date,
 		};
 	}
 
-	// (2) Main functions 
+// (2) Main functions 
 	toggleComplete() {
-		// asdfaff
-		//
+		this.data.complete = !this.data.complete;
+		
 	}
 
-	// (3) Render
-	render() {
+// (3) Render
+	renderTask() {
 		return `
-			<task-card class=${this.data.complete ? "complete" : ""}>
+			<task-card data-id='${this.data.id}' class=${this.data.complete ? "complete" : ""}>
 				<li>
 					${this.data.content}, ${this.data.complete}
 					<actions>
-						<button class="remove">remove</button>
-						<button class="complete">complete</button>
+						<button class="archive-task">Archive</button>
+						<button class="complete-task">Complete</button>
 					</actions>
 				</li>
 			</task-card>

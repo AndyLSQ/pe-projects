@@ -1,4 +1,6 @@
-// TODO: Organize, Expand constructor
+// Done: Organize, Add unique task id, Add other buttons to event handler (archive/complete), 
+
+// TODO: Expand constructor, add task sorter, add modify functionality
 
 import Task from './task.js';
 
@@ -7,58 +9,117 @@ export default class TaskList {
 // (1) Constructor
 	constructor(name) {
 		this.name = name;
-		this.tasks = [];
+		this.taskList = [];
+		this.lastTaskId = 0;
 	
 		this.$form = document.querySelector('form');
-		this.$outlet= document.querySelector('ul');
+		this.$outlet= document.querySelector('outlet');
 
-		console.log("TaskList class connected")
-		this.setupApp();
-		this.addEventListeners();
+		this.initializeTaskList();
+		this.eventHandler();
 	}
 
-
-	setupApp() {
-		let data = JSON.parse( localStorage.getItem("databaseKey") ) || [];
-
+// (2) Local data API & Initialize
+	setData() {
+		localStorage.setItem("databaseKey", JSON.stringify(this.taskList, null, 2) );
+	}
+	getData() {
+		return JSON.parse(localStorage.getItem('databaseKey'));
+	}
+	initializeTaskList() {
+		let data = this.getData()|| [];
 		data.forEach( (taskData) => {
-			this.tasks = [...this.tasks, new Task(taskData.data)];
+			this.taskList = [...this.taskList, new Task(taskData.data)];
 		});
-		this.renderTasks();
+		this.renderTaskList();
+	}
+
+// (3) Primary functions (add, find/modify)
+	generateId() {
+		this.lastTaskId++;
+		return this.lastTaskId;
 	}
 
 	addTask(content){
-		this.tasks.push( new Task ( {
-			id: 'dummy01',
+		this.taskList.push( new Task ( {
+			id: this.generateId(),
 			content: content,
 			complete: false
 		} ) );
-		this.save();
-		this.renderTasks();
+		this.setData();
+		this.renderTaskList();
 	}
 
-	save() {
-		localStorage.setItem("databaseKey", JSON.stringify(this.tasks, null, 2) );
+	findTask(id) {
+		return this.taskList.find( (task) => {
+			return id == task.data.id;
+		})
 	}
 
-	renderTasks(){
-		//map creates array of the function results
-		this.$outlet.innerHTML = this.tasks.map( (task) => {
-			return task.render();
-		}).join("");
-		// this.report();
+	archiveTask(id) {
+		let filtered = this.taskList.filter( function(task) {
+			return task.data.id != id;
+		})
+
+		this.taskList = filtered;
+		this.setData();
+		this.renderTaskList();
 	}
 
-	addEventListeners() {
-		this.$form.addEventListener('click', (event) => {
+	toggleTaskComplete(id) {
+		this.findTask(id).toggleComplete();
+		this.setData();
+		this.renderTaskList();
+	}
+
+
+
+// (4) Render
+	renderTaskList(){
+		var listTemplate = `
+			<form>
+				<field>
+					<label for="">Add a task</label>
+					<input type="text" placeholder='New task' autofocus="autofocus">
+				<field>
+				<button class="add-task">Add task</button>
+			</form>
+
+			<ul>
+		`
+		this.taskList.forEach( function(task) {
+			listTemplate += task.renderTask();
+		});
+		listTemplate += '</ul>';
+
+		this.$outlet = document.querySelector(`outlet`)
+		this.$outlet.innerHTML = listTemplate;
+	}
+
+
+// (5) Event handler
+	eventHandler() {
+		this.$outlet.addEventListener('click', (event) => {
 			event.preventDefault();
 
-			if ( event.target.matches('button') ) {
-				var $input = this.$form.querySelector('input');
+			if ( event.target.matches('button.add-task') ) {
+				var $input = this.$outlet.querySelector('input');
 				var content = $input.value;
 				this.addTask(content);
 				$input.value="";
 			}
+
+			if ( event.target.matches('button.archive-task') ) {
+				let id = event.target.closest('task-card').dataset.id;
+				this.archiveTask(id);
+			}
+
+			if ( event.target.matches('button.complete-task') ) {
+				let id = event.target.closest('task-card').dataset.id;
+				this.toggleTaskComplete(id);
+			}
+
+
 		});
 	}
 }

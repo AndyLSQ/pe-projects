@@ -1,7 +1,5 @@
 import TaskList from './list.js';
 
-import newTaskList from './app.js';
-
 export default class Task {
 	
 // (1) Constructor
@@ -17,7 +15,7 @@ export default class Task {
 // (2) Main functions 
 	toggleComplete() {
 		this.data.complete = !this.data.complete;
-		
+
 	}
 
 // (3) Render

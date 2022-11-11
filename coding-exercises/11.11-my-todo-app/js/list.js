@@ -1,4 +1,4 @@
-// Done: Organize, Add unique task id, Add other buttons to event handler (archive/complete), 
+// Done: Organize, Add unique task id, Add other buttons to event handler (archive/complete), Make id unique, 
 
 // TODO: Expand constructor, add task sorter, add modify functionality
 
@@ -16,15 +16,15 @@ export default class TaskList {
 		this.$outlet= document.querySelector('outlet');
 
 		this.initializeTaskList();
-		this.eventHandler();
+		this.taskEventHandler();
 	}
 
 // (2) Local data API & Initialize
 	setData() {
-		localStorage.setItem("databaseKey", JSON.stringify(this.taskList, null, 2) );
+		localStorage.setItem("taskListData", JSON.stringify(this.taskList, null, 2) );
 	}
 	getData() {
-		return JSON.parse(localStorage.getItem('databaseKey'));
+		return JSON.parse(localStorage.getItem('taskListData'));
 	}
 	initializeTaskList() {
 		let data = this.getData()|| [];
@@ -36,7 +36,11 @@ export default class TaskList {
 
 // (3) Primary functions (add, find/modify)
 	generateId() {
-		this.lastTaskId++;
+		let foundId = this.findTask(this.lastTaskId);
+		if (foundId) {
+			this.lastTaskId++;
+			this.generateId();
+		}
 		return this.lastTaskId;
 	}
 
@@ -72,11 +76,13 @@ export default class TaskList {
 		this.renderTaskList();
 	}
 
-
-
 // (4) Render
 	renderTaskList(){
 		var listTemplate = `
+			<h2>${this.name}</h2>
+			<actions>
+						<button class="archive-list">Archive List</button>
+			</actions>
 			<form>
 				<field>
 					<label for="">Add a task</label>
@@ -96,9 +102,8 @@ export default class TaskList {
 		this.$outlet.innerHTML = listTemplate;
 	}
 
-
 // (5) Event handler
-	eventHandler() {
+	taskEventHandler() {
 		this.$outlet.addEventListener('click', (event) => {
 			event.preventDefault();
 

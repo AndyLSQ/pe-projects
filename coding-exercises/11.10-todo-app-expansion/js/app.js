@@ -3,6 +3,7 @@
 import List from "./list.js";
 
 export default class App {
+
 	// (1) Constructor
 	constructor() {
 		this.lastId = 0;
@@ -12,16 +13,15 @@ export default class App {
 		this.buttonHandler();
 	}
 
-	// (2) Functions
-
-	//(2a) F: Rehydrate
+	// (2) Main Functions
+	//  (2a) F: Rehydrate
 	rehydrateLists( data ) {
 		return data.map( function( listData ) {
 			return new List( listData );
 		} );
 	}
 
-	//(2b) F: Add (with uniqueId)
+	//  (2b) F: Add (with uniqueId)
 	getUniqueID() {
 		let found = this.findListById( this.lastId );
 		if ( found ) {
@@ -46,7 +46,7 @@ export default class App {
 		this.setData();
 	}
 
-	//(2c) F: Find & modify
+	//  (2c) F: Find & modify
 	findListById( id ) {
 		return this.lists.find( ( list ) => {
 			return id == list.id;
@@ -67,7 +67,7 @@ export default class App {
 		this.setData();
 	}
 
-	//(2d) F: Render (no sort)
+	// (3) Render (no sort)
 	renderAllLists() {
 		console.log("rendering all lists...")
 		let template = "";
@@ -81,17 +81,9 @@ export default class App {
 		this.lists.forEach( function( list ) {
 			list.initData();
 		} );
-
 	}
 
-	
-
-
-
-	
-
-
-
+	// (4) Event handler
 	buttonHandler() {
 		window.addEventListener( "click", () => {
 			event.preventDefault();
@@ -125,6 +117,8 @@ export default class App {
 		})
 	}
 
+
+	// (5) Local data setup
 	setData() {
 		localStorage.taskAppData = JSON.stringify( this.lists );
 		// localStorage.taskAppTrash = JSON.stringify( this.trash );

@@ -19,7 +19,7 @@ export default class List {
 	//(2a) F: Rehydrate & Initialize
 	initData() {
 		this.list = this.rehydrateTasks(this.list);
-		this.trash = this.rehydrateTasks(this.trash);
+		// this.trash = this.rehydrateTasks(this.trash);
 		this.renderTasks()
 	}
 

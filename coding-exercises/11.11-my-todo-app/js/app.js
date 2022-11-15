@@ -2,7 +2,7 @@ console.log("app.js connected")
 
 import TaskList from './list.js';
 
-var newTaskList = new TaskList("TEST LIST 1");
+
 
 // var newTaskList2 = new TaskList("TEST LIST 2");
 
@@ -10,13 +10,15 @@ var newTaskList = new TaskList("TEST LIST 1");
 export default class App {
 
 // (1) Constructor
-	constructor() {
+	constructor(listName) {
 		this.lastListId = 0;
 		this.listList = [];
+		this.listName = listName;
 
 		this.initializeListList();
+		this.addList("test list")
 		this.renderAllLists();
-		this.listEventHandler();
+		// this.listEventHandler();
 	}
 
 // (2) Local data API & Initialize
@@ -29,21 +31,48 @@ export default class App {
 	initializeListList() {
 		let data = this.getData()|| [];
 		data.forEach( (listData) => {
-			this.listList = [...this.listList, new TaskList(taskData.data)];
+			this.listList = [...this.listList, new TaskList(listData.data)];
 		});
-		this.renderListList();
+		this.renderAllLists();
 	}
 
 
 // (3) Primary functions (add, find/modify)
+	generateListId() {
+		let foundId = this.findList(this.lastListId);
+		if (foundId) {
+			this.lastListId++;
+			this.generateListId();
+		}
+		return this.lastLastId;
+	}
+
+	addList(content){
+		console.log("adding: ", content);
+		this.listList.push( new TaskList ( {
+			id: this.generateListId(),
+			content: content,
+		} ) );
+		this.setData();
+		this.renderAllLists();
+	}
+
+	findList(id) {
+		return this.listList.find( (list) => {
+			return id == list.id;
+		})
+	}
+
+
+
 
 // (4) Render
 	renderAllLists() {
 			console.log("rendering all lists...")
 			let template = "";
 
-			this.lists.forEach( function( list ) {
-				template += list.renderList();
+			this.listList.forEach( function( list ) {
+				template += list.renderTaskList();
 			} );
 
 			// this._$taskApp.innerHTML = template;

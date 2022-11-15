@@ -18,7 +18,7 @@
 		</inner-column>
 	</main>
 
-	<script src="js/app.js" type="module"></script>
+	<script src="js/main.js" type="module"></script>
 
 </body>
 </html>

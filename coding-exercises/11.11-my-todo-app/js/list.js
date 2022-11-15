@@ -35,18 +35,18 @@ export default class TaskList {
 	}
 
 // (3) Primary functions (add, find/modify)
-	generateId() {
+	generateTaskId() {
 		let foundId = this.findTask(this.lastTaskId);
 		if (foundId) {
 			this.lastTaskId++;
-			this.generateId();
+			this.generateTaskId();
 		}
 		return this.lastTaskId;
 	}
 
 	addTask(content){
 		this.taskList.push( new Task ( {
-			id: this.generateId(),
+			id: this.generateTaskId(),
 			content: content,
 			complete: false
 		} ) );

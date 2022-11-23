@@ -1,0 +1,70 @@
+/* Form */
+form {
+	display: flex;
+  flex-direction: column;
+	gap: 25px;
+	justify-content: start;
+}
+
+div.field {
+  display: flex;
+  flex-direction: column;
+/*  gap: 10px;*/
+  max-width: 300px;
+/* 	border: 2px solid purple; */
+}
+
+div.field :is(label, input, select) {
+  display: block;
+  width: 100%;
+  padding: 5px 0px;
+/*  border: 2px solid red;*/
+}
+
+button {
+  align-self: flex-start;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+button:hover {
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+.php button {
+	color: white;
+	background-color: hsla(229, 30%, 44%, 1.00);
+}
+
+.php button:hover {
+	background-color: hsla(229, 30%, 30%, 1.00);
+}
+
+.vue button {
+	color: white;
+	background-color: hsla(153, 47%, 49%, 1.00);
+}
+
+.vue button:hover {
+	background-color: hsla(153, 47%, 35%, 1.00);
+}
+
+input-form.item {
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+.form-grid /*{ FOR CHECKOUT APP ONLY*/
+	display: flex;
+	gap: 25px;
+/* 	justify-content: start; */
+   border: 2px solid red; 
+}

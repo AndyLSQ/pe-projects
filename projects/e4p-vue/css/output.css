@@ -1,0 +1,24 @@
+/* Output */
+output {
+	display: block;
+	padding: 20px;
+	background-color: black;
+	color: lime;
+	font-family: monospace;
+	margin: 20px 0px;
+	transition: color .25s ease-in-out;
+}
+
+.valid output {
+	color: lime;
+}
+
+.invalid output {
+	color: red;
+}
+
+.item-label {
+	font-weight: bold;
+	color: hsla(209, 48%, 45%, 1.00);
+	margin: 5px 20px;
+}

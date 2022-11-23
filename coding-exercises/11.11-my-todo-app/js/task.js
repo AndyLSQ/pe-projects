@@ -1,14 +1,13 @@
-import TaskList from './list.js';
 
 export default class Task {
 	
 // (1) Constructor
 	constructor(record) {
 		this.data = {
-			id: record.id,
+			id: record.id || Math.random()*100001|0,
 			content: record.content,
-			complete: false,
-			dateCreated: record.dateCreated || new Date,
+			complete: record.complete || false,
+			dateCreated: record.dateCreated || new Date(),
 		};
 	}
 
@@ -19,11 +18,13 @@ export default class Task {
 	}
 
 // (3) Render
-	renderTask() {
+	renderTask() { 
+		//order doesnt matter when deconstructing (looks up by field name). uses shorthand for id:id, etc
+		const {id: id, complete, content} = this.data;
 		return `
-			<task-card data-id='${this.data.id}' class=${this.data.complete ? "complete" : ""}>
+			<task-card data-id='${id}' class=${complete ? "complete" : ""}>
 				<li>
-					${this.data.content}, ${this.data.complete}
+					${content}, ${complete}
 					<actions>
 						<button class="archive-task">Archive</button>
 						<button class="complete-task">Complete</button>

@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>My Task App</title>
+	<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -11,6 +12,11 @@
 		<inner-column>
 			<h1>My Task App</h1>
 
+			<form class="main-form">
+				<label for="a">Add a list</label>
+				<input id="a" type="text">
+				<button class="add-list">Add a list</button>
+			</form>
 
 			<outlet>
 			</outlet>			

@@ -1,0 +1,9 @@
+div.list {
+	padding: 10px;
+	border: 2px solid red;
+}
+
+ul.task-list {
+	padding: 10px;
+	border: 2px solid green;
+}

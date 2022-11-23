@@ -7,10 +7,12 @@ import Task from './task.js';
 export default class TaskList {
 
 // (1) Constructor
-	constructor(name) {
-		this.name = name;
-		this.taskList = [];
-		this.lastTaskId = 0;
+	constructor(record) {
+		this.data = {
+			name: record.name || "No name shouldnt happen",
+			id: record.id || Math.random()*100001|0,
+			tasks: record.tasks || [], //<--CHANGED FROM taskList**
+		};
 	
 		this.$form = document.querySelector('form');
 		this.$outlet= document.querySelector('outlet');
@@ -21,7 +23,7 @@ export default class TaskList {
 
 // (2) Local data API & Initialize
 	setData() {
-		localStorage.setItem("taskListData", JSON.stringify(this.taskList, null, 2) );
+		localStorage.setItem("taskListData", JSON.stringify(this.data.taskList, null, 2) );
 	}
 	getData() {
 		return JSON.parse(localStorage.getItem('taskListData'));
@@ -29,23 +31,23 @@ export default class TaskList {
 	initializeTaskList() {
 		let data = this.getData()|| [];
 		data.forEach( (taskData) => {
-			this.taskList = [...this.taskList, new Task(taskData.data)];
+			this.data.taskList = [...this.data.taskList, new Task(taskData.data)];
 		});
 		this.renderTaskList();
 	}
 
-// (3) Primary functions (add, find/modify)
+// (3) Primary TASK functions (add, find/modify)
 	generateTaskId() {
-		let foundId = this.findTask(this.lastTaskId);
+		let foundId = this.findTask(this.data.taskId);
 		if (foundId) {
-			this.lastTaskId++;
+			this.data.taskId++;
 			this.generateTaskId();
 		}
-		return this.lastTaskId;
+		return this.data.taskId;
 	}
 
 	addTask(content){
-		this.taskList.push( new Task ( {
+		this.data.taskList.push( new Task ( {
 			id: this.generateTaskId(),
 			content: content,
 			complete: false
@@ -55,17 +57,17 @@ export default class TaskList {
 	}
 
 	findTask(id) {
-		return this.taskList.find( (task) => {
+		return this.data.taskList.find( (task) => {
 			return id == task.data.id;
 		})
 	}
 
 	archiveTask(id) {
-		let filtered = this.taskList.filter( function(task) {
+		let filtered = this.data.taskList.filter( function(task) {
 			return task.data.id != id;
 		})
 
-		this.taskList = filtered;
+		this.data.taskList = filtered;
 		this.setData();
 		this.renderTaskList();
 	}
@@ -79,27 +81,28 @@ export default class TaskList {
 // (4) Render
 	renderTaskList(){
 		var listTemplate = `
-			<h2>${this.name}</h2>
+			<div class="list" >
+			<h2>${this.data.listName}</h2>
 			<actions>
 						<button class="archive-list">Archive List</button>
 			</actions>
 			<form>
 				<field>
 					<label for="">Add a task</label>
-					<input type="text" placeholder='New task' autofocus="autofocus">
-				<field>
+					<input class="task-input" type="text" placeholder='New task' autofocus="autofocus">
+				</field>
 				<button class="add-task">Add task</button>
 			</form>
 
-			<ul>
+			<ul class="task-list">
 		`
-		this.taskList.forEach( function(task) {
-			listTemplate += task.renderTask();
+		this.data.tasks.forEach( function(task) {
+			// listTemplate += task.renderTask();
 		});
-		listTemplate += '</ul>';
+		listTemplate += '</ul></div>';
 
 		this.$outlet = document.querySelector(`outlet`)
-		this.$outlet.innerHTML = listTemplate;
+		this.$outlet.insertAdjacentHTML("beforeend", listTemplate);
 	}
 
 // (5) Event handler
@@ -107,9 +110,12 @@ export default class TaskList {
 		this.$outlet.addEventListener('click', (event) => {
 			event.preventDefault();
 
-			if ( event.target.matches('button.add-task') ) {
-				var $input = this.$outlet.querySelector('input');
-				var content = $input.value;
+			if ( event.target.matches('button.add-task') ) { 
+				let $button = event.target;
+
+				let $input = $button.closest('form').querySelector('input');
+				let content = $input.value;
+
 				this.addTask(content);
 				$input.value="";
 			}

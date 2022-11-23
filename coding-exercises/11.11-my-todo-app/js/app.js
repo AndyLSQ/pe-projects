@@ -2,23 +2,19 @@ console.log("app.js connected")
 
 import TaskList from './list.js';
 
-
-
-// var newTaskList2 = new TaskList("TEST LIST 2");
-
-
 export default class App {
 
-// (1) Constructor
-	constructor(listName) {
-		this.lastListId = 0;
+// (1) Constructor - e.g. login, date, initialize
+	constructor(name) {
+		this.name = name
 		this.listList = [];
-		this.listName = listName;
+
+		this.$form = document.querySelector('.main-form');
 
 		this.initializeListList();
-		this.addList("test list")
+		
 		this.renderAllLists();
-		// this.listEventHandler();
+		this.listEventHandler();
 	}
 
 // (2) Local data API & Initialize
@@ -30,17 +26,22 @@ export default class App {
 	}
 	initializeListList() {
 		let data = this.getData()|| [];
+		if (this.listList.length) {
+			this.addList("test list 1");
+		}
 		data.forEach( (listData) => {
 			this.listList = [...this.listList, new TaskList(listData.data)];
 		});
 		this.renderAllLists();
+		//Hydrate - if you have an empty template, youre giving it the data and it fills it out (e.g. with water)
 	}
 
 
-// (3) Primary functions (add, find/modify)
+// (3) Primary LIST functions (add, find/modify)
 	generateListId() {
 		let foundId = this.findList(this.lastListId);
 		if (foundId) {
+			
 			this.lastListId++;
 			this.generateListId();
 		}
@@ -84,8 +85,19 @@ export default class App {
 
 
 // (5) Event handler
+	listEventHandler(){
+		console.log("list event handler running..")
+		this.$form.addEventListener('submit', (event) => {
+			event.preventDefault();
+
+			let $input = this.$form.querySelector('input');
+
+			if ($input.value){
+				this.addList({name: $input.value});
+			}
+		})
 
 
-
+	}
 }
 

@@ -1,41 +1,20 @@
 console.clear();
 
 //2 - OK
-new Vue ({
-	el: "#app2",
-	
-	data: {
-		inputString: "",
-		characterCount: "0",
-		outputStyle: ""
-	},
-	
-	methods: {},
-				 
-	computed: {
-		checkInput() {
-			return this.inputString;
-		},
-		message() {
-			if (this.inputString){
-				this.outputStyle = 'valid'
-				return `${this.inputString} contains ${this.inputString.length} characters.`
-			} else {
-				this.outputStyle = 'invalid'
-				return `nope`
-			}
-		}
-	}		 
-});
+
 
 //1 - OK
 new Vue ({
 	el: "#app1",
 	
-	data: {
+	data() {
+		return {
 		name: "",
 		message: "",
-		outputStyle: ""
+		outputStyle: "",
+		processorSwitch: false,
+		// activeProcessor: ""
+		}
 	},
 	
 	methods: {
@@ -51,9 +30,19 @@ new Vue ({
 	},
 	
 	computed: {
+		// checkProcessor() {
+		// 	if (this.processorSwitch) {
+		// 		this.activeProcessor = "vue";
+		// 	} else {
+		// 		this.activeProcessor = "php";
+		// 	}
+
+		// 	return this.activeProcessor;
+		// },
 		checkInput() {
 			return this.message;
-		}
+		},
+
 	},
 
 	watch: {
@@ -93,3 +82,6 @@ new Vue ({
 // 	}
 
 // })
+
+// var $toggleSwitch = document.querySelector(processorSwitch01)
+

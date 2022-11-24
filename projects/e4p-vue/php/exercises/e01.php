@@ -1,5 +1,5 @@
 <div class="exercise">
-	<inner-column>
+	<inner-column id="app1">
 		<div class="app-header">
 			<h2>1. Saying Hello</h2>
 			<p>Create a program that prompts for your name and prints a greeting using your name.</p>
@@ -8,17 +8,13 @@
 		<div class="processor-select" id="ps01">
 			<p class="processor-label">Server Side</p>
 			<label class="switch">
-		  		<input type="checkbox" v-model="processorSwitch"> <!-- vue = checked -->
+		  		<input type="checkbox" id='processorSwitch01'v-model="processorSwitch"> <!-- vue = checked -->
 		  		<span class="slider"></span>
 			</label>
 			<p class="processor-label">Client Side</p>
-			<p>Switch value {{processorSwitch}} </p>
-			<p>active: {{checkProcessor}}</p>
 		</div>
-
-		{{checkProcessor}}
 		
-		<div class="processor php">
+		<div class="processor php" v-if="!processorSwitch">
 			<h3>Server Side Processing (PHP)</h3>
 
 			<?php 
@@ -48,16 +44,15 @@
 					<input type="text" name="yourName" value="<?=$yourName?>">
 				</div>
 				<button type='submit' name="submitted">Submit</button>
-
-				<?=$greeting?>
-				
 			</form>
+
+			<?=$greeting?>
 		</div>
 
 
-		<div class="processor vue">
+		<div class="processor vue" v-if="processorSwitch" :class="outputStyle">
 			<h3>Client Side Processing (Vue)</h3>
-			<div class="app" id="app1" :class="outputStyle">
+			<div class="app">
 				<form v-on:submit.prevent='update'>
 					<div class="field">
 						<label for="a">What is your name?</label>
@@ -65,11 +60,11 @@
 					</div>
 					<button type="submit">Submit</button>
 				</form>
-
-				<output v-if='checkInput' >
-					{{message}} <!-- 	this can be any property -->
-				</output>
 			</div>
+
+			<output v-if='checkInput' >
+					{{message}} <!-- 	this can be any property -->
+			</output>
 		</div>
 	</inner-column>
 </div>

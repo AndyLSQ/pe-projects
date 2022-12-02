@@ -42,4 +42,4 @@ console.log(newPeople);
 const names = people.map((person) => `<h2>${person.name}</h2>`);
 const result = document.querySelector('#result');
 
-result.innerHTML = names.join('');
+result.innerHTML = names.join(''); //removes commas that were previousy joining the names

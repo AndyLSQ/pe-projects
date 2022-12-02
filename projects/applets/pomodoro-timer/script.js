@@ -26,6 +26,9 @@ let currentTimeLeftInSession = 1500
 //in seconds = 5 mins
 let breakSessionDuration = 300
 
+let type = 'Work'
+let timeSpentInCurrentSession =  0
+
 const toggleClock = (reset) => {
 	if (reset) {
 		//stop the timer
@@ -42,7 +45,7 @@ const toggleClock = (reset) => {
 
 			clockTimer = setInterval(() => {
 				//decrease time left / increase time spent
-				currentTimeLeftInSession--;
+				stepDown();
 				displayCurrentTimeLeftInSession();
 			}, 1000)
 		}
@@ -67,11 +70,10 @@ const displayCurrentTimeLeftInSession = () => {
 	console.log('result is: ', result)
 	pomoTimer.innerText = result;
 	
-
-
 }
 
 const stopClock = () => {
+	displaySessionLog(type)
 	//1) reset timer
 	clearInterval(clockTimer)
 
@@ -81,6 +83,43 @@ const stopClock = () => {
 	//reset time left in session
 	currentTimeLeftInSession = workSessionDuration
 
+	timeSpentInCurrentSession = 0;
+
 	//update timer display
 	displayCurrentTimeLeftInSession()
+	type = 'Work' //always reset to work after stopping bc it wouldnt make sense for user to reset break session to start another break
+}
+
+const stepDown = () => {
+	if (currentTimeLeftInSession > 0) { //if timer still running
+		//Decrease time left / increase time spent
+		currentTimeLeftInSession--
+		timeSpentInCurrentSession++
+	} else if (currentTimeLeftInSession === 0) { //if timer ends
+		timeSpentInCurrentSession = 0
+		//Toggle work/break
+			if (type === 'Work') {
+				currentTimeLeftInSession = breakSessionDuration;
+				displaySessionLog('Work')
+				type = 'Break'
+			} else {
+				currentTimeLeftInSession = workSessionDuration;
+				displaySessionLog('Break')
+				type = 'Work'
+			}
+	}
+	displayCurrentTimeLeftInSession()
+}
+
+const displaySessionLog = (type) => {
+	const sessionsList = document.querySelector('#pomo-sessions')
+	//append li
+	const li = document.createElement('li')
+	let sessionLabel = type
+	let elapsedTime = parseInt(timeSpentInCurrentSession / 60)
+	elapsedTime = elapsedTime > 0 ? elapsedTime : '< 1'
+
+	const text = document.createTextNode(`${sessionLabel} : ${elapsedTime} min`)
+	li.appendChild(text)
+	sessionsList.appendChild(li)
 }

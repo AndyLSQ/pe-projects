@@ -3,8 +3,13 @@ const pomoTimer = document.querySelector('.pomo-timer')
 const startButton = document.querySelector('#pomo-start')
 const pauseButton = document.querySelector('#pomo-pause')
 const stopButton = document.querySelector('#pomo-stop')
+
 let currentTaskLabel = document.querySelector('#pomo-clock-task')
 
+let workDurationInput = document.querySelector('#input-work-duration')
+let breakDurationInput = document.querySelector('#input-break-duration')
+
+//add event listeners
 startButton.addEventListener('click', () => {
 	toggleClock()
 })
@@ -18,7 +23,26 @@ stopButton.addEventListener('click', () => {
 })
 
 
+let updatedWorkSessionDuration
+let updatedBreakSessionDuration
+
+//listener - update work time
+workDurationInput.addEventListener('input', () => {
+	updatedWorkSessionDuration = minuteToSeconds(workDurationInput.value)
+})
+
+breakDurationInput.addEventListener('input', () => {
+	updatedBreakSessionDuration = minuteToSeconds(breakDurationInput.value)
+})
+
+const minuteToSeconds = (mins) => {
+	return mins * 60
+}
+
+
 let isClockRunning = false
+let isClockStopped = true
+
 
 // in seconds = 25 mins
 let workSessionDuration = 1500
@@ -31,14 +55,26 @@ let type = 'Work'
 let timeSpentInCurrentSession =  0
 
 
+
+workDurationInput.value = '25'
+breakDurationInput.value = '5'
+
+
 const toggleClock = (reset) => {
 	if (reset) {
 		//stop the timer
 		stopClock()
 	} else {
+		//new
+		if (isClockStopped) {
+			setUpdatedTimers()
+			isClockStopped = false
+		}
 		if (isClockRunning === true) {
 		//pause the timer
 		clearInterval(clockTimer)
+		//update icon to play icon
+		//set value of button to start or pause
 		isClockRunning = false;
 		} else {
 			//start the timer
@@ -50,6 +86,7 @@ const toggleClock = (reset) => {
 				stepDown();
 				displayCurrentTimeLeftInSession();
 			}, 1000)
+			isClockRunning = true
 		}
 	}
 }
@@ -75,21 +112,22 @@ const displayCurrentTimeLeftInSession = () => {
 }
 
 const stopClock = () => {
+	setUpdatedTimers()
 	displaySessionLog(type)
-	//1) reset timer
+	// reset timer
 	clearInterval(clockTimer)
 
-	//2) update is clock running variable
+	isClockStopped = true
 	isClockRunning = false
 
 	//reset time left in session
 	currentTimeLeftInSession = workSessionDuration
 
-	timeSpentInCurrentSession = 0;
-
 	//update timer display
 	displayCurrentTimeLeftInSession()
-	type = 'Work' //always reset to work after stopping bc it wouldnt make sense for user to reset break session to start another break
+	type = 'Work' //always reset to work after stopping bc it wouldnt make sense to reset break session to start another break
+
+	timeSpentInCurrentSession = 0;
 }
 
 const stepDown = () => {
@@ -104,6 +142,7 @@ const stepDown = () => {
 				currentTimeLeftInSession = breakSessionDuration;
 				displaySessionLog('Work')
 				type = 'Break'
+				setUpdatedTimers();
 				//new
 				currentTaskLabel.value = 'Break';
 				currentTaskLabel.disabled = true;
@@ -111,6 +150,7 @@ const stepDown = () => {
 				currentTimeLeftInSession = workSessionDuration;
 				displaySessionLog('Break')
 				type = 'Work'
+				setUpdatedTimers();
 				//new
 				if (currentTaskLabel.value === 'Break'){
 					currentTaskLabel.value = workSessionLabel;
@@ -140,4 +180,14 @@ const displaySessionLog = (type) => {
 	const text = document.createTextNode(`${sessionLabel} : ${elapsedTime} min`)
 	li.appendChild(text)
 	sessionsList.appendChild(li)
+}
+
+const setUpdatedTimers = () => {
+	if (type === 'Work') {
+		currentTimeLeftInSession = updatedWorkSessionDuration ? updatedWorkSessionDuration : workSessionDuration
+		workSessionDuration = currentTimeLeftInSession
+	} else {
+		currentTimeLeftInSession = updatedBreakSessionDuration ? updatedBreakSessionDuration : breakSessionDuration
+		breakSessionDuration = currentTimeLeftInSession
+	}
 }

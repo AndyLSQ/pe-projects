@@ -1,8 +1,9 @@
-//assign buttons with event listeners
+//assign query selectors to variables
 const pomoTimer = document.querySelector('.pomo-timer')
 const startButton = document.querySelector('#pomo-start')
 const pauseButton = document.querySelector('#pomo-pause')
 const stopButton = document.querySelector('#pomo-stop')
+let currentTaskLabel = document.querySelector('#pomo-clock-task')
 
 startButton.addEventListener('click', () => {
 	toggleClock()
@@ -28,6 +29,7 @@ let breakSessionDuration = 300
 
 let type = 'Work'
 let timeSpentInCurrentSession =  0
+
 
 const toggleClock = (reset) => {
 	if (reset) {
@@ -102,10 +104,19 @@ const stepDown = () => {
 				currentTimeLeftInSession = breakSessionDuration;
 				displaySessionLog('Work')
 				type = 'Break'
+				//new
+				currentTaskLabel.value = 'Break';
+				currentTaskLabel.disabled = true;
 			} else {
 				currentTimeLeftInSession = workSessionDuration;
 				displaySessionLog('Break')
 				type = 'Work'
+				//new
+				if (currentTaskLabel.value === 'Break'){
+					currentTaskLabel.value = workSessionLabel;
+				}
+				currentTaskLabel.disabled = false;
+				displaySessionLog('Break')
 			}
 	}
 	displayCurrentTimeLeftInSession()
@@ -115,7 +126,14 @@ const displaySessionLog = (type) => {
 	const sessionsList = document.querySelector('#pomo-sessions')
 	//append li
 	const li = document.createElement('li')
-	let sessionLabel = type
+	// let sessionLabel = type
+	if (type === 'Work') {
+		sessionLabel = currentTaskLabel.value ? currentTaskLabel.value : 'Work'
+		workSessionLabel = sessionLabel
+	} else {
+		sessionLabel = 'Break'
+	}
+
 	let elapsedTime = parseInt(timeSpentInCurrentSession / 60)
 	elapsedTime = elapsedTime > 0 ? elapsedTime : '< 1'
 

@@ -1,3 +1,70 @@
+#pomo-container {
+/*	border: 1px solid red;*/
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#pomo-clock {
+/*	border: 1px solid blue;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#pomo-timer {
+	font-size: 3rem;
+}
+
+#pomo-clock-circle * {
+  color: black;
+}
+
+#pomo-clock-task {
+  display: inline-block;
+  margin-top: 10px;
+  width: 200px;
+  padding: 5px 10px;
+  border: 1px solid lightgrey;
+  border-radius: 3px
+}
+
+#pomo-clock-title {
+  margin-top: 20px;
+  width: 200px
+}
+
+.pomo-clock-actions {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100px;
+}
+
+.pomo-clock-actions button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
 .hidden {
-	display: none;
+  display: none;
+}
+
+
+.pomo-input {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.pomo-input input {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  padding: 5px;
 }

@@ -91,6 +91,7 @@ const toggleClock = (reset) => {
 				//decrease time left / increase time spent
 				stepDown();
 				displayCurrentTimeLeftInSession();
+				progressBar.set(calculateSessionProgress())
 			}, 1000)
 			isClockRunning = true
 		}
@@ -220,3 +221,8 @@ const showStopIcon = () => {
 	stopButton.classList.remove('hidden')
 }
 
+const calculateSessionProgress = () => {
+	const sessionDuration = 
+		type === 'Work' ? workSessionDuration : breakSessionDuration
+	return (timeSpentInCurrentSession / sessionDuration)
+}

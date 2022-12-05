@@ -84,6 +84,7 @@ const toggleClock = (reset) => {
 			}, 1000)
 			isClockRunning = true
 		}
+		showStopIcon()
 	}
 }
 
@@ -205,3 +206,8 @@ const togglePlayPauseIcon = (reset) => {
 		playIcon.classList.toggle('hidden')
 	}
 }
+
+const showStopIcon = () => {
+	stopButton.classList.remove('hidden')
+}
+

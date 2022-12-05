@@ -1,7 +1,6 @@
 //assign query selectors to variables
 const pomoTimer = document.querySelector('.pomo-timer')
 const startButton = document.querySelector('#pomo-start')
-const pauseButton = document.querySelector('#pomo-pause')
 const stopButton = document.querySelector('#pomo-stop')
 
 let currentTaskLabel = document.querySelector('#pomo-clock-task')
@@ -11,10 +10,6 @@ let breakDurationInput = document.querySelector('#input-break-duration')
 
 //add event listeners
 startButton.addEventListener('click', () => {
-	toggleClock()
-})
-
-pauseButton.addEventListener('click', () => {
 	toggleClock()
 })
 
@@ -61,6 +56,7 @@ breakDurationInput.value = '5'
 
 
 const toggleClock = (reset) => {
+	togglePlayPauseIcon(reset);
 	if (reset) {
 		//stop the timer
 		stopClock()
@@ -189,5 +185,23 @@ const setUpdatedTimers = () => {
 	} else {
 		currentTimeLeftInSession = updatedBreakSessionDuration ? updatedBreakSessionDuration : breakSessionDuration
 		breakSessionDuration = currentTimeLeftInSession
+	}
+}
+
+const togglePlayPauseIcon = (reset) => {
+	const playIcon = document.querySelector('#play-icon')
+	const pauseIcon = document.querySelector('#pause-icon')
+	// when resetting, always revert to play icon
+	if(reset) {
+		if (playIcon.classList.contains('hidden')) {
+			playIcon.classList.remove('hidden')
+		}
+		if (!pauseIcon.classList.contains('hidden')) {
+			pauseIcon.classList.add('hidden')
+		}
+	} else {
+		// otherwise if not resetting, just toggle
+		playIcon.classList.toggle('hidden')
+		playIcon.classList.toggle('hidden')
 	}
 }

@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Pomodoro Timer</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -14,9 +16,14 @@
 				<input type="text" id="pomo-clock-task" placeholder="Enter your task"/>
 			</div>
 			<div class="pomo-clock-actions">
-				<button id="pomo-start">Start</button>
-				<button id="pomo-pause">Pause</button>
-				<button id="pomo-stop">Stop</button>
+				<button id="pomo-start">
+					<i class="fas fa-play" id="play-icon"></i>
+					<i class="fas fa-pause hidden" id="pause-icon"></i>
+				</button>
+
+				<button id="pomo-stop">
+					<i class="fas fa-stop"></i>
+				</button>
 			</div>
 			<!-- new -->
 			<div id="pomo-clock-title">

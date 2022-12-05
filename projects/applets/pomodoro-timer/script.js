@@ -1,5 +1,5 @@
 //assign query selectors to variables
-const pomoTimer = document.querySelector('.pomo-timer')
+// const pomoTimer = document.querySelector('#pomo-timer')
 const startButton = document.querySelector('#pomo-start')
 const stopButton = document.querySelector('#pomo-stop')
 
@@ -55,6 +55,16 @@ workDurationInput.value = '25'
 breakDurationInput.value = '5'
 
 
+// const progressBar = document.querySelector('#pomo-timer')
+
+const progressBar = new ProgressBar.Circle('#pomo-timer', {
+	strokeWidth: 2,
+	text: {
+		value: '25:00',
+	},
+	trailColor: '#f4f4f4'
+});
+
 const toggleClock = (reset) => {
 	togglePlayPauseIcon(reset);
 	if (reset) {
@@ -94,8 +104,7 @@ const displayCurrentTimeLeftInSession = () => {
 	const seconds = secondsLeft % 60;
 	const minutes = parseInt(secondsLeft / 60) % 60;
 	let hours = parseInt(secondsLeft / 3600);
-	
-	//add leading zeroes if >10
+	//add leading zeroes if <10
 	function addLeadingZeroes(time) {
 		return time < 10 ? `0${time}` : time
 	}
@@ -103,8 +112,8 @@ const displayCurrentTimeLeftInSession = () => {
 	if (hours > 0) result += `${hours}:`
 	result += `${addLeadingZeroes(minutes)}:${addLeadingZeroes(seconds)}`;
 	
-	console.log('result is: ', result)
-	pomoTimer.innerText = result;
+	// console.log('PB result is: ', result)
+	progressBar.text.innerText = result.toString();
 	
 }
 

@@ -18,13 +18,30 @@
 				<button id="pomo-pause">Pause</button>
 				<button id="pomo-stop">Stop</button>
 			</div>
+			<!-- new -->
+			<div id="pomo-clock-title">
+				<span>
+					Changes made here will reflect at the start of the next work / break session
+				</span>
+			</div>
+			<div id="pomo-clock-actions">
+				<div class="pomo-input">
+					<label>Work Duration</label>
+					<input name="input-work-duration" id="input-work-duration" type="number" />
+				</div>
+				<div class="pomo-input">
+					<label>Break Duration</label>
+					<input name="input-break-duration" id="input-break-duration" type="number" />
+				</div>
+			</div>
+			<div id="pomo-info">
+				<h3>Your Sessions</h3>
+				<ul id="pomo-sessions"></ul>
+			</div>
 		</div>
 	</div>
 
-	<div id="pomo-info">
-		<h3>Your Sessions</h3>
-		<ul id="pomo-sessions"></ul>
-	</div>
+	
 
 
 	<script src="script.js"></script>

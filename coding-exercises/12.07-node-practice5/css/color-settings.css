@@ -1,0 +1,11 @@
+/*COLOR SETTINGS*/
+
+:root {
+	--canvas: hsla(41, 92%, 95%, 1.00);
+	--ink: hsla(225, 96%, 18%, 1.00);
+}
+
+html {
+	background-color: var(--canvas);
+	color: var(--ink);
+}

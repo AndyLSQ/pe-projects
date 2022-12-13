@@ -2,7 +2,7 @@
 
 <p>MonsterMatch is an online, searchable database of monsters who need homes. It is also a directory of monster shelters and adoption organizations across the U.S., Canada and Mexico. Organizations maintain their own home pages and available-monster databases.</p>
 
-<h2 class="loud-voice2">Our mission<h2>
+<h2 class="loud-voice2">Our mission</h2>
 <ul>To use Internet technology and the resources it can generate to:
 
 <li>Increase public awareness of the availability of high-quality adoptable monsters</li>

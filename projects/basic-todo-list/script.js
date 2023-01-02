@@ -4,7 +4,6 @@ console.clear();
 
 
 // Variables
-
 var lastId = 0;
 
 var list = [];

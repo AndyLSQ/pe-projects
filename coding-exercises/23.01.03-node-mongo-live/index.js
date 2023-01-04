@@ -93,22 +93,22 @@ app.get('/', async function(req, res) {
 	res.send(page)
 })
 
-// UPDATE - switch this to number??
+// UPDATE
 app.get('/update/:name', async function(req, res) {
 	const form = `
 		<h1>Update player info for ${req.params.name}</h1>
-		<form action="/update/:${req.params.name}" method="post">
+		<form action="/update/${req.params.name}" method="post">
 			<field>
 				<label>name</label>
-				<input type="text" name="name" />
+				<input type="text" name="name" required/>
 			</field>
 			<field>
 				<label>number</label>
-				<input type="number" name="number" />
+				<input type="number" name="number" required/>
 			</field>
 			<field>
 				<label>position</label>
-				<input type="text" name="position" />
+				<input type="text" name="position" required/>
 			</field>
 			<button type="submit">Submit</button>
 		</form>`
@@ -118,11 +118,14 @@ app.get('/update/:name', async function(req, res) {
 })
 
 app.post('/update/:name', async function(req, res) {
-	const filter = { name: `${req.params.name}`}
-	// console.log(filter)
-	await Player.updateOne(filter, {name: "jimmy"})
-	res.send("hi")
-
+	const result = await Player.updateOne({name: req.params.name}, {name: req.body.name, number: req.body.number, position: req.body.position});
+	const newName = req.body.name;
+	// console.log(result.matchedCount)
+	res.redirect("/")
 })
+
+
+// DELETE
+app.get('')
 
 app.listen(1982);

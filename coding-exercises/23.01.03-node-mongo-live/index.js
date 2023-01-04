@@ -20,7 +20,7 @@ const baseballSchema = new mongoose.Schema({
 	name: String,
 	number: Number,
 	position: String
-})
+});
 
 const Player = mongoose.model('Player', baseballSchema);
 
@@ -54,7 +54,7 @@ app.get('/create', async function(req, res) {
 			<button type="submit">Submit</button>
 		</form>`
 
-	const page = nav + form
+	const page = nav + form;
 	res.send(page);
 })
 
@@ -65,11 +65,11 @@ app.post('/create', async function(req, res){
 		number: req.body.number,
 		position: req.body.position
 	})
-	await player.save()
+	await player.save();
 
 	let confirmation = `<p>New player ${req.body.name} added.</p>`
 
-	const page = nav + confirmation
+	const page = nav + confirmation;
 	res.send(page);
 })
 
@@ -84,16 +84,16 @@ app.get('/', async function(req, res) {
 			<p><strong>Name:</strong> ${player.name}</p>
 			<p><strong>Number:</strong> ${player.number}</p>
 			<p><strong>Position:</strong> ${player.position}</p>
-			<p><a href="/update/${player.name}">Update</a> <a href="/delete">Delete</a></p>
+			<p><a href="/update/${player.name}">Update</a> <a href="/delete/${player.name}">Delete</a></p>
 		</li>`
 	})
-	playerList += `</ul>`
+	playerList += `</ul>`;
 
-	const page = nav + playerList
-	res.send(page)
+	const page = nav + playerList;
+	res.send(page);
 })
 
-// UPDATE
+// UPDATE - how to use a UID here??
 app.get('/update/:name', async function(req, res) {
 	const form = `
 		<h1>Update player info for ${req.params.name}</h1>
@@ -113,19 +113,21 @@ app.get('/update/:name', async function(req, res) {
 			<button type="submit">Submit</button>
 		</form>`
 
-	const page = nav + form
+	const page = nav + form;
 	res.send(page);
 })
 
 app.post('/update/:name', async function(req, res) {
-	const result = await Player.updateOne({name: req.params.name}, {name: req.body.name, number: req.body.number, position: req.body.position});
-	const newName = req.body.name;
+	await Player.updateOne({name: req.params.name}, {name: req.body.name, number: req.body.number, position: req.body.position});
 	// console.log(result.matchedCount)
-	res.redirect("/")
+	res.redirect("/");
 })
 
 
 // DELETE
-app.get('')
+app.get('/delete/:name', async function(req, res) {
+	await Player.deleteOne({name: req.params.name});
+	res.redirect('/');
+})
 
 app.listen(1982);

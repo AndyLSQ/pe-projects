@@ -24,6 +24,7 @@ const baseballSchema = new mongoose.Schema({
 
 const Player = mongoose.model('Player', baseballSchema);
 
+// (??) better way to get nav?
 const nav = `
 	<nav>
 		<a href="/">Read</a>
@@ -93,7 +94,8 @@ app.get('/', async function(req, res) {
 	res.send(page);
 })
 
-// UPDATE - how to use a UID here??
+// UPDATE
+// (??) how to use a UID here??
 app.get('/update/:name', async function(req, res) {
 	const form = `
 		<h1>Update player info for ${req.params.name}</h1>
@@ -117,6 +119,7 @@ app.get('/update/:name', async function(req, res) {
 	res.send(page);
 })
 
+// (??) better to bounce back to the home page or display a confirmation page? or popop message?
 app.post('/update/:name', async function(req, res) {
 	await Player.updateOne({name: req.params.name}, {name: req.body.name, number: req.body.number, position: req.body.position});
 	// console.log(result.matchedCount)
@@ -125,6 +128,7 @@ app.post('/update/:name', async function(req, res) {
 
 
 // DELETE
+// (??) Need to add error handling to update and delete?
 app.get('/delete/:name', async function(req, res) {
 	await Player.deleteOne({name: req.params.name});
 	res.redirect('/');

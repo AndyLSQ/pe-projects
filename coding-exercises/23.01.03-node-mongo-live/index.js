@@ -1,4 +1,6 @@
 import express from 'express';
+import * as dotenv from 'dotenv'
+dotenv.config()
 import mongoose from 'mongoose';
 mongoose.set('strictQuery', false);
 
@@ -11,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 mongoConnect().catch(err => console.log(err));
 
 async function mongoConnect() {
-  await mongoose.connect('mongodb+srv://andylsq:knet4gech!plex@ae-cluster.pgj6ylt.mongodb.net/baseball-app');
+  await mongoose.connect(`mongodb+srv://andylsq:${process.env.MONGO_PW}@ae-cluster.pgj6ylt.mongodb.net/baseball-app`);
 }
 
 const baseballSchema = new mongoose.Schema({
@@ -36,22 +38,21 @@ const nav = `
 // CREATE
 app.get('/create', async function(req, res) {
 	const form = `
-	<form action="/create" method="post">
-		<field>
-			<label>name</label>
-			<input type="text" name="name" />
-		</field>
-		<field>
-			<label>number</label>
-			<input type="number" name="number" />
-		</field>
-		<field>
-			<label>position</label>
-			<input type="text" name="position" />
-		</field>
-		<button type="submit">Submit</button>
-	</form>
-	`
+		<form action="/create" method="post">
+			<field>
+				<label>name</label>
+				<input type="text" name="name" />
+			</field>
+			<field>
+				<label>number</label>
+				<input type="number" name="number" />
+			</field>
+			<field>
+				<label>position</label>
+				<input type="text" name="position" />
+			</field>
+			<button type="submit">Submit</button>
+		</form>`
 
 	const page = nav + form
 	res.send(page);
@@ -83,6 +84,7 @@ app.get('/', async function(req, res) {
 			<p><strong>Name:</strong> ${player.name}</p>
 			<p><strong>Number:</strong> ${player.number}</p>
 			<p><strong>Position:</strong> ${player.position}</p>
+			<p><a href="/update/${player.name}">Update</a> <a href="/delete">Delete</a></p>
 		</li>`
 	})
 	playerList += `</ul>`
@@ -93,8 +95,34 @@ app.get('/', async function(req, res) {
 
 // UPDATE - switch this to number??
 app.get('/update/:name', async function(req, res) {
+	const form = `
+		<h1>Update player info for ${req.params.name}</h1>
+		<form action="/update/:${req.params.name}" method="post">
+			<field>
+				<label>name</label>
+				<input type="text" name="name" />
+			</field>
+			<field>
+				<label>number</label>
+				<input type="number" name="number" />
+			</field>
+			<field>
+				<label>position</label>
+				<input type="text" name="position" />
+			</field>
+			<button type="submit">Submit</button>
+		</form>`
 
-	Player.updateOne({})
+	const page = nav + form
+	res.send(page);
+})
+
+app.post('/update/:name', async function(req, res) {
+	const filter = { name: `${req.params.name}`}
+	// console.log(filter)
+	await Player.updateOne(filter, {name: "jimmy"})
+	res.send("hi")
+
 })
 
 app.listen(1982);

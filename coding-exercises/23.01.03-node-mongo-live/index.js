@@ -97,20 +97,25 @@ app.get('/', async function(req, res) {
 // UPDATE
 // (??) how to use a UID here??
 app.get('/update/:name', async function(req, res) {
+
+	const currentPlayer = await Player.findOne({name: req.params.name});
+
+	// currentPlayer.number
+
 	const form = `
-		<h1>Update player info for ${req.params.name}</h1>
+		<h1>Update player info for ${currentPlayer.name}</h1>
 		<form action="/update/${req.params.name}" method="post">
 			<field>
 				<label>name</label>
-				<input type="text" name="name" required/>
+				<input type="text" name="name" value="${currentPlayer.name}" required/>
 			</field>
 			<field>
 				<label>number</label>
-				<input type="number" name="number" required/>
+				<input type="number" name="number" value="${currentPlayer.number}" required/>
 			</field>
 			<field>
 				<label>position</label>
-				<input type="text" name="position" required/>
+				<input type="text" name="position" value="${currentPlayer.position}" required/>
 			</field>
 			<button type="submit">Submit</button>
 		</form>`
@@ -121,7 +126,8 @@ app.get('/update/:name', async function(req, res) {
 
 // (??) better to bounce back to the home page or display a confirmation page? or popop message?
 app.post('/update/:name', async function(req, res) {
-	await Player.updateOne({name: req.params.name}, {name: req.body.name, number: req.body.number, position: req.body.position});
+	console.log("body: ", req.body)
+	await Player.updateOne({name: req.params.name}, req.body);
 	// console.log(result.matchedCount)
 	res.redirect("/");
 })
@@ -132,6 +138,12 @@ app.post('/update/:name', async function(req, res) {
 app.get('/delete/:name', async function(req, res) {
 	await Player.deleteOne({name: req.params.name});
 	res.redirect('/');
+})
+
+// API Testing
+app.get('/api/v1/players', async function(req, res) {
+	const players = await Player.find();
+	res.send(players)
 })
 
 app.listen(1982);

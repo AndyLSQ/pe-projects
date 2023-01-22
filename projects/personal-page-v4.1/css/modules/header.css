@@ -1,0 +1,119 @@
+/*===== Layout =====*/
+
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: var(--paper1);
+}
+
+/*===== NAV =====*/
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__item {
+  margin-bottom: var(--mb-3);
+}
+
+.nav__link {
+  color: var(--ink1);
+  transition: .3s;
+}
+
+.nav__link:hover,
+.nav__logo:hover,
+.nav__toggle:hover {
+  color: var(--ink1-hover);
+}
+
+.nav__logo {
+  font-family: var(--header-font);
+  font-size: var(--h2-font-size);
+}
+
+.nav__logo, .nav__toggle {
+  color: var(--ink1);
+}
+
+.nav__logo, .nav__toggle {
+  color: var(--ink1);
+}
+
+.nav__toggle {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav__menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    padding-top: 1.5rem;
+    text-align: center;
+    background-color: var(--paper1);
+    transition: .4s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 1rem 1rem;
+  }
+}
+
+/* Show menu */
+.show-menu {
+  top: var(--header-height);
+}
+
+/* Active menu */
+.active-link {
+  position: relative;
+}
+
+.active-link::after {
+  content: '';
+  position: absolute;
+  bottom: -.7rem;
+  left: 0;
+  width: 65%;
+  height: 3px;
+  background-color: var(--ink1-hover);
+}
+
+
+@media screen and (min-width: 768px) {
+.nav {
+    height: calc(var(--header-height) + 1.5rem);
+  }
+  .nav__list {
+    display: flex;
+  }
+  .nav__item {
+    margin-left: var(--mb-5);
+    margin-bottom: 0;
+  }
+  .nav__toggle {
+    display: none;
+  }
+}
+
+
+/* Change header color on scroll */
+.scroll-header {
+  /*background-color: var(--first-color-lighten);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+}
+
+.scroll-header .nav__logo, .scroll-header .nav__toggle, .scroll-header .nav__link {
+/*  color: var(--first-color-dark);*/
+}
+
+.scroll-header .nav__menu {
+/*  background-color: var(--first-color-lighten);*/
+}

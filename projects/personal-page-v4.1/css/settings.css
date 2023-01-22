@@ -1,0 +1,33 @@
+:root {
+  --header-height: 3rem;
+
+  /*===== Colors =====*/
+  --paper1: hsla(21, 67%, 85%, 1.00); /*pink*/
+  --ink1: hsla(225, 96%, 18%, 1.00); /*dark blue*/
+  --ink1-hover: hsla(41, 92%, 95%, 1.00); /*beige*/
+
+  --first-color: hsla(355, 63%, 15%, 1.00); 
+  --first-color-dark: #2F0A0D;
+  --text-color: #524748;
+  --first-color-light: #7B6F71;
+  --first-color-lighten: #FBF9F9;
+
+  /*===== Margins =====*/
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+
+  /*===== z index =====*/
+  --z-normal: 1;
+  --z-tootip: 10;
+  --z-fixed: 100;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+
+}

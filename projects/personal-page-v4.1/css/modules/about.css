@@ -1,0 +1,32 @@
+.about__container{
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 3rem;
+}
+
+.about picture {
+/* TODO: add 1/1 aspect ratio for small screen, keep portrait for desktop */
+}
+
+@media screen and (min-width: 576px) {
+	.about picture {
+		padding: 0 2rem;
+
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+	.about__container{
+		border: 1px solid red;
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		gap: 5rem;
+	}
+
+	.about__img{
+/*		max-width: 40%;*/
+	}
+}

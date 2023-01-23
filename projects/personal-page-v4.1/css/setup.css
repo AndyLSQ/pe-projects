@@ -7,17 +7,18 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
+/*  margin: var(--header-height) 0 0 0;*/
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  background-color: var(--first-color-lighten);
+  background-color: var(--paper2);
   color: var(--text-color);
   line-height: 1.6;
 }
 
 h1, h2, h3, ul, p {
   margin: 0;
+/*  color: var(--ink1-hover);*/
 }
 
 ul {
@@ -46,7 +47,7 @@ img {
 
 .section-title {
   font-size: var(--h1-font-size);
-  color: var(--first-color);
+  color: var(--ink1);
   margin-bottom: var(--mb-3);
 }
 
@@ -54,6 +55,7 @@ img {
   display: block;
   font-size: var(--smaller-font-size);
   font-weight: var(--font-semi-bold);
+  color: var(--ink1-hover);
 }
 
 /*===== Layout =====*/
@@ -74,9 +76,6 @@ img {
 
 /* ===== Breakpoints =====*/
 @media screen and (min-width: 576px) {
-/*  .home__img img {
-    width: 330px;
-  }*/
 
   /*.about__container,
   .qualification__container,
@@ -91,6 +90,13 @@ img {
   }*/
 }
 
+/*@media (max-width: 768px){
+  .home__img img {
+    max-width: 200px;
+    border: 2px solid red;
+  }
+}*/
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -101,34 +107,12 @@ img {
   .section-title {
     margin-bottom: var(--mb-5);
   }
-  .home__container {
-    height: 100vh;
-    grid-template-rows: max-content .5fr;
-    align-content: flex-end;
-  }
-  .home__greeting {
-    font-size: 1.25rem;
-  }
-  .home__profession {
-    font-size: 2rem;
-  }
-  .home__social {
-    flex-direction: row;
-    align-items: center;
-  }
-  .home__social-icon {
-    margin-right: var(--mb-4);
-    margin-bottom: 0;
-  }
-  .home__img img {
-    width: 300px;
-  }
-  .about__description {
+/*  .about__description {
     text-align: initial;
   }
   .about__img {
     width: 300px;
-  }
+  }*/
   .qualification__box {
     display: flex;
     justify-content: space-between;
@@ -159,7 +143,7 @@ img {
 /* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
   .home__container {
-    height: 640px;
+/*    height: 640px;*/
   }
 }
 
@@ -216,3 +200,27 @@ svg {
 	display: block;
 }
 */
+
+/* ===== Images =====*/
+
+picture {
+  display: block;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+svg {
+  display: block;
+  width: 100%;
+}
+
+
+// selects for custom elements
+:where(:not(:defined)) {
+  display: block;
+}

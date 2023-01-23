@@ -1,8 +1,9 @@
 :root {
-  --header-height: 3rem;
+  --header-height: 3.5rem;
 
   /*===== Colors =====*/
   --paper1: hsla(21, 67%, 85%, 1.00); /*pink*/
+  --paper1-dark: hsla(21, 67%, 70%, 1.00); /*pink*/
   --ink1: hsla(225, 96%, 18%, 1.00); /*dark blue*/
   --ink1-hover: hsla(225, 96%, 30%, 0.75); 
   --ink1-light: hsla(41, 92%, 95%, 1.00); /*beige*/

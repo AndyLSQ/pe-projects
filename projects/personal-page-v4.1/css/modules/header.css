@@ -109,7 +109,11 @@
 }
 
 .scroll-header .nav__logo, .scroll-header .nav__toggle, .scroll-header .nav__link {
-/*  color: var(--first-color-dark);*/
+/*  color: var(--paper1-dark);*/
+}
+
+.scroll-header .active-link::after {
+  background-color: var(--paper1-dark);
 }
 
 .scroll-header .nav__menu {

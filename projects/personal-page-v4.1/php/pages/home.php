@@ -1,5 +1,5 @@
 <?php include ( "php/modules/landing.php");?>
-<!-- Experience -->
-
+<!-- Skills -->
 <!-- Portfolio -->
+<!-- Experience -->
 <?php include ( "php/modules/about.php");?>

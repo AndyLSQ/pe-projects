@@ -1,0 +1,136 @@
+/*===== change home to landing!! =====*/
+.home {
+  background-color: var(--paper1);
+  color: var(--ink1);
+  overflow: hidden;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px 0px;
+}
+
+.home__data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:30px;
+}
+
+.home__headline {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--header-font);
+/*  */
+
+}
+
+.home__subtitle{
+  font-family: 'Permanent Marker', cursive;
+  font-size: var(--h3-font-size);
+  color: var(--ink1-hover);
+}
+
+.home__title {
+  font-size: var(--biggest-font-size);
+  color: var(--ink1);
+  margin-block-start:0px;
+  margin-block-end:0px;
+  padding:0;
+  margin-bottom: -.5rem;
+}
+
+.home__description {
+  font-size: var(--h3-font-size);
+  max-width: 30ch;
+}
+
+.home__img {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 5rem;
+}
+
+.home
+
+.home__img picture {
+  width: 80%;
+  max-width: 350px;
+}
+
+.home__social {
+  display: none;
+}
+
+.home__social-alt {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--h2-font-size);
+  gap: 1rem;
+}
+
+.home__social-icon {
+   color: var(--ink1);
+}
+
+.home__social-icon:hover {
+   color: var(--ink1-hover);
+}
+
+@media (max-width: 350px){
+  .home__img img {
+/*    width: 70%;*/
+  }
+  .home__img {
+    gap: 20%;
+  }
+}
+
+@media (min-width: 350px){
+  .home__img img {
+    width: 450px;
+  }
+}
+
+@media (min-width: 576px){
+  .home__container {
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0px;
+  }
+
+  .home__data {
+    gap:50px;
+  }
+
+  .home__img img {
+    max-width: 275px;
+  }
+
+  .home__social {
+    display: flex;
+    flex-direction: row;
+    font-size: var(--h2-font-size);
+    gap: 1rem;
+  }
+
+  .home__social-alt {
+    display: none;
+  }
+
+@media (min-width: 768px){
+  .home__img img {
+    max-width: 350px;
+  }
+
+  .home__container {
+    padding: 80px 0px;
+  }
+}

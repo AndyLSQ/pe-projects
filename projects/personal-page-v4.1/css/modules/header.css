@@ -1,10 +1,8 @@
 /*===== Layout =====*/
 
 .l-header {
-  width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
   z-index: var(--z-fixed);
   background-color: var(--paper1);
 }
@@ -34,7 +32,7 @@
 
 .nav__logo {
   font-family: var(--header-font);
-  font-size: var(--h2-font-size);
+  font-size: var(--h1-font-size);
 }
 
 .nav__logo, .nav__toggle {
@@ -106,8 +104,8 @@
 
 /* Change header color on scroll */
 .scroll-header {
-  /*background-color: var(--first-color-lighten);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+  background-color: var(--paper2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .scroll-header .nav__logo, .scroll-header .nav__toggle, .scroll-header .nav__link {
@@ -115,5 +113,5 @@
 }
 
 .scroll-header .nav__menu {
-/*  background-color: var(--first-color-lighten);*/
+  background-color: var(--paper2);
 }

@@ -1,0 +1,38 @@
+* English
+
+IMPORTANT NOTE READ !!!
+
+To export from html to pdf, the project must be operating on a server. The library to export to PDF (Html2pdf) works on the client side. In the video we use Visual Studio Code and Live Server (a plugin that starts a live server locally).
+
+To install Visual Studio Code and Live Server. Copy the link and follow the steps, i already have the programs skip the steps.
+https://www.figma.com/proto/iqfURqaeeO4Ck9wGqxVYH3/Steps-to-install-VisualStucioCode-LiveServer?node-id=1%3A2&scaling=scale-down-width
+
+Visual Studio Code Program
+https://code.visualstudio.com/
+
+When you upload your project to a server on the web, the PDF export will work correctly.
+
+If you have doubts, consult my facebook I will answer you as soon as possible.
+https://www.facebook.com/bedimcode/
+
+After doing all the steps DELETE THIS TEXT FILE.
+
+
+* Spanish
+
+NOTA IMPORTANTE LEER!!!
+
+Para exportar de html a pdf, el proyecto debe estar operando en un servidor. La libreria para exportar a PDF (Html2pdf) funciona en el lado del cliente. En el video usamos Visual Studio Code y Live Server (un complemento que inicia un servidor en vivo localmente). 
+
+Para instalar Visual Studio Code y Live Server. Copie el enlace y siga los pasos, si ya tiene los programas omita los pasos.
+https://www.figma.com/proto/iqfURqaeeO4Ck9wGqxVYH3/Pasos-para-instalar-VisualStucioCode-LiveServer?node-id=1%3A2&scaling=scale-down-width
+
+Programa Código de Visual Studio
+https://code.visualstudio.com/
+
+Cuando subes tu proyecto a un servidor en la web, la exportación a PDF funcionará correctamente.
+
+Si tiene dudas consulte a mi facebook le respondere lo mas antes posible.
+https://www.facebook.com/bedimcode/
+
+Luego de hacer todos los pasos BORRAR ESTE ARCHIVO DE TEXTO.

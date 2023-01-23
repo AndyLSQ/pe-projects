@@ -4,7 +4,10 @@
   /*===== Colors =====*/
   --paper1: hsla(21, 67%, 85%, 1.00); /*pink*/
   --ink1: hsla(225, 96%, 18%, 1.00); /*dark blue*/
-  --ink1-hover: hsla(41, 92%, 95%, 1.00); /*beige*/
+  --ink1-hover: hsla(225, 96%, 30%, 0.75); 
+  --ink1-light: hsla(41, 92%, 95%, 1.00); /*beige*/
+
+  --paper2: hsla(41, 92%, 95%, 1.00);
 
   --first-color: hsla(355, 63%, 15%, 1.00); 
   --first-color-dark: #2F0A0D;
@@ -24,7 +27,19 @@
   --z-normal: 1;
   --z-tootip: 10;
   --z-fixed: 100;
+  
+  /*===== Breakpoints =====*/
+  /* just for reference bc this isnt actually possible */
+/*  --bp-small: 320px;
+  --bp-mobile: 576px;
+  --bp-tablet: 768;
+  --bp-large: 1024px;*/
+
 }
+
+
+
+
 
 
 

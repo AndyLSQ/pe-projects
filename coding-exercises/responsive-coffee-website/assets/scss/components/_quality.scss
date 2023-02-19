@@ -1,0 +1,67 @@
+/*=============== QUALITY ===============*/
+.quality{
+    background-color: #fff;
+    
+    &__content{
+        row-gap: 2.5rem;
+    }
+    &__images{
+        position: relative;
+        justify-self: center;
+    }
+    &__img-big,
+    &__img-small{
+        border-radius: .5rem;
+    }
+    &__img-big{
+        width: 280px;
+    }
+    &__img-small{
+        width: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        transform: translateX(-5rem);
+    }
+    &__title,
+    &__price{
+        font-size: var(--h1-font-size);
+    }
+    &__title{
+        margin-bottom: .75rem;
+    }
+    &__price{
+        margin-bottom: .25rem;
+    }
+    &__special{
+        display: block;
+        font-size: var(--small-font-size);
+        margin-bottom: .75rem;
+    }
+    &__description{
+        margin-bottom: 2.5rem;
+    }
+    &__buttons{
+        display: flex;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    &__button{
+        font-size: var(--normal-font-size);
+        text-transform: uppercase;
+        color: var(--title-color);
+        display: inline-flex;
+        align-items: center;
+        column-gap: .75rem;
+
+        & i{
+            font-size: 1.25rem;
+            transition: .4s;
+        }
+
+        &:hover i{
+            transform: translateX(.25rem);
+        }
+    }
+}

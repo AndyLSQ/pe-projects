@@ -1,0 +1,38 @@
+IMPORTANT NOTE - Description English 
+
+* Modify the project
+
+If you are going to modify the project in the CSS file, do it normally.
+
+If you are going to modify the project with the sass files, I recommend 
+watching my video on how to use Sass and my setup for the projects. 
+If you already know Sass and have your own setup, you can skip the video.
+
+Video Sass
+https://youtu.be/PYm6QkM7bOU
+
+* Figma Design
+
+If you want to see and modify the design, go to your figma page and just 
+drag and drop the file, it will be uploaded and you will have it in your 
+figma account.
+
+===================================================================
+
+NOTA IMPORTANTE - Descripción Español
+
+* Modificar el proyecto
+
+Si va a modificar el proyecto en el archivo CSS realizelo con total normalidad.
+
+Si va a modificar el proyecto con los archivos sass, recomiendo ver mi video de 
+como usar Sass y mi configuracion para los proyectos. Si ya tiene conocimientos 
+de Sass y tiene su propia configuracion, puede omitir  el video.
+
+Video Sass
+https://youtu.be/PYm6QkM7bOU
+
+* Diseño en Figma
+
+Si desea ver y modificar el diseño, entre a su pagina de figma y solo arrastre 
+y suelte el archivo, se cargara y lo tendra en su cuenta de figma.

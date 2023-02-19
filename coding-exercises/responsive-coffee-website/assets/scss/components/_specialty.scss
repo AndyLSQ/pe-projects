@@ -1,0 +1,29 @@
+/*=============== SPECIALTY ===============*/
+.specialty{
+    &__button{
+        margin-left: 1.25rem;
+    }
+    &__category{
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: 200px;
+        justify-content: center;
+        row-gap: 2.5rem;
+    }
+    &__img{
+        width: 60px;
+        margin-bottom: 1rem;
+        transition: .4s;
+    }
+    &__group{
+        text-align: center;
+
+        &:hover .specialty__img{
+            transform: translateY(-.25rem);
+        }
+    }
+    &__title{
+        font-size: var(--h2-font-size);
+        margin-bottom: .25rem;
+    }
+}

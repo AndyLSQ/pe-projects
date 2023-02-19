@@ -1,0 +1,79 @@
+/*=============== FOOTER ===============*/
+.footer{
+    background-color: var(--black-color);
+    padding: 4rem 0 2.5rem;
+
+    &__title{
+        color: #fff;
+        font-size: var(--h1-font-size);
+        margin-bottom: 2rem;
+    }
+    &__description{
+        margin-bottom: .75rem;
+    }
+    &__newsletter{
+        display: flex;
+        column-gap: .5rem;
+    }
+    &__input{
+        border: none;
+        outline: none;
+        padding: 1.25rem 1rem;
+        border-radius: .25rem;
+        width: 70%;
+        color: var(--text-color);
+    }
+    &__button{
+        padding: .75rem;
+        font-size: 2rem;
+        border-radius: .25rem;
+        display: inline-flex;
+        background-color: var(--first-color);
+
+        & i{
+            transform: rotate(-30deg);
+            transition: .4s;
+        }
+        &:hover i{
+            transform: rotate(-30deg) translate(.25rem);
+        }
+    }
+    &__content{
+        row-gap: 2.5rem;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid var(--text-color);
+    }
+    &__subtitle{
+        color: #fff;
+        font-size: var(--h2-font-size);
+        margin-bottom: .75rem;
+    }
+    &__flag{
+        width: 1rem;
+    }
+    &__group{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    &__social{
+        display: flex;
+        justify-content: center;
+        column-gap: 1.5rem;
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+
+        &-link{
+            color: #fff;
+            transition: .4s;
+
+            &:hover{
+                color: var(--first-color);
+            }
+        }
+    }
+    &__copy{
+        font-size: var(--smaller-font-size);
+    }
+}

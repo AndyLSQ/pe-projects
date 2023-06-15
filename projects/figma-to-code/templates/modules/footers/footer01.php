@@ -71,7 +71,7 @@
 					>
 				</button> -->
 
-				<p class="quiet-voice">Gravida sed justo, justo, id est et. Amet tristique convallis sed porttitor nullam eu ut. Duis et odio aliquam bibendum. Metus et lectus id viverra fringilla magna morbi. </p>
+				<p class="quiet-voice">Stay in the loop and be the first to know about our latest updates, promotions, and exclusive offers by subscribing to our email list.</p>
 
 				
 			</form>

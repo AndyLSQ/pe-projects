@@ -9,9 +9,9 @@
             "components": [
                 {
                     "type": "text-block",
-                    "heading": "Arcu suscipit massa aliquam proin amet",
+                    "heading": "welcome to the responsive layout garden",
                     "paragraphs": [
-                        "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,"
+                        "This page contains a variety of responsive layouts that can be mixed and matched to create a custom site for many use cases."
                     ]
                 },
                 {
@@ -39,9 +39,9 @@
                 },
                 {
                     "type": "enhanced-heading",
-                    "eyebrow": "Rhoncus, accumsan dictum",
-                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
-                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                    "eyebrow": "Eyebrow text goes here",
+                    "heading": "This module contains a centered header&nbspelement",
+                    "subheading": "this is a subheading"
                 },
                 {
                     "type": "button-nav",
@@ -62,8 +62,8 @@
                 {
                     "type": "diptych",
                     "class": "test-class",
-                    "heading": "Etiam nulla lectus molestie at vulputate.",
-                    "subheading": "Neque, pulvinar vestibulum non aliquam.",
+                    "heading": "This module is for showcasing features in a card-based Format",
+                    "subheading": "Up to six features fit this format comfortably",
                     "body": "",
                     "image-src": "",
                     "alt": "example pic"
@@ -74,44 +74,44 @@
                     "list-heading": "",
                     "list-items": [
                         {
-                            "heading": "Et, odio elementum",
+                            "heading": "Header Element",
                             "paragraphs": [
-                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                                "Tell people what this module is about with a bold, glanceable header."
                             ],
                             "image": "images/icons/upload-cloud.svg"
                         },
                         {
-                            "heading": "Et, odio elementum",
+                            "heading": "Subheading",
                             "paragraphs": [
-                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                                "add a brief subheading to provide additional context."
                             ],
                             "image": "images/icons/upload-cloud.svg"
                         },
                         {
-                            "heading": "Et, odio elementum",
+                            "heading": "Supporting Icons",
                             "paragraphs": [
-                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                                "Include icons to complement the text content of each feature card."
                             ],
                             "image": "images/icons/upload-cloud.svg"
                         },
                         {
-                            "heading": "Et, odio elementum",
+                            "heading": "Feature List",
                             "paragraphs": [
-                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                                "Highlight important features with an icon-based or numbered list."
                             ],
                             "image": "images/icons/upload-cloud.svg"
                         },
                         {
-                            "heading": "Et, odio elementum",
+                            "heading": "Alignment",
                             "paragraphs": [
-                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                                "Cards will auto align to each other based on the number of features."
                             ],
                             "image": "images/icons/upload-cloud.svg"
                         },
                         {
-                            "heading": "Et, odio elementum",
+                            "heading": "Customizability",
                             "paragraphs": [
-                                "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                                "Replace this text with some content of your own to get started."
                             ],
                             "image": "images/icons/upload-cloud.svg"
                         }
@@ -126,8 +126,8 @@
                 {
                     "type": "enhanced-heading",
                     "eyebrow": "",
-                    "heading": "What Our Clients Say",
-                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                    "heading": "Product Reviews",
+                    "subheading": "Hear what our customers have to say"
                 },
                 {
                     "type": "list-quote",
@@ -138,7 +138,7 @@
                     "list-items": [
                         {
                             "rating-img": "",
-                            "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+                            "quote": "This layout template was incredibly versatile and saved me hours of design work. I highly recommend&nbspit.",
                             "quote-author": "Courtney Henry",
                             "quote-author-title": "Marketing Coordinator",
                             "quote-author-image": "images/icons/avatars/avatar-portrait-large.svg"
@@ -153,8 +153,8 @@
             "components": [
                 {
                     "type": "enhanced-heading",
-                    "eyebrow": "Rhoncus, accumsan dictum",
-                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+                    "eyebrow": "Call to action module",
+                    "heading": "Urge visitors to take action and engage with your brand",
                     "subheading": ""
                 },
                 {
@@ -163,12 +163,12 @@
                         {
                             "variant": "button01",
                             "href": "#",
-                            "text-content": "Get free quotes >"
+                            "text-content": "Get a free quote"
                         },
                         {
                             "variant": "button02",
                             "href": "#",
-                            "text-content": "Free sign up >"
+                            "text-content": "Free sign up"
                         }
                     ]
                 }
@@ -193,7 +193,7 @@
                         },
                         {
                             "summary": "Are there any warranty exclusions?",
-                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                            "content": "Yes, there are certain warranty exclusions that may apply. These exclusions typically include normal wear and tear, intentional misuse or abuse of the product, unauthorized modifications, and damages caused by accidents or acts of nature."
                         },
                         {
                             "summary": "Are there any return exclusions?",

@@ -40,6 +40,12 @@
 	gap: 20px;
 }
 
+.feature .list-text {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
 .feature06 .list-text {
 	display: flex;
 	flex-direction: column;

@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Ipsum, Inc.</title>
+	<title>Responsive Layout Garden</title>
 
-	<meta name="description" content="Your #1 source for senseless gibberish. Check us out today and see why no one knows what we're talking about.">
+	<meta name="description" content="This page contains a variety of responsive layouts that can be mixed and matched to create a custom site for many use cases.">
 
 	<!-- Note: Standard metadata image size ~(1200 x 630) -->
 	<meta property="og:image" content="https://peprojects.dev/alpha-4/andy/projects/figma-to-code/images/meta/ipsum-metadata-image1.png">

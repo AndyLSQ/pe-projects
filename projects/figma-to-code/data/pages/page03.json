@@ -11,7 +11,7 @@
                     "type": "text-block",
                     "heading": "Welcome to the responsive layout garden",
                     "paragraphs": [
-                        "At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus."
+                        "This page contains a variety of responsive layouts that can be mixed and matched to create a custom site for many use cases."
                     ]
                 },
                 {
@@ -25,8 +25,8 @@
             "components": [
                 {
                     "type": "enhanced-heading",
-                    "eyebrow": "Rhoncus, accumsan dictum",
-                    "heading": "Etiam nulla lectus amet nunc",
+                    "eyebrow": "Eyebrow text goes here",
+                    "heading": "This module contains centered&nbspcontent",
                     "subheading": ""
                 },
                 {
@@ -35,23 +35,23 @@
                     "list-heading": "",
                     "list-items": [
                         {
-                            "heading": "Sit quam gravida",
+                            "heading": "Item One",
                             "paragraphs": [
-                                "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
+                                "This text block contains some explanatory details about an item. The number of items in this module can be adjusted."
                             ],
                             "image": ""
                         },
                         {
-                            "heading": "Elementum enim tempus",
+                            "heading": "Item Two",
                             "paragraphs": [
-                                "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.."
+                                "This text block contains some explanatory details about an item. The number of items in this module can be adjusted."
                             ],
                             "image": ""
                         },
                         {
-                            "heading": "Tempor egestas augue",
+                            "heading": "Item Three",
                             "paragraphs": [
-                                "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
+                                "This text block contains some explanatory details about an item. The number of items in this module can be adjusted."
                             ],
                             "image": ""
                         }
@@ -75,9 +75,9 @@
             "components": [
                 {
                     "type": "enhanced-heading",
-                    "eyebrow": "Rhoncus, accumsan dictum",
-                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
-                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                    "eyebrow": "Eyebrow text goes here",
+                    "heading": "This module is for showcasing features",
+                    "subheading": "Up to six features fit this format comfortably"
                 },
                 {
                     "type": "list",
@@ -85,44 +85,44 @@
                     "list-heading": "",
                     "list-items": [
                         {
-                            "heading": "Sit quam gravida",
+                            "heading": "Header element",
                             "paragraphs": [
-                                "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
+                                "Tell people what this module is about with a bold, glanceable header."
                             ],
                             "image": "images/icons/upload-cloud.svg"
                         },
                         {
-                            "heading": "Elementum enim tempus",
+                            "heading": "Subheading",
                             "paragraphs": [
-                                "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.."
+                                "add a brief subheading to provide additional context."
                             ],
                             "image": "images/icons/watch.svg"
                         },
                         {
-                            "heading": "Tempor egestas augue",
+                            "heading": "Eyebrow text",
                             "paragraphs": [
-                                "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
+                                "add eyebrow text above the header to provide additional context."
                             ],
                             "image": "images/icons/youtube.svg"
                         },
                         {
-                            "heading": "Nulla ac lacinia",
+                            "heading": "Supporting icons",
                             "paragraphs": [
-                                "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
+                                "Include icons to complement the text content of each feature card."
                             ],
                             "image": "images/icons/thermometer.svg"
                         },
                         {
-                            "heading": "Velit nibh a",
+                            "heading": "Feature List",
                             "paragraphs": [
-                                "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
+                                "Highlight important features with an icon-based or numbered list."
                             ],
                             "image": "images/icons/spray.svg"
                         },
                         {
-                            "heading": "Faucibus eget blandit",
+                            "heading": "Customizability",
                             "paragraphs": [
-                                "Tristique viverra lorem nibh eget tellus eget morbi porttitor. Faucibus sit."
+                                "replace this text with some content of your own to get started."
                             ],
                             "image": "images/icons/zoom-out.svg"
                         }
@@ -137,8 +137,8 @@
                 {
                     "type": "enhanced-heading",
                     "eyebrow": "",
-                    "heading": "What Our Clients&nbsp;Say",
-                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                    "heading": "Product Reviews",
+                    "subheading": "hear what our customers have to say"
                 },
                 {
                     "type": "list-quote",
@@ -149,7 +149,7 @@
                     "list-items": [
                         {
                             "rating-img": "https://peprojects.dev/images/landscape.jpg",
-                            "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+                            "quote": "This layout template was incredibly versatile and saved me hours of design work. I highly recommend it.",
                             "quote-author": "Courtney Henry",
                             "quote-author-title": "-Marketing Coordinator",
                             "quote-author-image": ""
@@ -166,7 +166,7 @@
                     "type": "enhanced-heading",
                     "eyebrow": "",
                     "heading": "Frequently Asked Questions",
-                    "subheading": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque."
+                    "subheading": "This module contains an accordion element containing common questions that visitors may have when deciding whether to purchase a product."
                 },
                 {
                     "type": "details",
@@ -177,7 +177,7 @@
                         },
                         {
                             "summary": "Are there any warranty&nbsp;exclusions?",
-                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                            "content": "Yes, there are certain warranty exclusions that may apply. These exclusions typically include normal wear and tear, intentional misuse or abuse of the product, unauthorized modifications, and damages caused by accidents or acts of nature."
                         },
                         {
                             "summary": "Are there any return&nbsp;exclusions?",
@@ -202,8 +202,8 @@
                 {
                     "type": "enhanced-heading",
                     "eyebrow": "",
-                    "heading": "Etiam nulla lectus amet nunc.",
-                    "subheading": "Fringilla non proin nec in in lorem amet eget ac. Mauris."
+                    "heading": "Call to action module",
+                    "subheading": "Urge visitors to take action and engage with your brand"
                 },
                 {
                     "type": "email-input"

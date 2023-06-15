@@ -8,7 +8,7 @@
 
 			
 			<button type='submit' name="submitted" class="button02">
-				Sign Up
+				Sign up
 			</button>
 
 			

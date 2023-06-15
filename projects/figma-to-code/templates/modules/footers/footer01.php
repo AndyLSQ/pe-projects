@@ -6,46 +6,49 @@
 
 				<ul> <div class="footer-heading">Product</div>
 					<li>
-						<a href="#">Diam orci</a>
+						<a href="#">Product Catalog</a>
 					</li>
 					<li>
-						<a href="#">Mi feugiat</a>
+						<a href="#">Features</a>
 					</li>
 					<li>
-						<a href="#">Netus fermentum</a>
+						<a href="#">Pricing</a>
 					</li>
 					<li>
-						<a href="#">Suspendisse viverra</a>
+						<a href="#">Testimonials</a>
 					</li>
 					<li>
-						<a href="#">Id dolor</a>
+						<a href="#">How to Use</a>
 					</li>
 					<li>
-						<a href="#">Erat mattis</a>
+						<a href="#">Support Docs</a>
 					</li>
 				</ul>
 
 				<ul> <div class="footer-heading">Information</div>
 					<li>
-						<a href="#">Diam orci</a>
+						<a href="#">About Us</a>
 					</li>
 					<li>
-						<a href="#">Diam orci</a>
+						<a href="#">FAQs</a>
 					</li>
 					<li>
-						<a href="#">Diam orci</a>
+						<a href="#">Contact Us</a>
 					</li>
 				</ul>
 
 				<ul> <div class="footer-heading">Company</div>
 					<li>
-						<a href="#">Diam orci</a>
+						<a href="#">Mission Statement</a>
 					</li>
 					<li>
-						<a href="#">Diam orci</a>
+						<a href="#">Our Team</a>
 					</li>
 					<li>
-						<a href="#">Diam orci</a>
+						<a href="#">Careers</a>
+					</li>
+					<li>
+						<a href="#">Press Release</a>
 					</li>
 				</ul>
 

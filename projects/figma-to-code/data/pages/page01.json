@@ -9,9 +9,9 @@
             "components": [
                 {
                     "type": "text-block",
-                    "heading": "Arcu suscipit massa aliquam proin amet",
+                    "heading": "Welcome to the responsive layout garden",
                     "paragraphs": [
-                        "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,"
+                        "This page contains a variety of responsive layouts that can be mixed and matched to create a custom site for many use cases.,"
                     ]
                 },
                 {
@@ -20,12 +20,12 @@
                         {
                             "variant": "button01",
                             "href": "#",
-                            "text-content": "Get Started"
+                            "text-content": "Get started"
                         },
                         {
                             "variant": "button02",
                             "href": "#",
-                            "text-content": "Start free trial"
+                            "text-content": "Learn more"
                         }
                     ]
                 }
@@ -37,9 +37,9 @@
             "components": [
                 {
                     "type": "enhanced-heading",
-                    "eyebrow": "Rhoncus, accumsan dictum",
-                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
-                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                    "eyebrow": "Eyebrow text goes here",
+                    "heading": "This module contains a center aligned media&nbspfile",
+                    "subheading": "this is a subheading"
                 },
                 {
                     "type": "image",
@@ -57,8 +57,8 @@
                 {
                     "type": "diptych",
                     "class": "test-class",
-                    "heading": "Etiam nulla lectus molestie at vulputate.",
-                    "subheading": "Neque, pulvinar vestibulum non aliquam.",
+                    "heading": "This module is for showcasing features",
+                    "subheading": "Up to five features fit this format comfortably",
                     "body": "",
                     "image-src": "https://peprojects.dev/images/square.jpg",
                     "alt": "example pic"
@@ -69,37 +69,37 @@
                     "list-heading": "",
                     "list-items": [
                         {
-                            "heading": "Sit quam gravida",
+                            "heading": "Header element",
                             "paragraphs": [
-                                "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
+                                "Tell people what this module is about with a bold, glanceable header"
                             ],
                             "image": "images/icons/numbers/num01.svg"
                         },
                         {
-                            "heading": "Elementum enim tempus",
+                            "heading": "Subheading",
                             "paragraphs": [
-                                "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.."
+                                "Add a brief subheading to provide additional context or summarize the content in this module"
                             ],
                             "image": "images/icons/numbers/num02.svg"
                         },
                         {
-                            "heading": "Tempor egestas augue",
+                            "heading": "Supporting Image",
                             "paragraphs": [
-                                "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
+                                "Include an image to complement the text content and help convey your message more effectively"
                             ],
                             "image": "images/icons/numbers/num03.svg"
                         },
                         {
-                            "heading": "Nulla ac lacinia",
+                            "heading": "Feature List",
                             "paragraphs": [
-                                "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
+                                "Highlight important features with a numbered list. Icons can also be used in place of numbers"
                             ],
                             "image": "images/icons/numbers/num04.svg"
                         },
                         {
-                            "heading": "Velit nibh a",
+                            "heading": "Customizability",
                             "paragraphs": [
-                                "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
+                                "Replace this text with some content of your own to get started."
                             ],
                             "image": "images/icons/numbers/num05.svg"
                         }
@@ -114,8 +114,8 @@
                 {
                     "type": "enhanced-heading",
                     "eyebrow": "",
-                    "heading": "What Our Clients&nbsp;Say",
-                    "subheading": "Neque, pulvinar vestibulum non aliquam."
+                    "heading": "Product Reviews",
+                    "subheading": "Hear what our customers have to say"
                 },
                 {
                     "type": "list-quote",
@@ -126,15 +126,15 @@
                     "list-items": [
                         {
                             "rating-img": "images/icons/ratings/5-star.svg",
-                            "quote": "Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.",
+                            "quote": "This layout template was incredibly versatile and saved me hours of design work. Highly recommended for anyone looking for a visually appealing layout solution.",
                             "quote-author": "Courtney Henry",
                             "quote-author-title": "",
                             "quote-author-image": "images/icons/avatars/avatar-portrait-large.svg"
                         },
                         {
                             "rating-img": "images/icons/ratings/5-star.svg",
-                            "quote": "Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.",
-                            "quote-author": "Courtney Henry",
+                            "quote": "Using the layout template was a game-changer for me. It provided a solid foundation and allowed me to focus on customizing the design to fit my brand's unique style",
+                            "quote-author": "Henry Courtney",
                             "quote-author-title": "",
                             "quote-author-image": "images/icons/avatars/avatar-portrait-large.svg"
                         }
@@ -148,8 +148,8 @@
             "components": [
                 {
                     "type": "enhanced-heading",
-                    "eyebrow": "Rhoncus, accumsan dictum",
-                    "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+                    "eyebrow": "Call to action module",
+                    "heading": "Urge visitors to take action and engage with your brand",
                     "subheading": ""
                 },
                 {
@@ -158,7 +158,7 @@
                         {
                             "variant": "button01",
                             "href": "#",
-                            "text-content": "Get free quotes >"
+                            "text-content": "Get a free quote"
                         }
                     ]
                 }
@@ -172,7 +172,7 @@
                     "type": "enhanced-heading",
                     "eyebrow": "",
                     "heading": "Frequently Asked Questions",
-                    "subheading": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque."
+                    "subheading": "This module contains an accordion element containing common questions that visitors may have when deciding whether to purchase a&nbspproduct."
                 },
                 {
                     "type": "details",
@@ -183,7 +183,7 @@
                         },
                         {
                             "summary": "Are there any warranty&nbsp;exclusions?",
-                            "content": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+                            "content": "Yes, there are certain warranty exclusions that may apply. These exclusions typically include normal wear and tear, intentional misuse or abuse of the product, unauthorized modifications, and damages caused by accidents or acts of nature."
                         },
                         {
                             "summary": "Are there any return&nbsp;exclusions?",
